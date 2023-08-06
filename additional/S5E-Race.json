@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "S5E-Elementalist",
-                "abbreviation": "Elementalist",
-                "full": "S5E: Elementalist Superhero",
+                "json": "S5E-Race",
+                "abbreviation": "S5E-Races",
+                "full": "S5E: Ancestries & Cultures",
 				"version": "2023.08.05",
                 "authors": [
 					"Gwendolyn Marshall",
@@ -52,6 +52,7 @@
 						"You may look very different from humans in many ways and there are some traits that grant abilities humans lack. {@underline Choose two of the following traits}, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
 						{
 							"type": "options",
+							"count": 2,
 							"entries": [
 								{
 									"type": "entries",

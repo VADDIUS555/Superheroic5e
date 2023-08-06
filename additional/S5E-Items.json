@@ -1,0 +1,88 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "S5E-Items",
+                "abbreviation": "S5E-Items",
+                "full": "S5E: Equipment and Items",
+				"version": "2023.08.05",
+                "authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"color": "fdc830",
+                "convertedBy": ["VAD"]
+            }
+        ],
+		"dateAdded": 20230806,
+		"dateLastModified": 20230806
+    },
+    "item": [
+        {
+            "name": "Example: Wreath of the Prism",
+            "source": "Superheroic5E",
+            "page": 0,
+            "rarity": "legendary",
+            "value": 0,
+			"weight": 0,
+            "reqAttune": true,
+            "wondrous": true,
+            "entries": [
+                "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "While wearing the wreath in its dormant state, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the wreath increases the range of your {@sense darkvision} by 60 feet.",
+                        "When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast {@spell dominate monster} on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer {@condition charmed} by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was {@condition charmed} by you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awakened",
+                    "entries": [
+                        "Once the {@item Wreath of the Prism|EGW} reaches an awakened state, it gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can affect creatures of challenge rating 10 or lower with the wreath.",
+                                "The save DC of the wreath's spell increases to 15."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exalted",
+                    "entries": [
+                        "Once the {@item Wreath of the Prism|EGW} reaches an exalted state, it gains the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You can affect creatures of challenge rating 15 or lower with the wreath.",
+                                "The save DC of the wreath's spell increases to 17."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "attachedSpells": [
+                "dominate monster"
+            ]
+        },        
+		{
+			"name": "Example: Weapon Rack",
+			"source": "Superheroic5E",
+			"page": 34,
+			"type": "G",
+			"rarity": "none",
+			"value": 40,
+			"weight": 8,
+            "reqAttune": false,
+            "wondrous": false,
+			"entries": [
+				"This item lets a fingerless creature mount a polearm type weapon (spear, pike, lance, halberd, glaive, ect.) to its body and use it despite its two-handed status. It cannot be worn at the same time as a shield rack, and the haft cannot be used to strike while such a weapon is mounted."
+			]
+		}
+    ]
+}
