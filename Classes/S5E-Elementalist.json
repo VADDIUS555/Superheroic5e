@@ -1,0 +1,1129 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Superheroic5E-Elementalist",
+                "abbreviation": "Elementalist",
+                "full": "Superheroic5E Elementalist Superhero",
+				"version": "2023.08.05",
+                "authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+                "convertedBy": ["VAD"]
+            }
+        ],
+		"dateAdded": 20230805,
+		"dateLastModified": 20230805
+    },
+    "class": [
+		{
+			"name": "Elementalist",
+			"source": "Superheroic5E",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				}
+			},
+			"casterProgression": "full",
+			"spellcastingAbility": "cha",
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Elemental Points",
+						"{@filter At-Will Powers|spells|level=0|class=elementalist (s5e);elementalist;elementalist}",
+						"{@filter Leveled Powers Slots|spells|class=elementalist (s5e);elementalist;elementalist}"
+					],
+					"rows": [
+						[
+							0,
+							2,
+							4
+						],
+						[
+							2,
+							2,
+							5
+						],
+						[
+							3,
+							2,
+							6
+						],
+						[
+							4,
+							2,
+							7
+						],
+						[
+							5,
+							2,
+							8
+						],
+						[
+							6,
+							2,
+							9
+						],
+						[
+							7,
+							2,
+							10
+						],
+						[
+							8,
+							2,
+							11
+						],
+						[
+							9,
+							3,
+							12
+						],
+						[
+							10,
+							3,
+							13
+						],
+						[
+							11,
+							3,
+							14
+						],
+						[
+							12,
+							3,
+							15
+						],
+						[
+							13,
+							3,
+							16
+						],
+						[
+							14,
+							3,
+							16
+						],
+						[
+							15,
+							3,
+							17
+						],
+						[
+							16,
+							3,
+							17
+						],
+						[
+							17,
+							3,
+							18
+						],
+						[
+							18,
+							4,
+							18
+						],
+						[
+							19,
+							4,
+							19
+						],
+						[
+							20,
+							4,
+							19
+						]
+					]
+				},
+				{
+					"title": "Leveled Power Uses, by Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=elementalist (s5e);elementalist}",
+						"{@filter 2nd|spells|level=2|class=elementalist (s5e);elementalist}",
+						"{@filter 3rd|spells|level=3|class=elementalist (s5e);elementalist}",
+						"{@filter 4th|spells|level=4|class=elementalist (s5e);elementalist}",
+						"{@filter 5th|spells|level=5|class=elementalist (s5e);elementalist",
+						"{@filter 6th|spells|level=6|class=elementalist (s5e);elementalist",
+						"{@filter 7th|spells|level=7|class=elementalist (s5e);elementalist",
+						"{@filter 8th|spells|level=8|class=elementalist (s5e);elementalist",
+						"{@filter 9th|spells|level=9|class=elementalist (s5e);elementalist"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							10,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							10,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							10,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							10,
+							10,
+							10,
+							10,
+							10,
+							10,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4
+			],
+            "classSpells": [
+                "Bombard|Superheroic5E",
+                "Boost|Superheroic5E",
+                "Catch Your Breath|Superheroic5E",
+                "{Glide|Superheroic5E}",
+                "{Pow|Superheroic5E}",
+                "{Sensory Focus|Superheroic5E}",
+                "{Solidarity|Superheroic5E}",
+                "{Sweep|Superheroic5E}",
+                "{True Strike|Superheroic5E}",
+                "{Vicious Mockery|Superheroic5E}",
+                "{Challenge|Superheroic5E}",
+                "{Charge|Superheroic5E}",
+                "{Fate's Favor|Superheroic5E}",
+                "Heroism",
+                "Hunter's Mark",
+                "{Innate Orientation|Superheroic5E}",
+                "{Martial Strike|Superheroic5E}",
+                "{Reckless|Superheroic5E}",
+                "{Shelter|Superheroic5E}",
+                "Darkvision",
+                "{Enhanced Hearing|Superheroic5E}",
+                "Find Traps",
+                "Levitate",
+                "Locate Object",
+                "{Pep Talk|Superheroic5E}",
+                "{Protect|Superheroic5E}",
+                "See Invisibility",
+                "{Stick and Move|Superheroic5E}",
+                "Warding Bond",
+                "{Counterpunch|Superheroic5E}",
+                "{Eavesdrop|Superheroic5E}",
+                "Fly",
+                "{Furious Onslaught|Superheroic5E}",
+                "{Infrared Vision|Superheroic5E}",
+                "{Inspire|Superheroic5E}",
+                "{Raise Morale|Superheroic5E}",
+                "{Superior Olfaction|Superheroic5E}",
+                "{Vigilance|Superheroic5E}",
+                "{Blindsight|Superheroic5E}",
+                "{Frenzy|Superheroic5E}",
+                "{Healing Factor|Superheroic5E}",
+                "{Locate Creature|Superheroic5E}",
+                "{Lock Down|Superheroic5E}",
+                "{Superior Vision|Superheroic5E}",
+                "{Trade Shots|Superheroic5E}",
+                "{Critical Strike|Superheroic5E}",
+                "{Danger Sense|Superheroic5E}",
+                "{Improved Fly|Superheroic5E}",
+                "{Interrupt Power|Superheroic5E}",
+                "{Rally|Superheroic5E}",
+                "{Tremorsense|Superheroic5E}",
+                "{Contingency|Superheroic5E}",
+                "{Pin|Superheroic5E}",
+                "{True Seeing}",
+                "{Flight Mastery|Superheroic5E}",
+                "{X-Ray Vision|Superheroic5E}",
+                "{Assassinate|Superheroic5E}",
+                "{Supersonic Flight|Superheroic5E}",
+                "{Plot Armor|Superheroic5E}",
+                "Retcon|Superheroic5E",
+                "Acid Splash",
+                "Acid Touch|Superheroic5E",
+                "Command Substance|Superheroic5E",
+                "Dancing Lights",
+                "Distract|Superheroic5E",
+                "Electromagnetic Nudge|Superheroic5E",
+                "Encumber|Superheroic5E",
+                "Fire Bolt",
+                "Glimpse",
+                "Light",
+                "Message",
+                "Minor Illusion",
+                "Mud Splash|Superheroic5E",
+                "Obscure|Superheroic5E",
+                "Power Device|Superheroic5E",
+                "Produce Flame",
+                "Produce Water|Superheroic5E",
+                "Ray of Frost",
+                "Sense Device|Superheroic5E",
+                "Shocking Grasp",
+                "Silent Step|Superheroic5E",
+                "Snowball",
+                "Temporal Sense|Superheroic5E",
+                "Thaumaturgy",
+				"Zephyr|Superheroic5E",
+				"Burning Hands",
+				"Caustic Spray|Superheroic5E",
+				"Chill of Night|Superheroic5E",
+				"Color Spray",
+				"Corrosive Sweat|Superheroic5E",
+				"Delay|Superheroic5E",
+				"Discordant Susurrations|Superheroic5E",
+				"Elemental Blast|Superheroic5E",
+				"Elemental Rebuke|Superheroic5E",
+				"Elemental Strike|Superheroic5E",
+				"Expedite|Superheroic5E",
+				"Extinguish|Superheroic5E",
+				"Faerie Fire",
+				"Feather Fall",
+				"Fog Cloud",
+				"Freeze|Superheroic5E",
+				"Gravity Pulse|Superheroic5E",
+				"Grease",
+				"Guiding Bolt",
+				"Ignite|Superheroic5E",
+				"Magnetokinesis|Superheroic5E",
+				"Minor Concealment|Superheroic5E",
+				"Noxious Mist|Superheroic5E",
+				"Purify Food and Drink",
+				"Sense Metal|Superheroic5E",
+				"Shock|Superheroic5E",
+				"Silent Image",
+				"Steam|Superheroic5E",
+				"Thunderwave",
+				"Acid Arrow",
+				"Avalanche|Superheroic5E",
+				"Blindness/Deafness",
+				"Blur",
+				"Continual Flame",
+				"Darkness",
+				"Elemental Blade|Superheroic5E",
+				"Elemental Shield|Superheroic5E",
+				"Flaming Sphere",
+				"Flash Freeze|Superheroic5E",
+				"Gust of Wind",
+				"Heat Metal",
+				"Impetus|Superheroic5E",
+				"Knock",
+				"Levitate",
+				"Mire|Superheroic5E",
+				"Pause Projectiles|Superheroic5E",
+				"Propel Projectile|Superheroic5E",
+				"Scorching Ray",
+				"Shape Metal|Superheroic5E",
+				"Shatter",
+				"Silence",
+				"Stun|Superheroic5E",
+				"Undo Attack|Superheroic5E",
+				"Vibration Sense|Superheroic5E",
+				"Vomit|Superheroic5E",
+				"Wind Blade|Superheroic5E",
+				"Burrow|Superheroic5E",
+				"Call Lightning",
+				"Cacophony|Superheroic5E",
+				"Create Food and Water",
+				"Cosmic Chasm|Superheroic5E",
+				"Crush|Superheroic5E",
+				"Daylight",
+				"Deluge|Superheroic5E",
+				"Elemental Burst|Superheroic5E",
+				"Fireball",
+				"Gaseous Form",
+				"Haste",
+				"Hypnotic Pattern",
+				"Lightning Bolt",
+				"Manipulate Device|Superheroic5E",
+				"Meld Into Stone",
+				"Oxidizing Touch|Superheroic5E",
+				"Protection from Energy",
+				"Shrapnel|Superheroic5E",
+				"Sleet Storm",
+				"Slow",
+				"Stinking Cloud",
+				"Thunderclap",
+				"Tremor|Superheroic5E",
+				"Water Breathing",
+				"Water Walk",
+				"Wind Wall",
+				"Wire Walk|Superheroic5E",
+				"Banishment",
+				"Blight",
+				"Conjure Minor Elementals",
+				"Control Water",
+				"Fire Shield",
+				"Flood|Superheroic5E",
+				"Ice Shape|Superheroic5E",
+				"Ice Storm",
+				"Radiant Wall|Superheroic5E",
+				"Shadow Aura|Superheroic5E",
+				"Shackle|Superheroic5E",
+				"Sonic Wall|Superheroic5E",
+				"Stomp Quake|Superheroic5E",
+				"Stone Shape",
+				"Stoneskin",
+				"Technological Disruption|Superheroic5E",
+				"Wall of Acid|Superheroic5E",
+				"Wall of Fire",
+				"Cone of Cold",
+				"Conjure Elemental",
+				"Electromagnetic Pulse|Superheroic5E",
+				"Fast Forward|Superheroic5E",
+				"Flame Strike",
+				"Gravity Well|Superheroic5E",
+				"Elemental Form|Superheroic5E",
+				"Hard Light Constructs|Superheroic5E",
+				"Lightning Fence|Superheroic5E",
+				"Passwall",
+				"Shadow Self|Superheroic5E",
+				"Thunderstrike",
+				"Tidal Wave",
+				"Wall of Ice",
+				"Wall of Stone",
+				"Blade Barrier",
+				"Blood Control|Superheroic5E",
+				"Chain Lightning",
+				"Disintegrate",
+				"Entropic Wave|Superheroic5E",
+				"Flesh to Ice|Superheroic5E",
+				"Flesh to Stone",
+				"Freezing Sphere|Superheroic5E",
+				"Keening|Superheroic5E",
+				"Launch|Superheroic5E",
+				"Move Earth|Superheroic5E",
+				"Rail Gun|Superheroic5E",
+				"Shadow Strike|Superheroic5E",
+				"Sunbeam",
+				"Vacuum|Superheroic5E",
+				"Volcanic Eruption|Superheroic5E",
+				"Acid Jet|Superheroic5E",
+				"Animated Sword|Superheroic5E",
+				"Delayed Blast Fireball",
+				"Elemental Storm|Superheroic5E",
+				"Etherealness",
+				"Greater Magnetokinesis|Superheroic5E",
+				"Prismatic Spray|Superheroic5E",
+				"Retrocognition|Superheroic5E",
+				"Reverse Gravity",
+				"Ride the Lightning|Superheroic5E",
+				"Sequester",
+				"Waterspout|Superheroic5E",
+				"Biomagnetic Control|Superheroic5E",
+				"Control Weather",
+				"Earthquak",
+				"Elemental Cloud|Superheroic5E",
+				"Neural Shock|Superheroic5E",
+				"Power Word Stun",
+				"Rewind|Superheroic5E",
+				"Sunburst",
+				"Absolute Zero|Superheroic5E",
+				"Imprisonment",
+				"Magnetokinetic Mastery|Superheroic5E",
+				"Meteor Swarm",
+				"Power Word Kill",
+				"Prismatic Wall",
+				"Storm of Vengeance",
+				"Singularity|Superheroic5E",
+				"Time Stop"
+            ],
+			"classFeatures": [
+				{
+				    "classFeature": "Elemental Manifestation|Elementalist|Superheroic5E|1",
+				    "gainSubclassFeature": true
+				},
+				"Font of the Elements|Elementalist|Superheroic5E|2",
+				"Metapower|Elementalist|Superheroic5E|2",
+				"Elemental Accuracy|Elementalist|Superheroic5E|3",
+				"Reflexive Powers|Elementalist|Superheroic5E|3",
+				"Ability Score Improvement|Elementalist|Superheroic5E|4",
+				"Elemental Ward|Elementalist|Superheroic5E|5",
+				"Elemental Immunity|Elementalist|Superheroic5E|6",
+                "Reflexive Powers|Elementalist|Superheroic5E|7",
+                "Ability Score Improvement|Elementalist|Superheroic5E|8",
+                "Metapower|Elementalist|Superheroic5E|9",
+				"Empowered Element|Elementalist|Superheroic5E|10",
+                "Reflexive Powers|Elementalist|Superheroic5E|11",
+                "Ability Score Improvement|Elementalist|Superheroic5E|12",
+				"Elemental SustenanceElementalist|Superheroic5E|13",
+                "Reflexive Powers|Elementalist|Superheroic5E|14",
+				"Elemental Overchannel|Elementalist|Superheroic5E|15",
+                "Ability Score Improvement|Elementalist|Superheroic5E|16",
+                "Reflexive Powers|Elementalist|Superheroic5E|17",
+                "Metapower|Elementalist|Superheroic5E|18",
+                "Ability Score Improvement|Elementalist|Superheroic5E|19",
+                "Reflexive Powers|Elementalist|Superheroic5E|20",
+				"Elemental Mastery|Elementalist|Superheroic5E|20"
+			],
+			"fluff": [
+				{
+					"type": "section",
+					"name": "Elementalist",
+					"source": "Superheroic5E",
+					"page": 21,
+					"entries": [
+						"Elementalist superheroes possess an innate ability to manipulate, conjure forth, and even become an elemental or physical force. Some command the classical elements of earth, air, fire, or water; others manipulate the forces of physics, such as magnetism, gravity, electricity, or light. A few tap other basic forces of chemistry and physics, such as acid or sound waves, as well.",
+						{
+							"type": "entries",
+							"name": "Origin & Nature",
+							"page": 21,
+							"entries": [
+								"As an Elementalist superhero, you could gain your powers from a wide range of sources. You may be a mutant, or an alien, with the inborn ability to manipulate the elements. Perhaps they did not appear until puberty. Or perhaps your powers only manifested with menopause.",
+								"Other Elementalists gain their powers from another source. Perhaps you are the bearer of a powerful artifact, such as a ring, which has joined with you and granted you your power. Or maybe a supernatural being has endowed you with your abilities, so that you can serve as their avatar on Earth.",
+								"Whatever the source, your ability revolves around a particular element, and you tap its power as a part of your very being."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating an Elementalist",
+							"page": 21,
+							"entries": [
+								"The most important choice when making an Elementalistis your elemental manifestation. Your choices are {@bold acid, cold, darkness, earth, electricity, fire, gravity, light, magnetism, sound, time, water, or wind}. Your class features, below, refer to your Elemental Manifestation, which determines how your powers manifest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Class Features",
+							"page": 21,
+							"entries": [
+								"As an Elementalist superhero, you gain the following class features.",
+								{
+									"type": "entries",
+									"name": "Hit Points",
+									"entries": [
+										"{@bold Hit Dice}: {@dice 1d10} per level",
+										"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
+										"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Elementalist level after 1st",
+										"{@bold Saving Throws}: Constitution and Charisma"
+									]
+								}
+							]
+						}
+					]					
+				}
+			],
+            "subclassTitle": "Elemental Manifestation"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Elemental Manifestation",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 21,
+			"level": 1,
+			"entries": [
+				"You can tap into, channel, conjure, or manipulate raw elemental energy. Choose one element as your Elemental Manifestation: {@bold acid, cold, darkness, earth, electricity, fire, gravity, light, magnetism, sound, time, water, or wind}. Your choice of Elemental Manifestation determines which specific Elemental Effect you gain. Note that water and cold powers both can manifest ice, since it is frozen water; and darkness and time powers can both manifest necrotic energies as the corruption of shadow, as well as the entropy of time's passage.",
+				{
+					"type": "entries",
+					"name": "Elemental Damage & Effects",
+                    "entries": [
+                        "Each Elemental Manifestation is not only associated with a substance, but also with a damage type and an elemental effect. When a power or ability says to consult your Elemental Manifestation to determine the {@bold damage type} for a power like {@spell elemental strike|Superheroic5E} or {@spell elemental blast}, these are the tables you should reference.",
+                        "The damage type associated with each element is listed below. You have resistance to the damage associated with your chosen Elemental Manifestation.",
+                        "Earth and Wind Elementalists are resistant to bludgeoning* or slashing* damage from attacks and effects they can see, as they subconsciously harden their skin or create a buffer of air as the damage is about to strike. Attacks and effects from sources they cannot see do normal damage.",
+                        "Furthermore, some powers or abilities say to consult your Elemental Manifestation to determine an {@bold additional effect} that may apply to a target of a power. Consult the \"Elemental Effects\" table to determine the correct effect. If an elemental effect calls for a saving throw, use your power save DC.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Elemental Manifestation",
+                                "Damage Type",
+                                "Additional Effect"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-2 text-center",
+                                "col-8 text-left"
+                            ],
+                            "rows": [
+                                [
+                                    "Acid",
+                                    "Acid",
+                                    "Target takes an additional {@dice 1d4} acid at the end of its turn. This damage increases to {@dice 2d4} when you reach 14th level."
+                                ],
+                                [
+                                    "Cold",
+                                    "Cold",
+                                    "Target’s speed is reduced by 10 feet until the start of your next turn."
+                                ],
+                                [
+                                    "Darkness",
+                                    "Necrotic",
+                                    "Target makes a CON save or be blinded until the beginning of your next turn."
+                                ],
+                                [
+                                    "Earth",
+                                    "Bludgeoning*",
+                                    "Target makes a STR save or be knocked prone."
+                                ],
+                                [
+                                    "Electricity",
+                                    "Lightning",
+                                    "Attack has advantage if target is wearing or made of metal."
+                                ],
+                                [
+                                    "Fire",
+                                    "Fire",
+                                    "Ignites flammable objects in the area that aren’t being worn or carried."
+                                ],
+                                [
+                                    "Gravity",
+                                    "Force",
+                                    "Target’s movement is reduced by 10 feet until the end of your next turn."
+                                ],
+                                [
+                                    "Light",
+                                    "Radiant",
+                                    "Target makes a CON save or be blinded until the beginning of your next turn."
+                                ],
+                                [
+                                    "Magnetism",
+                                    "Force",
+                                    "Attack has advantage if target is wearing or made of metal."
+                                ],
+                                [
+                                    "Sound",
+                                    "Thunder",
+                                    "Target is deafened until the end of your next turn."
+                                ],
+                                [
+                                    "Time",
+                                    "Necrotic",
+                                    "Target’s initiative lowers by 2 for the rest of the combat."
+                                ],
+                                [
+                                    "Water",
+                                    "Cold",
+                                    "Target’s speed is reduced by 10 feet until the start of your next turn."
+                                ],
+                                [
+                                    "Wind",
+                                    "Slashing*",
+                                    "Target is pushed back 5 feet."
+                                ]
+                            ]
+                        }
+                    ]    
+				},
+                {                
+                    "type": "entries",
+                    "name": "At Will Powers",
+                    "entries": [
+                        "At 1st level, you know two at will powers from the elemental power list or the general power list. You learn additional at will powers at higher levels, as shown in the at will powers column of the elemental table."
+                    ]            
+                },
+                {
+                    "type": "entries",
+                    "name": "Powers Known of 1st Level and Higher",
+                    "entries": [
+                        "You know four 1st level powers from the General Power List and the specific Elementalist power list associated with your Elemental Manifestation. For example, if you choose fire as your Elemental Manifestation, then you would use the Elemental Fire and General Power Lists when selecting your powers.",
+                        "The Leveled Powers Known column of the Elementalist table shows when you learn more powers of your choice. Each of these powers must be of a level for which you have slots.",
+                        "For example, when you reach 3rd level in this class, you can learn one new power of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the powers you know and replace it with another power from the Elementalist or General lists, which also must be of a level for which you have slots, bringing the total number of powers you know to five."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name": "Leveled Power Slots",
+                    "entries": [
+                        "The Elementalist table shows how many power slots you have available at each level. To use one of these powers, you must expend a slot of the power's level or higher. You regain all expended 1st through 8th level slots when you finish a short or long rest. You regain any expended 9th level power slots when you complete a long rest.",
+                        "For example, if you know the 1st level power {@spell burning hands} and have a 1st level and a 2nd level slot available, you can use burning hands with either slot.",
+                        "Once you reach certain levels, you gain the ability to use powers at certain levels reflexively. Once you do so, you no longer require slots at those levels and can use powers at those levels at will, as if you had an endless number of slots available."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name": "Power Ability",
+                    "entries": [
+                        "Charisma is your power ability for your superpowers, since the strength of your powers relies on the willpower you need to focus and withstand the sheer force of the elements at your command. You use your Charisma whenever a power refers to your power ability. In addition, you use your Charisma modifier when setting the save DC for a power you use and when making an attack roll with one.",
+                        "{@bold Power save DC} = 8 + your proficiency bonus + your Charisma modifier",
+                        "{@bold Power attack modifier} = your proficiency bonus + your Charisma modifier"
+                    ]
+                }
+			]
+		},
+        {
+            "name": "Font of the Elements",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 24,
+			"level": 2,
+            "entries": [
+                "At 2nd level, you tap into a deep wellspring of power within yourself. This wellspring is represented by elemental points, which allow you to create a variety of magical effects.",
+                {
+                    "type": "entries",
+                    "name": "Element Points",
+                    "entries": [
+                        "You have 2 element points, and you gain more as you reach higher levels (as shown in the Element Points column ofthe Elementalisttable). You cannever have moreelement points thanshown on the table for your level. {@underline You regain all spent element points when you finish a long rest}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Metapower",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 24,
+			"level": 2,
+            "entries": [
+                "Once you have the Font of the Elements feature, you can use your element points to twist your power to suit your needs. You gain two of {@filter Metapower|optionalfeatures|Feature Type=MM} options of your choice.You gain another at 9th and 18th level.You can use only one Metapoweroption on a power when you use it, unless otherwise noted."
+            ]
+        },
+        {
+            "name": "Elemental Accuracy",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 3,
+            "entries": [
+                "Beginning at 3rd level, you can create pockets of relative safety within the effects of your elemental powers. When you use an elemental power that affects other visible creatures, you can choose a number of them equal to 1 + the power's level. The chosen creatures automatically succeed on their saves against the power, and they take no damage if they would normally take half damage on a successful save."
+            ]
+        },
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 3,
+            "entries": [
+                "Your inner reserve of superpowered energy has grown and your ability to tap it has improved. Now you can use some of your lesser superpowers without exhausting yourself, doing previously difficult and amazing things effortlessly.",
+                "Starting at 3rd level, 1st-level power use is now reflexive for you. This means that you have a limitless supply of 1st-level slots. If you wish to use abilities at higher level, however, you must expend a higher-level slot as normal.",
+                "As your heroes level up, the levels at which they can use their powers reflexively also increases. At 7th level, for example, 2nd-level power use is reflexive as well as 1st-level.",
+                "Consult the chart above to see when heroes gain the ability to use higher-level powers reflexively.",
+                {
+                    "type": "inset",
+                    "name": "Reflexive Powers: An Example",
+                    "entries": [
+                        "Say Omara is a fire Elementalist hero who knows the {@spell burning hands} power. When she becomes a 3rd-level character, she can use burning hands at the 1st level reflexively, as often as she likes. If she wishes to use burning hands at the 2nd level, however, she must expend a 2nd-level or higher power slot to do so. At 7th level, Omara could use her burning hands power as a 1st-level or a 2nd-level reflexive power, as often as she likes. If she wishes to use the burning hands or {@spell scorching ray} powers at the 3rd level, however, she must expend a slot of 3rd level or higher."
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "Ability Score Improvement",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"level": 4,
+			"entries": [
+				"At certain levels, your class gives you the Ability Score Improvement or {@filter Feat|feats} feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability."
+			]
+		},
+        {
+            "name": "Elemental Ward",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 5,
+            "entries": [
+                "At 5th level, you naturally defend yourself with your elemental energy. When you are hit by a visible melee attack, you deal damage of your Elemental Manifestation to the target. The damage equals your proficiency bonus."
+            ]
+        },
+        {
+            "name": "Elemental Immunity",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 6,
+            "entries": [
+                "At 6th level, your connection to your chosen element grows. You are now immune to the damage type associated with your Elemental Manifestation.",
+                "Earth and Wind Elementalists are immune to bludgeoning or slashing damage caused by superpowers, but only resistant to bludgeoning or slashing damage from mundane weapon attacks or from falling."
+            ]
+        },
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 7,
+            "entries": [
+                "As your heroes level up, the levels at which they can use their powers reflexively also increases. At 7th level, for example, 2nd-level power use is reflexive as well as 1st-level.",
+                "Consult the chart above to see when heroes gain the ability to use higher-level powers reflexively."
+            ]
+        },
+        {
+			"name": "Ability Score Improvement",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"level": 8,
+			"entries": [
+				"At certain levels, your class gives you the Ability Score Improvement or {@filter Feat|feats} feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability."
+			]
+		},
+        {
+            "name": "Metapower",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 24,
+			"level": 9,
+            "entries": [
+                "Once you have the Font of the Elements feature, you can use your element points to twist your power to suit your needs. You gain two of {@filter Metapower|optionalfeatures|Feature Type=MM} options of your choice.You gain another at 9th and 18th level.You can use only one Metapoweroption on a power when you use it, unless otherwise noted."
+            ]
+        },
+        {
+            "name": "Empowered Element",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 10,
+            "entries": [
+                "Starting at 10th level, your elemental powers do even more damage. You can add your Charisma modifier to any damage roll of a power associated with your Elemental Manifestation."
+            ]
+        },
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 11,
+            "entries": [
+                "At level 11, 3rd-level powers use is reflexive as well."
+            ]
+        },
+        {
+			"name": "Ability Score Improvement",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"level": 12,
+			"entries": [
+				"At certain levels, your class gives you the Ability Score Improvement or {@filter Feat|feats} feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability."
+			]
+		},
+        {
+            "name": "Elemental Sustenance",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 13,
+            "entries": [
+                "At 13th level, whenever you are subject to an attack or area effect that deals the damage type associated with your Elemental Manifestation, you gain temporary HP equal to the amount of damage dealt, up to a maximum of your Elementalist level.",
+                "Earth and Wind Elementalists only gain temporary HP from bludgeoning or slashing damage caused by superpowers, though they are now immune to such damage from mundane sources like weapon attacks or falling."
+            ]
+        },
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 14,
+            "entries": [
+                "At level 14, 4th-level powers use is reflexive as well."
+            ]
+        },
+        {
+            "name": "Elemental Overchannel",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 15,
+            "entries": [
+                "Starting at 15th level, you can increase the potency of your elemental powers. When you use a power of 1st through 5th level that deals damage of a type related to your Elemental Manifestation, you can deal maximum damage with it.",
+                "The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a short or long rest, you take {@damage 2d12} necrotic damage for each level of the power, immediately after you use it. Each time you use this feature again before finishing a long rest, the necrotic damage per power level increases by {@dice 1d12}. This damage ignores resistance and immunity."
+            ]
+        },
+        {
+			"name": "Ability Score Improvement",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"level": 16,
+			"entries": [
+				"At certain levels, your class gives you the Ability Score Improvement or {@filter Feat|feats} feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability."
+			]
+		},
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 17,
+            "entries": [
+                "At level 17, 5th-level powers use is reflexive as well."
+            ]
+        },
+        {
+            "name": "Metapower",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 24,
+			"level": 18,
+            "entries": [
+                "Once you have the Font of the Elements feature, you can use your element points to twist your power to suit your needs. You gain two of {@filter Metapower|optionalfeatures|Feature Type=MM} options of your choice.You gain another at 9th and 18th level.You can use only one Metapoweroption on a power when you use it, unless otherwise noted."
+            ]
+        },
+        {
+			"name": "Ability Score Improvement",
+			"source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"level": 19,
+			"entries": [
+				"At certain levels, your class gives you the Ability Score Improvement or {@filter Feat|feats} feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability."
+			]
+		},
+        {
+            "name": "Reflexive Powers",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 20,
+            "entries": [
+                "At level 20, 6th-level powers use is reflexive as well."
+            ]
+        },
+        {
+            "name": "Elemental Mastery",
+            "source": "Superheroic5E",
+			"className": "Elementalist",
+			"classSource": "Superheroic5E",
+			"page": 25,
+			"level": 20,
+            "entries": [
+                "When you reach 20th level, you achieve unparalleled mastery over your chosen element. You can now maintain two powers that require {@status concentration} of levels 1-5 from the Elemental power list at the same time. If an effect ever triggers a {@status concentration} check, you roll separately for each {@status concentration} power you are maintaining."
+            ]
+        }
+	]
+}

@@ -1,0 +1,1402 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "S5E-Kinetic",
+				"abbreviation": "Kinetic",
+				"full": "Kinetic Superhero",
+				"version": "2023.08.05",
+				"authors": [
+					"Gwendolyn",
+                    "Amy Marshal"
+				],
+				"convertedBy": ["VAD"]
+			}
+		],
+		"dateAdded": 20230805,
+		"dateLastModified": 20230805
+	},
+	"class": [
+		{
+			"name": "Kinetic",
+			"source": "S5E",
+			"fluff": [
+				{
+					"name": "Kinetic Superhero",
+					"type": "section",
+					"entries": [
+						"Kinetic superheroes display their powers physically, through feats of strength, speed, toughness, or mobility. These heroes can take a hit better than anyone else, and they can usually deal more damage with their bare hands than other heroes as well. Even those who focus on speed and agility are astonishingly resilient.",
+						{
+							"type": "entries",
+							"name": "Origin & Nature",
+							"entries": [
+								"Kinetic superheroes tend to get their powers either from their own genetics or from experimentation on their bodies which has transformed them somehow. You may appear as a typical human when you are not demonstrating your abilities, though it is also likely that you cannot hide your remarkable powers."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Covert Agents and Investigators",
+							"entries": [
+								"When an empire or guild can't send a thief or an assassin to a place to collect information, they send a Kinetic to gather what they need. Kinetics can enter and leave a place like nothing happened thanks to its illusions and trickery. Their ability to disguise themselves and to distract foes using mind tricks makes them the perfect infiltrators in stealthy tasks.",
+								"In other cases, they work with local authorities to investigate unknown occurrences where magic is or may be involved, and for tracking down dangerous spellcasters due its ability to control the energy used in spells, interrupting their foes before they can cast a spell."
+							]
+						},
+				            {
+							"type": "entries",
+							"name": "Creating a Kinetic",
+							"entries": [
+								"Each Kinetic has their own talent which expresses the way their powers most commonly or impressively manifest.  When making a Kinetic hero, choose a Kinetic talent: {@b strength, speed, toughness, teleporting, or agility.} Your choice of talent determines what some of your superpowers will be, as well as grants you special benefits in certain circumstances."
+								
+							         ]
+				            }
+					],
+					"page": 26,
+					"source": "S5E"
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "str",
+			"casterProgression": "full",
+			"preparedSpells": "<$level$>",
+
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Kinetic}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Kinetic}",
+						"{@filter 2nd|spells|level=2|class=Kinetic}",
+						"{@filter 3rd|spells|level=3|class=Kinetic}",
+						"{@filter 4th|spells|level=4|class=Kinetic}",
+						"{@filter 5th|spells|level=5|class=Kinetic}",
+						"{@filter 6th|spells|level=6|class=Kinetic}",
+						"{@filter 7th|spells|level=7|class=Kinetic}",
+						"{@filter 8th|spells|level=8|class=Kinetic}",
+						"{@filter 9th|spells|level=9|class=Kinetic}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Kinetic Power|Kinetic|S5EKinetic|1",
+				{
+					"classFeature": "Kinetic Talent|Kinetic|S5EKinetic|1",
+					"gainSubclassFeature": true
+				},
+                {
+                    "classFeature": "Action Surge|Kinetic|S5EKinetic|2"
+                },
+				{
+					"classFeature": "Phsical Acumen|Kinetic|S5EKinetic|1"
+				},
+				{
+					"classFeature": "Reflexive Powers|Kinetic|S5EKinetic|3",
+                    "tableDisplayName": "Level 1 Powers Unlimited Uses"
+				},
+				"Ability Score Improvement|Kinetic|S5EKinetic|4",
+        		{
+					"classFeature": "Potent Critical|Kinetic|S5EKinetic|5"
+				},
+				{
+					"classFeature": "Kinetic Talent Feature|Kinetic|S5EKinetic|6",
+					"gainSubclassFeature": true
+				},
+            	{
+					"classFeature": "Reflexive Powers|Kinetic|S5EKinetic|7",
+                    "tableDisplayName": "Level 2 Powers Unlimited Uses"
+				},
+				"Ability Score Improvement|Kinetic|S5EKinetic|8",
+                {
+					"classFeature": "Kinetic Control|Kinetic|S5EKinetic|9"
+				},
+			     "Ability Score Improvement|Kinetic|S5EKinetic|10",
+                {
+					"classFeature": "Reflexive Powers|Kinetic|S5EKinetic|11",
+                    "tableDisplayName": "Level 3 Powers Unlimited Uses"
+				},
+				"Ability Score Improvement|Kinetic|S5EKinetic|12",
+				{
+					"classFeature": "Physical Perfection|Kinetic|S5EKinetic|13"
+				},
+                {
+					"classFeature": "Reflexive Powers|Kinetic|S5EKinetic|14",
+                    "tableDisplayName": "Level 4 Powers Unlimited Uses"
+				},
+            	{
+					"classFeature": "Kinetic Talent Feature|Kinetic|S5EKinetic|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Kinetic|S5EKinetic|16",
+                {
+					"classFeature": "Reflexive Powers|Kinetic|S5EKinetic|17",
+                    "tableDisplayName": "Level 5 Powers Unlimited Uses"
+				},
+                {
+                    "classFeature": "Action Surge|Kinetic|S5EKinetic|18",
+                    "tableDisplayName": "Action Surge (2 uses)"
+                },
+				"Ability Score Improvement|Kinetic|S5EKinetic|19",
+            	{
+					"classFeature": "Kinetic Talent Feature|Kinetic|S5EKinetic|20",
+					"gainSubclassFeature": true
+				}
+			],
+			"subclassTitle": "Kinetic Powers",
+			"classSpells": [
+				"Energy Bolt|mesm",
+				"Friends",
+				"Light",
+				"Mage Hand",
+				"Minor Illusion",
+				"Prestidigitation",
+				"Sword Burst|tce",
+				"Thaumaturgy",
+				"Backfire|mesm",
+				"Charm Person",
+				"Color Spray",
+				"Detect Magic",
+				"Disguise Self",
+				"Dissonant Whispers",
+				"Empathy|mesm",
+				"Illusory Script",
+				"Mage Armor",
+				"Magic Missile",
+				"Silent Image",
+				"Sleep",
+				"Alter Self",
+				"Blindness/Deafness",
+				"Blur",
+				"Calm Emotions",
+				"Crown of Madness",
+				"Hold Person",
+				"Invisibility",
+				"Lesser Restoration",
+				"Magic Mouth",
+				"Mind Spike|xge",
+				"Mirror Image",
+				"Nystul's Magic Aura",
+				"Phantasmal Force",
+				"Shadow Blade|xge",
+				"Silence",
+				"Spirit of Failure|mesm",
+				"Suggestion",
+				"Zone of Truth",
+				"Catnap|xge",
+				"Counterspell",
+				"Dispel Magic",
+				"Enemies Abound|xge",
+				"Fear",
+				"Haste",
+				"Hypnotic Pattern",
+				"Major Image",
+				"Nondetection",
+				"Phantom Steed",
+				"Power Leech|mesm",
+				"Protection from Energy",
+				"Remove Curse",
+				"Slow",
+				"Charm Monster|xge",
+				"Chaos Storm|mesm",
+				"Compulsion",
+				"Confusion",
+				"Greater Invisibility",
+				"Hallucinatory Terrain",
+				"Otiluke's Resilient Sphere",
+				"Phantasmal Killer",
+				"Polymorph",
+				"Bigby's Hand",
+				"Creation",
+				"Dominate Person",
+				"Dream",
+				"Greater Restoration",
+				"Hold Monster",
+				"Mislead",
+				"Modify Memory",
+				"Scrying",
+				"Seeming",
+				"Steel Wind Strike|xge",
+				"Synaptic Static|xge",
+				"Wall of Force",
+				"Disintegrate",
+				"Globe of Invulnerability",
+				"Guards and Wards",
+				"Mass Suggestion",
+				"Mental Prison|xge",
+				"Programmed Illusion",
+				"Etherealness",
+				"Forcecage",
+				"Mirage Arcane",
+				"Mordenkainen's Sword",
+				"Power Word Pain|xge",
+				"Project Image",
+				"Sequester",
+				"Simulacrum",
+				"Antimagic Field",
+				"Antipathy/Sympathy",
+				"Dominate Monster",
+				"Feeblemind",
+				"Glibness",
+				"Illusory Dragon|xge",
+				"Maddening Darkness|xge",
+				"Mind Blank",
+				"Power Word Stun",
+				"Mass Polymorph|xge",
+				"Psychic Scream|xge",
+				"Shapechange",
+				"True Polymorph",
+				"Weird"
+			],
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Kinetic Power",
+			"source": "S5E",
+			"page": 2,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"You can move and control your body in explosive and remarkable ways.",
+				{
+					"type": "entries",
+					"name": "At Will Powers",
+					"entries": [
+						"At 1st level, you know two at will powers from the Kinetic power list or the General power list. You learn additional at will powers at higher levels, as shown in the at will powers column of the Kinetic table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powers Known of 1st Level and Higher",
+					"entries": [
+						"You know three 1st level powers from the Kinetic or General power lists.",
+                        "The Leveled Powers Known column of the Kinetic table shows when you learn more powers of your choice. Each of these powers must be of a level for which you have slots."
+					]
+				},
+            	{
+					"type": "entries",
+					"name": "Leveled Power Slots",
+					"entries": [
+						"The Kinetic table shows how many power slots you have available at each level. To use one of these powers, you must expend a slot of the power’s level or higher. You regain all expended 1st through 8th level slots when you finish a short or long rest. You regain any expended 9th level power slots when you complete a long rest.",
+                        "Once you reach certain levels, you gain the ability to use powers at certain levels reflexively. Once you do so, you no longer have slots at those levels and can use powers at those levels at will, as if you had an endless number of slots available."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Power Ability",
+					"entries": 
+                    [
+						"Your power ability depends upon which Kinetic Talent (listed in the next section) you choose. If you choose Strength or Toughness, then Strength is your power ability for your superpowers. If you choose Speed, Teleporting, or Agility for your Kinetic Talent, then Dexterity is your power ability for your superpowers.",
+                        "{@b Power save DC} = 8 + your proficiency bonus + your power ability modifier",
+                        "{@b Power attack modifier} = your proficiency bonus + your power ability modifier",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": 
+                            [
+								"dex"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": 
+                            [
+								"dex"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Kinetic Talent",
+			"source": "S5E",
+			"page": 27,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": [1, 6, 15,20],
+			"entries": [
+				"Choose a Kinetic talent that expresses how your Kinetic powers primarily manifest: strength, speed, toughness, teleporting, or agility. Each Kinetic talent is detailed at the end of the class description. Your choice grants you Kinetic talent powers and other features when you choose it at 1st level. It also grants you additional benefits at 6th, 15th, and 20th levels.",
+            	{
+					"type": "entries",
+					"name": "Kinetic Talent Powers",
+					"entries": [
+						"Each talent has a list of powers that you gain at the Kinetic levels noted in the talent description. Once you gain a talent power, it doesn’t count against the number of powers known."
+					]
+				}
+            ]
+		},
+		{
+			"name": "Physical Acumen",
+			"source": "S5E",
+			"page": 27,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": 2,
+			"entries": [
+				"At 2nd level, Kinetic heroes develop superior physical abilities. You gain proficiency in Acrobatics and Athletics. If you already have proficiency in one or both, you now have expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency."
+			]
+		},
+		{
+			"name": "Action Surge",
+			"source": "S5E",
+			"page": 27,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": [2, 18],
+			"entries": [
+				"Also at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.",
+				"Once you use this feature, you must finish a short or long rest before you can use it again. When you reach 18th level, you can use it twice before a rest, but only once on the same turn."
+			]
+		},
+		{
+			"name": "Reflexive Powers",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": [3, 7, 11, 14,17, 20],
+			"entries": [
+				"Starting at 3rd level, 1st-level power use is now reflexive for you. This means that you have a limitless supply of 1st-level power slots. If you wish to use abilities at higher level, however, you must expend a higher-level slot as normal. [See “Reflexive Powers: An Example” sidebar on p. 25 in Chapter 3.]",
+				"As your heroes level up, the levels at which they can use their powers reflexively also increases. At 7th level, for example, 2nd-level power use is reflexive as well as 1st-level.",
+				"Consult the chart prior to see when heroes gain the ability to use higher-level powers reflexively."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "S5E",
+			"page": 83,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": [4, 8, 10, 12, 16, 19],
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}.",
+				{
+					"type": "entries",
+					"name": "Feats",
+					"source": "S5E",
+					"page": 83,
+					"entries": [
+						"A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.",
+						"At certain levels, your class gives you the Ability Score Improvement or Feat feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability. You can take each feat only once unless the feat’s description says otherwise.",
+						"Some feats list prerequisites that should be met before taking the feat, though players may wish to work with their GM to see if a particular feat might be appropriate even if your hero doesn’t meet the prerequisites. Many feats list associated classes and subclasses to help players to choose; these are not requirements for taking the feat, however."
+					]
+				}
+			]
+		},
+		{
+			"name": "Potent Critical",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": 5,
+			"entries": [
+				"At 5th level, your critical hits become more devastating, whether through Strength, Speed, or skill. You roll one additional damage die when determining the extra damage for a critical hit."
+			]
+		},
+		{
+			"name": "Kinetic Control",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": 9,
+			"entries": [
+				"At 9th level, your innate control of your Kinetic energy heightens. You have advantage on Athletics checks to resist being shoved or knocked prone. Furthermore, you have advantage on saves against effects that would move you against your will."
+			]
+		},
+		{
+			"name": "Physical Perfection",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"level": 13,
+			"entries": [
+				"When you reach 13th level, your mastery over all aspects of your physical body reaches its pinnacle. You have advantage on all Strength, Dexterity, and Constitution saves and skill checks."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Agility Kinetic Talent",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"Some superheroes exhibit superhuman agility, dodging bullets, parkouring up tall buildings with ease, and more. If you select agility as your Kinetic talent at 1st level, you gain the following features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Agility Kinetic Talent Powers|Kinetic|S5EKinetic|KinAgility|S5EKinetic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Skirmisher|Kinetic|S5EKinetic|KinAgility|S5EKinetic|1"
+				}
+			]
+		},
+		{
+			"name": "Agility Kinetic Talent Powers",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Agility Kinetics know the following powers, which do not count toward their total number of powers known."
+			],
+			"Type": "table",
+			"caption": "Agility Kinetic Talent Powers",
+			"colLabels": [
+				"Kinetic Level",
+				"Powers"
+			],
+			"rows": [
+				[
+				"1st",
+				"3rd",
+				"5th",
+				"7th",
+				"9th"
+				],
+				[
+				"{@spell jump|phb}",
+				"{@spell spider climb|phb}",
+				"{@spell redirecct attack|s5e}",
+				"{@spell freedom of movement|phb}",
+				"{@spell vulnerable strike|s5e}"
+				]
+			]
+		},
+		{
+			"name": "Skirmisher",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose the agility Kinetic talent at 1st level, you become hard to pin down. On your turn, if you make a melee attack against a creature within five feet of you, that creature cannot make an opportunity attack against you for the rest of your turn, allowing you to slip away unharmed."
+			]
+		},
+		{
+			"name": "Parkour",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you reach 6th level, you gain a climbing speed equal to your walking speed. What’s more, you have advantage on any Dexterity-based save or skill check."
+			]
+		},
+		{
+			"name": "Total Freedom",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you are always under the effect of the {@spell freedom of movement|phb} power."
+			]
+		},
+		{
+			"name": "Ultimate Agility",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinAgility",
+			"subclassSource": "S5EKinetic",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, your agility exceeds all limits. You automatically succeed at all Dexterity saves against effects that you can sense. Also, you have a +10 bonus on any Dexterity (Acrobatics, Sleight of Hand, or Stealth) skill check."
+			]
+		},
+		{
+			"name": "Speed Kinetic Talent",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"Some heroes are strong, while others are fast— superhumanly, impossibly so, moving at incredible speeds.",
+				"If you select speed as your Kinetic talent at 1st level, you gain the following features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Speed Kinetic Talent Powers|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fleet Footed|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|1"
+				}
+			]
+		},
+		{
+			"name": "Speed Kinetic Talent Powers",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Speed Kinetics know the following powers, which do not count toward their total number of powers known."
+			],
+			"Type": "table",
+			"caption": "Speed Kinetic Talent Powers",
+			"colLabels": [
+				"Kinetic Level",
+				"Powers"
+			],
+			"rows": [
+				[
+				"1st",
+				"3rd",
+				"5th",
+				"7th",
+				"9th"
+				],
+				[
+				"{@spell longstrider|phb}",
+				"{@spell blur|phb}",
+				"{@spell haste|phb}",
+				"{@spell whirlwind|xge}",
+				"{@spell rapid barrage|s5e}"
+				]
+			]
+		},
+		{
+			"name": "Fleet Footed",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose the speed Kinetic talent at 1st level, you achieve running speeds usually found only among Olympic champions. Your base walking speed increases by 10 feet."
+			]
+		},
+		{
+			"name": "Blazing Fast",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you reach 6th level, your base walking speed triples. Furthermore, opportunity attacks against you have disadvantage."
+			]
+		},
+		{
+			"name": "Permanent Speed",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you are always under the effect of the haste power, no concentration required."
+			]
+		},
+		{
+			"name": "Impossible Velocity",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinSpeed",
+			"subclassSource": "S5EKinetic",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"When you reach 20th level, you become the avatar of speed. Your base walking speed multiplies by 10, you Armor Class increased by 2, and you can move away from foes without triggering opportunity attacks."
+			]
+		},
+		{
+			"type": "inset",
+			"name": "How Fast?",
+			"entries": [
+				"At 1st level, a Kinetic hero with the speed talent and a human ancestry has a base walking speed of 30 feet, which increases to 40 feet from the Fleet Footed feature. At 6th level, their base walking speed triples, thanks to the Blazing Fast feature, which brings their base walking speed up to 120 feet. Thanks to the Permanent Speed feature, the hero’s speed doubles again, rising to 240 feet. At 20th level, therefore, their base walking speed jumps by a factor of ten, to 2400 feet per turn. That’s almost 300 mph, without even dashing or using any powers. By using a power like {@spell burst of speed|s5e}, you can outrun the fastest jet!"
+			]
+		},
+		{
+			"name": "Strength Kinetic Talent",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"Superheroes with the Strength Kinetic talent are truly mighty, hitting harder than anyone else. If you select Strength as your Kinetic talent at 1st level, you gain the following features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Strength Kinetic Talent Power|Kinetic|S5EKinetic|KinStr|S5EKinetic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Destructive|Kinetic|S5EKinetic|KinStr|S5EKinetic|1"
+				}
+			]
+		},
+		{
+			"name": "Strength Kinetic Talent Powers",
+			"source": "S5E",
+			"page": 28,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Strength Kinetics know the following powers, which do not count toward their total number of powers known."
+			],
+			"Type": "table",
+			"caption": "Strength Kinetic Talent Powers",
+			"colLabels": [
+				"Kinetic Level",
+				"Powers"
+			],
+			"rows": [
+				[
+				"1st",
+				"3rd",
+				"5th",
+				"7th",
+				"9th"
+				],
+				[
+				"{@spell hurl|s5e}",
+				"{@spell bull's rush|s5e}",
+				"{@spell smash|s5e}",
+				"{@spell stomp quake|s5e}",
+				"{@spell crushing grip|s5e}"
+				]
+			]
+		},
+		{
+			"name": "Destructive",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose the Strength Kinetic talent at 1st level, you gain advantage on Athletics checks to push pull, lift, and break objects. What’s more, your carrying capacity (including maximum load and maximum lift) doubles. Thus, your carrying capacity is now your Strength times 30 and your capacity to push, drag, or lift things is your Strength times 60.",
+				"Finally, when you make a melee attack, you score a critical on a 19 or a 20."
+			]
+		},
+		{
+			"name": "Heavy Lifting",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you reach 6th level, your carrying capacity (including maximum load and maximum lift) multiplies by 10. Thus, your carrying capacity is now your Strength times 300 and your capacity to push, drag, or lift things is your Strength times 600.",
+				"Furthermore, you count as a Huge creature in terms of Grappling contests."
+			]
+		},
+		{
+			"name": "Unstoppable Force",
+			"source": "S5E",
+			"page": 29,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your carrying capacity (including maximum load and maximum lift) multiplies by another 10. Thus, your carrying capacity is now your Strength times 3000 and your capacity to push, drag, or lift things is your Strength times 6000. Finally, you count as a Gargantuan creature in terms of Grappling contests."
+			]
+		},
+		{
+			"name": "Avatar of Might",
+			"source": "S5E",
+			"page": 6,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinStr",
+			"subclassSource": "S5EKinetic",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"When you reach 20th level, your strength once again amplifies explosively. You know the {@spell impossible strength|s5e} power, if you did not before, and you can use it reflexively."
+			]
+		},
+		{
+			"name": "Teleportating Kinetic Talent",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"A few remarkable heroes can travel through space instantaneously, teleporting themselves and sometimes others. If you select teleporting as your Kinetic talent at 1st level, you gain the following features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Teleportating Kinetic Talent Power|Kinetic|S5EKinetic|KinPorting|S5EKinetic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Micro-Teleportation|Kinetic|S5EKinetic|KinPorting|S5EKinetic|1"
+				}
+			]
+		},
+		{
+			"name": "Teleportating Kinetic Talent Powers",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Teleportating Kinetics know the following powers, which do not count toward their total number of powers known."
+			],
+			"Type": "table",
+			"caption": "Teleportating Kinetic Talent Powers",
+			"colLabels": [
+				"Kinetic Level",
+				"Powers"
+			],
+			"rows": [
+				[
+				"1st",
+				"3rd",
+				"5th",
+				"7th",
+				"9th"
+				],
+				[
+				"{@spell sudden swerve|s5e}",
+				"{@spell misty step|phb}",
+				"{@spell blink|phb}",
+				"{@spell dimension door|phb}",
+				"{@spell teleportation anchor|phb}"
+				]
+			]
+		},
+		{
+			"name": "Micro-Teleportation",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose the teleporting Kinetic talent at 1st level, you begin subtly and subconsciously moving through space in tiny jumps. Though otherwise undetectable and unnoticeable to the naked eye, you now have advantage on Dexterity saves and Sleight of Hand checks."
+			]
+		},
+		{
+			"name": "Triple Jump",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can now travel further, faster. When you use your {@spell misty step|phb} power, you can make three successive jumps, each up to 30 ft, in a single round, rather than one. You can make a single attack or interact with an object in between the jumps, but you cannot move or use a power until after the last jump is complete."
+			]
+		},
+		{
+			"name": "Superior Teleporting",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, your ability with the teleport power grows. Now, when the GM rolls on the teleportation result table, they roll twice and take the higher result.",
+				"What’s more, when you use the {@spell misty step|phb}, {@spell dimension door|phb}, {@spell limited teleport|s5e}, or teleport powers, you may decide whether to retain your momentum as you teleport or not, and in which direction you move when arrive after teleporting."
+			]
+		},
+		{
+			"name": "Teleportation Master",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinPorting",
+			"subclassSource": "S5EKinetic",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At the 20th level, your mastery over teleportation is complete. The {@spell teleport|phb} power is now reflexive for you. Furthermore, whenever the GM rolls on the Teleportation Result Table, they must treat any roll of 59 or lower as a 60."
+			]
+		},
+		{
+			"name": "Toughness Kinetic Talent",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"entries": [
+				"Some superheroes aren’t necessarily super strong or fast, but they can withstand attacks and soak damage beyond the limits of anyone else. If you select toughness as your Kinetic talent at 1st level, you gain the following features.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Toughness Kinetic Talent Power|Kinetic|S5EKinetic|KinTough|S5EKinetic|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Durable|Kinetic|S5EKinetic|KinTough|S5EKinetic|1"
+				}
+			]
+		},
+		{
+			"name": "Toughness Kinetic Talent Powers",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Toughness Kinetics know the following powers, which do not count toward their total number of powers known."
+			],
+			"Type": "table",
+			"caption": "Toughness Kinetic Talent Powers",
+			"colLabels": [
+				"Kinetic Level",
+				"Powers"
+			],
+			"rows": [
+				[
+				"1st",
+				"3rd",
+				"5th",
+				"7th",
+				"9th"
+				],
+				[
+				"{@spell false life|phb}",
+				"{@spell second wind|s5e}",
+				"{@spell rage|s5e}",
+				"{@spell Stoneskin|phb}",
+				"{@spell indomitability|s5e}"
+				]
+			]
+		},
+		{
+			"name": "Durable",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level when you select this Kinetic Talent, your Hit Dice for your Kinetic levels becomes a d12. Thus, you calculate your HP for Kinetic levels as follows:",
+				{
+					"type": "list",
+					"items": [
+				
+				"{@bold • Hit Points at 1st Level}: 22 + your Constitution modifier",
+				"{@bold • Hit Points at Higher Levels}: 1d12 (or 7) + your Constitution modifier per Kinetic level after 1st."
+				]
+				}
+			]
+		},
+		{
+			"name": "Take A Hit",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you reach 6th level, you can use the {@spell turn the blade|s5e} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
+			]
+		},
+		{
+			"name": "Soak Damage",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you know the {@spell protection from energy|phb} power if you do not already. This power does not count against your total number of powers known. You can use the protection from energy power as a reaction when you take any acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage."
+			]
+		},
+		{
+			"name": "Ignore Damage ('I Can Do This All Day')",
+			"source": "S5E",
+			"page": 30,
+			"className": "Kinetic",
+			"classSource": "S5EKinetic",
+			"subclassShortName": "KinTough",
+			"subclassSource": "S5EKinetic",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, you can ignore damage that would kill anyone else. When you take damage that would drop you to zero HP, you can use your Reaction to drop to 1 hit point instead. You can do this even when the amount of damage would be enough to kill you outright. You can do this once each round."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Agility Kinetic Talent",
+			"shortName": "KinAgility",
+			"source": "S5EKinetic",
+			"page": 28,
+			"subclassFeatures": [
+				"Agility Kinetic Talent Powers|Kinetic|S5EKinetic|KinAgility|S5EKinetic|1",
+				"Skirmisher|Kinetic|S5EKinetic|KinAgility|S5EKinetic|1",
+				"Parkour|Kinetic|S5EKinetic|KinAgility|S5EKinetic|6",
+				"Total Freedom|Kinetic|S5EKinetic|KinAgility|S5EKinetic|15",
+				"Ultimate Agility|Kinetic|S5EKinetic|KinAgility|S5EKinetic|20"
+			],
+			"className": "Kinetic",
+			"classSource": "S5EKinetic"
+		},
+		{
+			"name": "Speed Kinetic Talent",
+			"shortName": "KinSpeed",
+			"source": "S5EKinetic",
+			"page": 29,
+			"subclassFeatures": [
+				"Speed Kinetic Talent Powers|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|1",
+				"Fleet Footed|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|1",
+				"Blazing Fast|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|6",
+				"Permanent Speed|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|15",
+				"Impossible Velocity|Kinetic|S5EKinetic|KinSpeed|S5EKinetic|20"
+			],
+			"className": "Kinetic",
+			"classSource": "S5EKinetic"
+		},
+		{
+			"name": "Strength Kinetic Talent",
+			"shortName": "KinStr",
+			"source": "S5EKinetic",
+			"page": 29,
+			"subclassFeatures": [
+				"Strength Kinetic Talent Power|Kinetic|S5EKinetic|KinStr|S5EKinetic|1",
+				"Destructive|Kinetic|S5EKinetic|KinStr|S5EKinetic|1",
+				"Heavy Lifting|Kinetic|S5EKinetic|KinStr|S5EKinetic|6",
+				"Unstoppable Force|Kinetic|S5EKinetic|KinStr|S5EKinetic|15",
+				"Avatar of Might|Kinetic|S5EKinetic|KinStr|S5EKinetic|20"
+			],
+			"className": "Kinetic",
+			"classSource": "S5EKinetic"
+		},
+		{
+			"name": "Teleportating Kinetic Talent",
+			"shortName": "KinPorting",
+			"source": "S5EKinetic",
+			"page": 30,
+			"subclassFeatures": [
+				"Teleportating Kinetic Talent Powers|Kinetic|S5EKinetic|KinPorting|S5EKinetic|1",
+				"Micro-Teleportation|Kinetic|S5EKinetic|KinPorting|S5EKinetic|1",
+				"Triple Jump|Kinetic|S5EKinetic|KinPorting|S5EKinetic|6",
+				"Superior Teleporting|Kinetic|S5EKinetic|KinPorting|S5EKinetic|15",
+				"Teleportation Master|Kinetic|S5EKinetic|KinPorting|S5EKinetic|20"
+			],
+			"className": "Kinetic",
+			"classSource": "S5EKinetic"
+		},
+		{
+			"name": "Toughness Kinetic Talent",
+			"shortName": "KinTough",
+			"source": "S5EKinetic",
+			"page": 30,
+			"subclassFeatures": [
+				"Toughness Kinetic Talent Powers|Kinetic|S5EKinetic|KinTough|S5EKinetic|1",
+				"Durable|Kinetic|S5EKinetic|KinTough|S5EKinetic|1",
+				"Take A Hit|Kinetic|S5EKinetic|KinTough|S5EKinetic|6",
+				"Soak Damage|Kinetic|S5EKinetic|KinTough|S5EKinetic|15",
+				"Ignore Damage ('I Can Do This All Day')|Kinetic|S5EKinetic|KinTough|S5EKinetic|20"
+			],
+			"className": "Kinetic",
+			"classSource": "S5EKinetic"
+		}
+	]
+}

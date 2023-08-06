@@ -1,0 +1,3225 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Superheroic5E",
+				"abbreviation": "S5E",
+				"full": "S5E: Superheroic Roleplaying for 5th Edition",
+				"authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"color": "a4811f",
+				"convertedBy": ["VAD"],
+				"version": "2023.07.05",
+				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
+			}
+		],
+		"dateAdded": 20230805,
+		"dateLastModified": 20230805
+	},
+	"book": [
+		{
+			"name": "S5E: Superheroic Roleplaying for 5th Edition",
+			"id": "S5E",
+			"source": "Superheroic5E",
+			"author": "Gwendolyn Marshall",
+			"published":  "2022-06-22",
+			"group": "homebrew",
+			"coverUrl": "https://peginc.com/wp-content/uploads/2022/10/S5E_Superheroic_Roleplaying_Cover_900-1.jpg",
+			"contents": [
+				{
+					"name":"Cover Page & Credits"
+				},
+				{
+					"name": "Introduction"
+				},
+				{
+					"name": "Chapter 1: Making A Superhero",
+					"headers": [
+						"Session Zero",
+						"Step One: Choose Your Ancestry & Culture",
+						"Step Two: Pick Your Superheroic Class",
+						"Step Three: Select Your Superpowers",
+						"Step Four: Take a Background",
+						"Step Five: Determine Statistics",
+						"Step Six: Create Hooks"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Chapter 2: Ancestry & Culture",
+					"headers": [
+						"Ancestries",
+						"Cultures"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Chapter 3: Classes",
+					"headers": [
+						"Elementalist",
+						"Kinetic",
+						"Martial Expert",
+						"Mastermind",
+						"Mentalist",
+						"Metamorph",
+						"Mystic",
+						"Special Agent",
+						"Tech",
+						"Vitalist"
+				],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 3
+				}
+				},
+				{
+					"name": "Background & Personality",
+					"headers":[
+						"Backgrounds",
+						"Feats"
+				],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 4
+				}
+				},
+				{
+					"name": "Equipment",
+					"headers":[
+						"Armor",
+						"Weapons",
+						"Gear",
+						"Tools",
+						"Expenses",
+						"Modern Vehicles"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Leveling Up",
+					"headers":[
+						"Leveling Up",
+						"Multiclassing"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Rules",
+					"headers":[
+						"Using Ability Scores",
+						"Time",
+						"Movement",
+						"The Environment",
+						"Resting",
+						"The Order of Combat",
+						"Movement & Postion",
+						"Actions in Combat",
+						"Damage & Healing",
+						"Vehicular Combat"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Superpowers",
+					"headers":[
+						"What Is a power?",
+						"Using a Power",
+						"Superpower List",
+						"Powers A-Z"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Appendices",
+					"headers":[
+						"1. Conditions",
+						"2. Safety Tools",
+						"3. Superpowered Animal",
+						"4. Sidekick Rules",
+						"5. Optional Mechanics",
+						"6. Beast Stat Blocks"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "S5E",
+			"source": "Superheroic5E",
+			"data": [
+				{
+					"type":"section",
+					"name":"S5E: Superheroic Roleplaying for 5th Edition",
+					"page": 1,
+					"entries":[
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/Sb7g2mQ.jpg"
+							},
+							"credit":"",
+							"altText": "The cover of {@b S5E: Superheroic Roleplaying for 5th Edition}"
+						},
+						{
+								"type": "section",
+								"name": "Credits",
+								"entries": [
+									{
+										"type": "image",
+										"href": {
+											"type": "external",
+											"url": "https://i.imgur.com/Jpp9Dsw.png"
+										}
+									},
+									{
+										"name": "Written & Designed By:",
+										"entries": [
+											"Gwendolyn Marshall, Amy Marshall"
+										]
+									},
+									{
+										"name": "Editors:",
+										"entries": [
+											"Carol Darnell, Amy Marshall, Gwendolyn Marshall, Kevin Andrew Murphy"
+										]
+									},
+									{
+										"name": "Sensitivity Reader:",
+										"entries": [
+											"Pamela Punzalan"
+										]
+									},
+									{
+										"name": "Art Direction:",
+										"entries": [
+											"Aaron Acevedo, Alida Saxon"
+										]
+									},
+									{
+										"name": "Graphic Design & Layout:",
+										"entries": [
+											"Aaron Acevedo, Ben Acevedo, Thomas Shook"
+										]
+									},
+									{
+										"name": "Cover Art:",
+										"entries": [
+											"Sanford Greene"
+										]
+									},
+									{
+										"name": "Interior Art:",
+										"entries": [
+											"Aaron Acevedo, İbrahim Aydın, Rafael Badalyan. Addison Duke, DesaWarna Studio,Evan Evans, Bien Flores, Mauricio Caballero Peza, Jimbo Salgado."								
+										]
+									},
+									"© 2022 Sigil Entertainment, LLC. All rights reserved.",
+									"sigil-entertainment.com"
+								]
+							}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 1,
+					"entries": [
+						"{@bold Superheroic 5th Edition}, or {@bold S5E}, is a complete superhero system built on the fifth edition of the world's most popular roleplaying game. With S5E, you can create your favorite heroes from comic books, films, video games, and TV, as well as an endless number of original supers ready to take to the streets and beyond.",
+						{
+							"type": "section",
+							"name": "What is S5E?",
+							"page": 1,
+							"entries": [
+								"S5E is a {@bold tabletop roleplaying game}. Each of these words tells you something important. First, it is a {@bold tabletop} game, which means it is a game played by a group of people around a table (though that can be a virtual 'table' as well, over the internet). Card games like poker, and board games like chess, are also tabletop games.",
+								"Second, it involves {@bold roleplaying}. This means everyone, Game Master included, plays roles. Players play as fictional superheroes created out of their imaginations! The Game",
+								"Master, or GM, plays as the world and the other people in it, responding to the players' choices. Everyone roleplays, which means they get to decide who their character is, what they do, and how they react to things that happen in the game. Feel free to get into acting as much or as little as you enjoy. Some groups dress up and speak in character voices, exploring backstories and motivations like a committed theater troupe. Other groups focus on the game part of the roleplaying game, engaging more with the rules and exploring how to develop their characters mechanically.",
+								"And, of course, most groups do both to some extent.",
+								"Furthermore, it is a {@bold game}. Though roleplaying games are collective story-telling activities, they are also structured by rules. While a free-form improvisational storytelling experience can be rewarding and fun, S5E has rules that limit what can and cannot occur. To determine what happens in situations where there is conflict or risk, we roll a die to help randomize results. This way, everyone at the table can be surprised by what happens in our story, including the GM. It is not the GM's job to tell the players a story; on the contrary, it is everyone's job to play their roles in the game and find out what happens together. Indeed, it helps to think of the dice as another player contributing to the story, sometimes taking it in unexpected directions.",
+								"S5E is a roleplaying game in another sense as well.",
+								"Though it is structured by rules, you cannot really win or lose S5E, because the point of the game is for people to come together to have fun! This is and always should be the primary purpose of playing S5E, so that everyone involved enjoys themselves. This doesn't mean that the experience needs to be easy or always end in victory, mind you\u2014we enjoy stories of struggle and loss sometimes too, after all. We strongly recommend everyone playing together spend time before the first session discussing openly what kind of game you'd like to create together, and how dark or light, how grim or hopeful, you'd like your world to be. And just as importantly, players should discuss whether the presence of any particular content might ruin people's fun. It's a simple courtesy to your friends and fellow players to respect each other's wishes, so that everyone can enjoy themselves. That's the point of playing a game together, after all! Recommended safety tools in Appendix 2 can help with tables and participants deciding this together."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "What You Need to Play",
+							"page": 1,
+							"entries": [
+								"To start playing a game of S5E, you need a few things.",
+								"First, S5E is a game played with friends, so you'll need at least two people, though games can have upwards to six or even ten players. The more the merrier, but recognize that as the number of players increase, so do the heroes sharing the spotlight in your collective tale.",
+								"One of these players takes the role of the Game Master, or GM. Whereas the other players take on the roles of a single hero, the GM plays the world around the heroes, including the supporting cast of characters, known as nonplayer characters, or NPCs, as well as the villains whom the heroes must face. The GM also handles the environment and helps decide rules questions, though those can be discussed and decided among the group as well.",
+								"You also need dice. The most important die in S5E is the icosahedron, or twenty-sided die; you use it for almost everything. Ideally, each player has one available. You also need a few four-sided, six-sided, eight-sided, ten-sided, and twelve-sided dice, for rolling damage and other things.",
+								"Beyond that, you need character sheets for each player, pencils, and a table to gather around. These can also be digital, of course, and your play space can be a virtual tabletop. Lastly, you need this book!",
+								"The GM may wish to have a GM screen, to conceal their notes and, perhaps, their rolls as well. This can increase suspense, but it isn't necessary. Indeed, some",
+								"GMs prefer to roll the dice in view of their players, to share the anticipation. GMs may also want a pre-written adventure. Most GMs prefer to tailor their adventures to suit their players and their characters, so the GM likely needs notes as well.",
+								"Some game groups like to use nothing but their imaginations and words to tell the story of what their heroes do and how the epic battlefield is laid out\u2014this is called using 'the theater of the mind.' Other groups prefer to use maps and miniatures to represent their heroes and the area around them. If your group prefers maps and minis, you'll need some of those as well. S5E can be played either way, however, and rules for using both methods can be found in Chapter Seven: Rules, below."
+							]						
+						},
+						{
+							"type": "entries",
+							"name": "How to Use This Book",
+							"page": 1,
+							"entries": [
+								"The first chapter provides a step-by-step guide to character creation. In creating a character, players must consult Chapter One: Making a Superhero, when building a superhero that they would like to be. After that, most players must also consult Chapter Eight: Superpowers, to select which superpowers their heroes have.",
+								"There are hundreds of powers, which might initially overwhelm new players at first glance. Don't fret! The powers are broken down by superheroic class and level, so there are a manageable number available for a player to choose at any given level, or when making a new hero.",
+								"After character creation, there are several sections of the book you may find yourself referring to regularly, so they deserve special mention here. If you are a player, you should make note of the pages with their superheroic class described, because it grants them special features and determines how many powers you know. Second, you might record the pages in Chapter Eight, where their powers are listed.",
+								"If a group wishes to get to playing as quickly as possible, some prebuilt heroes are also available with the starter adventure (available separately).",
+								"If you are a GM, you should familiarize yourself with the basics of the rules, found in Chapter Seven: Rules. For more detailed guidance, please consult the Gamemaster's Guide, and foes and threats can be found in the Augmented Operator Registry (both sold separately)",
+								"Now, it's time to become a superhero!"
+							]
+						},
+						{
+							"type": "inset",
+							"page": 2,
+							"entries": [
+								"I sense things... And perceive again... Have I been revived? There was a darkness, all consuming, yet tortuous. A fog that was dreamless and painful. How has it come to be that I can again exert my will? I will need to gather strength."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name":"Chapter 1: Making A Superhero",
+					"page": 5,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/MqKj88y.png"
+							}
+						},
+						"It's time to make a superhero! Will your hero be able to channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
+						"The process of making a superhero follows a few simple steps.",
+						{
+							"type": "entries",
+							"name": "Making A Superhero",
+							"page": 5,
+							"entries": [
+								"0. Session Zero",
+								"1. Choose your ancestry and culture",
+								"2. Pick your superheroic class",
+								"3. Select your superpowers",
+								"4. Take a background",
+								"5. Determine your statistics",
+								"6. Create hooks"
+							]
+						},
+						{
+							"type": "section",
+							"name": "Session Zero",
+							"page": 5,
+							"entries": [
+							{
+								"type": "quote",
+								"entries":[
+									"<center>\"It’s time to become a hero!\"</center>"
+								]
+							},
+							{
+								"type": "entries",
+								"entries":[
+									"For your first session, sometimes called a {@bold session zero}, expect to make characters, as well as to decide what kind of superheroic tale you’d like to tell. There are many kinds of superheroes, and many kinds of superheroic adventures. Do you want to be gritty street vigilantes hunting down criminals? Or a young superteam protecting your city from a villain, with a heavy focus on personal drama and relationships? Or would you prefer to save the planet from an alien invasion, highlighting high flying, blockbuster action? What you do in S5E is up to you!"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level",
+								"page": 5,
+								"entries": [
+									"First, you must determine the level at which you will play. The levels run from 1-20, with levels 1-4, who are slightly more powerful than typical humans, with a few modest powers; they tend to patrol a single neighborhood, fighting crime. Heroes from levels 5-10 usually patrol a wider area, perhaps a large city, and face solo-supervillains and larger threats. Such heroes may be young superteams or up-and-coming heroes. Level 11-16 heroes, on the other hand, are powerful enough to fight global threats, like teams of supervillains trying to conquer whole countries, mega-corporations trying to dominate the world, or even alien invasions. And the most powerful heroes, those of levels 17-20, bear the heavy burden of protecting the galaxy, or even the universe, from cosmic threats of all kinds.",
+									"As you play, you can decide whether to progress in levels, or to remain at your chosen level. After all, though some comic book heroes grow and increase their powers, others start off as powerful heroes and remain that way. More information on leveling up and growing in power can be found in Chapter Six: Leveling Up."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Tone, Content & Consent",
+								"page": 5,
+								"entries": [
+									"Everyone should decide together on the tone of the story you'd like to tell, whether dark or hopeful. Some players want a wholesome tale of stalwart heroes straight out of silver age comics, fighting bad guys in an unambiguous moral universe. Other players want character-driven and conflicted heroes with moral uncertainty. Still others want to play a team of angsty teen heroes, working together for the first time. Yet others want to explore the dark side, playing amoral supers or even outright villains. Everyone playing together should be on the same page about the desired tone at the start of play, though of course it can shift and change over time.",
+									"When a group of friends get together to watch a movie or eat a meal, they check in with each other to find out what everyone would enjoy. Similarly, when playing a game of S5E, players should check in with each other to find out what kind of content they welcome and what they would rather avoid.",
+									"Roleplaying games can involve danger and death, romance and sex, horror, and hate\u2014the whole range of human emotion and experience. Just as some folks like horror movies and some don't, some players want death or sex or spiders or prejudice in their games and others won't. The point of S5E is to allow a group of friends to play a game and tell a story together that they all find fun and rewarding. If someone isn't finding the experience fulfilling or enjoyable, something has gone wrong.",
+									"Some content can be upsetting or annoying to players, so much so that it breaks them out of the imaginative experience or ruins their fun. For example, some players might want to avoid racism or sexual assault, whereas others might get so grossed out by body horror that they can't enjoy the game that session. Again, establishing what content folks do and don't want up front (and on an ongoing basis) helps to ensure that everyone has a good time--which is, after all, the point of sitting down to play a game together!",
+									"Please see Appendix 2 for information about safety tools, which can help with some of these issues. And for a more detailed guide to running a session zero, as well as using consent and safety tools, please see the Gamemaster's Guide."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Imagine Your Hero!",
+								"page": 6,
+								"entries": [
+									"Now, the fun part\u2014it's time to begin imagining your superhero! Some players imagine their powers first: 'I want to fly!' Others may think of their story: 'I want to protect the innocent.' This core concept will help guide the process of character creation. You can make a hero that resembles your favorite super from comics, film, and video games, but you can also make something entirely new. Be as creative as you like!",
+									"One way to begin is to form an idea of your hero as a person. Are they an adult? A teen? What gender are they? Where do they come from? Are they human, mutant, alien, robotic?",
+									"Imagine their powers and abilities. Do their powers focus on projecting energy, the elements, or some force of nature? Is their very body and its physical abilities their superpower? Do they use technology or magic? Do they have combat training?",
+									"If you are stuck at this phase and are struggling to come up with a concept, that's ok! You can still follow the guide below, choosing one aspect of your hero at a time."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Making Blaze: A Hero Creation Example",
+								"page": 6,
+								"entries": [
+									"Alicia sits down to make her first superhero for S5E. She talks to her fellow players, and they decide to make 5th level heroes, so they can be more epic than street-level vigilantes.",
+									"She also discusses tone, genre, and content with her fellow players. She wants to feel heroic and hopes to have a nice escape from all the bad news she reads, so she'd rather not have her game be too dark or heavy. She and her friends work out that they want to play a PG-13 rated game with lots of action and heroism, with true heroes and villains. They also decide that they want action like a blockbuster superhero movie, but they welcome the occasional mystery or spooky episode too.",
+									"They also discuss content and decide to stay away from graphic or sexual violence, especially against innocents, children, and so on. They agree that death is OK, if it isn't cheap. And they welcome romance, and body horror too; the whole group enjoys those kinds of movies!",
+									"Finally, Alicia imagines her hero: a woman flying, shooting fire, and taking down supervillains, all in the name of keeping her community safe. She even decides on a name: Blaze!"
+								]
+							}
+						]
+						},
+						{
+							"type": "section",
+							"name":"Step One: Choose Your Ancestry & Culture",
+							"page": 6,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"Who are you? Where do you come from?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 6,
+									"entries": [
+										"The first step in making your superhero is choosing your biological ancestry and cultural heritage. Your ancestry determines something about your genetic makeup, whether it be {@bold Human, Mutant, Mythic, Atlantean, Robotic, or Alien}. Your gain several inborn traits from your ancestry.",
+										"Your cultural heritage, in contrast, represents the society in which you were raised or created. Your culture provides you with knowledge, skills, and language--things you cannot inherit by birth but must be taught or learn. Options include {@bold Present-Day Earth, Future Earth, Ancient Earth, Mythic Realm, Atlantean, or Alien}.",
+										"Many superheroes are humans who grew up on presentday Earth. If that's you, choose the human ancestry and the present-day Earth culture. Many other heroes are mutants--humans with a distinct genetic trait that alters them in profound and unique ways. Most mutants grow up on present-day Earth as well, so they have the mutant ancestry and present-day Earth culture.",
+										"Other heroes have rarer ancestries. For example, you might be an alien, who grew up on a distant planet, with both alien ancestry and culture. Or perhaps you were born and raised at the bottom of the sea, and you have emerged from the depths to assist those who live on land; you have an Atlantean ancestry and culture.",
+										"Yet other heroes may not have been raised by people of the same ancestry. Perhaps your alien parents sent you to Earth as a baby? Choose the alien ancestry and human culture. Your hero could be a human taken and raised in space as a child, in which case you choose the human ancestry and alien culture.",
+										"The details of the available ancestries and cultures are found in Chapter Two."
+									]
+								},
+								{
+									"type": "inset",
+								"name": "Making Blaze: Choosing an Ancestry and Culture",
+								"page": 6,
+								"entries": [
+									"First, Alicia chooses Blaze's superheroic ancestry and culture. She had envisioned a human woman and the beginnings of her origin story involve Blaze as a pilot, so she chooses the human ancestry, present-day Earth culture. She records her ancestry and culture and the features they grant her on her character sheet."
+								]
+								}
+							]						
+						},
+						{
+							"type": "section",
+							"name":"Step Two: Pick Your Superheroic Class",
+							"page": 7,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"What kind of hero will you become?"
+									]
+								},
+								{
+									"type": "entries",
+									"page": 6,
+									"entries": [
+										"Every superhero has a superheroic class that defines the kinds of powers they have and how they use them. Your class provides you with your superpower list, from which you choose your powers, as well as special abilities that only members of your class receive.",
+										"It also determines your hit points (HP)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Classes",
+									"page": 7,
+									"entries": [
+										"You have ten options when selecting your superheroic class. Your options are summarized here, but each class is explained in detail in Chapter Three.",
+										"You can be an {@bold Elementalist}, who channels a classical element like fire, water, earth, or air, or who can manipulate a fundamental force of the universe, like electricity, time, gravity, light, or sound waves.",
+										"The {@bold Kinetics} channel their power through their own bodies, moving with incredible strength or speed. Some teleport, others fly, and still others perform impossible acrobatic feats, while a few can absorb a mind-boggling amount of damage.",
+										"Several heroes express their power and ability through the rigorous training as a {@bold Martial Expert}, honing their bodies into a deadly force. Some use their hands and feet, manifesting explosive power with a punch or kick. Others direct their deadly attacks with the help of a favored weapon, like a bow or pistol.",
+										"A few heroes are {@bold Masterminds}, employing incredibly powerful intellects to analyze their foes and predict threats, or calling Minions onto the field of battle to fight for them.",
+										"Some superheroes are {@bold Mentalists} using telekinesis to move objects with their minds, or telepathy to communicate with or read thoughts, or even to implant images and illusions in someone's consciousness.",
+										"The {@bold Metamorph} transforms their bodies in fantastic ways. Some can stretch their bodies in astonishing shapes while others can take on the appearance of other people with ease. Still other Metamorphs can become {@condition invisible}, or transmute their flesh into steel, and more. A few Metamorphs are even hosts bonded with a symbiote that grants them their powers.",
+										"The {@bold Mystics} on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few truck with the spirits, even with entities like Death itself.",
+										"And then there are {@bold Tech} heroes who are mighty not through strength but intellect. They are masterful engineers, wielding high-tech weapons, or constructing power armor or an array of gadgets, which grant them powers on par with any of the other heroes.",
+										"Another superpowered class is the {@bold Vitalist} someone with a special connection to the living world. Some Vitalists commune with animals, becoming one themselves, while others command plant life. Still others work on a more fundamental level, producing and manipulating poisons, disease, and rejuvenating or necrotizing forces directly.",
+										"Finally, you can opt to forego superpowers entirely and instead choose training, equipment, and the support of an organization behind you as a {@bold Special Agent} Despite what you might think, Special Agents can and do make as big a difference as superpowered heroes in the field."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/qFirkOt.png"
+									}
+								},
+								{
+									"type": "entries",
+									"name": "Level",
+									"page": 8,
+									"entries": [
+										"When making your superhero, start with a new, 1st level hero. If you and your group decide to begin play at a higher level, then you can follow the instructions in Chapter Six on leveling up your hero.",
+										"Your level also determines your {@bold proficiency bonus} which increases with your level. At 1st level, your bonus is +2. You add your proficiency bonus to many {@dice d20} rolls you make, especially power rolls and skill checks. You also add your proficiency bonus to your Armor Class (or AC) when not wearing armor. As you rise in levels, your proficiency bonus goes up; consult the level charts in Chapter Two for each class to see when that occurs."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/b3uCD9k.png"
+									}
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Choosing a Class",
+									"page": 8,
+									"entries": [
+										"Next, Alicia chooses Blaze's superheroic {@bold class}. She isn't using technology, and she wants to be amazing with fire, so she decides that Blaze is an Elementalist hero.",
+										"Having chosen her class, she records it and the features it grants her on her character sheet. She also makes a note of the number and kind of powers she gets to select for Blaze in the next step."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Three: Select Your Superpowers",
+							"page": 8,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"So, what can you do?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 6,
+									"entries": [
+										"Next, your class guidelines tell you how to pick your {@bold powers} and how many you can select. Consult your chosen superpower class to see how many powers are available to you. Further down, in Chapter Eight, you'll find the descriptions of the powers, which explain what each power lets you do."
+									]
+								},
+								{	
+									"type": "inset",
+									"name": "Making Blaze: Picking Powers",
+									"page": 8,
+									"entries": [
+										"Now Alicia turns to the powers chapter and looks over the 1st level powers for her class, as well as the powers on the General Powers list. She chooses two at will powers and 3 1st-level powers from the Elementalist and General Power lists, as her class chart indicates, and records them on her sheet. Once she's created Blaze at the 1st level, she'll level her up to 5th level, as her group agreed. For now, though, she moves on."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Four: Take A Background",
+							"page": 8,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"So, what can you do?"
+									]
+								},
+								{
+									"type": "entries",
+									"page": 8,
+									"entries": [
+										"Next, pick a background. Who were you before you became a superhero? Do you still live that life when you're not out being a hero? Pick one from the options in Chapter Four or use the Custom background option to come up with your own.",
+										"Your armor, weapons, and skill proficiencies, as well as starting equipment, are determined by your chosen background."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Background",
+									"page": 9,
+									"entries": [
+										"Blaze's powers chosen; Alicia turns to flesh out her character. She had an idea that Blaze had been a pilot, so she is happy to find Pilot as one of the backgrounds.",
+										"She records it on her sheet, along with the skills, proficiencies, and equipment it grants."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Five: Determine Statistics",
+							"page": 9,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"Ok, let’s talk numbers."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 9,
+									"entries": [
+										"Now that you have the concept of your hero, it is time to generate your scores and statistics for play."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ability Scores",
+									"page": 9,
+									"entries": [
+										"Once you've chosen your class and powers, you must also determine your {@bold ability scores}. You may spend 27 points to purchase your scores according to the Ability Score/Cost chart. Alternatively, you may roll {@dice 4d6} six times, dropping the lowest d6 with each roll, and then apply the sum of the remaining three dice to each of your abilities as you see fit."
+									]
+								},
+								{
+									"type": "table",
+									"page": 9,
+									"colLabels": [
+										"Ability Score",
+										"Cost"
+									],
+									"colStyles": [
+										"col-4 text-center bold",
+										"col-4 text-center"
+									],
+									"rows": [
+										[
+											"8",
+											"0"
+										],
+										[
+											"9",
+											"1"
+										],
+										[
+											"10",
+											"2"
+										],
+										[
+											"11",
+											"3"
+										],
+										[
+											"12",
+											"4"
+										],
+										[
+											"13",
+											"5"
+										],
+										[
+											"14",
+											"7"
+										],
+										[
+											"15",
+											"9"
+										],
+										[
+											"16",
+											"11"
+										],
+										[
+											"17",
+											"13"
+										],
+										[
+											"18",
+											"15"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"page": 9,
+									"entries": [
+										"If you are playing as a hero with a human culture, add +1 to each ability score. Otherwise, follow the instructions listed with your chosen culture to determine what bonuses you receive to your ability scores."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Armor Class",
+									"page": 9,
+									"entries": [
+										"Next, determine your Armor Class (AC). This is the number an enemy must roll to hit you with an attack. To calculate your AC when not wearing armor, use the following formula:",
+										"{@bold Unarmored AC} = 10 + Your Proficiency Bonus + Your Dexterity Bonus",
+										"If you are wearing armor or have natural armor, like the Alien's Hardened Skin, use the method to calculate your AC determined by that armor instead of the above formula.",
+										"Finally, decide if you want to purchase any additional {@bold equipment} from the options listed in Chapter Five."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hit Points",
+									"page": 9,
+									"entries": [
+										"Your superpowered class determines what Hit Dice you use, which, in turn, determines how many hit points you have. Hit points (HP) represent how much damage you can sustain before you fall {@condition unconscious}.",
+										"Each class lists a Hit Die, either {@dice d6}, {@dice d8}, {@dice d10}, or {@dice d12}. When you create your character at 1st level, use the following method to determine your HP:",
+										"{@bold HP} = 10 + the maximum number on your Hit Die + your Constitution modifier",
+										"At each subsequent level you add the average roll of that die, rounded up, plus your Constitution modifier, to your current hit point maximum. Alternatively, rather than using the average, you can roll the die instead."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Initiative Bonus",
+									"page": 9,
+									"entries": [
+										"Whenever you enter combat, your GM asks for initiative rolls. This determines who goes first and when everyone acts. Your initiative bonus is equal to your Dexterity modifier."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Team morale & Combos",
+									"page": 9,
+									"entries": [
+										"Finally, there is a shared stat called {@bold Team Morale}, which is a single score that applies to the whole group of PCs at the table. Team Morale begins at zero. Each time one of the heroes uses the {@action Help} action in combat, and whenever one of the players rolls a 20 on the {@dice d20} for an attack, ability check, or save, your shared Team Morale score goes up by 1. Once the Team Morale score equals the number of player characters at the table, they can decide together when to spend them to use a {@bold Team Combo}.",
+										"A Team Combo is a free action that all heroes take together, but the catch is this: you all must use this free action to come together *to combine your powers and abilities!* Each player must describe how they combine their attack or power with one or more other hero(es) into a combined or collaborative effect. Team Combos are a great opportunity for some narrative superheroics, and your GM knows to let these moments really shine. For now, though, the Team Morale stat begins at zero, so get ready to help your allies frequently!"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Calculating Scores",
+									"page": 10,
+									"entries": [
+										"After choosing her ancestry and culture, class, powers, and background, Alicia uses 27 points to buy her ability scores, making sure to give herself a high Charisma of 16, because that is the ability linked to her superpowers.",
+										"She wants to be quick and tough, but also clever, so she raises her Dexterity and Constitution to 14 and her Intelligence and Wisdom to 12. She doesn't have enough points to raise her Strength, though, so it only goes up to 11.",
+										"Because she is an Elementalist, her base HP is 10 + 10 + Constitution modifier, which means she has 22 HP. She is a 1st-level hero, too, so her Proficiency Bonus is +2, which, added to her Dexterity modifier of + 2, means her AC is 14. Finally, she records her Initiative Bonus +2. Hopefully she will go first more often than her foes!"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Step Six: Create Hooks",
+							"page": 10,
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Why are you a hero instead of a villain? And what, or who, makes your life more complicated?"
+									]
+								},
+								{
+									"type": "entries",
+									"page": 10,
+									"entries": [
+										"A hero is more than just their class, powers, and statistics; a hero is part of a story. What happened in your life to make you take up the mantle of hero? What motivates you to fight for others? Why not a villain, but a hero? The answer to these questions is called your cornerstone, and it defines your role in the story.",
+										"At times, heroes seem invulnerable. The hero of a good story, however, has weaknesses as well as strengths. Comic book heroes are no different; whether it is a glowing rock or a loved one, every hero has their weak point. This is your vulnerability.",
+										"Most of the time, your hero does not operate solo, but with a team. Hopefully, your hero finds strength and solace in their teammates, though inevitably tensions can arise as well. These connections and tensions can enrich roleplay and shape the story the players tell together.",
+										"These hooks should be an important part of your life and can serve as a way for the GM to interact with and motivate your character. Strictly speaking, you don't need to come up with hooks to start play. If you just want to slug it out with a supervillain in some super combat, then feel free to skip this step. If you want a more developed hero brimming with roleplay opportunities, however, then dive in!"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Heroic Transformation?",
+									"page": 10,
+									"entries": [
+										"You might want a hero who literally transforms to become their heroic self. If so, you may want to take the Heroic Transformation feat. Talk to your GM about starting the game with this feat. It doesn't give much in the way of mechanical advantage, so most GMs should be comfortable with a PC gaining this feat for free as a part of character creation. See Chapter Four for the feat's details."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Choosing A Cornerstone",
+									"page": 10,
+									"entries": [
+										"Think about why your hero has chosen to use these powers, or this tech, to become a hero, rather than, say, a villain. This foundation for your heroism is your cornerstone. This can be an abstract value or belief, like the desire to protect the innocent, or save the environment, or increase equality. Try to avoid being too general, however; 'being heroic' or 'fighting bad guys' might be too vague. You want something that makes you an individual, distinct from other heroes.",
+										"Ideally, your cornerstone is personal and specific. Perhaps you want to make your father proud or live up to the ideals passed down from your deceased uncle, or make the world safe for your children, or discover your own path in life, or learn the truth about your origin. Ultimately, a hero's cornerstone is their fundamental drive or motivation. Don't worry, you can change your cornerstone in the future, but, for now, pick one and write it down!",
+										{
+											"type": "entries",
+											"name": "Using Cornerstones",
+											"page": 10,
+											"entries": [
+												"Selecting a cornerstone is important for two reasons. First, it helps both you and your GM understand your hero. You'll know how your hero might react to various circumstances and your GM will know how to present the world to you in a way that appeals to your hero's motivations and values.",
+												"Second, describing your cornerstone matters mechanically as well, because acting from your cornerstone can grant you {@bold Inspiration}. Visit the section titled, \"Debriefs,\" to see this in action."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Describing A Vulnerability",
+									"page": 10,
+									"entries": [
+										"What is something about your hero that makes your life more complicated, unusual, or challenging? A good vulnerability tells a part of your story, but also allows GMs to interact with you in fun and surprising ways.",
+										"A common vulnerability is having a secret identity. Perhaps you have a family you don't want your villainous enemies to know about, so you try to keep your heroic life separate from your off duty one. Another good example is having a dependent. Maybe you are working to provide for your elderly aunt, or a child, and that commitment means you must make a living, or spend time with them, which can make unlimited superheroic action more difficult. Or maybe you have a unique weakness, like a certain mineral that robs you of your powers. Other possible vulnerabilities include having a stringent moral code, a demanding job, or a demonic parent. Indeed, you might even choose to have more than one. After all, a good vulnerability isn't necessarily a drawback or flaw, but an opportunity for interesting story-telling and robust character development.",
+										{
+											"type": "entries",
+											"name": "Limitations on Powers",
+											"page": 11,
+											"entries": [
+												"In comics, some heroes gain powers thanks to a magical or high tech artifact, but they aren't particularly magical or technologically focused heroes. You can choose to be an Elementalist or Kinetic hero who gains their powers from an artifact or device without any issue, but you might also decide that this dependence is a vulnerability for you. Perhaps you only gain your powers if you have your weapon in your hand, leaving you vulnerable without it, for example. If you wish to have a vulnerability like this, work with your GM. You may also wish to take the free Heroic Transformation feat, found in Chapter Four."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Money and Equipment",
+											"page": 11,
+											"entries": [
+												"In S5E, each hero is assumed to have modest housing and possessions, like an old laptop and cell phone, worn clothes, and perhaps a part-time job, financial aid, or parental support. You might also have a bike or older car. Heroes with the weapons origin also possess several high-quality weapons.",
+												"If you wish, you can choose a vulnerability related to housing, money, or work. For example, you could choose to be homeless, or poor, or working two jobs, which of course could result in complications for your heroic activities."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wealth",
+											"page": 11,
+											"entries": [
+												"Alternatively, you might like your hero to be wealthy. Being affluent enough not to have to work full time requires no special character adjustment. If you want your hero to have vast wealth or specialized military equipment, however, speak with your GM about exchanging it for another character feature. For example, you could exchange a feature from your ancestry or culture for wealth, or you could lower the total number of powers you know by 1 to have access to a piece of military grade weaponry."
+											]
+										},
+										{
+											"type":"inset",
+											"name": "Gear, Weapons, and Equipment",
+											"page": 11,
+											"entries": [
+												"If you like, you can play S5E without worrying about money or specific gear. For those groups that would like to keep closer track of such things, or who wish to create characters with a lot of weapons and gear, consult your Background to find out how much money you begin with and then buy your gear from the gear lists in Chapter Five: Equipment. If you opt to select specific gear, add it to your character sheet."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Connections & tensions",
+									"page": 11,
+									"entries": [
+										"For the final step of hero creation, speak with your fellow players and learn about their heroes too. Form connections or tensions between your hero and each of your fellow team members. These connections and tensions capture a significant event or personality quirk that involved the two of you that shapes your interpersonal relationship.",
+										"Connections are events that brought you closer; tensions are those that pushed you apart or that serve as an obstacle to building trust or friendship. When you create your connection or tension, determine how your hero feels about the other hero. Are they friends? Rivals? Frenemies? Lovers? Could they be siblings or classmates? Perhaps they have a teacher-student or heroand-sidekick kind of relationship. Maybe they barely know each other, so the relationship is based on distrust or curiosity at this point.",
+										"Next, work with the other player to come up with an event that shapes your relationship. You've decided that your hero trusts another hero; why? What happened to earn that trust? Or maybe you are afraid of another hero; what did they do in the past to cause that fear?",
+										"When you make a connection or tension with another hero, you and the other player can use the same shared event to form each of your connections with the other, or you can each come up with distinct ones of your own. Both players should agree about the nature of these relationships, but the two characters need not feel the same way about the other. For example, imagine if a young hero looks up to an established hero, but the established hero is uncomfortable being put on a pedestal. Thus, the young hero has a connection with the established hero, but the established hero has a tension with the young hero. Record your connections and tensions on your sheet.",
+										{
+											"type": "entries",
+											"name": "Examples Connections",
+											"page": 11,
+											"entries": [
+												"When I was grieving after my father died, Blaze sought me out to check on me. Now she is the person I go to when I need a strong shoulder to lean on.",
+												"When we were in trouble, Runewarden risked her life to save the team. They are the person I trust most to make the difficult decisions.",
+												"When I was going to flunk my computer science class, Gear Head tutored me until I got a good grade\u2014at least, when he remembered our meeting times. I trust him with my computer, but not my car keys.",
+												"I ended up spending a night on a stakeout with Velocity and had a blast telling jokes and talking about our favorite movies, but by the end of the evening I was exhausted. Now she's who I go to when I want to relax, but only in small doses."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Examples Tensions",
+											"page": 11,
+											"entries": [
+												"I once asked Magus to explain the magical forces in the world, so he showed me with a mind link. It was so bizarre and frightening that I now feel a little uncomfortable around him, because he sees the world so differently than I do.",
+												"In our last battle, I watched Impact demolish a car with a single punch. To be honest, I am a little afraid of her, but I try to hide it.",
+												"I have a crush on Murmur but am afraid it will ruin things if I admit it, so I am awkward around them.",
+												"I know that Resonance once worked for the megacorp that's causing so much trouble, so I am not sure I can trust them with our plans."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Making Blaze: Determining Hooks",
+											"page": 12,
+											"entries": [
+												"Alicia thinks up some hooks, beginning with her cornerstone. Thinking of her own life, she imagines Blaze having a community that she is close to, so she picks \"protecting her community\" as her cornerstone. She also adds her large, extended family as a vulnerability, too, signaling to the GM that they might be a way to cause some trouble for Blaze in the future.",
+												"She shares her hero's story with her fellow players, and then they all discuss what kinds of connections and tensions they might have with each other. Now Blaze is ready to be a superhero!"
+											]											
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Debrief",
+									"page": 12,
+									"entries": [
+										"Cornerstones, connections, and tensions are designed to promote rich and fun roleplay between players as their characters navigate interesting relationship dynamics. To incentivize doing so, each session ends with a debrief. During the debrief, the GM and players discuss what happened at the session and how each of them played their heroes, addressing their cornerstones and any relevant connections, tensions, or vulnerabilities that arose that session.",
+										{
+											"type": "entries",
+											"name": "Beginning the Debrief",
+											"page": 12,
+											"entries": [
+												"At the end of each session, the GM and players can discuss what just happened. This can help players make sense of what occurred, and it allows people who contributed to the session to be recognized. Most of all, though, it is fun to revisit the highlights of a good game!",
+												"To begin, each player should state one high point from the session. What happened that you liked? What did one of your fellow players do that you enjoyed? What are you excited about for next session? Once you've shared your highlights, it is time to reward good roleplay!"
+											]
+										},
+										{
+											"type": "inset",
+											"name": "On Safety and Consent During the Debrief",
+											"page": 12,
+											"entries": [
+												"If there was anything that occurred that you did not enjoy, or anything you'd like to see less of going forward, now is also an excellent time to bring that up. Please note that, if one of your fellow players brings something up currently that they didn't like but that you do like, it is important to respect their preferences. Just as you wouldn't force a friend to eat food at a shared meal that they didn't like, you shouldn't force someone to endure part of a game they don't enjoy either. For more on safety and consent, see Appendix 2."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Playing From or Against Cornerstones",
+											"page": 12,
+											"entries": [
+												"To begin, the GM asks the table which other player acted most in line with their hero's cornerstone that session. The player or players who receive the most votes from everyone at the table receives a point of Inspiration, up to a maximum of three, to use next session.",
+												"Alternatively, players can also pick a player who played against their cornerstone that session, but in an interesting way that enhanced the session. After all, acting against one's cornerstone does not necessarily mean that the player did a poor job roleplaying! In some cases, heroes are forced to make a hard decision and choose to act contrary to their principles, or their conscience, or their commitments. This can make for incredibly rich roleplay and storytelling and is worth rewarding."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Activating Connections & Tensions",
+											"page": 12,
+											"entries": [
+												"Next, each player can state one thing that either reinforced one of their connections or that triggered one of their tensions. If they call out a *connection*, add 1 point to the {@bold Team Morale Pool} (see Chapter Seven: Rules, to learn about the team Morale Pool). If they call out a tension, they instead receive Inspiration. If a player activated neither a connection nor a tension that session, then nothing happens.",
+												"When a player calls out a connection or tension, they can also choose to resolve it and form a new one based on something that happened that session. If both players agree, then the player calling out that connection or tension can add 1 to the Team Morale Pool and gain Inspiration, rather than just do one or the other, as above."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dealing with a Vulnerability",
+											"page": 12,
+											"entries": [
+												"Finally, if the GM brought your hero's vulnerability to bear in a way that made your hero's life more difficult, the GM rewards you with Inspiration for next session as well. This should not occur every session, however, but only occasionally; GMs shouldn't be targeting the heroes' vulnerabilities constantly!"
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Blaze Debriefs",
+											"page": 13,
+											"entries": [
+												"At the end of an exciting session, the GM asks the table which hero acted in line with their cornerstone. The players agree that Blaze did since she was acting to protect her community. Alicia agrees; after all, she was trying to stop the villain from unleashing a weapon in her hometown, so she gains a point of Inspiration for next session.",
+												"Next, Alicia announces that Blaze has triggered a tension with Impact. When Impact smashed through that wall, Alicia reports, it startled Blaze and reminded her of how frighteningly powerful Impact is. For doing this, Blaze could earn a point of Inspiration. But when Impact later caught that falling school bus and saved those kids, Alicia comments, Blaze also saw how awesome Impact's strength can be. Alicia asks Impact's player if it is ok for her to resolve Blaze's tension with Impact and form a new connection, one where she appreciates how Impact will risk herself to protect the innocent. Impact's player agrees, so Blaze gets a point of Inspiration, and they add 1 to the Team Morale Pool for the next session. Way to go, team!"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Inspiration",
+									"page": 13,
+									"entries": [
+										"Some GMs reward players who roleplay their personalities, especially those who involve their cornerstones,vulnerabilities, connections, and tensions in roleplay.",
+										{
+											"type": "entries",
+											"name": "Gaining Inspiration",
+											"page": 13,
+											"entries": [
+												"Your GM can choose to give you a point of Inspiration for a variety of reasons. Typically, GMs award it when you play out your cornerstones, vulnerabilities, connections, and tensions. Your GM will tell you how you can earn Inspiration points in the game.",
+												"You can earn up to three points of Inspiration and you can carry them over to the next session."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Using and Sharing Inspiration",
+											"page": 13,
+											"entries": [
+												"If you have a point of Inspiration, you can expend it after you have made an attack roll, save, or ability check, but before the GM has accepted the result and begun to move on. Spending a point of Inspiration allows you to reroll the {@dice d20}, effectively giving yourself advantage on that roll.",
+												"Additionally, if you have a point of Inspiration, you can reward a point to another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up a point of your Inspiration to give that character a point of Inspiration to use."
+											]
+										},
+										{
+											"type": "quote",
+											"entries": [
+												"Congratulations! You’ve made a truly super hero!"
+											]
+										},
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://i.imgur.com/CBHZrxY.png"
+											}
+										}
+									]
+								}
+							]
+
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name":"Chapter 2: Ancestry & Culture",
+					"page": 15,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/FRgR5f8.png"
+							}
+						},
+						"Superheroes come in all shapes and sizes, hailing from small Earth towns or grand metropolises, from alien worlds or an alternate version of our own. They are humans, mutants, aliens, robots, and more.",
+						"You may choose one ancestry and one culture from the options below; record the traits it grants you on your character sheet.",
+						{
+							"type": "section",
+							"name": "Ancestries",
+							"page": 15,
+							"entries": [
+								"Your ancestry provides you with certain inborn traits, described in this section. Select one of the ancestries below for your superhero.",
+								"{@bold Age}. The age entry notes the age when a member of the ancestry is considered an adult, as well as the ancestry's expected lifespan.",
+								"{@bold Size}. Characters of most ancestries are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few ancestries are Small (1-4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons, as explained in \"Equipment.\"",
+								"{@bold Speed}. Your speed determines how far you can move when fighting (\"Combat\").",
+								{
+									"type": "entries",
+									"page": 15,
+									"name": "{@race Alien (Ancestry)|S5E}",
+									"entries": [
+										"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
+										"{@b {@i Age}}. Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal.",
+										"{@b {@i Size}}. Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small.",
+										"{@b {@i Speed}}. Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number.",
+										"{@b {@i Alien Physiology}}. You may look very different from humans in many ways and there are some traits that grant abilities humans lack. Choose two of the following traits, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
+										"{@b Broad-Spectrum Sight}. The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet.",
+										"{@b Climbing}. Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed.",
+										"{@b Extraterrestrial Mutation}. Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the {@feat Mutation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+										"{@b Fleet-Footed}. Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet.",
+										"{@b Flight}. You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+										"{@b Hardened Skin}. You have unusually resilient skin (or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, {@b your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2)}. You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC.",
+										"{@b Inorganic Physiology}. Your people followed a very different evolutionary path than humans. You have the {@feat Inorganic Physiology} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+										"{@b Keen Senses}. Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage.",
+										"{@b Natural Manifestation}. Your species evolved closely intertwined with nature. You have the {@feat Natural Manifestation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+										"{@b Natural Weapons}. Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@b 1d6 + your Strength modifier}, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stingerlike, the damage is piercing. If it is like ram's horns, the damage is bludgeoning.",
+										"{@b Resistance}. Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it.",
+										"{@b Toughness}. Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level.",
+										"{@b Toxin Resistance}. Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 15,
+									"name": "{@race Aquatic (Ancestry)}",
+									"entries": [
+										"Unbeknownst to most of the Earth, there are societies, some ancient and powerful, that have chosen to remain hidden at the bottom of the deep oceans. Millennia beneath the sea has granted your people the following traits.",
+										"{@b {@i Age}}. Aquatic people age more slowly than humans do, reaching maturity in about fifty years and living close to five hundred.",
+										"{@b {@i Size}}. Aquatic people are roughly human in size and shape, though they tend to have blue or green skin and small fins along their arms and legs. Your size is Medium.",
+										"{@b {@i Speed}}. Your base walking and swim speeds are 30 feet.",
+										"{@b {@i Amphibious}}. Your people were once land-dwellers but have long since evolved to reside underwater. You can breathe comfortably in both air and water.",
+										"{@b {@i Deep Sea Sight}}. Sunlight rarely reaches the depths of your aquatic cities, so your ancestry grants you {@sense darkvision}, allowing you to see in dark and dim conditions.",
+										"{@b {@i Resilience of the Depths}}. Your people have spent millennia at the bottom of the ocean. You can ignore the effects of water pressure due to depths and have resistance against cold damage."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 16,
+									"name": "{@race Human (Ancestry)|S5E}",
+									"entries": [
+										"Humans, or homo sapiens, are the predominant sentient species on Earth. They have the following traits.",
+										"{@b {@i Age}}. Humans reach adulthood in their late teens and usually live less than a century.",
+										"{@b {@i Size}}. Typical humans vary widely in height and build, from almost 5 feet to upwards to 7 feet tall. If you fall in that range, your size is Medium. Some humans are little people, with heights of 3 to 4 feet tall. If your height falls in this range, your size is Small.",
+										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
+										"{@b {@i Versatility}}. Earth has a variety of climates, as well as some limited experience with superheroes, mutants, and even, perhaps, aliens. Throughout, humans adapt surprisingly well, even taking to life in outer space if necessary. This diversity is a strength, granting you one skill proficiency of your choice."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 16,
+									"name": "{@race Mutant (Ancestry)|S5E}",
+									"entries": [
+										"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
+										"{@b {@i Age}}. Mutants age the same as non-mutant humans.",
+										"{@b {@i Size}}. Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small.",
+										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
+										"{@b {@i Mutation}}. Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
+										"Alternatively, your mutation changes your body; you gain the {@feat Alien Physiology} feature from the {@race Alien (Ancestry)|S5E}. Follow the instructions for the Alien Physiology feature there."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 16,
+									"name": "{@race Mythic (Ancestry)|S5E}",
+									"entries": [
+										"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto.",
+										"Descendants of such heroes have the following traits.",
+										"{@b {@i Age}}. Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years.",
+										"{@b {@i Size}}. Mythic characters are human is size.",
+										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
+										"{@b {@i Mythic Talent}}. Mythical humans hail from lineages of great and primordial power. You know the {@spell mighty focus|S5E} at will power and the {@spell heroism|PHB} 1st level power and can use it once, regaining the ability when you complete a long rest"
+									]
+								},
+								{
+									"type": "entries",
+									"page": 16,
+									"name": "{@race Robotic (Ancestry)|S5E}",
+									"entries": [
+										"Whether created on earth or by aliens among the stars, you are a synthetic being. Perhaps you are made of iron and powered by steam, or of high-tech polymers and running on a fusion engine. You may look roughly human or be obviously artificial. Either way, you are inorganic, don't have biological needs, and others around you are likely to be aware of that.",
+										"{@b {@i Age}}. Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear.",
+										"{@b {@i Size}}. Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium.",
+										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
+										"{@b {@i Inorganic}}. Your constructed nature grants you certain advantages over organic beings. You do not need to eat, drink, or breathe. You neither need sleep nor can be put to sleep by any means. You must spend four hours a night in low activity mode, however, which requires that you remain immobile but alert to gain the benefits of a long rest. You may still speak in this mode. You are immune to disease as well, though computer viruses could in principle affect you, based on your GM's discretion. Finally, you have resistance to poison damage, and advantage on saves against being {@condition poisoned}. Despite your inorganic nature, superpowered and mystical healing still mends you and first aid kits can patch holes and stop leaks, effectively working on you as well.",
+										"{@b {@i Robotic Resilience}}. You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Darkvision",
+							"entries": [
+								"Some creatures in super gaming worlds, especially those that dwell underground, have {@sense darkvision}. Within a specified range, usually 60 feet, a creature with {@sense darkvision} can see in darkness as if the darkness were {@quickref Vision and Light||2||dim light}, so areas of darkness are only {@quickref Vision and Light||2||lightly obscured} as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray."
+							]
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/CG1IDKJ.png"
+							}
+						},
+						{
+							"type": "section",
+							"name": "Cultures",
+							"page": 17,
+							"entries": [
+								{
+									"type": "image",
+									"page": 18,
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/Uh4pgSQ.png"
+									}
+								},
+								"Growing up in a particular society, you were taught certain practices and beliefs and may have gained special skills. Select one of the cultures in this section for your superhero.",
+								{
+									"type": "entries",
+									"page": 16,
+									"name": "{@background Alien (Culture)|S5E}",
+									"entries": [ 
+										"Growing up among the stars or in an alien civilization can provide someone with an almost limitless range of possible experiences.",
+										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
+										"{@b {@i Extraterrestrial Diversity}}. Alien cultures are so varied that you could have had an opportunity to learn virtually anything. You are proficient in one skill and with one tool of your choice.",
+										"{@b {@i Galactic Knowledge}}. Having lived in space and traveled the stars to come to Earth, you are likely familiar with other alien civilizations. You have advantage on Intelligence checks concerning extraterrestrials, their cultures, and their technologies.",
+										"{@b {@i Language}}. You speak one Earth language and one alien language of your choice."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 17,
+									"name": "{@background Ancient Earth (Culture)|S5E}",
+									"entries": [ 
+										"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
+										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
+										"{@b {@i Handy}}. You learned how to use tools to survive or make a living. You have proficiency in {@skill Survival} and with one set of {@item artisan's tools|PHB} of your choice.",
+										"{@b {@i Omnivore}}. The humans of the past lacked refrigeration and sanitation. Your digestive track, therefore, is much more resilient than that of a modern human. You have resistance to poison damage and have advantage on saves against the {@condition poisoned} condition as well.",
+										"{@b {@i Language}}. You speak one modern Earth language and one ancient or medieval language of your choice."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 19,
+									"name": "{@background Aquatic (Culture)|S5E}",
+									"entries": [ 
+										"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
+										"{@b {@i Aquatic Affinity}}. You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures.",
+										"{@b {@i Expert Swimmer}}. Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet.",
+										"{@b {@i Language}}. You speak one Earth surface language and one aquatic language."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 19,
+									"name": "{@background Future Earth (Culture)|S5E}",
+									"entries": [ 
+										"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
+										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
+										"{@b {@i Enhanced Immune System}}. Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease.",
+										"{@b {@i Tech Adept}}. You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology.",
+										"{@b {@i Language}}. You speak one modern Earth language and one futuristic language of your choice."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 19,
+									"name": "{@background Modern Earth (Culture)|S5E}",
+									"entries": [ 
+										"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
+										"{@b {@i Ability Score Increase}}. Your ability scores each increase by 1.",
+										"{@b {@i Familiarity}}. You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on.",
+										"{@b {@i Languages}}. You know two Earth languages of your choice.",
+										{
+											"type": "inset",
+											"page": 19,
+											"name": "Are You a VARIANT?",
+											"entries": [
+												"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own. Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits and choose a feat at character creation.",
+												{
+													"type": "list",
+													"items": [
+														"{@background Modern Earth (Culture) VARIANT|S5E}"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"page": 19,
+									"name": "{@background Mythic Realm (Culture)|S5E}",
+									"entries": [ 
+										"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
+										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
+										"{@b {@i Magical Exposure}}. Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions.",
+										"{@b {@i Mystical Acquaintance}}. Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism skill, and you roll with advantage when dealing with a being or phenomenon related to your realm.",
+										"{@b {@i Language}}. You speak one modern Earth language and one mystical language of your choice."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: Classes",
+					"page": 21,
+					"entries": [
+						{
+							"type": "image",
+							"page": 20,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/tf1XFNS.png"
+							}
+						},
+						"Some heroes shoot electricity from their hands. Others turn to steel and deflect bullets. Some conjure magical chains to bind their foes. And there are those who soar through the sky in armored suits.",
+						"Superheroes can vary vastly, with every hero being unique in their own way, but we can generally group them into ten classes of hero. These classes tell us something about not only what powers you have as a hero, but where your powers come from. Do your powers come from an inner reserve of elemental energy? Are they simply the way your body now works? Are they the product of a brilliant engineering mind? Or do you receive them as a boon from a mystical patron? The choice of superheroic class helps to answer these questions.",
+						"The ten choices of superheroic class are listed below.",
+						{
+							"type": "section",
+							"page": 21,
+							"name": "{@class Elementalist|S5E}",
+							"entries": [
+								"Elementalist superheroes possess an innate ability to manipulate, conjure forth, and even become an elemental or physical force. Some command the classical elements of earth, air, fire, or water; others manipulate the forces of physics, such as magnetism, gravity, electricity, or light. A few tap other basic forces of chemistry and physics, such as acid or sound waves, as well.",
+								{
+									"type": "entries",
+									"name": "Origin & Nature",
+									"page": 21,
+									"entries": [
+										"As an Elementalist superhero, you could gain your powers from a wide range of sources. You may be a mutant, or an alien, with the inborn ability to manipulate the elements. Perhaps they did not appear until puberty. Or perhaps your powers only manifested with menopause.",
+										"Other Elementalists gain their powers from another source. Perhaps you are the bearer of a powerful artifact, such as a ring, which has joined with you and granted you your power. Or maybe a supernatural being has endowed you with your abilities, so that you can serve as their avatar on Earth.",
+										"Whatever the source, your ability revolves around a particular element, and you tap its power as a part of your very being."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/dBWzGjU.png"
+									}
+								},
+								{
+									"type": "entries",
+									"name": "Creating an Elementalist",
+									"page": 21,
+									"entries": [
+										"The most important choice when making an Elementalistis your elemental manifestation. Your choices are {@bold acid, cold, darkness, earth, electricity, fire, gravity, light, magnetism, sound, time, water, or wind}. Your class features, below, refer to your Elemental Manifestation, which determines how your powers manifest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Features",
+									"page": 21,
+									"entries": [
+										"As an Elementalist superhero, you gain the following class features.",
+										{
+											"type": "entries",
+											"name": "Hit Points",
+											"entries": [
+												"{@bold Hit Dice}: {@dice 1d10} per level",
+												"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Elementalist level after 1st",
+												"{@bold Saving Throws}: Constitution and Charisma"
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Manifestation",
+									"entries":[
+										"You can tap into, channel, conjure, or manipulate raw elemental energy. Choose one element as your Elemental Manifestation: {@bold acid, cold, darkness, earth, electricity, fire, gravity, light, magnetism, sound, time, water, or wind}. Your choice of Elemental Manifestation determines which specific Elemental Effect you gain. Note that water and cold powers both can manifest ice, since it is frozen water; and darkness and time powers can both manifest necrotic energies as the corruption of shadow, as well as the entropy of time's passage.",
+										{
+											"type": "entries",
+											"name": "Elemental Damage & Effects",
+											"entries": [
+												"Each Elemental Manifestation is not only associated with a substance, but also with a damage type and an elemental effect. When a power or ability says to consult your Elemental Manifestation to determine the {@bold damage type} for a power like {@spell elemental strike|S5E} or {@spell elemental blast}, these are the tables you should reference.",
+												"The damage type associated with each element is listed below. You have resistance to the damage associated with your chosen Elemental Manifestation.",
+												"Earth and Wind Elementalists are resistant to bludgeoning* or slashing* damage from attacks and effects they can see, as they subconsciously harden their skin or create a buffer of air as the damage is about to strike. Attacks and effects from sources they cannot see do normal damage.",
+												"Furthermore, some powers or abilities say to consult your Elemental Manifestation to determine an {@bold additional effect} that may apply to a target of a power. Consult the \"Elemental Effects\" table to determine the correct effect. If an elemental effect calls for a saving throw, use your power save DC.",
+												{
+													"type": "table",
+													"colLabels": [
+														"Elemental Manifestation",
+														"Damage Type",
+														"Additional Effect"
+													],
+													"colStyles": [
+														"col-2 text-center",
+														"col-2 text-center",
+														"col-8 text-left"
+													],
+													"rows": [
+														[
+															"Acid",
+															"Acid",
+															"Target takes an additional {@dice 1d4} acid at the end of its turn. This damage increases to {@dice 2d4} when you reach 14th level."
+														],
+														[
+															"Cold",
+															"Cold",
+															"Target’s speed is reduced by 10 feet until the start of your next turn."
+														],
+														[
+															"Darkness",
+															"Necrotic",
+															"Target makes a CON save or be blinded until the beginning of your next turn."
+														],
+														[
+															"Earth",
+															"Bludgeoning*",
+															"Target makes a STR save or be knocked prone."
+														],
+														[
+															"Electricity",
+															"Lightning",
+															"Attack has advantage if target is wearing or made of metal."
+														],
+														[
+															"Fire",
+															"Fire",
+															"Ignites flammable objects in the area that aren’t being worn or carried."
+														],
+														[
+															"Gravity",
+															"Force",
+															"Target’s movement is reduced by 10 feet until the end of your next turn."
+														],
+														[
+															"Light",
+															"Radiant",
+															"Target makes a CON save or be blinded until the beginning of your next turn."
+														],
+														[
+															"Magnetism",
+															"Force",
+															"Attack has advantage if target is wearing or made of metal."
+														],
+														[
+															"Sound",
+															"Thunder",
+															"Target is deafened until the end of your next turn."
+														],
+														[
+															"Time",
+															"Necrotic",
+															"Target’s initiative lowers by 2 for the rest of the combat."
+														],
+														[
+															"Water",
+															"Cold",
+															"Target’s speed is reduced by 10 feet until the start of your next turn."
+														],
+														[
+															"Wind",
+															"Slashing*",
+															"Target is pushed back 5 feet."
+														]
+													]
+												}
+											]    
+										},
+										{
+											"type": "entries",
+											"name": "At Will Powers",
+											"entries": [
+												"At 1st level, you know two at will powers from the elemental power list or the general power list. You learn additional at will powers at higher levels, as shown in the at will powers column of the elemental table."
+											] 
+										},
+										{
+											"type": "entries",
+											"name": "Powers Known of 1st Level and Higher",
+											"entries": [
+												"You know four 1st level powers from the General Power List and the specific Elementalist power list associated with your Elemental Manifestation. For example, if you choose fire as your Elemental Manifestation, then you would use the Elemental Fire and General Power Lists when selecting your powers.",
+												"The Leveled Powers Known column of the Elementalist table shows when you learn more powers of your choice. Each of these powers must be of a level for which you have slots.",
+												"For example, when you reach 3rd level in this class, you can learn one new power of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the powers you know and replace it with another power from the Elementalist or General lists, which also must be of a level for which you have slots, bringing the total number of powers you know to five."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Leveled Power Slots",
+											"entries": [
+												"The Elementalist table shows how many power slots you have available at each level. To use one of these powers, you must expend a slot of the power's level or higher. You regain all expended 1st through 8th level slots when you finish a short or long rest. You regain any expended 9th level power slots when you complete a long rest.",
+												"For example, if you know the 1st level power {@spell burning hands} and have a 1st level and a 2nd level slot available, you can use burning hands with either slot.",
+												"Once you reach certain levels, you gain the ability to use powers at certain levels reflexively. Once you do so, you no longer require slots at those levels and can use powers at those levels at will, as if you had an endless number of slots available."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Power Ability",
+											"entries": [
+												"Charisma is your power ability for your superpowers, since the strength of your powers relies on the willpower you need to focus and withstand the sheer force of the elements at your command. You use your Charisma whenever a power refers to your power ability. In addition, you use your Charisma modifier when setting the save DC for a power you use and when making an attack roll with one.",
+												"{@bold Power save DC} = 8 + your proficiency bonus + your Charisma modifier",
+												"{@bold Power attack modifier} = your proficiency bonus + your Charisma modifier"
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Font of the Elements",
+									"page": 24,
+									"entries":[
+										"At 2nd level, you tap into a deep wellspring of power within yourself. This wellspring is represented by elemental points, which allow you to create a variety of magical effects.",
+										{
+											"type": "entries",
+											"name": "Element Points",
+											"entries": [
+												"You have 2 element points, and you gain more as you reach higher levels (as shown in the Element Points column ofthe Elementalisttable). You cannever have moreelement points thanshown on the table for your level. {@underline You regain all spent element points when you finish a long rest}."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Metapower",
+									"page": 24,
+									"entries":[
+										"Once you have the Font of the Elements feature, you can use your element points to twist your power to suit your needs. You gain two of {@filter Metapower|optionalfeatures|Feature Type=MM} options of your choice.You gain another at 9th and 18th level.You can use only one Metapoweroption on a power when you use it, unless otherwise noted.",
+										{
+											"type":"entries",
+											"name": "Distant Power",
+											"entries":[
+												"When you use a power that has a range of 5 feet or greater, you can spend 1 element point to double the range of the power.",
+												"When you use a power that has a range of touch, you can spend 1 element point to make the range of the power 30 feet."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Enhanced Power",
+											"entries":[
+												"When you roll damage for a power, you can spend 1 element point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must, however, keep the new rolls.",
+												"You can use Enhanced Power even if you have already used a different Metapower option during the use of the power."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Extended Power",
+											"entries":[
+												"When you use a power that has a duration of 1 minute or longer, you can spend 1 element point to double its duration, to a maximum duration of 24 hours."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Focused Power",
+											"entries":[
+												"When you use a power that requires you to make an attack roll, you can spend 3 element points to give yourself advantage on the roll"
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Heightened Power",
+											"entries":[
+												"When you use a power that forces a creature to make a save to resist its effects, you can spend 3 element points to give one target of the power disadvantage on its first save made against the power."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Quickened Power",
+											"entries":[
+												"When you use a power that has a use time of 1 action, you can spend 2 element points to change the use time to 1 bonus action for this use."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Transmute Power",
+											"entries":[
+												"When you use a power that deals damage, you can spend a number of element points equal to the power's level to change the damage type to bludgeoning, force, piercing, or slashing as you fashion your elemental energies into various shapes and forms."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Twinned Power",
+											"entries":[
+												"When you use a power that targets only one creature and doesn't have a range of self, you can spend a number of element points equal to the power's level to target a second creature in range with the same power (1 element point if the spell is an at will power).",
+												"To be eligible, a power must be incapable of targeting more than one creature at the power's current level. For example, {@spell force missile|S5E} and {@spell scorching ray} aren't eligible, but {@spell ray of frost} is."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Accuracy",
+									"page": 25,
+									"entries":[
+										"Beginning at 3rd level, you can create pockets of relative safety within the effects of your elemental powers. When you use an elemental power that affects other visible creatures, you can choose a number of them equal to 1 + the power's level. The chosen creatures automatically succeed on their saves against the power, and they take no damage if they would normally take half damage on a successful save."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Reflexive Powers",
+									"page": 25,
+									"entries":[
+										"Your inner reserve of superpowered energy has grown and your ability to tap it has improved. Now you can use some of your lesser superpowers without exhausting yourself, doing previously difficult and amazing things effortlessly.",
+										"Starting at 3rd level, 1st-level power use is now reflexive for you. This means that you have a limitless supply of 1st-level slots. If you wish to use abilities at higher level, however, you must expend a higher-level slot as normal.",
+										"As your heroes level up, the levels at which they can use their powers reflexively also increases. At 7th level, for example, 2nd-level power use is reflexive as well as 1st-level.",
+										"Consult the chart above to see when heroes gain the ability to use higher-level powers reflexively.",
+										{
+											"type": "inset",
+											"name": "Reflexive Powers: An Example",
+											"entries": [
+												"Say Omara is a fire Elementalist hero who knows the {@spell burning hands} power. When she becomes a 3rd-level character, she can use burning hands at the 1st level reflexively, as often as she likes. If she wishes to use burning hands at the 2nd level, however, she must expend a 2nd-level or higher power slot to do so. At 7th level, Omara could use her burning hands power as a 1st-level or a 2nd-level reflexive power, as often as she likes. If she wishes to use the burning hands or {@spell scorching ray} powers at the 3rd level, however, she must expend a slot of 3rd level or higher."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Ward",
+									"page": 25,
+									"entries":[
+										"At 5th level, you naturally defend yourself with your elemental energy. When you are hit by a visible melee attack, you deal damage of your Elemental Manifestation to the target. The damage equals your proficiency bonus."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Immunity",
+									"page": 25,
+									"entries":[
+										"At 6th level, your connection to your chosen element grows. You are now immune to the damage type associated with your Elemental Manifestation.",
+                						"Earth and Wind Elementalists are immune to bludgeoning or slashing damage caused by superpowers, but only resistant to bludgeoning or slashing damage from mundane weapon attacks or from falling."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Empowered Element",
+									"page": 25,
+									"entries":[
+										"Starting at 10th level, your elemental powers do even more damage. You can add your Charisma modifier to any damage roll of a power associated with your Elemental Manifestation."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Sustenance",
+									"page": 25,
+									"entries":[
+										"At 13th level, whenever you are subject to an attack or area effect that deals the damage type associated with your Elemental Manifestation, you gain temporary HP equal to the amount of damage dealt, up to a maximum of your Elementalist level.",
+                						"Earth and Wind Elementalists only gain temporary HP from bludgeoning or slashing damage caused by superpowers, though they are now immune to such damage from mundane sources like weapon attacks or falling."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Overchannel",
+									"page": 25,
+									"entries":[
+										"Starting at 15th level, you can increase the potency of your elemental powers. When you use a power of 1st through 5th level that deals damage of a type related to your Elemental Manifestation, you can deal maximum damage with it.",
+                						"The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a short or long rest, you take {@damage 2d12} necrotic damage for each level of the power, immediately after you use it. Each time you use this feature again before finishing a long rest, the necrotic damage per power level increases by {@dice 1d12}. This damage ignores resistance and immunity."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Elemental Mastery",
+									"page": 25,
+									"entries":[
+										"When you reach 20th level, you achieve unparalleled mastery over your chosen element. You can now maintain two powers that require {@status concentration} of levels 1-5 from the Elemental power list at the same time. If an effect ever triggers a {@status concentration} check, you roll separately for each {@status concentration} power you are maintaining."
+									]
+								}								
+							]
+						},
+						{
+							"type": "section",
+							"page": 26,
+							"name": "{@class Kinetic|S5E}",
+							"entries": [
+								"Kinetic superheroes display their powers physically, through feats of strength, speed, toughness, or mobility. These heroes can take a hit better than anyone else, and they can usually deal more damage with their bare hands than other heroes as well. Even those who focus on speed and agility are astonishingly resilient.",
+								{
+									"type":"entries",
+									"name": "Origin & Nature",
+									"page": 26,
+									"entries":[
+										"Kinetic superheroes tend to get their powers either from their own genetics or from experimentation on their bodies which has transformed them somehow. You may appear as a typical human when you are not demonstrating your abilities, though it is also likely that you cannot hide your remarkable powers."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/xKW1jBY.png"
+									}
+								},
+								{
+									"type":"entries",
+									"name": "Creating a Kinetic",
+									"page": 26,
+									"entries":[
+										"Each Kinetic has their own talent which expresses the way their powers most commonly or impressively manifest. When making a Kinetic hero, choose a Kinetic talent: {@b strength, speed, toughness, teleporting, or agility}. Your choice of talent determines what some of your superpowers will be, as well as grants you special benefits in certain circumstances."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Features",
+									"page": 26,
+									"entries": [
+										"As an Kinetic superhero, you gain the following class features.",
+										{
+											"type": "entries",
+											"name": "Hit Points",
+											"entries": [
+												"{@bold Hit Dice}: {@dice 1d10} per level",
+												"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Kinetic level after 1st",
+												"{@bold Saving Throws}: Strength and Dexterity"
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Kinetic Power",
+									"page": 26,
+									"entries":[
+										"You can move and control your body in explosive and remarkable ways.",
+										{
+											"type":"entries",
+											"name": "At Will Powers",
+											"entries":[
+												"At 1st level, you know two at will powers from the Kinetic power list or the General power list. You learn additional at will powers at higher levels, as shown in the at will powers column of the Kinetic table."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Powers Known of 1st Level and Higher",
+											"entries":[
+												"You know three 1st level powers from the Kinetic or General power lists.",
+												"The Leveled Powers Known column of the Kinetic table shows when you learn more powers of your choice. Each of these powers must be of a level for which you have slots."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Leveled Power Slots",
+											"entries":[
+												"The Kinetic table shows how many power slots you have available at each level. To use one of these powers, you must expend a slot of the power's level or higher. You regain all expended 1st through 8th level slots when you finish a short or long rest. You regain any expended 9th level power slots when you complete a long rest.",
+												"Once you reach certain levels, you gain the ability to use powers at certain levels reflexively. Once you do so, you no longer have slots at those levels and can use powers at those levels at will, as if you had an endless number of slots available."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Power Ability",
+											"entries":[
+												"Your power ability depends upon which Kinetic Talent (listed in the next section) you choose. If you choose Strength or Toughness, then Strength is your power ability for your superpowers. If you choose Speed, Teleporting, or Agility for your Kinetic Talent, then Dexterity is your power ability for your superpowers.",
+												"{@b Power save DC =} 8 + your proficiency bonus + your power ability modifier",
+												"{@b Power attack modifier =} your proficiency bonus + your power ability modifier"
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Kinetic Talent",
+									"page": 27,
+									"entries": [
+										"Choose a Kinetic talent that expresses how your Kinetic powers primarily manifest: {@b strength, speed, toughness, teleporting, or agility}. Each Kinetic talent is detailed at the end of the class description. Your choice grants you Kinetic talent powers and other features when you choose it at 1st level. It also grants you additional benefits at 6th, 15th, and 20th levels.",
+										{
+											"type":"entries",
+											"name": "Kinetic Talent Powers",
+											"entries":[
+												"Each talent has a list of powers that you gain at the Kinetic levels noted in the talent description. Once you gain a talent power, it doesn't count against the number of powers known."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Physical Acumen",
+									"page": 27,
+									"entries":[
+										"At 2nd level, Kinetic heroes develop superior physical abilities. You gain proficiency in {@skill Acrobatics} and {@skill Athletics}. If you already have proficiency in one or both, you now have expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Action Surge",
+									"page": 27,
+									"entries":[
+										"Also at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.",
+										"Once you use this feature, you must finish a short or long rest before you can use it again. When you reach 18th level, you can use it twice before a rest, but only once on the same turn."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Reflexive Powers",
+									"page": 28,
+									"entries":[
+										"Starting at 3rd level, 1st-level power use is now reflexive for you. This means that you have a limitless supply of 1st-level power slots. If you wish to use abilities at higher level, however, you must expend a higher-level slot as normal. [See \"Reflexive Powers: An Example\" sidebar on p. 25 in Chapter 3.]",
+										"As your heroes level up, the levels at which they can use their powers reflexively also increases. At 7th level, for example, 2nd-level power use is reflexive as well as 1st-level.",
+										"Consult the chart prior to see when heroes gain the ability to use higher-level powers reflexively."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Potent Critical",
+									"page": 28,
+									"entries":[
+										"At 5th level, your critical hits become more devastating, whether through Strength, Speed, or skill. You roll one additional damage die when determining the extra damage for a critical hit."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Kinetic Control",
+									"page": 28,
+									"entries":[
+										"At 9th level, your innate control of your Kinetic energy heightens. You have advantage on {@skill Athletics} checks to resist being shoved or knocked {@condition prone}. Furthermore, you have advantage on saves against effects that would move you against your will."
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Physical Perfection",
+									"page": 28,
+									"entries":[
+										"When you reach 13th level, your mastery over all aspects of your physical body reaches its pinnacle. You have advantage on all Strength, Dexterity, and Constitution saves and skill checks."
+									]
+								},
+								{
+									"type": "section",
+									"page": 28,
+									"name": "Agility Kinetic Talent",
+									"entries":[
+										"Some superheroes exhibit superhuman agility, dodging bullets, parkouring up tall buildings with ease, and more. If you select agility as your Kinetic talent at 1st level, you gain the following features.",
+										{
+											"type":"entries",
+											"name": "Agility Kinetic Talent Powers",
+											"entries":[
+												"Agility Kinetics know the following powers, which do not count toward their total number of powers known.",
+												{
+													"type": "table",
+													"caption": "Agility Kinetic Talent Powers",
+													"colLabels": [
+														"Kinetic Level",
+														"Powers"
+													],
+													"colStyles": [
+														"col-6 text-center",
+														"col-6 text-center"
+													],
+													"rows": [
+														[
+														"1st",
+														"{@spell jump}"
+														],
+														[
+														"3rd",
+														"{@spell spider climb}"
+														],
+														[
+														"5th",
+														"{@spell redirect attack|S5E}"
+														],
+														[
+														"7th",
+														"{@spell freedom of movement}"
+														],
+														[
+														"9th",
+														"{@spell vulnerable strike|S5E}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Skirmisher",
+											"entries":[
+												"When you choose the agility Kinetic talent at 1st level, you become hard to pin down. On your turn, if you make a melee attack against a creature within five feet of you, that creature cannot make an opportunity attack against you for the rest of your turn, allowing you to slip away unharmed."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Parkour",
+											"entries":[
+												"When you reach 6th level, you gain a climbing speed equal to your walking speed. What's more, you have advantage on any Dexterity-based save or skill check."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Total Freedom",
+											"entries":[
+												"At 15th level, you are always under the effect of the {@spell freedom of movement} power."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Ultimate Agility",
+											"entries":[
+												"At 20th level, your agility exceeds all limits. You automatically succeed at all Dexterity saves against effects that you can sense. Also, you have a +10 bonus on any Dexterity ({@skill Acrobatics}, {@skill Sleight of Hand}, or {@skill Stealth}) skill check."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"entries":[
+									"{@i She knows my name, this medium. She shall not utter it or will be broken, mind and body. But she may have uses that can be leveraged against those meddlers and clowns. She adds to my knowledge of thoese oddities, for gain.}"
+									]
+								},
+								{
+									"type": "section",
+									"page": 29,
+									"name": "Speed Kinetic Talent",
+									"entries":[
+										"Some heroes are strong, while others are fast\u2014superhumanly, impossibly so, moving at incredible speeds.",
+										"If you select speed as your Kinetic talent at 1st level, you gain the following features.",
+										{
+											"type":"entries",
+											"name": "Speed Kinetic Talent Powers",
+											"entries":[
+												"Speed Kinetics know the following powers, which do not count toward their total number of powers known.",
+												{
+													"type": "table",
+													"caption": "Speed Kinetic Talent Powers",
+													"colLabels": [
+														"Kinetic Level",
+														"Powers"
+													],
+													"colStyles": [
+														"col-6 text-center",
+														"col-6 text-center"
+													],
+													"rows": [
+														[
+														"1st",
+														"{@spell longstrider}"
+														],
+														[
+														"3rd",
+														"{@spell blur}"
+														],
+														[
+														"5th",
+														"{@spell haste}"
+														],
+														[
+														"7th",
+														"{@spell whirlwind|XGE}"
+														],
+														[
+														"9th",
+														"{@spell rapid barrage|S5E}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Fleet Footed",
+											"entries":[
+												"When you choose the speed Kinetic talent at 1st level, you achieve running speeds usually found only among Olympic champions. Your base walking speed increases by 10 feet."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Blazing Fast",
+											"entries":[
+												"When you reach 6th level, your base walking speed triples. Furthermore, opportunity attacks against you have disadvantage."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Permanent Speed",
+											"entries":[
+												"At 15th level, you are always under the effect of the haste power, no {@status concentration} required."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Impossible Volocity",
+											"entries":[
+												"When you reach 20th level, you become the avatar of speed. Your base walking speed multiplies by 10, you Armor Class increased by 2, and you can move away from foes without triggering opportunity attacks."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Now Fast?",
+											"entries":[
+												"At 1st level, a Kinetic hero with the speed talent and a human ancestry has a base walking speed of 30 feet, which increases to 40 feet from the Fleet Footed feature. At 6th level, their base walking speed triples, thanks to the Blazing Fast feature, which brings their base walking speed up to 120 feet. Thanks to the Permanent Speed feature, the hero's speed doubles again, rising to 240 feet. At 20th level, therefore, their base walking speed jumps by a factor of ten, to 2400 feet per turn. That's almost 300 mph, without even dashing or using any powers. By using a power like {@b burst of speed}, you can outrun the fastest jet!"
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"page": 29,
+									"name": "Strength Kinetic Talent",
+									"entries":[
+										"Superheroes with the Strength Kinetic talent are truly mighty, hitting harder than anyone else. If you select Strength as your Kinetic talent at 1st level, you gain the following features.",
+										{
+											"type":"entries",
+											"name": "Strength Kinetic Talent Powers",
+											"entries":[
+												"Strength Kinetics know the following powers, which do not count toward their total number of powers known.",
+												{
+													"type": "table",
+													"caption": "Strength Kinetic Talent Powers",
+													"colLabels": [
+														"Kinetic Level",
+														"Powers"
+													],
+													"colStyles": [
+														"col-6 text-center",
+														"col-6 text-center"
+													],
+													"rows": [
+														[
+														"1st",
+														"{@spell hurl|S5E}"
+														],
+														[
+														"3rd",
+														"{@spell blull's rush|S5E}"
+														],
+														[
+														"5th",
+														"{@spell smash|S5E}"
+														],
+														[
+														"7th",
+														"{@spell stomp quake|S5E}"
+														],
+														[
+														"9th",
+														"{@spell crushing grip|S5E}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Destructive",
+											"entries":[
+												"When you choose the Strength Kinetic talent at 1st level, you gain advantage on {@skill Athletics} checks to push pull, lift, and break objects. What's more, your carrying capacity (including maximum load and maximum lift) doubles. Thus, your carrying capacity is now your Strength times 30 and your capacity to push, drag, or lift things is your Strength times 60.",
+												"Finally, when you make a melee attack, you score a critical on a 19 or a 20"
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Heavy Lifting",
+											"entries":[
+												"When you reach 6th level, your carrying capacity (including maximum load and maximum lift) multiplies by 10. Thus, your carrying capacity is now your Strength times 300 and your capacity to push, drag, or lift things is your Strength times 600.",
+												"Furthermore, you count as a Huge creature in terms of Grappling contests."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Unstoppable Force",
+											"entries":[
+												"At 15th level, your carrying capacity (including maximum load and maximum lift) multiplies by another 10. Thus, your carrying capacity is now your Strength times 3000 and your capacity to push, drag, or lift things is your Strength times 6000. Finally, you count as a Gargantuan creature in terms of Grappling contests."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Avatar of Might",
+											"entries":[
+												"When you reach 20th level, your strength once again amplifies explosively. You know the {@spell impossible strength} power, if you did not before, and you can use it reflexively."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"page": 30,
+									"name": "Teleporting Kinetic Talent",
+									"entries":[
+										"A few remarkable heroes can travel through space instantaneously, teleporting themselves and sometimes others. If you select teleporting as your Kinetic talent at 1st level, you gain the following features.",
+										{
+											"type":"entries",
+											"name": "Teleporting Kinetic Talent Powers",
+											"entries":[
+												"Teleporting Kinetics know the following powers, which do not count toward their total number of powers known.",
+												{
+													"type": "table",
+													"caption": "Teleporting Kinetic Talent Powers",
+													"colLabels": [
+														"Kinetic Level",
+														"Powers"
+													],
+													"colStyles": [
+														"col-6 text-center",
+														"col-6 text-center"
+													],
+													"rows": [
+														[
+														"1st",
+														"{@spell sudden swerve|S5E}"
+														],
+														[
+														"3rd",
+														"{@spell misty step}"
+														],
+														[
+														"5th",
+														"{@spell blink}"
+														],
+														[
+														"7th",
+														"{@spell dimension door}"
+														],
+														[
+														"9th",
+														"{@spell teleportation anchor|S5E}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Micro-Teleportation",
+											"entries":[
+												"When you choose the teleporting Kinetic talent at 1st level, you begin subtly and subconsciously moving through space in tiny jumps. Though otherwise undetectable and unnoticeable to the naked eye, you now have advantage on Dexterity saves and {@skill Sleight of Hand} checks."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Triple Jump",
+											"entries":[
+												"At 6th level, you can now travel further, faster. When you use your {@spell misty step} power, you can make three successive jumps, each up to 30 ft, in a single round, rather than one. You can make a single attack or interact with an object in between the jumps, but you cannot move or use a power until after the last jump is complete."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Superior Teleporting",
+											"entries":[
+												"When you reach 15th level, your ability with the teleport power grows. Now, when the GM rolls on the teleportation result table, they roll twice and take the higher result.",
+												"What's more, when you use the {@spell misty step}, {@spell dimension door}, {@spell limited teleport|S5E}, or teleport powers, you may decide whether to retain your momentum as you teleport or not, and in which direction you move when arrive after teleporting."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Teleportation Mastery",
+											"entries":[
+												"At the 20th level, your mastery over teleportation is complete. The teleport power is now reflexive for you. Furthermore, whenever the GM rolls on the Teleportation Result Table, they must treat any roll of 59 or lower as a 60."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"page": 30,
+									"name": "Toughness Kinetic Talent",
+									"entries":[
+										"Some superheroes aren't necessarily super strong or fast, but they can withstand attacks and soak damage beyond the limits of anyone else. If you select toughness as your Kinetic talent at 1st level, you gain the following features.",
+										{
+											"type":"entries",
+											"name": "Toughness Kinetic Talent Powers",
+											"entries":[
+												"Toughness Kinetics know the following powers, which do not count toward their total number of powers known.",
+												{
+													"type": "table",
+													"caption": "Toughness Kinetic Talent Powers",
+													"colLabels": [
+														"Kinetic Level",
+														"Powers"
+													],
+													"colStyles": [
+														"col-6 text-center",
+														"col-6 text-center"
+													],
+													"rows": [
+														[
+														"1st",
+														"{@spell false life}"
+														],
+														[
+														"3rd",
+														"{@spell second wind|S5E}"
+														],
+														[
+														"5th",
+														"{@spell rage|S5E}"
+														],
+														[
+														"7th",
+														"{@spell stoneskin}"
+														],
+														[
+														"9th",
+														"{@spell indomitability|S5E}"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Durable",
+											"entries":[
+												"At 1st level when you select this Kinetic Talent, your Hit Dice for your Kinetic levels becomes a {@dice d12}. Thus, you calculate your HP for Kinetic levels as follows:",
+												"{@b Hit Points at 1st Level}: 22 + your Constitution modifier",
+												"{@b Hit Points at Higher Levels}: {@dice 1d12} (or 7) + your Constitution modifier per Kinetic level after 1st."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Take a Hit",
+											"entries":[
+												"When you reach 6th level, you can use the {@spell turn the blade|S5E} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Soak Damage",
+											"entries":[
+												"At 15th level, you know the {@spell protection from energy} power if you do not already. This power does not count against your total number of powers known. You can use the {@spell protection from energy} power as a reaction when you take any acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Ignore Damage (\"I Can Do This All Day\")",
+											"entries":[
+												"At 20th level, you can ignore damage that would kill anyone else. When you take damage that would drop you to zero HP, you can use your Reaction to drop to 1 hit point instead. You can do this even when the amount of damage would be enough to kill you outright. You can do this once each round."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 31,
+							"name": "{@class Martial Expert|S5E}",
+							"entries": [
+								"Some superheroes blast with elemental powers and others attack with sheer, brute strength. The Martial Expert, however, channels their power through training and selfdiscipline, empowering them to do things with their fists, feet, weapons, and mind that no one else can.",
+								{
+									"type":"entries",
+									"name": "Origin & Nature",
+									"page": 26,
+									"entries":[
+										"Martial Expert superheroes usually develop their powers after years of specialized training. On the other hand, you may also have inborn ability, or have been granted a powerful gift. You might even wield magical weapons that grant you your powers."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/CvUbwzy.png"
+									}
+								},
+								{
+									"type":"entries",
+									"name": "Creating a Martial Expert",
+									"page": 26,
+									"entries":[
+										"Martial Experts tend to focus on one of two areas, though each Martial Expert is skilled in all areas. When making a Martial Expert hero, choose {@b hand-to-hand} or {@b weapons} training regimen. Your choice of regimen determines what some of your superpowers are and how they manifest, as well as granting you special benefits in certain circumstances."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Features",
+									"page": 31,
+									"entries": [
+										"As an Martial Expert superhero, you gain the following class features.",
+										{
+											"type": "entries",
+											"name": "Hit Points",
+											"entries": [
+												"{@bold Hit Dice}: {@dice 1d10} per level",
+												"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Kinetic level after 1st",
+												"{@bold Saving Throws}: Dexterity and Wisdom"
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"page": 31,
+									"name": "Martial Practice",
+									"entries":[
+										"At 1st level, your modern Martial Practice gives you mastery of combat styles that combine unarmed strikes with that of melee and ranged weapons. You gain the following benefits while you are wielding no heavy weapons and not wearing heavy armor in combat:",
+										{
+											"type": "list",
+											"items": [
+												"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and weapons.",
+												"You can roll a {@dice d6} in place of the normal damage of your unarmed strike or weapon. This die changes as you gain levels, as shown in the Martial Practice column of the Martial Expert table.",
+												"When you use the {@action Attack} action on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a baton or a semi-automatic pistol, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+											]
+										},
+										{
+											"type": "entries",
+											"entries":[
+												"Certain martial traditions focus on weapons. For example, if you trained in Tàijí quán, you might use a dao (like a scimitar) or a qiang (like a spear), combined with circular strikes, to dominate your foe. If you studied Kyūdō, on the other hand, you would use a yumi (like a long bow), interspersed with powerful punches. If you trained in gun fu, however, you might learn to wield two pistols and combine shots with devastating elbows and knees. Whatever name you use for your weapon, you can use the game statistics provided for the weapon in the Weapons section."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"page": 32,
+									"name": "Focus",
+									"entries":[
+										"Starting at 1st level, your training allows you to focus with exceptional, almost superhuman, intensity. Your access to this intensity is represented by focus points. Your level determines the number of points you have, as shown in the Focus Points column of the Martial Expert table.",
+										"You can spend these points to fuel various focus features. At 1st level you know three such features: {@b combo attack}, {@b artful defense}, and {@b agile step}. You learn more focus features as you gain levels in this class.",
+										"When you spend a focus point, it is unavailable until you finish a short or long rest, at the end of which you refocus your efforts and remember the wisdom of your training. You must spend at least 30 minutes of the rest meditating to regain your focus points.",
+										"Some of your focus features require your target to make a save to resist the feature's effects. The save DC is calculated as follows:",
+										"{@b Focus save DC =} 8 + your proficiency bonus + your Wisdom modifier",
+										"{@b Focus attack modifier =} your proficiency bonus + your Wisdom modifier",
+										{
+											"type":"entries",
+											"name": "Combo Attack",
+											"entries":[
+												"Immediately after you take the {@action Attack} action on your turn, you can spend 1 focus point as a bonus action to make two unarmed strikes, or two attacks with a light weapon in your off hand, instead of one."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Artful Defense",
+											"entries":[
+												"You can spend 1 focus point to take the {@action Dodge} action as a bonus action on your turn."
+											]
+										},
+										{
+											"type":"entries",
+											"name": "Agile Step",
+											"entries":[
+												"You can spend 1 focus point to take the {@action Disengage} or Dash action as a bonus action on your turn. If you do, your jump distance is doubled for the turn."
+											]
+										}
+									]
+								},
+								{
+									"type":"entries",
+									"name": "Deft",
+									"page": 32,
+									"entries":[
+										"You gain proficiency in {@skill Acrobatics} and {@skill Stealth}. If you already have proficiency one or both, you now have expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency"
+									]
+								},
+								{
+									"type":"entries",
+									"page": 32,
+									"name": "Unencumbered Movement",
+									"entries":[
+										"Starting at 2nd level, thanks to your honed reflexes, you now have advantage on initiative. What's more, your speed increases by 10 feet while you are not wearing heavy armor or wielding heavy weapons. This bonus increases when you reach higher levels. The bonus to your normal movement increases from 10 feet to 15 feet at 5th level in this class, to 20 feet at 11th level in this class, and to 30 feet at 17th level in this class."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Training Regiment",
+									"entries":[
+										"When you reach 3rd level, you commit yourself to a specific training regimen: {@b hand-to-hand} or {@b weapons} (detailed at the end of the class description). Your regimen grants you features at 3rd level and again at 6th, 11th, and 17th level."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Extra Attack",
+									"entries":[
+										"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+										"The number of attacks increases to three when you reach 18th level in this class."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Focus-Empowered Strikes",
+									"entries":[
+										"Starting at 6th level, your unarmed strikes cut through defenses that can normally resist such attacks and cancel any resistance to bludgeoning damage."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Evasion",
+									"entries":[
+										"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a detonating grenade or a fireball power. When you are subjected to an effect that allows you to make a Dexterity save to take only half damage, you instead take no damage if you succeed on the save, and only half damage if you fail."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Meditative Mind",
+									"entries":[
+										"Also starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Stunning Strike",
+									"entries":[
+										"Starting at 9th level, you can target a foe's pressure points to cause exceptional pain. When you hit another creature with a melee weapon or unarmed attack, you can spend 1 focus point to attempt a stunning strike. The target must succeed on a Constitution save or be {@condition stunned} until the end of your next turn."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Improved Focus",
+									"entries":[
+										"Your training brings you to levels that border on the superhuman. At 10th level, you may now spend 1 focus point for a use of any of the following powers: {@spell catch your breath|S5E}, {@spell guidance}, {@spell turn the blade|S5E}, {@spell resistance}, and {@spell true strike}. When you use these powers, they are not superpowers, however, but focus abilities."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Perect Health",
+									"entries":[
+										"At 13th level, your life-long commitment to training and self-mastery makes you immune to disease and resistant to poison damage. You also have advantage on Saving Throws against the {@condition poisoned} condition."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Free-Running",
+									"entries":[
+										"Also at 13th level, you gain the ability to move up or along vertical surfaces on your turn without falling during the move."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Focused Resilience",
+									"entries":[
+										"Beginning at 14th level, your superhuman focus and commitment grants you proficiency in all saves. Additionally, whenever you make a save and fail, you can spend 1 focus point to reroll it and take the second result."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Perfect Balance",
+									"entries":[
+										"At 15th level, you have developed the grace of a ballet dancer combined with the agility of an Olympic gymnast. You have advantage on all Dexterity saves. Furthermore, thanks to your grace, your steps make no sound, regardless of the surface you are moving across. You also have advantage on {@skill Stealth} checks that rely on moving silently."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Advanced Focus",
+									"entries":[
+										"At the 18th level, your focus abilities continue to improve. You may use the true strike, guidance, or catch your breath powers as a bonus action. Further, when you take damage, you can use your reaction to use turn the blade against that instance of damage. Finally, when you make a save, you may use your reaction to activate the resistance power before rolling your saving throw."
+									]
+								},
+								{
+									"type":"entries",
+									"page": 33,
+									"name": "Perect Form",
+									"entries":[
+										"At 20th level, when you roll for initiative and have no focus points remaining, you regain 10 focus points."
+									]
+								},
+								{
+									"type":"section",
+									"page": 33,
+									"name": "Training Regimens",
+									"entries":[
+										"Two regimens of martial training\u2014either {@b hand-to-hand} or {@b weapons}\u2014are taught in militaries and martial arts schools across the globe. Most training schools practice only one exclusively, but a few are more varied and instruct each Martial Expert hero according to their aptitude and interest. Both regimens rely on the same basic techniques, diverging as the student grows more adept. Thus, a Martial Expert hero need choose one only upon reaching 3rd level."
+									]
+								},
+								{
+									"type":"section",
+									"page": 34,
+									"name": "Hand-to-Hand",
+									"entries":[
+										"Martial Expert heroes who adopt the Hand-to-Hand regimen are the ultimate masters of melee combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate their focus to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Open Hand Techique",
+											"entries":[
+												"Starting when you choose this regimen at 3rd level, you can manipulate your enemy's focus when you harness your own. You gain a +1 to hit and damage with unarmed strikes.",
+												"Furthermore, whenever you hit a creature with an unarmed attack granted by your Combo {@action Attack}, you can impose one of the following effects on that target:",
+												{
+													"type": "list",
+													"items": [
+														"It must succeed on a Dexterity save or be knocked {@condition prone}.",
+														"It must make a Strength save. If it fails, you can push it up to 15 feet away from you.",
+														"It can't take reactions until the end of your next turn."
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Wholeness of Body",
+											"entries":[
+												"At 6th level, you gain the ability to heal yourself. As an action, you can regain HP equal to three times your level. You must finish a long rest before you can use this feature again."
+											]
+										},
+										{
+											"type":"entries",
+											"page": 33,
+											"name": "Fearless",
+											"entries":[
+												"Beginning at 11th level, you can no longer be {@condition frightened}. What's more, your frequent brushes with death have given you a familiarity with it few others possess. When you are reduced to 0 HP but not killed outright, you can spend a focus point to drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+											]
+										},
+										{
+											"type":"entries",
+											"page": 33,
+											"name": "Quivering Palm",
+											"entries":[
+												"At 17th level, you gain the ability to set up lethal vibrations in someone's body via an intimate knowledge of pressure points and the nervous system. When you hit a creature with an unarmed strike, you can spend 3 focus points to start these imperceptible vibrations, which last for a number of days equal to your level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution save. If it fails, it is reduced to 0 HP. If it succeeds, it takes {@damage 10d10} necrotic damage.",
+												"You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+											]
+										}
+									]
+								},
+								{
+									"type":"section",
+									"page": 34,
+									"name": "Weapons",
+									"entries":[
+										"Martial Expert heroes who adopt the Weapons regimen are unparalleled in the use of their chosen instruments, performing impossible feats against amazing odds.",
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Signature Weapons",
+											"entries": [
+												"Choose two weapons of your choice. You are proficient with these weapons, even if you had not been before. When wielding these weapons, you gain the following benefits:",
+												{
+													"type": "list",
+													"items": [
+														"With signature weapons that are ranged or thrown, you can ignore partial and ¾ cover and have no disadvantage to attack at long range with them.",
+														"While wielding a melee signature weapon, you may attempt to parry visible attacks; when you are hit by an attack, you may use your reaction to add your proficiency bonus to your Armor Class, even if you have already added it once. If this raises your AC above the attack number, the attack misses.",
+														"You gain a +2 to hit and damage with these weapons."
+													]
+												}
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Improved Critical",
+											"entries": [
+												"At 6th level, your signature weapon attacks score a critical hit on a roll of 19 or 20"
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Ranged Weapons",
+											"entries": [
+												"Also at 6th level, being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls with your signature weapons."
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Trade Blows",
+											"entries": [
+												"At 11th level, when a visible creature hits you with an attack, you can use your reaction to make a weapon attack against the creature with one of your signature weapons, if you are wielding one, and if the target is in range of the weapon."
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Focus-Infused Shots",
+											"entries": [
+												"Also at 11th level, your signature weapons cut through defenses that can normally resist their attacks and cancel any resistance to their weapon damage."
+											]
+										},
+										{
+											"type":"entries",
+											"page": 34,
+											"name": "Superior Critical",
+											"entries": [
+												"Starting at 17th level, your weapon attacks score a critical hit on a roll of 18-20 with your signature weapons."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 35,
+							"name": "{@class Mastermind|S5E}",
+							"entries": [
+								"Some heroes don’t have superpowers, or amazing tech, or decades of training, yet they still earn fear or respect thanks to their superior intellect, tactical insight, and ability to command Minions to accomplish their goals.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 41,
+							"name": "{@class Mentalist|S5E}",
+							"entries": [
+								"Whereas Kinetics channel their superheroic powers through the body, Mentalists manifest power through the mind. Some move objects with a thought, while others read and control the thoughts of others. Still other weave illusions in the minds of their foes.",
+								"Because their powers are largely mental, many Mentalists do not outwardly display their superpowers. Some do, of course, with glowing eyes or visible waves emanating from their forehead, but most appear mundane.",
+								"Mentalist heroes can be exceptionally dangerous. When you can throw your foe with a thought or force them to attack their allies, you can dominate a battle.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 45,
+							"name": "{@class Metamorph|S5E}",
+							"entries": [
+								"Metamorphs are a diverse collection of heroes with strikingly different powers. Some can turn {@condition invisible}, others intangible; others merge with an alien symbiote; still others can adopt the appearance of other people; and a few can even stretch and alter their flesh in impossible ways.",
+								"There is one thing they all have in common, however; they all can perform fantastic feats by altering their bodies. When facing a Metamorph, it is hard to predict what threats you might encounter.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 52,
+							"name": "{@class Mystic|S5E}",
+							"entries": [
+								"Elemental heroes tap fundamental forces and elements of the universe, like gravity or heat. Mystic heroes, however, access powers more eldritch and arcane, but no less real and potent.",
+								"Whereas Elementalists might shoot ice or light, the Mystics, on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few deal with the spirits, perhaps even with archetypes like Life or Death itself. These eerie powers make Mystic heroes uncanny and unpredictable.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 60,
+							"name": "{@class Special Agent|S5E}",
+							"entries": [
+								"Most heroes have superpowers, either from superpowered physiologies, super-advanced technology, decades of intensive martial arts training, or, occasionally, from a potent artifact. A few brave mortals lack superpowers, yet still fight along with the other heroes. They bring know-how, grit, and unique training to bear to fight for what they believe in.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 65,
+							"name": "{@class Tech|S5E}",
+							"entries": [
+								"Most heroes rely on enhanced or mutant genetics to gain superpowers. The Tech hero makes their own.",
+								"No matter how you might have gained the tech, you now have the gear to grant you awesome powers that allow you to stand shoulder to shoulder with other heroes. Of course, some would suggest that someone non-powered who chooses to fight against superpowered foes is foolhardy indeed, no matter the tech involved.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"page": 70,
+							"name": "{@class Vitalist|S5E}",
+							"entries": [
+								"Vitalist heroes hold sway over some aspect of the natural world. Some Vitalists call upon legions of animals to do their bidding, while others manifest animal traits themselves. Still others command plant life, channeling plant toxins or other properties.",
+								"Some Vitalist heroes take on the appearance of their natural domains, coming to resemble an animal or something botanical in nature. Others, however, only present those qualities when they wish, perhaps transforming into a mundane looking human at times. Still others never change their bodies at all, instead commanding the natural world around them to serve.",
+								{
+									"type": "list",
+									"items": [
+										""
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Alien (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"entries": [
+				"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small."]
+				},
+				{						
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number."]
+				},
+				{						
+					"type": "entries",
+					"name": "Alien Physiology",
+					"entries": [
+						"You may look very different from humans in many ways and there are some traits that grant abilities humans lack. {@underline Choose two of the following traits}, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
+						{
+							"type": "entries",
+							"name": "Broad-Spectrum Sight",
+							"entries": ["The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."]
+						},
+						{
+							"type": "entries",
+							"name": "Climbing",
+							"speed": {"climb": true},
+							"entries": ["Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."]
+						},
+						{
+							"type": "entries",
+							"name": "Fleet-Footed",
+							"speed": {"walk": 35},
+							"entries": ["Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."]
+						},
+						{
+							"type": "entries",
+							"name": "Hardened Skin",
+							"entries": ["You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."]
+						},
+						{
+										"type": "entries",
+										"name": "Keen Senses",
+										"entries": ["Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."]
+						},
+						{
+										"type": "entries",
+										"name": "Natural Weapons",
+										"entries": ["Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."]
+						},
+						{
+										"type": "entries",
+										"name": "Resistance",
+										"entries": ["Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."]
+						},
+						{
+										"type": "entries",
+										"name": "Toughness",
+										"entries": [" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."]
+						},
+						{
+										"type": "entries",
+										"name": "Toxin Resistance",
+										"entries": ["Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."]
+						},
+						{
+										"type": "entries",
+										"name": "Extraterrestrial Mutation",
+										"entries": ["Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+						},
+						{
+										"type": "entries",
+										"name": "Flight",
+										"speed": {"fly": true},
+										"entries": ["You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+						},
+						{
+										"type": "entries",
+										"name": "Inorganic Physiology",
+										"entries": ["Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+						},
+						{
+										"type": "entries",
+										"name": "Natural Manifestation",
+										"entries": ["Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aquatic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30, "swim": true},
+			"traitTags": [
+				"Amphibious"
+			],
+			"entries": [
+				"Unbeknownst to most of the Earth, there are societies, some ancient and powerful, that have chosen to remain hidden at the bottom of the deep oceans. Millennia beneath the sea has granted your people the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Aquatic people age more slowly than humans do, reaching maturity in about fifty years and living close to five hundred."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Aquatic people are roughly human in size and shape, though they tend to have blue or green skin and small fins along their arms and legs. Your size is Medium."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking and swim speeds are 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": ["Your people were once land-dwellers but have long since evolved to reside underwater. You can breathe comfortably in both air and water."]
+				},
+				{
+					"type": "entries",
+					"name": "Deep Sea Sight",
+					"entries": ["Sunlight rarely reaches the depths of your aquatic cities, so your ancestry grants you {@sense darkvision}, allowing you to see in dark and dim conditions."]
+				},
+				{
+					"type": "entries",
+					"name": "Resilience of the Depths",
+					"entries": ["Your people have spent millennia at the bottom of the ocean. You can ignore the effects of water pressure due to depths and have resistance against cold damage."]
+				}
+			]
+		},
+		{
+			"name": "Human (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"arcana",
+							"athletics",
+							"deception",
+							"history",
+							"insight",
+							"intimidation",
+							"investigation",
+							"medicine",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"religion",
+							"sleight of hand",
+							"stealth",
+							"survival"
+						]
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				"Humans, or homo sapiens, are the predominant sentient species on Earth. They have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Humans reach adulthood in their late teens and usually live less than a century."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Typical humans vary widely in height and build, from almost 5 feet to upwards to 7 feet tall. If you fall in that range, your size is Medium. Some humans are little people, with heights of 3 to 4 feet tall. If your height falls in this range, your size is Small."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Versatility",
+					"entries": ["Earth has a variety of climates, as well as some limited experience with superheroes, mutants, and even, perhaps, aliens. Throughout, humans adapt surprisingly well, even taking to life in outer space if necessary. This diversity is a strength, granting you one skill proficiency of your choice."]
+				}
+			]
+		},
+		{
+			"name": "Mutant (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"entries": [
+				"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Mutants age the same as non-mutant humans."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Mutation",
+					"entries": [
+						"Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation|S5E} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
+						"Alternatively, your mutation changes your body; you gain the Alien Physiology feature from the Alien Ancestry."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mythic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"entries": [
+				"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto. Descendants of such heroes have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Mythic characters are human is size."]
+				},
+				{						
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{						
+					"type": "entries",
+					"name": "Mythic Talent",
+					"entries": ["Mythical humans hail from lineages of great and primordial power. You know the mighty focus at will power and the heroism 1st level power and can use it once, regaining the ability when you complete a long rest."]
+				}
+			]
+		},
+		{
+			"name": "Robotic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"traitTags": [
+				"Amphibious",
+				"Natural Armor"
+			],
+			"entries": [
+				"Whether created on earth or by aliens among the stars, you are a synthetic being. Perhaps you are made of iron and powered by steam, or of high-tech polymers and running on a fusion engine. You may look roughly human or be obviously artificial. Either way, you are inorganic, don't have biological needs, and others around you are likely to be aware of that.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Inorganic",
+					"entries": [
+						"Your constructed nature grants you certain advantages over organic beings. You do not need to eat, drink, or breathe. You neither need sleep nor can be put to sleep by any means. You must spend four hours a night in low activity mode, however, which requires that you remain immobile but alert to gain the benefits of a long rest. You may still speak in this mode. You are immune to disease as well, though computer viruses could in principle affect you, based on your GM's discretion. Finally, you have resistance to poison damage, and advantage on saves against being {@condition poisoned}. Despite your inorganic nature, superpowered and mystical healing still mends you and first aid kits can patch holes and stop leaks, effectively working on you as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Robotic Resilience",
+					"entries": ["You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."]
+				}
+			]
+		}	
+	],
+	"background": [
+		{
+			"name": "Alien (Culture)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"Growing up among the stars or in an alien civilization can provide someone with an almost limitless range of possible experiences.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extraterrestrial Diversity",
+					"entries": [
+						"Alien cultures are so varied that you could have had an opportunity to learn virtually anything. You are proficient in one skill and with one tool of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Galactic Knowledge",
+					"entries": [
+						"Having lived in space and traveled the stars to come to Earth, you are likely familiar with other alien civilizations. You have advantage on Intelligence checks concerning extraterrestrials, their cultures, and their technologies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one Earth language and one alien language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancient Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"entries": [
+				"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handy",
+					"entries": [
+						"You learned how to use tools to survive or make a living. You have proficiency in {@skill Survival} and with one set of {@item artisan's tools|PHB} of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Omnivore",
+					"entries": [
+						"The humans of the past lacked refrigeration and sanitation. Your digestive track, therefore, is much more resilient than that of a modern human. You have resistance to poison damage and have advantage on saves against the {@condition poisoned} condition as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one ancient or medieval language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aquatic (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"speed": {"swim": true},
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency"
+			],
+			"entries": [
+				"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
+				{
+					"type": "entries",
+					"name": "Aquatic Affinity",
+					"entries": [
+						"You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expert Swimmer",
+					"entries": [
+						"Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one Earth surface language and one aquatic language."
+					]
+				}
+			]
+		},
+		{
+			"name": "Future Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhanced Immune System",
+					"entries": [
+						"Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tech Adept",
+					"entries": [
+						"You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one futuristic language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modern Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your ability scores each increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modern Earth (Culture) VARIANT",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Variant Feat",
+					"entries": [
+						"Choose a {@feat Feat|S5E} at character creation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mythic Realm (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
+			"entries": [
+				"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Exposure",
+					"entries": [
+						"Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mystical Acquaintance",
+					"entries": [
+						"Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism [{@skill arcana] skill, and you roll with advantage when dealing with a being or phenomenon related to your realm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one mystical language of your choice."
+					]
+				}
+			]
+		}
+	]
+}
