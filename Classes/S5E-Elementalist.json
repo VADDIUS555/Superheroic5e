@@ -2,14 +2,15 @@
     "_meta": {
         "sources": [
             {
-                "json": "Superheroic5E-Elementalist",
+                "json": "S5E-Elementalist",
                 "abbreviation": "Elementalist",
-                "full": "Superheroic5E Elementalist Superhero",
+                "full": "S5E: Elementalist Superhero",
 				"version": "2023.08.05",
                 "authors": [
 					"Gwendolyn Marshall",
 					"Amy Bliss Marshall"
 				],
+				"color": "fdc830",
                 "convertedBy": ["VAD"]
             }
         ],
@@ -19,7 +20,7 @@
     "class": [
 		{
 			"name": "Elementalist",
-			"source": "Superheroic5E",
+			"source": "S5E-Elementalist",
 			"hd": {
 				"number": 1,
 				"faces": 10

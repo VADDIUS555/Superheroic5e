@@ -3,13 +3,13 @@
 		"sources": [
 			{
 				"json": "Superheroic5E",
-				"abbreviation": "S5E",
+				"abbreviation": "Superheroic5E",
 				"full": "S5E: Superheroic Roleplaying for 5th Edition",
 				"authors": [
 					"Gwendolyn Marshall",
 					"Amy Bliss Marshall"
 				],
-				"color": "a4811f",
+				"color": "fdc830",
 				"convertedBy": ["VAD"],
 				"version": "2023.07.05",
 				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
@@ -21,7 +21,7 @@
 	"book": [
 		{
 			"name": "S5E: Superheroic Roleplaying for 5th Edition",
-			"id": "S5E",
+			"id": "Superheroic5E",
 			"source": "Superheroic5E",
 			"author": "Gwendolyn Marshall",
 			"published":  "2022-06-22",
@@ -165,7 +165,7 @@
 	],
 	"bookData": [
 		{
-			"id": "S5E",
+			"id": "Superheroic5E",
 			"source": "Superheroic5E",
 			"data": [
 				{
@@ -953,26 +953,31 @@
 								{
 									"type": "entries",
 									"page": 15,
-									"name": "{@race Alien (Ancestry)|S5E}",
+									"name": "{@race Alien (Ancestry)|Superheroic5E}",
 									"entries": [
 										"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
 										"{@b {@i Age}}. Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal.",
 										"{@b {@i Size}}. Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small.",
 										"{@b {@i Speed}}. Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number.",
 										"{@b {@i Alien Physiology}}. You may look very different from humans in many ways and there are some traits that grant abilities humans lack. Choose two of the following traits, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
-										"{@b Broad-Spectrum Sight}. The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet.",
-										"{@b Climbing}. Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed.",
-										"{@b Extraterrestrial Mutation}. Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the {@feat Mutation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
-										"{@b Fleet-Footed}. Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet.",
-										"{@b Flight}. You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
-										"{@b Hardened Skin}. You have unusually resilient skin (or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, {@b your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2)}. You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC.",
-										"{@b Inorganic Physiology}. Your people followed a very different evolutionary path than humans. You have the {@feat Inorganic Physiology} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
-										"{@b Keen Senses}. Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage.",
-										"{@b Natural Manifestation}. Your species evolved closely intertwined with nature. You have the {@feat Natural Manifestation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
-										"{@b Natural Weapons}. Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@b 1d6 + your Strength modifier}, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stingerlike, the damage is piercing. If it is like ram's horns, the damage is bludgeoning.",
-										"{@b Resistance}. Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it.",
-										"{@b Toughness}. Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level.",
-										"{@b Toxin Resistance}. Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."
+										{
+											"type": "options",
+											"entries": [
+												"{@b Broad-Spectrum Sight}. The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet.",
+												"{@b Climbing}. Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed.",
+												"{@b Extraterrestrial Mutation}. Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the {@feat Mutation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+												"{@b Fleet-Footed}. Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet.",
+												"{@b Flight}. You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+												"{@b Hardened Skin}. You have unusually resilient skin (or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, {@b your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2)}. You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC.",
+												"{@b Inorganic Physiology}. Your people followed a very different evolutionary path than humans. You have the {@feat Inorganic Physiology} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+												"{@b Keen Senses}. Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage.",
+												"{@b Natural Manifestation}. Your species evolved closely intertwined with nature. You have the {@feat Natural Manifestation} feat (\"Feats\"). {@i Note: if you choose this option, you may not choose a second Alien Physiology trait.}",
+												"{@b Natural Weapons}. Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@b 1d6 + your Strength modifier}, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stingerlike, the damage is piercing. If it is like ram's horns, the damage is bludgeoning.",
+												"{@b Resistance}. Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it.",
+												"{@b Toughness}. Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level.",
+												"{@b Toxin Resistance}. Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."
+											]
+										}
 									]
 								},
 								{
@@ -992,7 +997,7 @@
 								{
 									"type": "entries",
 									"page": 16,
-									"name": "{@race Human (Ancestry)|S5E}",
+									"name": "{@race Human (Ancestry)|Superheroic5E}",
 									"entries": [
 										"Humans, or homo sapiens, are the predominant sentient species on Earth. They have the following traits.",
 										"{@b {@i Age}}. Humans reach adulthood in their late teens and usually live less than a century.",
@@ -1004,33 +1009,33 @@
 								{
 									"type": "entries",
 									"page": 16,
-									"name": "{@race Mutant (Ancestry)|S5E}",
+									"name": "{@race Mutant (Ancestry)|Superheroic5E}",
 									"entries": [
 										"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
 										"{@b {@i Age}}. Mutants age the same as non-mutant humans.",
 										"{@b {@i Size}}. Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small.",
 										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
 										"{@b {@i Mutation}}. Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
-										"Alternatively, your mutation changes your body; you gain the {@feat Alien Physiology} feature from the {@race Alien (Ancestry)|S5E}. Follow the instructions for the Alien Physiology feature there."
+										"Alternatively, your mutation changes your body; you gain the {@feat Alien Physiology} feature from the {@race Alien (Ancestry)|Superheroic5E}. Follow the instructions for the Alien Physiology feature there."
 									]
 								},
 								{
 									"type": "entries",
 									"page": 16,
-									"name": "{@race Mythic (Ancestry)|S5E}",
+									"name": "{@race Mythic (Ancestry)|Superheroic5E}",
 									"entries": [
 										"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto.",
 										"Descendants of such heroes have the following traits.",
 										"{@b {@i Age}}. Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years.",
 										"{@b {@i Size}}. Mythic characters are human is size.",
 										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
-										"{@b {@i Mythic Talent}}. Mythical humans hail from lineages of great and primordial power. You know the {@spell mighty focus|S5E} at will power and the {@spell heroism|PHB} 1st level power and can use it once, regaining the ability when you complete a long rest"
+										"{@b {@i Mythic Talent}}. Mythical humans hail from lineages of great and primordial power. You know the {@spell mighty focus|Superheroic5E} at will power and the {@spell heroism|PHB} 1st level power and can use it once, regaining the ability when you complete a long rest"
 									]
 								},
 								{
 									"type": "entries",
 									"page": 16,
-									"name": "{@race Robotic (Ancestry)|S5E}",
+									"name": "{@race Robotic (Ancestry)|Superheroic5E}",
 									"entries": [
 										"Whether created on earth or by aliens among the stars, you are a synthetic being. Perhaps you are made of iron and powered by steam, or of high-tech polymers and running on a fusion engine. You may look roughly human or be obviously artificial. Either way, you are inorganic, don't have biological needs, and others around you are likely to be aware of that.",
 										"{@b {@i Age}}. Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear.",
@@ -1073,7 +1078,7 @@
 								{
 									"type": "entries",
 									"page": 16,
-									"name": "{@background Alien (Culture)|S5E}",
+									"name": "{@background Alien (Culture)|Superheroic5E}",
 									"entries": [ 
 										"Growing up among the stars or in an alien civilization can provide someone with an almost limitless range of possible experiences.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
@@ -1085,7 +1090,7 @@
 								{
 									"type": "entries",
 									"page": 17,
-									"name": "{@background Ancient Earth (Culture)|S5E}",
+									"name": "{@background Ancient Earth (Culture)|Superheroic5E}",
 									"entries": [ 
 										"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
@@ -1097,7 +1102,7 @@
 								{
 									"type": "entries",
 									"page": 19,
-									"name": "{@background Aquatic (Culture)|S5E}",
+									"name": "{@background Aquatic (Culture)|Superheroic5E}",
 									"entries": [ 
 										"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
 										"{@b {@i Aquatic Affinity}}. You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures.",
@@ -1108,7 +1113,7 @@
 								{
 									"type": "entries",
 									"page": 19,
-									"name": "{@background Future Earth (Culture)|S5E}",
+									"name": "{@background Future Earth (Culture)|Superheroic5E}",
 									"entries": [ 
 										"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
@@ -1120,7 +1125,7 @@
 								{
 									"type": "entries",
 									"page": 19,
-									"name": "{@background Modern Earth (Culture)|S5E}",
+									"name": "{@background Modern Earth (Culture)|Superheroic5E}",
 									"entries": [ 
 										"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
 										"{@b {@i Ability Score Increase}}. Your ability scores each increase by 1.",
@@ -1135,7 +1140,7 @@
 												{
 													"type": "list",
 													"items": [
-														"{@background Modern Earth (Culture) VARIANT|S5E}"
+														"{@background Modern Earth (Culture) VARIANT|Superheroic5E}"
 													]
 												}
 											]
@@ -1145,7 +1150,7 @@
 								{
 									"type": "entries",
 									"page": 19,
-									"name": "{@background Mythic Realm (Culture)|S5E}",
+									"name": "{@background Mythic Realm (Culture)|Superheroic5E}",
 									"entries": [ 
 										"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
@@ -1177,7 +1182,7 @@
 						{
 							"type": "section",
 							"page": 21,
-							"name": "{@class Elementalist|S5E}",
+							"name": "{@class Elementalist|Superheroic5E}",
 							"entries": [
 								"Elementalist superheroes possess an innate ability to manipulate, conjure forth, and even become an elemental or physical force. Some command the classical elements of earth, air, fire, or water; others manipulate the forces of physics, such as magnetism, gravity, electricity, or light. A few tap other basic forces of chemistry and physics, such as acid or sound waves, as well.",
 								{
@@ -1232,7 +1237,7 @@
 											"type": "entries",
 											"name": "Elemental Damage & Effects",
 											"entries": [
-												"Each Elemental Manifestation is not only associated with a substance, but also with a damage type and an elemental effect. When a power or ability says to consult your Elemental Manifestation to determine the {@bold damage type} for a power like {@spell elemental strike|S5E} or {@spell elemental blast}, these are the tables you should reference.",
+												"Each Elemental Manifestation is not only associated with a substance, but also with a damage type and an elemental effect. When a power or ability says to consult your Elemental Manifestation to determine the {@bold damage type} for a power like {@spell elemental strike|Superheroic5E} or {@spell elemental blast}, these are the tables you should reference.",
 												"The damage type associated with each element is listed below. You have resistance to the damage associated with your chosen Elemental Manifestation.",
 												"Earth and Wind Elementalists are resistant to bludgeoning* or slashing* damage from attacks and effects they can see, as they subconsciously harden their skin or create a buffer of air as the damage is about to strike. Attacks and effects from sources they cannot see do normal damage.",
 												"Furthermore, some powers or abilities say to consult your Elemental Manifestation to determine an {@bold additional effect} that may apply to a target of a power. Consult the \"Elemental Effects\" table to determine the correct effect. If an elemental effect calls for a saving throw, use your power save DC.",
@@ -1431,7 +1436,7 @@
 											"name": "Twinned Power",
 											"entries":[
 												"When you use a power that targets only one creature and doesn't have a range of self, you can spend a number of element points equal to the power's level to target a second creature in range with the same power (1 element point if the spell is an at will power).",
-												"To be eligible, a power must be incapable of targeting more than one creature at the power's current level. For example, {@spell force missile|S5E} and {@spell scorching ray} aren't eligible, but {@spell ray of frost} is."
+												"To be eligible, a power must be incapable of targeting more than one creature at the power's current level. For example, {@spell force missile|Superheroic5E} and {@spell scorching ray} aren't eligible, but {@spell ray of frost} is."
 											]
 										}
 									]
@@ -1518,7 +1523,7 @@
 						{
 							"type": "section",
 							"page": 26,
-							"name": "{@class Kinetic|S5E}",
+							"name": "{@class Kinetic|Superheroic5E}",
 							"entries": [
 								"Kinetic superheroes display their powers physically, through feats of strength, speed, toughness, or mobility. These heroes can take a hit better than anyone else, and they can usually deal more damage with their bare hands than other heroes as well. Even those who focus on speed and agility are astonishingly resilient.",
 								{
@@ -1701,7 +1706,7 @@
 														],
 														[
 														"5th",
-														"{@spell redirect attack|S5E}"
+														"{@spell redirect attack|Superheroic5E}"
 														],
 														[
 														"7th",
@@ -1709,7 +1714,7 @@
 														],
 														[
 														"9th",
-														"{@spell vulnerable strike|S5E}"
+														"{@spell vulnerable strike|Superheroic5E}"
 														]
 													]
 												}
@@ -1793,7 +1798,7 @@
 														],
 														[
 														"9th",
-														"{@spell rapid barrage|S5E}"
+														"{@spell rapid barrage|Superheroic5E}"
 														]
 													]
 												}
@@ -1861,23 +1866,23 @@
 													"rows": [
 														[
 														"1st",
-														"{@spell hurl|S5E}"
+														"{@spell hurl|Superheroic5E}"
 														],
 														[
 														"3rd",
-														"{@spell blull's rush|S5E}"
+														"{@spell blull's rush|Superheroic5E}"
 														],
 														[
 														"5th",
-														"{@spell smash|S5E}"
+														"{@spell smash|Superheroic5E}"
 														],
 														[
 														"7th",
-														"{@spell stomp quake|S5E}"
+														"{@spell stomp quake|Superheroic5E}"
 														],
 														[
 														"9th",
-														"{@spell crushing grip|S5E}"
+														"{@spell crushing grip|Superheroic5E}"
 														]
 													]
 												}
@@ -1940,7 +1945,7 @@
 													"rows": [
 														[
 														"1st",
-														"{@spell sudden swerve|S5E}"
+														"{@spell sudden swerve|Superheroic5E}"
 														],
 														[
 														"3rd",
@@ -1956,7 +1961,7 @@
 														],
 														[
 														"9th",
-														"{@spell teleportation anchor|S5E}"
+														"{@spell teleportation anchor|Superheroic5E}"
 														]
 													]
 												}
@@ -1981,7 +1986,7 @@
 											"name": "Superior Teleporting",
 											"entries":[
 												"When you reach 15th level, your ability with the teleport power grows. Now, when the GM rolls on the teleportation result table, they roll twice and take the higher result.",
-												"What's more, when you use the {@spell misty step}, {@spell dimension door}, {@spell limited teleport|S5E}, or teleport powers, you may decide whether to retain your momentum as you teleport or not, and in which direction you move when arrive after teleporting."
+												"What's more, when you use the {@spell misty step}, {@spell dimension door}, {@spell limited teleport|Superheroic5E}, or teleport powers, you may decide whether to retain your momentum as you teleport or not, and in which direction you move when arrive after teleporting."
 											]
 										},
 										{
@@ -2022,11 +2027,11 @@
 														],
 														[
 														"3rd",
-														"{@spell second wind|S5E}"
+														"{@spell second wind|Superheroic5E}"
 														],
 														[
 														"5th",
-														"{@spell rage|S5E}"
+														"{@spell rage|Superheroic5E}"
 														],
 														[
 														"7th",
@@ -2034,7 +2039,7 @@
 														],
 														[
 														"9th",
-														"{@spell indomitability|S5E}"
+														"{@spell indomitability|Superheroic5E}"
 														]
 													]
 												}
@@ -2053,7 +2058,7 @@
 											"type":"entries",
 											"name": "Take a Hit",
 											"entries":[
-												"When you reach 6th level, you can use the {@spell turn the blade|S5E} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
+												"When you reach 6th level, you can use the {@spell turn the blade|Superheroic5E} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
 											]
 										},
 										{
@@ -2077,7 +2082,7 @@
 						{
 							"type": "section",
 							"page": 31,
-							"name": "{@class Martial Expert|S5E}",
+							"name": "{@class Martial Expert|Superheroic5E}",
 							"entries": [
 								"Some superheroes blast with elemental powers and others attack with sheer, brute strength. The Martial Expert, however, channels their power through training and selfdiscipline, empowering them to do things with their fists, feet, weapons, and mind that no one else can.",
 								{
@@ -2115,7 +2120,7 @@
 											"entries": [
 												"{@bold Hit Dice}: {@dice 1d10} per level",
 												"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
-												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Kinetic level after 1st",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Martial Expert level after 1st",
 												"{@bold Saving Throws}: Dexterity and Wisdom"
 											]
 										}
@@ -2247,7 +2252,7 @@
 									"page": 33,
 									"name": "Improved Focus",
 									"entries":[
-										"Your training brings you to levels that border on the superhuman. At 10th level, you may now spend 1 focus point for a use of any of the following powers: {@spell catch your breath|S5E}, {@spell guidance}, {@spell turn the blade|S5E}, {@spell resistance}, and {@spell true strike}. When you use these powers, they are not superpowers, however, but focus abilities."
+										"Your training brings you to levels that border on the superhuman. At 10th level, you may now spend 1 focus point for a use of any of the following powers: {@spell catch your breath|Superheroic5E}, {@spell guidance}, {@spell turn the blade|Superheroic5E}, {@spell resistance}, and {@spell true strike}. When you use these powers, they are not superpowers, however, but focus abilities."
 									]
 								},
 								{
@@ -2425,13 +2430,228 @@
 						{
 							"type": "section",
 							"page": 35,
-							"name": "{@class Mastermind|S5E}",
+							"name": "{@class Mastermind|Superheroic5E}",
 							"entries": [
 								"Some heroes don’t have superpowers, or amazing tech, or decades of training, yet they still earn fear or respect thanks to their superior intellect, tactical insight, and ability to command Minions to accomplish their goals.",
 								{
-									"type": "list",
-									"items": [
-										""
+									"type":"entries",
+									"name": "Origin & Nature",
+									"page": 35,
+									"entries":[
+										"Masterminds have exceptional abilities that make them stand out from others. Instead of revolutionizing a science or becoming global celebrities, however, something led you to use your potent personas to enter the arena of superheroes and villains. Perhaps you suffered a personal loss at the hands of a hero or villain and wish to fight for justice\u2014or get revenge. Or perhaps your unique skills simply don't fit anywhere else. Regardless, your talents allow you the power to make a big impact on the world around you."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/5U1Oj6Q.png"
+									}
+								},
+								{
+									"type":"entries",
+									"name": "Creating a Mastermind",
+									"page": 35,
+									"entries":[
+										"When you create a villainous Mastermind or a heroic one, you choose between two Masterful Strategies: {@b Analytic} or {@b Charismatic}. Your choice of strategy determines how you approach and solve problems, either anticipating your opponents' every move, or rallying allies to do your bidding."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Features",
+									"page": 35,
+									"entries": [
+										"As an Mastermind superhero, you gain the following class features.",
+										{
+											"type": "entries",
+											"name": "Hit Points",
+											"entries": [
+												"{@bold Hit Dice}: {@dice 1d6} per level",
+												"{@bold Hit Points at 1st Level}: 16 + your Constitution modifier",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d6} (or 4) + your Constitution modifier per Mastermind level after 1st",
+												"{@bold Saving Throws}: Intelligence and Charisma"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mastermind Strategy",
+									"page": 35,
+									"entries":[
+										"Your mind is unparalleled in its abilities, allowing you to accomplish things inconceivable by others. Choose the strategy you adopt to solving problems: Analytic or Charismatic. Each strategy is detailed at the end of the class description. Your choice grants you special features when you choose it at 1st level. It also grants you additional benefits at 3rd, 6th, 9th, 13th, 17th, and 20th levels.",
+										{
+											"type": "entries",
+											"name": "Mastermind Ability",
+											"entries": [
+												"Despite not having formal powers, your intellect serves you like a superpower. Indeed, some of your Mastermind abilities call for a power attack or a save. If you chose Analytic as your Strategy, then Intelligence is your Mastermind Ability. If you chose Charismatic, on the other hand, then Charisma is your Mastermind Ability.",
+												"When calculating your power attack bonus and power save DC, use your Mastermind Ability with the following formula.",
+												"{@b Power save DC =} 8 + your proficiency bonus + your Mastermind ability modifier",
+												"{@b Power attack modifier =} your proficiency bonus + your Mastermind ability modifier"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature minion|Superheroic5E|Minions}",
+									"page": 35,
+									"entries":[
+										"Also at 1st level, thanks to your powerful persona, you now have followers who are willing to fight for you. You might have inspired them with your brilliant vision of the future or perhaps you have promised them wealth and influence. Regardless of how you have drawn them to you, you now have a Minion that works for you.",
+										"Your Minions could be mundane humans, but you will likely be putting your Minions in harm's way frequently. As a heroic Mastermind, you might prefer your Minions be drones or robots instead. Or perhaps your Minions are the spirits of your ancestors, mutant insects, ghosts, energy constructs, or zombies. Work with your GM to determine the nature of these Minions\u2014who or what they are, where they come from, and why they serve you. Your GM will tell you what creature type they are.",
+										"If you choose to have human Minions, then their attacks are with a baton and a small revolver. If they are ghosts, on the other hand, they might simply touch foes or shoot an otherworldly beam. Regardless of the exact nature of their attacks, use the stat block below",
+										"As an action on your turn, you can summon your Minion to appear within 30 feet of you in a visible empty location you choose.",
+										"The Minion is friendly to you and your companions. In combat, Minions share your initiative count, but they take their turn immediately after yours. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any, they take the {@action Dodge} action and move out of danger. Out of combat, the Minions remain with you for up to eight hours, or until you use an action to dismiss them. They can also perform mundane tasks like fetching objects, keeping watch, or carrying your supplies. When they are not doing any of these things, they withdraw and keep out of your and your allies' way, waiting 30 feet away for you to call on them.",
+										"When a Minion drops to 0 HP, they fall {@condition unconscious} (if a living being), are destroyed (if a drone), or are dispersed (if a ghost or other supernatural entity), and are no longer available to you, even if healed. If a Minion loses HP but is still conscious, it can be healed normally, and it regains all its HP whenever it completes a short rest.",
+										"You cannot summon any more Minions until you have completed a long rest"
+										{
+											"type": "statblockInline",
+											"style": "inset",
+											"dataType": "monster",
+											"data": {
+												"name": "Minion",
+												"source": "Superheroic5E",
+												"page": 36,
+												"size": ["M"],
+												"type": "humanoid",
+												"ac": [
+													{
+														"ac": 14,
+														"from": ["Kevlar"]
+													}
+												],
+												"hp": {
+													"average": 11,
+													"formula": "2d8 + 2"
+												},
+												"speed": {
+													"walk": 30
+												},
+												"str": 12,
+												"dex": 12,
+												"con": 12,
+												"int": 10,
+												"wis": 10,
+												"cha": 10,
+												"skill": {
+													"perception": "+2"
+												},
+												"senses": [],
+												"passive": 12,
+												"languages": ["English"],
+												"cr": "1/4",
+												"action": [
+													{
+														"name": "Melee Weapon",
+														"entries": [
+															"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+														]
+													},
+													{
+														"name": "Ranged Weapon",
+														"entries": [
+															"{@atk rw} {@hit 3} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+														]
+													}
+												],
+												"reaction": [
+													{
+														"name": "Protect the Boss",
+														"entries": [
+															"The Minion can use its reaction to impose disadvantage on the attack roll of a creature within 5 feet of it whose target is the Mastermind. The Minion must be able to see the attacker."
+														]
+													}
+												]
+											}
+										},
+										{
+											"type": "inset",
+											"name": "GM Advice: Minions",
+											"page": 37,
+											"entries": [
+												"Once you and the player have determined the nature of the Minions, you can select an appropriate creature type to represent them with the stat block included here.",
+												"Furthermore, the player and GM can assume that the Minions are largely self-sufficient. The Mastermind does not need to pay them, or acquire food, water, housing, or power for them. When not actively summoned, the Minions are not present. Is this realistic? Not necessarily.",
+												"But do the Minions of a Mastermind behave in this way? Absolutely! Of course, GMs and players can work together to address such details if they prefer."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Deploy Minion",
+									"page": 37,
+									"entries": [
+										"As you gain Mastermind levels, you can deploy more and stronger Minions. When you reach 2nd level, when you summon a Minion, use the Minion Levels chart below to determine the statistics of the Minion you summon based on the Minions Levels column on your Mastermind table.",
+										"For example, a 1st level Mastermind uses the stat block above. A 3rd level Mastermind, however, can summon a 3rd level Minion with 22 HP instead of 11, and who also has the Helper and Cunning features.",
+										"What's more, when you use an action to summon your Minions, you can choose how to distribute your Minion Levels. For example, at 3rd level, you have three Minion Levels. This allows you to summon one 3rd level Minion, or a 2nd level and a 1st level Minion, or three 1st level Minions. Your Minions' Levels are listed in your Mastermind Table.",
+										"Thus, a 3rd level Minion uses the Minion stat block above, but has more HP, higher AC, a to hit bonus of +5, and deals 2 extra damage per hit. What's more, they can use the Helper bonus action and can make two attacks when they take the attack action.",
+										"Minions cannot be higher than 5th level, however. Masterminds who exceed 5th level must use their Minion levels to summon multiple lower level Minions, dividing their Minion levels up as they choose.",
+										{
+											"type": "table",
+											"caption": "Minion Levels",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Minion",
+														"Level"
+													]
+												},
+												{
+													"colLabels": [
+														"Stats"
+													]
+												},
+												{
+													"colLabels": [
+														"Features"
+													]
+												}
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-4 text-center",
+												"col-5"
+											],
+											"rows": [
+												[
+													"2",
+													"HP: 16 (3d8+3); AC: 15; To hit: +4; Extra Damage: +1",
+													"{@b Helper}. The Minion can take the Help action as a bonus action."
+												],
+												[
+													"3",
+													"HP: 22 (4d8+4); AC: 16; To hit: +5; Extra Damage: +2",
+													"{@b Multiattack}. The Minion can take two attacks per turn."
+												],
+												[
+													"4",
+													"HP: 32 (5d8+10); AC: 17; To hit: +6; Extra Damage: +3",
+													"{@b Survival Training}. The Minion has received combat training and can {@action Dash}, {@action Disengage}, or {@action Hide} as a bonus action."
+												],
+												[
+													"5",
+													"HP: 39 (6d8+12); AC: 18; To hit: +7; Extra Damage: +4",
+													"{@b Grenadier}. The Minion carries one {@item frag grenade|Superheroic5E}, one {@item smoke grenade|Superheroic5E}, and one {@item stun grenade|Superheroic5E}."
+												]
+											],
+										},
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ingenuity",
+									"page": 37,
+									"entries": [
+										"In place of superpowers, you have only your clever mind to protect you. Fortunately, it is remarkable indeed. At 2nd level, whenever you make ability checks for the ability score associated with your mastermind strategy, you do so with advantage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Acquisitions",
+									"page": 37,
+									"entries": [
+										"At 5th level, you have acquired some advanced technological devices to help you toward your goals. Perhaps you are a brilliant inventor and you have created these items yourself. Or maybe your underground-economy connections have provided them for you. Regardless, you now have two hand-held devices that reproduce superpowered effects. Select two at will powers from any superpower list. They are Mastermind at will powers for you now, so use your power save DC and power attack modifier when you use them.",
+										"When you gain a Mastermind level, you can elect to change the superpower one or both of your devices can use, selecting other at will powers."
 									]
 								}
 							]
@@ -2439,7 +2659,7 @@
 						{
 							"type": "section",
 							"page": 41,
-							"name": "{@class Mentalist|S5E}",
+							"name": "{@class Mentalist|Superheroic5E}",
 							"entries": [
 								"Whereas Kinetics channel their superheroic powers through the body, Mentalists manifest power through the mind. Some move objects with a thought, while others read and control the thoughts of others. Still other weave illusions in the minds of their foes.",
 								"Because their powers are largely mental, many Mentalists do not outwardly display their superpowers. Some do, of course, with glowing eyes or visible waves emanating from their forehead, but most appear mundane.",
@@ -2455,7 +2675,7 @@
 						{
 							"type": "section",
 							"page": 45,
-							"name": "{@class Metamorph|S5E}",
+							"name": "{@class Metamorph|Superheroic5E}",
 							"entries": [
 								"Metamorphs are a diverse collection of heroes with strikingly different powers. Some can turn {@condition invisible}, others intangible; others merge with an alien symbiote; still others can adopt the appearance of other people; and a few can even stretch and alter their flesh in impossible ways.",
 								"There is one thing they all have in common, however; they all can perform fantastic feats by altering their bodies. When facing a Metamorph, it is hard to predict what threats you might encounter.",
@@ -2470,7 +2690,7 @@
 						{
 							"type": "section",
 							"page": 52,
-							"name": "{@class Mystic|S5E}",
+							"name": "{@class Mystic|Superheroic5E}",
 							"entries": [
 								"Elemental heroes tap fundamental forces and elements of the universe, like gravity or heat. Mystic heroes, however, access powers more eldritch and arcane, but no less real and potent.",
 								"Whereas Elementalists might shoot ice or light, the Mystics, on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few deal with the spirits, perhaps even with archetypes like Life or Death itself. These eerie powers make Mystic heroes uncanny and unpredictable.",
@@ -2485,7 +2705,7 @@
 						{
 							"type": "section",
 							"page": 60,
-							"name": "{@class Special Agent|S5E}",
+							"name": "{@class Special Agent|Superheroic5E}",
 							"entries": [
 								"Most heroes have superpowers, either from superpowered physiologies, super-advanced technology, decades of intensive martial arts training, or, occasionally, from a potent artifact. A few brave mortals lack superpowers, yet still fight along with the other heroes. They bring know-how, grit, and unique training to bear to fight for what they believe in.",
 								{
@@ -2499,7 +2719,7 @@
 						{
 							"type": "section",
 							"page": 65,
-							"name": "{@class Tech|S5E}",
+							"name": "{@class Tech|Superheroic5E}",
 							"entries": [
 								"Most heroes rely on enhanced or mutant genetics to gain superpowers. The Tech hero makes their own.",
 								"No matter how you might have gained the tech, you now have the gear to grant you awesome powers that allow you to stand shoulder to shoulder with other heroes. Of course, some would suggest that someone non-powered who chooses to fight against superpowered foes is foolhardy indeed, no matter the tech involved.",
@@ -2514,7 +2734,7 @@
 						{
 							"type": "section",
 							"page": 70,
-							"name": "{@class Vitalist|S5E}",
+							"name": "{@class Vitalist|Superheroic5E}",
 							"entries": [
 								"Vitalist heroes hold sway over some aspect of the natural world. Some Vitalists call upon legions of animals to do their bidding, while others manifest animal traits themselves. Still others command plant life, channeling plant toxins or other properties.",
 								"Some Vitalist heroes take on the appearance of their natural domains, coming to resemble an animal or something botanical in nature. Others, however, only present those qualities when they wish, perhaps transforming into a mundane looking human at times. Still others never change their bodies at all, instead commanding the natural world around them to serve.",
@@ -2565,72 +2785,77 @@
 					"entries": [
 						"You may look very different from humans in many ways and there are some traits that grant abilities humans lack. {@underline Choose two of the following traits}, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
 						{
-							"type": "entries",
-							"name": "Broad-Spectrum Sight",
-							"entries": ["The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."]
-						},
-						{
-							"type": "entries",
-							"name": "Climbing",
-							"speed": {"climb": true},
-							"entries": ["Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."]
-						},
-						{
-							"type": "entries",
-							"name": "Fleet-Footed",
-							"speed": {"walk": 35},
-							"entries": ["Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."]
-						},
-						{
-							"type": "entries",
-							"name": "Hardened Skin",
-							"entries": ["You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."]
-						},
-						{
-										"type": "entries",
-										"name": "Keen Senses",
-										"entries": ["Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."]
-						},
-						{
-										"type": "entries",
-										"name": "Natural Weapons",
-										"entries": ["Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."]
-						},
-						{
-										"type": "entries",
-										"name": "Resistance",
-										"entries": ["Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."]
-						},
-						{
-										"type": "entries",
-										"name": "Toughness",
-										"entries": [" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."]
-						},
-						{
-										"type": "entries",
-										"name": "Toxin Resistance",
-										"entries": ["Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."]
-						},
-						{
-										"type": "entries",
-										"name": "Extraterrestrial Mutation",
-										"entries": ["Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
-						},
-						{
-										"type": "entries",
-										"name": "Flight",
-										"speed": {"fly": true},
-										"entries": ["You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."]
-						},
-						{
-										"type": "entries",
-										"name": "Inorganic Physiology",
-										"entries": ["Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
-						},
-						{
-										"type": "entries",
-										"name": "Natural Manifestation",
-										"entries": ["Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+							"type": "options",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Broad-Spectrum Sight",
+									"entries": ["The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."]
+								},
+								{
+									"type": "entries",
+									"name": "Climbing",
+									"speed": {"walk": 30, "climb": 30},
+									"entries": ["Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."]
+								},
+								{
+									"type": "entries",
+									"name": "Fleet-Footed",
+									"speed": {"walk": 35},
+									"entries": ["Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."]
+								},
+								{
+									"type": "entries",
+									"name": "Hardened Skin",
+									"entries": ["You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."]
+								},
+								{
+									"type": "entries",
+									"name": "Keen Senses",
+									"entries": ["Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Weapons",
+									"entries": ["Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": ["Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."]
+								},
+								{
+									"type": "entries",
+									"name": "Toughness",
+									"entries": [" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."]
+								},
+								{
+									"type": "entries",
+									"name": "Toxin Resistance",
+									"entries": ["Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."]
+								},
+								{
+									"type": "entries",
+									"name": "Extraterrestrial Mutation",
+									"entries": ["Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Flight",
+									"speed": {"Walk": 30, "fly": 30},
+									"entries": ["You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Inorganic Physiology",
+									"entries": ["Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Manifestation",
+									"entries": ["Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								}
+							]
 						}
 					]
 				}
@@ -2641,7 +2866,7 @@
 			"source": "Superheroic5E",
 			"page": 16,
 			"size": ["M"],
-			"speed": {"walk": 30, "swim": true},
+			"speed": {"walk": 30, "swim": 30},
 			"traitTags": [
 				"Amphibious"
 			],
@@ -2765,7 +2990,7 @@
 					"type": "entries",
 					"name": "Mutation",
 					"entries": [
-						"Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation|S5E} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
+						"Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation|Superheroic5E} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
 						"Alternatively, your mutation changes your body; you gain the Alien Physiology feature from the Alien Ancestry."
 					]
 				}
@@ -2841,9 +3066,7 @@
 					"entries": ["You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."]
 				}
 			]
-		}	
-	],
-	"background": [
+		},
 		{
 			"name": "Alien (Culture)",
 			"source": "Superheroic5E",
@@ -2904,9 +3127,6 @@
 			"name": "Ancient Earth (Culture)",
 			"source": "Superheroic5E",
 			"page": 17,
-			"traitTags": [
-				"Skill Proficiency"
-			],
 			"ability": [
 				{
 					"choose": {
@@ -3138,7 +3358,7 @@
 					"type": "entries",
 					"name": "Variant Feat",
 					"entries": [
-						"Choose a {@feat Feat|S5E} at character creation."
+						"Choose a {@feat Feat|Superheroic5E} at character creation."
 					]
 				},
 				{
@@ -3221,5 +3441,24 @@
 				}
 			]
 		}
+	],
+	"background": [
+		{
+			"name": "",
+			"source": "Superheroic5E",
+			"page": 77,
+			"entries": []
+		}
+	],
+	"feat":[
+		{
+			"name": "ALWAYS READY",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [],
+			"entries": [
+				"You are more vigilant than most people, always on the lookout for trouble and on guard against ambushes. Add +5 to your initiative bonus. Additionally, you cannot be surprised and people attacking you from hiding do not get advantage while you are conscious."
+			]
+		}  
 	]
 }
