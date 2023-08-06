@@ -1,0 +1,711 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "S5E-Elementalist",
+                "abbreviation": "Elementalist",
+                "full": "S5E: Elementalist Superhero",
+				"version": "2023.08.05",
+                "authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"color": "fdc830",
+                "convertedBy": ["VAD"]
+            }
+        ],
+		"dateAdded": 20230806,
+		"dateLastModified": 20230806
+    },
+    "race": [
+		{
+			"name": "Alien (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"entries": [
+				"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small."]
+				},
+				{						
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number."]
+				},
+				{						
+					"type": "entries",
+					"name": "Alien Physiology",
+					"entries": [
+						"You may look very different from humans in many ways and there are some traits that grant abilities humans lack. {@underline Choose two of the following traits}, though note that the Flight, Extraterrestrial Mutation, Inorganic Physiology, or Natural Manifestation options each count as two choices.",
+						{
+							"type": "options",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Broad-Spectrum Sight",
+									"entries": ["The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."]
+								},
+								{
+									"type": "entries",
+									"name": "Climbing",
+									"speed": {"walk": 30, "climb": 30},
+									"entries": ["Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."]
+								},
+								{
+									"type": "entries",
+									"name": "Fleet-Footed",
+									"speed": {"walk": 35},
+									"entries": ["Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."]
+								},
+								{
+									"type": "entries",
+									"name": "Hardened Skin",
+									"entries": ["You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."]
+								},
+								{
+									"type": "entries",
+									"name": "Keen Senses",
+									"entries": ["Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Weapons",
+									"entries": ["Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": ["Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."]
+								},
+								{
+									"type": "entries",
+									"name": "Toughness",
+									"entries": [" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."]
+								},
+								{
+									"type": "entries",
+									"name": "Toxin Resistance",
+									"entries": ["Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."]
+								},
+								{
+									"type": "entries",
+									"name": "Extraterrestrial Mutation",
+									"entries": ["Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Flight",
+									"speed": {"Walk": 30, "fly": 30},
+									"entries": ["You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Inorganic Physiology",
+									"entries": ["Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Manifestation",
+									"entries": ["Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aquatic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30, "swim": 30},
+			"traitTags": [
+				"Amphibious"
+			],
+			"entries": [
+				"Unbeknownst to most of the Earth, there are societies, some ancient and powerful, that have chosen to remain hidden at the bottom of the deep oceans. Millennia beneath the sea has granted your people the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Aquatic people age more slowly than humans do, reaching maturity in about fifty years and living close to five hundred."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Aquatic people are roughly human in size and shape, though they tend to have blue or green skin and small fins along their arms and legs. Your size is Medium."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking and swim speeds are 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": ["Your people were once land-dwellers but have long since evolved to reside underwater. You can breathe comfortably in both air and water."]
+				},
+				{
+					"type": "entries",
+					"name": "Deep Sea Sight",
+					"entries": ["Sunlight rarely reaches the depths of your aquatic cities, so your ancestry grants you {@sense darkvision}, allowing you to see in dark and dim conditions."]
+				},
+				{
+					"type": "entries",
+					"name": "Resilience of the Depths",
+					"entries": ["Your people have spent millennia at the bottom of the ocean. You can ignore the effects of water pressure due to depths and have resistance against cold damage."]
+				}
+			]
+		},
+		{
+			"name": "Human (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"arcana",
+							"athletics",
+							"deception",
+							"history",
+							"insight",
+							"intimidation",
+							"investigation",
+							"medicine",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"religion",
+							"sleight of hand",
+							"stealth",
+							"survival"
+						]
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				"Humans, or homo sapiens, are the predominant sentient species on Earth. They have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Humans reach adulthood in their late teens and usually live less than a century."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Typical humans vary widely in height and build, from almost 5 feet to upwards to 7 feet tall. If you fall in that range, your size is Medium. Some humans are little people, with heights of 3 to 4 feet tall. If your height falls in this range, your size is Small."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Versatility",
+					"entries": ["Earth has a variety of climates, as well as some limited experience with superheroes, mutants, and even, perhaps, aliens. Throughout, humans adapt surprisingly well, even taking to life in outer space if necessary. This diversity is a strength, granting you one skill proficiency of your choice."]
+				}
+			]
+		},
+		{
+			"name": "Mutant (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 16,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"entries": [
+				"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Mutants age the same as non-mutant humans."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Mutation",
+					"entries": [
+						"Each mutant human possesses a distinctive, inborn power or ability. You possess the {@feat Mutation|Superheroic5E} feat, which grants you a single 1st- or 2nd-level power (See \"Feats\" in Chapter Six).",
+						"Alternatively, your mutation changes your body; you gain the Alien Physiology feature from the Alien Ancestry."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mythic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"entries": [
+				"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto. Descendants of such heroes have the following traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Mythic characters are human is size."]
+				},
+				{						
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{						
+					"type": "entries",
+					"name": "Mythic Talent",
+					"entries": ["Mythical humans hail from lineages of great and primordial power. You know the mighty focus at will power and the heroism 1st level power and can use it once, regaining the ability when you complete a long rest."]
+				}
+			]
+		},
+		{
+			"name": "Robotic (Ancestry)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"size": ["M"],
+			"speed": {"walk": 30},
+			"traitTags": [
+				"Amphibious",
+				"Natural Armor"
+			],
+			"entries": [
+				"Whether created on earth or by aliens among the stars, you are a synthetic being. Perhaps you are made of iron and powered by steam, or of high-tech polymers and running on a fusion engine. You may look roughly human or be obviously artificial. Either way, you are inorganic, don't have biological needs, and others around you are likely to be aware of that.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": ["Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear."]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": ["Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium."]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": ["Your base walking speed is 30 feet."]
+				},
+				{
+					"type": "entries",
+					"name": "Inorganic",
+					"entries": [
+						"Your constructed nature grants you certain advantages over organic beings. You do not need to eat, drink, or breathe. You neither need sleep nor can be put to sleep by any means. You must spend four hours a night in low activity mode, however, which requires that you remain immobile but alert to gain the benefits of a long rest. You may still speak in this mode. You are immune to disease as well, though computer viruses could in principle affect you, based on your GM's discretion. Finally, you have resistance to poison damage, and advantage on saves against being {@condition poisoned}. Despite your inorganic nature, superpowered and mystical healing still mends you and first aid kits can patch holes and stop leaks, effectively working on you as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Robotic Resilience",
+					"entries": ["You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."]
+				}
+			]
+		},
+		{
+			"name": "Alien (Culture)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"Growing up among the stars or in an alien civilization can provide someone with an almost limitless range of possible experiences.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extraterrestrial Diversity",
+					"entries": [
+						"Alien cultures are so varied that you could have had an opportunity to learn virtually anything. You are proficient in one skill and with one tool of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Galactic Knowledge",
+					"entries": [
+						"Having lived in space and traveled the stars to come to Earth, you are likely familiar with other alien civilizations. You have advantage on Intelligence checks concerning extraterrestrials, their cultures, and their technologies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one Earth language and one alien language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancient Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 17,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"entries": [
+				"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handy",
+					"entries": [
+						"You learned how to use tools to survive or make a living. You have proficiency in {@skill Survival} and with one set of {@item artisan's tools|PHB} of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Omnivore",
+					"entries": [
+						"The humans of the past lacked refrigeration and sanitation. Your digestive track, therefore, is much more resilient than that of a modern human. You have resistance to poison damage and have advantage on saves against the {@condition poisoned} condition as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one ancient or medieval language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aquatic (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"speed": {"swim": true},
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency"
+			],
+			"entries": [
+				"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
+				{
+					"type": "entries",
+					"name": "Aquatic Affinity",
+					"entries": [
+						"You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expert Swimmer",
+					"entries": [
+						"Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one Earth surface language and one aquatic language."
+					]
+				}
+			]
+		},
+		{
+			"name": "Future Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhanced Immune System",
+					"entries": [
+						"Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tech Adept",
+					"entries": [
+						"You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one futuristic language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modern Earth (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your ability scores each increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modern Earth (Culture) VARIANT",
+			"source": "Superheroic5E",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Variant Feat",
+					"entries": [
+						"Choose a {@feat Feat|Superheroic5E} at character creation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mythic Realm (Culture)",
+			"source": "Superheroic5E",
+			"page": 19,
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
+			"entries": [
+				"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Exposure",
+					"entries": [
+						"Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mystical Acquaintance",
+					"entries": [
+						"Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism [{@skill arcana] skill, and you roll with advantage when dealing with a being or phenomenon related to your realm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one mystical language of your choice."
+					]
+				}
+			]
+		}
+    ]
+}
