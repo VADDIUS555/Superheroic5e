@@ -3649,7 +3649,6 @@
 									"page": 45,
 									"entries": [
 										"Metamorphs gain their powers in any number of ways. Perhaps you were born with the ability. Or maybe you gained your abilities when you were exposed to a strange substance that awakened you or transformed your body in remarkable and unexpected ways."
-
 									]
 								},
 								{
@@ -3665,7 +3664,6 @@
 									"page": 45,
 									"entries": [
 										"Metamorphs are surprisingly varied in their abilities, though they can be classed into rough categories. When making a Metamorph, choose a Transformation: {@b elasticity}, {@b intangibility}, {@b invisibility}, {@b polymorphing}, or {@b symbiosis}. Your choice of transformation determines what some of your superpowers will be, as well as grants you special benefits in certain circumstances."
-
 									]
 								},
 								{
@@ -4990,9 +4988,512 @@
 							"entries": [
 								"Most heroes have superpowers, either from superpowered physiologies, super-advanced technology, decades of intensive martial arts training, or, occasionally, from a potent artifact. A few brave mortals lack superpowers, yet still fight along with the other heroes. They bring know-how, grit, and unique training to bear to fight for what they believe in.",
 								{
-									"type": "list",
-									"items": [
-										""
+									"type":"entries",
+									"name": "Origin & Nature",
+									"page": 60,
+									"entries": [
+										"Special Agents fight with heroes and against dangerous threats as a career choice. Most start off in a military, police, espionage, security, or investigative positions and are then hand-picked to join a specialized task force that deals with superpowered friends and foes.",
+										"Perhaps you worked for a government and may still. Or maybe you work for an international organization, either publicly known, like the United Nations, or a secret group dedicated to protecting Earth from superpowered threats.",
+										"Regardless of your career path and the nature of your associated organization, you are largely a free agent now, able to go your own way and make your own choices. You must check in periodically with your organization and may receive orders, information, and support occasionally, but for the most part you are on your own."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/WTFIFfy.png"
+									}
+								},
+								{
+									"type":"entries",
+									"name": "Creating a Special Agent",
+									"page": 60,
+									"entries": [
+										"Special Agents are people dedicated to their careers as protectors of the innocent or enforcers of justice. Decide what kind of background you had that led you to become an agent. Where you a police officer? A soldier? A revolutionary? A spy?",
+										"Next, work with your GM to describe your chosen organization. You can use a real-world one or create your own, but it's probably best if your position with the organization is unusual, allowing you the wide latitude to play as you prefer, without too many regulations or frequent orders from above limiting play.",
+										"Finally, choose your Special Agent's division: {@b investigator}, {@b operator}, or {@b soldier}. Investigators fight crime, look for clues, track down leads, and solve mysteries. Operators tend to work from the shadows, gathering intel as spies and experts in infiltration. Soldiers prefer a more direct approach, with expertise in combat tactics, weaponry, and explosives."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Features",
+									"page": 60,
+									"entries": [
+										"As a Special Agent superhero, you gain the following class features.",
+										{
+											"type": "entries",
+											"name": "Hit Points",
+											"entries": [
+												"{@bold Hit Dice}: {@dice 1d10} per level",
+												"{@bold Hit Points at 1st Level}: 20 + your Constitution modifier",
+												"{@bold Hit Points at Higher Levels}: {@dice 1d10} (or 6) + your Constitution modifier per Martial Expert level after 1st",
+												"{@bold Saving Throws}: Dexterity and Charisma"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Expertise",
+									"page": 60,
+									"entries": [
+										"At 1st level, choose any two skill or tool proficiencies. You now have proficiency in them, if you did not before, as well as expertise. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+										"At 6th level, you can choose any two more proficiencies to gain this benefit."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Field Medic",
+									"page": 61,
+									"entries": [
+										"Your training allows you to apply first aid and treat wounds in the field. You have a supply of bandages and other materials that you can replenish when you take a long rest. With that pool of supplies, you can restore a total number of HP equal to your Special Agent level × 5.",
+										"As an action, you can touch a creature and apply a bandage, administer a drug, or otherwise treat a wound, to restore a number of HP to that creature, up to the maximum amount remaining in your pool.",
+										"Alternatively, you can expend 5 HP from your pool of supplies to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Field Medic, expending HP separately for each one. This feature has no effect on undead or constructs."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Division",
+									"page": 61,
+									"entries": [
+										"When you become a Special Agent at 1st level, you choose or are assigned to a division, becoming an investigator, a soldier, or an operator.",
+										"Your choice grants you division specialization abilities and other features when you choose it at 1st level. It also grants you additional benefits at 3rd, 6th, 9th, 13th, and 17th levels."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Special Attack",
+									"page": 61,
+									"entries": [
+										"Beginning at 1st level, you know how to deal more effective attacks. Your choice of division determines when you can make a special attack. Your special attack allows you to deal an extra {@damage 1d6} damage to one creature you hit with an attack once per turn. The amount of the extra damage increases as you gain levels in this class, as shown in the Special {@action Attack} column of the Special Agent table."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cunning Action",
+									"page": 61,
+									"entries": [
+										"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+									]
+								}, 
+								{
+									"type": "entries",
+									"name": "Broad Training",
+									"page": 61,
+									"entries": [
+										"Also at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+									]
+								}, 
+								{
+									"type": "entries",
+									"name": "Fighting Style",
+									"page": 61,
+									"entries": [
+										"At 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+										{
+											"type": "entries",
+											"entries": [
+												"{@optfeature Archery|phb|Ranged}"
+											]
+										},
+										{
+											"type": "entries",
+											"entries": [
+												"{@optfeature Defense}"
+											]
+										},
+										{
+											"type": "entries",
+											"entries": [
+												"{@optfeature Dueling}"
+											]
+										},
+										{
+											"type": "entries",
+											"entries": [
+												"{@optfeature Two-Weapon Fighting}"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Extra Attack",
+									"page": 61,
+									"entries": [
+										"Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Uncanny Dodge",
+									"page": 62,
+									"entries": [
+										"Starting at 5th level, when a visible attacker hits you with an attack, you can use your reaction to halve the attack's damage against you."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Evasion",
+									"page": 62,
+									"entries": [
+										"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a grenade blast. When you are subjected to an effect that allows you to make a Dexterity save to take only half damage, you instead take no damage if you succeed on the save, and only half damage if you fail"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Reliable Talent",
+									"page": 62,
+									"entries": [
+										"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Blindsense",
+									"page": 62,
+									"entries": [
+										"Starting at 14th level, if you can hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Slippery Mind",
+									"page": 62,
+									"entries": [
+										"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saves."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Elusive",
+									"page": 62,
+									"entries": [
+										"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Stroke of Luck",
+									"page": 62,
+									"entries": [
+										"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target in range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
+										"Once you use this feature, you can't use it again until you finish a short or long rest."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Agent Division: Investigator",
+									"page": 62,
+									"entries": [
+										"You specialize in investigating crimes, solving mysteries, and uncovering the truth, no matter the cost.",
+										{
+											"type": "entries",
+											"name": "Special Attack: Assess",
+											"page": 62,
+											"entries": [
+												"Beginning at 1st level, you can use your bonus action to observe your foes in combat and find their weaknesses. The foes must be visible for you to assess them. This assessment take a few moments, so you do not gain its benefit until the round after you perform it. Once per turn after your assessment, you can deal your Special {@action Attack} damage to one assessed creature that you hit with an attack, as long as you are not attacking with disadvantage. This benefit applies only to this combat; you must reassess foes if you encounter them in a future combat.",
+												"If new creatures arrive or become visible during the combat, you may use another bonus action to assess these new foes, though you do not gain the benefit of this assessment until the round after you perform it. Assessing new creatures does not prevent you from dealing your Special {@action Attack} damage to foes you have already assessed in that combat.",
+												"The amount of the extra damage increases as you gain levels in this class, as shown in the Special {@action Attack} column of the Special Agent table."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Investigator's Mind",
+											"page": 62,
+											"entries": [
+												"When you choose the Investigator division, you establish that you have a mind for solving mysteries. You have proficiency in {@skill Investigation}, if you did not before, and when you roll an {@skill Investigation} skill check, you do so with Expertise, adding your proficiency bonus twice to the roll.",
+												"What's more, you have a photographic memory and can recall things you have experienced with perfect accuracy within the past month."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Forensic Sense",
+											"page": 62,
+											"entries": [
+												"Starting at 3rd level, your powers of observation and inference increase beyond the limits of human ability. When surveying an area, you notice otherwise undetectable details that reveal what has happened there recently. You get a sense of how many people have been in the area, and how long ago, as well as a general idea of what they were doing. You can usually find a stray hair, footprint, or fingerprint as well. By walking around an environment, you can detect immediately what a dedicated forensic team would need hours of careful analysis to discover. If a roll is called for to uncover clues, you have Expertise, which means that you add your proficiency bonus twice, as well as advantage."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Additional Fighting Style",
+											"page": 62,
+											"entries": [
+												"When selecting your fighting style at 3rd level, you have the additional option available to you to choose:",
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Street Fighter|Superheroic5E}"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Sharp Eye",
+											"page": 62,
+											"entries": [
+												"Also at 3rd level, your eye for detail improves. You now have proficiency in {@skill Perception}, if you did not before, or Expertise if you already have proficiency in it."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Investigative Experience",
+											"page": 62,
+											"entries": [
+												"At 6th level, your {@b Forensic Sense} reaches new heights. You not only notice footprints or tire tracks or fibers that others miss, but you also recognize their origin. For example, you can identify the brand of shoe, make and model of car, or kind of material that are responsible for such clues. When you examine evidence, you can reach accurate conclusions that a forensic researcher might need a week to uncover. If a roll is called for to analyze evidence you have found, you have advantage as well as Expertise, which means that you add your proficiency bonus twice. The GM can provide the relevant details."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Reliable Intuition",
+											"page": 62,
+											"entries": [
+												"Also at 6th level, your ability to read people improves. You now have proficiency in {@skill Insight}, if you did not before, or Expertise if you already have proficiency in it."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Mental Reenactment",
+											"page": 62,
+											"entries": [
+												"At 9th level, you can analyze a location and fully understand the most recent series of events that has transpired there. If you spend 1 minute examining a 30-foot square area, not only can tell who has been here and what in general they were doing, but you can visualize a reenactment of the scene, watching it unfold in your mind like a movie. This allows you to understand exactly what happened, blow-by-blow, rather than stopping at more general conclusions. The GM must truthfully describe the most recent significant series of events that occurred at the location, though details that might not leave a trace, like what an assailant's face looked like or what was said, would not be included."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Web of Contacts",
+											"page": 62,
+											"entries": [
+												"When you reach 13th level, your experience as an investigator begins to pay off. Now, whenever you need inside information, access to a restricted area, or someone to persuade the prosecutor to drop charges, you know someone who can help. Once a day, you can contact someone to gain some inside-information, including sensitive or confidential info. Once a week, you can gain access to a restricted area or can receive a cache of rare or contraband supplies. And once a month, you can get charges dropped, up to and including manslaughter."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Complete Forenic Analysis",
+											"page": 62,
+											"entries": [
+												"When you reach 17th level, you gain the know-how and ability of a complete forensic team. If you spend 10 minutes examining a 30-foot square area, you can find and analyze fingerprints and blood samples in the field as if you had weeks of work from a forensics lab. Simply by touching a drop of blood, for example, you can identify its blood type, how long ago it was spilled, and the age and sex of its owner. Similarly, by simply examining a bullet hole, you immediately know the kind of weapon that fired the bullet and the location of the shooter. You can even recognize fingerprints that you have seen before."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"name": "Agent Division: Operator",
+									"page": 62,
+									"entries": [
+										"Your area of specialization focuses on covert operations, espionage, infiltration, and even, perhaps, wetwork.",
+										{
+											"type": "entries",
+											"name": "Special Attack: Sneak Attack",
+											"page": 63,
+											"entries": [
+												"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+												"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+												"The amount of the extra damage increases as you gain levels in this class, as shown in the Special {@action Attack} column of the Special Agent table."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Second-Story Work",
+											"page": 63,
+											"entries": [
+												"When you join the operator division at 1st level, you are trained how to climb faster than normal; climbing no longer costs you extra movement.",
+												"In addition, when you make a running jump, the distance you cover increases by the number of feet equal to your Dexterity modifier."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fast Hands",
+											"page": 63,
+											"entries": [
+												"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a {@skill Sleight of Hand} check, use your thieves' tools to open a lock, or take the {@action Use an Object} action."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "First Strike",
+											"page": 63,
+											"entries": [
+												"Also at 3rd level, you become practiced at hitting first and hitting hard. You have advantage on initiative rolls. You double your Special {@action Attack} damage against any creature that you beat on initiative in the first round."
+
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Defensive Tactics",
+											"page": 63,
+											"entries": [
+												"At 6th level, you gain one of the following features of your choice:",
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Escape the Skirmish|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Multiattack Defense|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Steel Will|Superheroic5E}"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Supreme Sneak",
+											"page": 63,
+											"entries": [
+												"Starting at 9th level, you have advantage on {@skill Stealth} checks."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Infiltration Master",
+											"page": 63,
+											"entries": [
+												"When you reach 13th level, your ability to infiltrate both physical and electronic places excels. You now have proficiency with the disguise kit and forgery kit. If you spend a day researching a location or organization, you can establish a false identity and credentials that fool everyone, unless they are given an obvious reason to doubt your work. Anyone rolling to detect whether your identity or identification are forgeries rolls with disadvantage.",
+												"What's more, you can now hack computer networks and electronic security systems like a pro, leaving no traces. If you spend 1 minute accessing the relevant computer or security panel, you can hack any connected systems or devices except those with encryption or biometric security. When you hack or disable such security systems, you go undetected unless someone uses an action to make an {@skill Investigation} check that beats a DC equal to 8 + your Intelligence modifier + your proficiency bonus."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Operator's Reflexes",
+											"page": 64,
+											"entries": [
+												"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"name": "Agent Division: Soldier",
+									"page": 64,
+									"entries": [
+										"Your area of specialization focuses on combat operations, sorties, and dealing massive damage when necessary.",
+										{
+											"type": "entries",
+											"name": "Special Attack: Aim",
+											"page": 64,
+											"entries": [
+												"Beginning at 1st level, you know how to aim your attacks at the more vulnerable areas of your foes. Once per turn, you can use your bonus action to deal an extra {@damage 1d6} damage to one creature you hit with an attack, if you don't have disadvantage on the attack roll.",
+												"If you continue to attack the same target and the target does not move out of its space, you may add your Special {@action Attack} damage on a hit against that enemy in every subsequent round of that combat. You may continue to do so until the enemy drops to zero HP, or you attack a different target, if you are not attacking with disadvantage.",
+												"You may also change which enemy you are aiming at by using a bonus action to assess a new target. Once you have done so, you may add your Special {@action Attack} damage to hits on that target if it does not leave its space.",
+												"The amount of the extra damage increases as you gain levels in this class, as shown in the Special {@action Attack} column of the Special Agent table."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Additional Fighing Style",
+											"page": 64,
+											"entries": [
+												"When selecting your fighting style at 3rd level, you have the additional three options available to you to choose:",
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Great Weapon Fighting}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Grenadier|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Protection}"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Favored Technique",
+											"page": 64,
+											"entries": [
+												"When you reach 3rd level, you gain one of the following features of your choice:",
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Double Down|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature David vs Goliath|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Squad Breaker|Superheroic5E}"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Brutal Critical",
+											"page": 64,
+											"entries": [
+												"At 6th level, you can roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack. This increases to three additional dice at 17th level."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Multiattack",
+											"page": 64,
+											"entries": [
+												"When you reach 9th level, you gain one of the following features of your choice.",
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Volley|Superheroic5E}"
+													]
+												},
+												{
+													"type": "entries",
+													"entries": [
+														"{@optfeature Whirlwind Attack|Superheroic5E}"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Retaliation",
+											"page": 64,
+											"entries": [
+												"Starting at 13th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee attack against that creature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Combat Veteran",
+											"page": 64,
+											"entries": [
+												"Also at 13th level, you can choose a second option from the {@filter Fighting Style|optionalfeatures|feature type=fs:f;fs:b} class feature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Survivor",
+											"page": 64,
+											"entries": [
+												"At 17th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain HP equal to 5 + your Constitution modifier if you have no more than half of your HP left You don't gain this benefit if you have 0 HP."
+											]
+										}
 									]
 								}
 							]

@@ -4,7 +4,7 @@
             {
                 "json": "S5E-Feats",
                 "abbreviation": "S5E-Feats",
-                "full": "Superheroic5e Feats",
+                "full": "S5E: Feats",
                 "authors": [
                     "Gwendolyn Marshall",
                     "Amy Bliss Marshall"
@@ -212,6 +212,216 @@
 			"entries": [
                 "{@i Prerequisite: {@spell primordial flame|Superheroic5E} at will power}",
                 "When you use {@spell primordial flame|Superheroic5E} against a creature and it fails its Dexterity save, its movement is reduced by 15 feet for one round."
+			]
+		},
+		{
+			"name": "Street Fighter",
+			"source": "Superheroic5E",
+            "page": 58,
+			"featureType": [
+				"FS:F"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You are good in a bar fight. You have proficiency with improvised weapons, and you deal {@damage 1d6} damage with them, rather than {@dice 1d4}. Also, when you hit a creature with an unarmed strike or melee weapon, you can use a bonus action to attempt to shove them or knock them {@condition prone}."
+			]
+		},
+		{
+			"name": "Escape the Skirmish",
+			"source": "Superheroic5E",
+            "page": 63,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Opportunity attacks against you are made with disadvantage."
+			]
+		},
+		{
+			"name": "Multiattack Defense",
+			"source": "Superheroic5E",
+            "page": 63,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+			]
+		},
+		{
+			"name": "Steel Will",
+			"source": "Superheroic5E",
+            "page": 63,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have advantage on saves against being {@condition frightened}."
+			]
+		},
+		{
+			"name": "Grenadier",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"FS:F"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You are adept with throwing explosive ordnance and always seem to have a grenade on hand. If you have a grenade or other thrown explosive, you may throw it as a bonus action. If you throw a grenade that deals damage, you may roll the damage twice and take the higher number."
+			]
+		},
+		{
+			"name": "Double Down",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra {@damage 1d8} damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+			]
+		},
+		{
+			"name": "David vs Goliath",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When a visible Large or larger creature or vehicle within 30 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided it is in range of your weapon"
+			]
+		},
+		{
+			"name": "Squad Breaker",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 3,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and in range of your weapon."
+			]
+		},
+		{
+			"name": "Volley",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to make a ranged attack against any number of creatures within 10 feet of a visible point within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+			]
+		},
+		{
+			"name": "Whirlwind Attack",
+			"source": "Superheroic5E",
+            "page": 64,
+			"featureType": [
+				"OTH"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Special Agent"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
 			]
 		}
     ]
