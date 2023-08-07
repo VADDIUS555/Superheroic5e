@@ -28,6 +28,16 @@
 				"Natural Armor",
 				"Natural Weapon"
 			],
+			"age": {
+				"mature": 0,
+				"max": 100
+			},
+			"heightAndWeight": {
+				"baseHeight": 42,
+				"heightMod": "6d8",
+				"baseWeight": 90,
+				"weightMod": "2d4"
+			},
 			"entries": [
 				"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
 				{
@@ -134,6 +144,16 @@
 			"page": 16,
 			"size": ["M"],
 			"speed": {"walk": 30, "swim": 30},
+			"age": {
+				"mature": 15,
+				"max": 500
+			},
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"traitTags": [
 				"Amphibious"
 			],
@@ -177,6 +197,16 @@
 			"page": 16,
 			"size": ["M"],
 			"speed": {"walk": 30},
+			"age": {
+				"mature": 15,
+				"max": 80
+			},
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -236,6 +266,16 @@
 			"page": 16,
 			"size": ["M"],
 			"speed": {"walk": 30},
+			"age": {
+				"mature": 15,
+				"max": 80
+			},
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"entries": [
 				"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
 				{
@@ -269,6 +309,16 @@
 			"page": 17,
 			"size": ["M"],
 			"speed": {"walk": 30},
+			"age": {
+				"mature": 15,
+				"max": 150
+			},
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"entries": [
 				"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto. Descendants of such heroes have the following traits.",
 				{
@@ -299,6 +349,16 @@
 			"page": 17,
 			"size": ["M"],
 			"speed": {"walk": 30},
+			"age": {
+				"mature": 0,
+				"max": 200
+			},
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
 			"traitTags": [
 				"Amphibious",
 				"Natural Armor"
@@ -356,6 +416,12 @@
 							]
 						}
 					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
 				}
 			],
 			"entries": [
@@ -424,6 +490,12 @@
 					"artisan's tools": true
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
 			"entries": [
 				"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
 				{
@@ -461,6 +533,12 @@
 			"source": "Superheroic5E",
 			"page": 19,
 			"speed": {"swim": true},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
 			"traitTags": [
 				"Amphibious",
 				"Skill Proficiency"
@@ -514,6 +592,12 @@
 					}
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
 			"traitTags": [
 				"Skill Proficiency"
 			],
@@ -563,6 +647,12 @@
 					"cha": 1
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
 			"entries": [
 				"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
 				{
@@ -610,6 +700,12 @@
 							]
 						}
 					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
 				}
 			],
 			"entries": [
@@ -674,6 +770,12 @@
 			"skillProficiencies": [
 				{
 					"arcana": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
 				}
 			],
 			"entries": [
