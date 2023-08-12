@@ -19,10 +19,198 @@
     },
     "background": [
 		{
-			"name": "",
+			"name": "Athlete",
 			"source": "Superheroic5E",
 			"page": 77,
-			"entries": []
+			"armorProficiencies": [
+				{
+				"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+				"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"athletics",
+							"intimidation",
+							"medicine",
+							"sleight of hand"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"{first aid kit|Superheroic5e}":true,
+					"{@filter  one set of tools|items|source=|type=tools|category=}":true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "A medic's pack"
+						},
+						{
+							"special": "a gym pass"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 40000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Feature: Gym Membership",
+					"entries": [
+
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Armor and Weapons Proficiencies",
+									"entries": [ "{@filter light armor|items|source=|type=light armor|category=",
+									"{@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tool Proficiencies",
+									"entry": "{First Aid Kit|Superheroic5e}"
+								},
+								{
+									"type": "item",
+									"name": "Languages",
+									"entry": "one language of your choice"
+								},
+								{
+									"type": "item",
+									"name": "Equipment",
+									"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Con Artist",
+			"source": "Superheroic5E",
+			"page": 77,
+			"armorProficiencies": [
+				{
+				"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+				"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"performance",
+							"persuasion",
+							"sleight of hand"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit":true,
+					"forgery kit":true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "A criminal’s pack"
+						},
+						{
+							"item": "{forgery kit|phb}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 40000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Feature: Permanent Alibi",
+					"entries": [
+
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Armor and Weapons Proficiencies",
+									"entries": [ "{@filter light armor|items|source=|type=light armor|category=",
+									"{@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tool Proficiencies",
+									"entry": "{@item Disguise kit}, {@item forgery kit}"
+								},
+								{
+									"type": "item",
+									"name": "Languages",
+									"entry": "one language of your choice"
+								},
+								{
+									"type": "item",
+									"name": "Equipment",
+									"entry": " A {@item criminal’s pack|Superheroic5e}, a {@item forgery kit}, a {@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}, and $400"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

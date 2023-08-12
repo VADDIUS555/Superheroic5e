@@ -20,13 +20,82 @@
     },
     "feat":[
         {
-            "name": "ALWAYS READY",
+            "name": "Always Ready",
             "source": "Superheroic5E",
             "page": 86,
             "entries": [
                 "You are more vigilant than most people, always on the lookout for trouble and on guard against ambushes. Add +5 to your initiative bonus. Additionally, you cannot be surprised and people attacking you from hiding do not get advantage while you are conscious."
             ]
-        }
+        },
+		{
+			"name": "Ancient Talisman",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "Mystic"				
+				}
+			],
+			"entries": [
+				"Your research uncovers an ancient talisman endowed with mystical power. It might be a medallion, or a ring, or something else that you wear or wield.",
+				"While the item is in your possession, you may draw on its arcane might to empower your own magical powers.",
+				"Select one 1st or 2nd level power you do not have. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
+				"The first time you use this power, you do not need to expend a power slot; after that, you may use it again by expending a power slot as normal. If you have no power slots, you may use it once. You regain the ability when you complete a short or long rest.",
+				"Use your normal power attack modifier or save DC when you use this power. If you do not have any levels in a class with slots, then you calculate you save DC and attack modifier for this power as follows:",
+				"Save DC = 8 + your proficiency bonus + your Power ability modifier",
+				"{@action Attack} modifier = your proficiency bonus + your Power ability modifier",
+				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this power."
+			]
+		},
+		{
+			"name": "Adminred Hero",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"lives and the media has decided to fame you as an admirable role model for others (whether it's in fact true). As a result, you gain the following:",
+				"Increase your Charisma score by 1, to a maximum of 26.",
+				"You have advantage on {@skill Persuasion} and {@skill Deception} checks with anyone from your hometown.",
+				"As an Action, you can use the {@spell charm person} power once per day on a person from your home region without expending a power slot, even if you don't know it."
+			]
+		},
+		{
+			"name": "Artificial Intelligence",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"other": "power armor"		
+				}
+			],
+			"entries": [
+				"You have a built-in AI who assists you, granting you advantage on all Intelligence checks. As a bonus action, you can query your assistance and have it access the web for any information that a dedicated researcher could find in a matter of minutes, which, for your AI, takes only a moment. If the query is difficult, the GM may call for an {@skill Investigation} check. Finally, the AI can perform a tactical analysis of your foes, though this takes a few moments of observation to achieve. At the beginning of the third round of combat, your AI informs you of any damage and condition resistances, immunities, or vulnerabilities your foes have."
+			]
+		},
+		{
+			"name": "BATTLEFIELD CONTROLLER",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"You have a knack for directing combat around you to your advantage, making it difficult for your enemies to freely move near you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you hit a foe with an opportunity attack, they stop moving and their speed becomes 0 for the rest of their turn.",
+						"Targets provoke opportunity attacks from you even if they use the {@action Disengage} action when leaving your reach.",
+						"Targets provoke an opportunity attack from you when they enter your reach."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonded Weapons",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"{@i Associated classes: the weapons martial expert training regimen or the weaponry favored tech}",
+				"You are uniquely bound to up to three weapons in some way, rendering them inseparable from you.Perhaps they are physically implanted in your body, you summon them to your hand at will, you manifest new ones whenever you need to do so, or they are DNA linked so that only you can wield them. Whatever the nature of this bond, you cannot be disarmed against your will and can manifest or produce your superpowered or signature weapons at will."
+			]
+		}			
     ],
     "optionalfeature": [
         {
