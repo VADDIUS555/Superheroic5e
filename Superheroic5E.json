@@ -35,7 +35,7 @@
 					"name": "Introduction"
 				},
 				{
-					"name": "Chapter 1: Making A Superhero",
+					"name": "Making A Superhero",
 					"headers": [
 						"Session Zero",
 						"Step One: Choose Your Ancestry & Culture",
@@ -51,7 +51,7 @@
 					}
 				},
 				{
-					"name": "Chapter 2: Ancestry & Culture",
+					"name": "Ancestry & Culture",
 					"headers": [
 						"Ancestries",
 						"Cultures"
@@ -62,7 +62,7 @@
 					}
 				},
 				{
-					"name": "Chapter 3: Classes",
+					"name": "Classes",
 					"headers": [
 						"Elementalist",
 						"Kinetic",
@@ -300,7 +300,7 @@
 				},
 				{
 					"type": "section",
-					"name":"Chapter 1: Making A Superhero",
+					"name":"Making A Superhero",
 					"page": 5,
 					"entries": [
 						{
@@ -929,7 +929,7 @@
 				},
 				{
 					"type": "section",
-					"name":"Chapter 2: Ancestry & Culture",
+					"name":"Ancestry & Culture",
 					"page": 15,
 					"entries": [
 						{
@@ -1165,7 +1165,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Chapter 3: Classes",
+					"name": "Classes",
 					"page": 21,
 					"entries": [
 						{
@@ -6485,6 +6485,1614 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "section",
+					"name":"Background & Personality",
+					"page": 77,
+					"entries": [
+						"Your superhero is almost finished! All that remains is to choose a background and describe your hero's personality and appearance. This chapter also provides a list of Feats you can take at certain levels, as listed in your hero class table.",
+						{
+							"type": "section",
+							"name":"Backgrounds",
+							"page": 77,
+							"entries": [
+								{
+								"type": "entries",
+								"entries": [
+								{
+									"type": "entries",
+									"name": "{@background Athlete|Superheroic5E}",
+									"page": "77",
+									"entries": [
+										"Either for fun or profit, your life circles around athletics. Perhaps you are a martial arts instructor or an aspiring professional baseball player. Or maybe you simply spend all your time working out, be it Tae Kwon Do, running, or rugby. Whatever the case may be, you participate in the organizations that govern and promote your chosen activities for much of your life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Con Artist|Superheroic5E}",
+									"page": "77",
+									"entries": [
+										"You make your living telling stories that people want to hear\u2014stories that end with you relieving them of some of their money. It's a skill you've developed over time and built through practiced lies, faked documents, and the occasional picked pocket. You sometimes even must become someone else entirely to escape. Your chosen profession is not popular with the police, who do not take kindly to your practices."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Corporate Drone|Superheroic5E}",
+									"page": "77",
+									"entries": [
+										"The rich and powerful believe it is their work alone that built their wealth, but you know better. Having worked among the cubicles at one of the world's largest corporations, you know how things work and how to get things done. Your name might not have wealth and prestige attached like those of the CEOs, but you know how to cut through bureaucracy when necessary\u2014and other office plebs are more likely to help you out. Work with your GM to determine which corporation you work for or once worked for and whether you still have pull in the office."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Criminal|Superheroic5E}",
+									"page": "77",
+									"entries": [
+										"You make your living doing shady work. Perhaps you steal or serve as muscle for other crooks. Some of the most common criminal jobs recently have been credit card skimming and identity theft\u2014lucrative, but dangerous. Whatever you preferred crime, you have spent enough time among the seedier folks in the city to pick up several useful skills. Work with your GM to determine what you preferred job is. Options include burglar, high tech thief, pickpocket, or thug."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Entertainer|Superheroic5E}",
+									"page": "78",
+									"entries": [
+										"You dance, sing, act, joke, or otherwise entertain people as a living. Perhaps you were brought up in an entertaining family. Possibly it is a path you fell into or chose at some point. Regardless, you now have at least one act that reliably drums up some coin.",
+										"Work with your GM to imagine at least one performance you have in your repertoire. Whatever you choose, make sure you can describe a bit of what it looks like when you perform."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Explorer|Superheroic5E}",
+									"page": "78",
+									"entries": [
+										"Whether you come from another world or simply wish to find the secret places of your own, you spend your time going where others have not. Some explorers plumb the depths of the ocean or sail the most remote seas; still other travel the stars, or even the stream of time, looking for discovery.",
+										"Work with your GM to determine what you like to explore and why you do so; are you looking for something in particular, or is it simply novel experiences you seek?"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Indigent|Superheroic5E}",
+									"page": "78",
+									"entries": [
+										"The city may be a bustling metropolis filled with workers and wealth, but it also has a massive number of poor and itinerant people. You were one such person, having lived for at least a few years on the streets and in the alleys of the lower-origin areas among the homeless. You may have panhandled here and there, or perhaps you sung or did a simple dance on a street corner until the police would run you off. Maybe you scavenged in others' dumpsters for food and odd trinkets to pawn. Some of your associates would resort to petty theft",
+										"If you like, you may also choose an area of the city you frequented when you were down on your luck. Work with your GM to decide how you ended up indigent and whether you've pulled yourself out of it or not. If so, how?",
+										"Did someone help you?"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Journalist|Superheroic5E}",
+									"page": "79",
+									"entries": [
+										"You work issue to issue, selling your photos or stories as you can, submitting it to news agencies or tabloids. Perhaps you had some formal training in journalism school, but it is just as likely that you are mostly self-taught. Maybe you have some articles or photos in a local rag or college student paper. Nevertheless, you have a real and useful skill which you can use to support yourself, as well as a loose network of fellow members of your craft Work with your GM to determine your specific relationship to various news or photography outlets and perhaps even describe a few of your works."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Laborer|Superheroic5E}",
+									"page": "79",
+									"entries": [
+										"You make your living by the sweat of your brow and through your exertions, the city works. Indeed, years of manual labor have toughened you up and made you strong. You may be a stevedore, hired to unload container ships, or a factory worker on an assembly line. Or perhaps, rather than working the line at the factory, you work in an auto body shop, or as a mechanic in a garage. There's no job too dirty; if it needs doing, you can do it.",
+										"One advantage of this line of work is that it brings you in contact with other laborers who have similar experiences. These like-minded groups of laborers are often in unions or, at least, share a sense of mutual aid to support one another. Work with your GM to determine whether you belong to a union or one of these informal communities. Where is it? Is it politically active?"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Medical Worker|Superheroic5E}",
+									"page": "79",
+									"entries": [
+										"You work in the medical field, as a nurse, doctor, or assistant. Perhaps you went to nursing school and received your LPN or RN. There you learned how to bandage wounds, set bones, and administer medication, among other things. You also know your way around a pharmacy or hospital. Though you lack the scientific expertise and advanced training of the medical doctor, your skills can be very useful in the field. Work with your GM to determine the details of your training and former employment."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Military Trained|Superheroic5E}",
+									"page": "80",
+									"entries": [
+										"You served in the army, or perhaps on a police force, and have likely seen combat as well. Your experience has marked you and those you served alongside will forever be family.",
+										"Work with your GM to determine where you served and in what capacity. Where you in the American armed forces? Local police force? Foreign military? CIA strike team? Next, determine what relationship, if any, you still have to your old organization and your former soldiersin-arms. Perhaps you still maintain relations with a few of them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Monastic|Superheroic5E}",
+									"page": "80",
+									"entries": [
+										"You were raised or have spent a considerable amount of time in a monastery, enclave, commune, or other isolated and insular community. Perhaps the people there were united by a common ideology; regardless, you grew to know their ways very well.",
+										"Work with your GM to determine the nature of your former community. Was it a religious community, like a monastery? Or a political one instead? Was it intentionally low tech? Or was it a scholarly enclave? Next, determine what relationship, if any, you still have to your old community and its members. Perhaps you still maintain relations with a few of them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Pilot|Superheroic5E}",
+									"page": "81",
+									"entries": [
+										"You spent several years as a pilot, of a commercial airline or, perhaps, a cruise ship. Your years in the sky or at sea have given you ample experience with the travel industry, as well as skill piloting a variety of commercial vessels and vehicles. You may even have served in the Air Force or Navy in the past, but you've been working in the commercial industry for a while now. Indeed, unlikely as it might be, you may even have hoped to train as an astronaut.",
+										"Choose what vehicles you pilot and how you gained this experience."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Service Industry Worker|Superheroic5E}",
+									"page": "81",
+									"entries": [
+										"The most common form of employment, by far, is in the service industry, and you are among them. Whether you work in food service\u2014front or back of the house\u2014or in retail or similar, your work ultimately brings you into contact with customers, for better or worse. The good news is you have skills that make it easy for you to find work. The bad news is most of the jobs you can find don't pay very well.",
+										"Choose what area of service you worked in. Some examples are kitchen staff, wait staff, housekeeping, lawn care, IT, tourism, entertainment, sales, consulting, etc. Then work with your GM to determine where you worked. Did you leave under good circumstances or bad? The relationship with your former employer(s) may end up being important as the story unfolds!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Scientist|Superheroic5E}",
+									"page": "81",
+									"entries": [
+										"Isaac Newton. Marie Curie. Neil deGrasse Tyson. These figures inspire you in your relentless search for the truth about the natural world. You employ experimental methods, collecting observations, and sharing your findings with your scientific community, be it at a local university, online group, or publishing in scientific journals.",
+										"Choose your preferred area of scientific pursuit. Perhaps you study genetics, trying to discover the source of the superpowers a lucky few heroes develop. Or you study materials science, producing substances that can serve as lightweight, impenetrable armor for tomorrow's Technological heroes. Whatever your area, you conduct your experiments in a lab. Work with your GM to determine where it is and what it might contain. Is it functional? Exploded? Dangerous? Your GM may give you opportunities to visit it and conduct an experiment."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Student or Scholar|Superheroic5E}",
+									"page": "81",
+									"entries": [
+										"You live the life of the mind. Probably, you have an advanced degree, but you might be an autodidact, however, in which case your erudition is especially impressive. Whatever its source, your knowledge is expansive and impressive, though, you focus on a particular area of study. Work with your GM to determine what your focus is and where you conduct your studies. Perhaps you delve into dusty tomes and archives to uncover the truth about history, in which case you might spend time in government buildings examining old documents. Or maybe you study ancient languages and translate Homer or Horace, while holing up at your old university. Or maybe you study the works of the great philosophers, in which case you might frequent symposiums and discuss your ideas with other scholars. You might even engage in your scholarly exchanges entirely in writing, submitting essays to prestigious journals. Wherever you work, you have built special relationships with other like-minded folks with which you share your passions. Normal folks might call you an egghead, however."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Survivalist|Superheroic5E}",
+									"page": "82",
+									"entries": [
+										"You grew up well outside of the city. Your people work the land and have for generations. Indeed, the way the elders in your community tell it, you are the land. You likely worked a particular crop or bred a domesticated animal or two and know them best, but your agrarian life taught you how to grow a variety of crops, as well as raise other forms of livestock.",
+										"Something led you to leave your quiet rural life behind, however, and come to the city. Was it when you got your powers? What happened? Work with your GM to imagine a story that brings you from there to where you are now. Be sure to include conflict in the tale, so that the GM might invoke it at a later moment in the story!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Wealthy Aristocrat|Superheroic5E}",
+									"page": "82",
+									"entries": [
+										"Some say you had an easy upbringing. In one sense, of course you did\u2014the most privileged imaginable, really. Even so, satisfying your distant and perfectionist parents wasn't easy, to say the least. You learned, though, how to maneuver among the rich and powerful elite, which turns out to be a useful life skill after all. Work with your GM to determine if your parents are still around, whether you are the young new CEO of a major corporation, or just a celebrity socialite."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@background Custom Background|Superheroic5E}",
+									"page": "82",
+									"entries": [
+										"Maybe the list of provided backgrounds doesn't quite capture what your character's been up to, you can create one tailor-made instead. What might your hero have been doing before becoming a superhero? Where were they living? What was their job, if any? If you choose this background, describe your life before superheroics. Work with your GM to make it interesting and fun."
+									]
+								}
+							]}
+							]
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/XZr1XBO.png"
+							}
+						},
+						{
+							"type": "entries",
+							"name":"Appearance",
+							"page": 83,
+							"entries": [
+								"One way to begin to flesh out your hero is to describe their appearance. What would people notice upon first meeting them? This description can include basic descriptions like height and weight, eye color, hair color and style, and skin tone. It can also include more holistic judgements, like their gender presentation and their sense of style.",
+								"Furthermore, you should decide how your hero presents themselves both when they are acting as a superhero in public and when they are living their mundane life. Do they have a secret identity? Or are they always just their superheroic selves, even when at home?",
+								"Ideally, you'll form a mental image of your hero, perhaps writing a description that others can read or hear to get the idea. You might even track down or commission some art that you think captures your hero as well."
+							]
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/NWyWqZp.png"
+							}
+						},
+						{
+							"type": "entries",
+							"name":"Backstory",
+							"page": 83,
+							"entries": [
+								"It isn't necessary, but you may enjoy thinking about the history of your superhero as well, to get to know them more and to better enjoy roleplaying them.",
+								"In addition to your heroic cornerstone and vulnerability, where did you grow up? Do you have siblings? What is your relationship to the family or friends? Do you have political, religious, or philosophical opinions that might color how you interact with the world around you? If you developed their powers at a certain point in your life, how did that change impact you? What attitude do you have toward your powers? Now that you have and use them in superheroic ways, what is your attitude toward that role? Is it an obligation? Something you do for fun? Out of moral principle? For money?",
+								"Finally, you may wish to think about what kind of personality your hero might have. Are you funny? Serious? Rational? Erratic?",
+								"Answering some of these questions can help you to complete your character concept and can make the game a richer experience."
+							]
+						},
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/zA2C6Cj.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 92,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/K5tUc4E.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Feats",
+							"page": 83,
+							"entries": [
+								"A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.",
+								"At certain levels, your class gives you the Ability Score Improvement or Feat feature. You can take a feat of your choice, or you can instead choose whether to increase your ability scores by 2 points, assigning one each to two different abilities or two to one ability. You can take each feat only once unless the feat's description says otherwise.",
+								"Some feats list prerequisites that should be met before taking the feat, though players may wish to work with their GM to see if a particular feat might be appropriate even if your hero doesn't meet the prerequisites. Many feats list associated classes and subclasses to help players to choose; these are not requirements for taking the feat, however.",
+								{
+									"type": "entries",
+									"name": "{@feat Alway Ready|Superheroic5E}",
+									"page": 83
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Ancient Talisman|Superheroic5E}",
+									"page": 83
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Admired Hero|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Artificial Intelligence|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Battlefield Controller|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Bonded Weapons|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Botanical Self|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Brilliant|Superheroic5E}",
+									"page": 84
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Call for Backup|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Charming|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Combat Invisibility|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Combat Technique|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Contacts|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Debilitating Strike|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Defensive|Superheroic5E}",
+									"page": 85
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Demolitionist|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Disruptive Phasing|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Diviner|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Drive Back|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Elemental Being|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Enhanced Senses|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Empathic Sense|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Extradimensional Storage|Superheroic5E}",
+									"page": 86
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Fencing Expert|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Fly-By|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Good Luck|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Grappler|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Grit|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Fungal Rapport|Superheroic5E}",
+									"page": 87
+								},{
+									"type": "entries",
+									"name": "{@feat Futuristic Gear|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Great Luck|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Heroic Transformation|Superheroic5E}",
+									"page": 87
+								},
+								{
+									"type": "entries",
+									"name": "{@feat High-Tech Investigator|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Identity Thief|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Ineffable Lucidity|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Inorganic Physiology|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Insightful|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Jury-Rigger|Superheroic5E}",
+									"page": 88
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Kinesthetic Mimic|Superheroic5E}",
+									"page": 89
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Layered illusion|Superheroic5E}",
+									"page": 89
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Manipulate Energy|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Mastery of Magnetism|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Mighty|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Monstrous Form|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Mutation|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Mutation, Advanced|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Natural Manifestation|Superheroic5E}",
+									"page": 90
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Nimble|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Parkour|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Performer|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Polyglot|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Precision Flame|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Psychopomp|Superheroic5E}",
+									"page": 91
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Remote Control|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Resilient|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Resistant|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Robust|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Sanctum Sanctorum|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Shield Savant|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Skillful|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Steadfast|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Strong Back|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Surveillance Network|Superheroic5E}",
+									"page": 93
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Symbiotic Form|Superheroic5E}",
+									"page": 94
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Trick Shot|Superheroic5E}",
+									"page": 94
+								},
+								{
+									"type": "entries",
+									"name": "{@feat True Omnivore|Superheroic5E}",
+									"page": 94
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Two-Weapon Wielder|Superheroic5E}",
+									"page": 94
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Unique Technology|Superheroic5E}",
+									"page": 94
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Versatile Combatant|Superheroic5E}",
+									"page": 95
+								},
+								{
+									"type": "entries",
+									"name": "{@feat Weapon & Armor Adept|Superheroic5E}",
+									"page": 95
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name":"Equipment",
+					"page": 97,
+					"entries": [
+						{
+							"type": "image",
+							"page": 96,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/QFyXzGy.png"
+							}
+						},
+						"In your superheroic adventures, you may play as, or encounter, agents, Martial Experts, law enforcement officers, military personnel, criminals, or gangsters, any of which might carry a weapon. As the heroes slug it out with villains across the city, they may engage in speeding car chases and shoot-outs or, at higher levels, military grade artillery and more.",
+						"This chapter provides the rules for weapons, armor, vehicles, equipment, and tool kits, as well as information on living expenses.",
+						"Most superheroic adventures and stories don't focus much on money. In discussion with the group, the GM may decide not to worry about questions of how the heroes pay their rent or afford their weapons and ammunition. If you wish to include such matters in your game, however, this chapter provides not only fun gear, but costs and weights as well.",
+						"An unskilled worker can expect to make roughly $50 for a day of work, or $250 a week, whereas a skilled worker can make $150/day, or $750/week. The prices for items in S5E are included in the weapons, equipment, and tools lists below.",
+						{
+							"type": "section",
+							"name":"Armor",
+							"page": 97,
+							"entries": [
+								"When you play a game set in something close to the modern world, most medieval or ancient styles of armor are obsolete. Even so, some armors are still available and can be of great use for a certain kind of hero.",
+								{
+									"type": "entries",
+									"name": "Superhero Costumes",
+									"page": 97,
+									"entries": [
+										"At 1st level, your heroes probably have costumes cobbled together from everyday items: ski masks, balaclavas, motorcycle helmets, hockey masks, homemade insignias sewn into street clothes, and so on.",
+										"Once the heroes reach higher levels, however, they might wish to acquire more official costumes. Your world may even have a superhero costume designer or provider; perhaps there is a fashion maven who delights in making specialty wear for the discerning hero, or maybe the heroes know a back-alley blacksmith who fashions brutal armor for vigilantes. Either way, your heroes may wish to acquire costumes that also function as armor. Any of the armor options below can be designed and decorated to function as armor but appear as a costume. For a classic superheroic look that is nevertheless protective, opt for the futuristic fabrics option, if your GM allows it.",
+										"At the highest levels, heroes can choose to wear specialized costumes that can withstand the massive destructive power they deal out and receive. With GM approval, heroes may elect to wear one of the heavier futuristic armor options as an especially resilient, custom designed costume that can withstand the most intense forms of damage, all while looking stylish, iconic, or menacing, as the heroes prefer."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Armor Table",
+									"page": 97,
+									"entries": [
+										"The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: {@b light armor, medium armor, and heavy armor}. Some combatants also supplement their armor with a shield. The Armor table shows the cost, weight, and other properties of the common types of armor worn in modern fantasy gaming worlds.",
+										{
+											"type": "entries",
+											"name": "Armor Proficiency.",
+											"entries": [
+												"Anyone can put on a Kevlar vest or pick up a riot shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, save, or attack roll that involves Strength or Dexterity"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Armor Class (AC).",
+											"entries": [
+												"Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Heavy Armor.",
+											"entries": [
+												"Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. If the Armor table shows \"Str 13\" or \"Str 15\" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Stealth",
+											"entries": [
+												"If the Armor table shows \"Disadvantage\" in the {@skill Stealth} column, the wearer has disadvantage on {@skill Stealth} checks."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Superheroes and Armor",
+									"page": 97,
+									"entries": [
+										"Unlike fantasy adventurers, superheroes do not tend to wear armor regularly, instead opting for relatively lightweight costumes. Indeed, mundane armor is fairly ineffective for superheroes; they can usually sustain more damage than any basic piece of armor could endure. Futuristic and advanced armors can be lifesavers, however, which is why superheroes rarely wear armor unless it is top of the line, advanced tech, or incredibly heavy duty armor. Note that the futuristic armors allow heroes to add their proficiency bonus to their AC, just as they do when they are unarmored."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Light Armor",
+									"page": 98,
+									"entries": [
+										"Made from supple and thin materials, light armor favors agile heroes since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.",
+										{
+											"type": "entries",
+											"name": "{@item Tactical Streetwear|Superheroic5E}.",
+											"page": 98,
+											"entries": [
+												"Tactical streetwear is cutting edge, high fashion clothing that resembles everyday streetwear, but is made with high tech fabrics and designs, inspired by military and sports applications. These materials provide some modest protection, but do not look like armor at all. (4 lb., $100)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Leather|Superheroic5E}",
+											"page": 98,
+											"entries": [
+												"Leather jackets and pants provide some protection from harm and are a necessity when riding motorcycles, for example. As such, they are a common sight on the street and draw no special attention. (8 lb., $50)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Reinforced Leather|Superheroic5E}",
+											"page": 98,
+											"entries": [
+												"Worn by stuntmen and competitive motorcyclists, these leathers are reinforced in the torso, shoulders, hips, elbows, and knees. The rest of the armor is made of softer and more flexible materials. Such outfits are not uncommon on the street, as some casual motorcyclists wear them, and they are not much bulkier than plain leather. (12 lb., $150)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Studded Leather|Superheroic5E}",
+											"page": 98,
+											"entries": [
+												"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes. Outside of leather bars or classic metal shows, however, such apparel is unusual. (15 lb., $75)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Futuristic Fabrics|Superheroic5E}",
+											"page": 98,
+											"entries": [
+												"Composed of advanced materials, this armor resembles a quasi-metallic fabric that is nevertheless pliable and form-fitting. It can be worn beneath normal clothing and is nearly undetectable when done so. It is light-weight and remarkably resistant to bullets and blades alike. It could also serve as an advanced material with which to make a superhero costume. (5 lb., $1,000)"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Medium Armor",
+									"page": 98,
+									"entries": [
+										"Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.",
+										{
+											"type": "entries",
+											"name": "Flak Jacket",
+											"page": 98,
+											"entries": [
+												"This cloth vest features hard ballistic plates of metal or ceramic sewn into its fabric. These bulky vests were developed during World War 2 and are no longer standard issue. Wearing one in public would draw concerned looks. (25 lb., $50)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Kevlar Vest.",
+											"page": 98,
+											"entries": [
+												"Kevlar is a fabric of overlapping layers of a high tensile strength fiber. Thanks to this, these soft, laminated vests are lighter weight than earlier ballistic vests, thus allowing more freedom of movement, yet they do a better job stopping small caliber firearms. These are standard issue for most law enforcement officers, as well as some security guards. They can be worn under coats and jackets without drawing attention. (15 lb., $200)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Reinforced Kevlar.",
+											"page": 98,
+											"entries": [
+												"Like their predecessors, these vests are made of a laminated nylon and Kevlar, but with the addition of small ceramic inserts in key locations on the torso, adding only a small amount of weight, yet being able to stop larger caliber weapons and some shrapnel. The inserted plates mean that this vest is hard and bulkier than plain Kevlar, however. Riot police might wear armor like this. As such, someone wearing it in public would cause concern. (25 lb., $350)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Modular Tactical Vest.",
+											"page": 98,
+											"entries": [
+												"This modern development in personal armor weighs a more than a reinforced Kevlar vest, though it can stop even higher caliber rounds and shrapnel. It is a harder, bulkier armor. Some armed forces might wear armor like this in a combat zone. (30 lb., $1000)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Futuristic Tactical Armor.",
+											"page": 98,
+											"entries": [
+												"This suit of battle armor uses lab manufactured ceramisteel plates inlaid in a suit of advanced polymer fabrics. It appears much like the modular tactical vest of the 21st century, but the material is much lighter and more flexible, and the plates are given a personalized molding to afford more complete coverage. It could also serve as an advanced material with which to make a superhero costume. (35 lb., $10,000)",
+												"{@i Note: unless used to make a durable superhero costume, this item is only intended for games with science fiction or superadvanced technology, unless the GM decides otherwise.}"
+											]
+										}										
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavy Armor",
+									"page": 98,
+									"entries": [
+										"Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.",
+										{
+											"type": "entries",
+											"name": "Ceramic Composite Armor.",
+											"page": 98,
+											"entries": [
+												"This armor is madeof Kevlar with thick ceramic composite plates sewn throughout and extra panels to provide fuller body coverage. This armor is bulky and restricts movement but can stop armor piercing rounds from a rifle. Wearing this in public would likely result in calls to the police. (45 lb., $800)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Emergency Ordnance Disposal (EOD) Suit.",
+											"page": 98,
+											"entries": [
+												"This specialty protective gear is only worn by explosive ordnance disposal experts. It is very heavy and bulky, though it can absorb a large amount of damage if caught in an explosion. (80 lb., $4,000)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Futuristic Exo-suit.",
+											"page": 98,
+											"entries": [
+												"This lightweight frame composed of advanced alloys protects the wearer's skeleton and major muscle and organ groups, as well as serves as an excellent platform on which Tech heroes and futuristic soldiers can mount high tech weaponry and equipment. However, it is obvious when worn, incredibly heavy, and undeniably loud. (120 lb., $1 million)",
+												"{@i Note: unless used to make a durable superhero costume, this item is only intended for games with science fiction or superadvanced technology, unless the GM decides otherwise.}"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Personal Mech.",
+											"page": 98,
+											"entries": [
+												"The personal mech is a high-tech battle armor not unlike the kind some higher-level Tech heroes might wear. It often features motorized arms and legs, as well as basic jump jets and gyros, all of which compensate for its heavy weight, requiring no body strength to operate. When in a personal mech, the wearer has a Strength of 20, as well as {@sense Darkvision} to 60 feet. (2000 lb., $10 million)",
+												"{@i Note: this item is only intended for games with science fiction or super-advanced technology.}"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Getting Into and Out of Armor",
+									"page": 99,
+									"entries": [
+										"The time it takes to don or doff armor depends on the armor's category.",
+										{
+											"type": "entries",
+											"name": "Don",
+											"page": 99,
+											"entries": [
+												"This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Doff",
+											"page": 99,
+											"entries": [
+												"This is the time it takes to take off armor. If you have help, reduce this time by half"
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"Category",
+												"Don",
+												"Doff"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-4 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													"Light",
+													"30 seconds",
+													"30 seconds"
+												],
+												[
+													"Medium",
+													"1 Minute",
+													"1 Minute"
+												],
+												[
+													"Heavy",
+													"5 Minutes",
+													"5 Minutes"
+												],
+												[
+													"Shield",
+													"1 action",
+													"1 action"												
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shields",
+									"page": 99,
+									"entries": [
+										"A shield is usually made from plastic, such as a riot shield or tactical ballistic shield, and is carried in one hand. Wielding a riot shield increases your Armor Class by 2 and a tactical ballistic shield, or futuristic shield, by 3. You can benefit from only one shield at a time.",
+										{
+											"type": "entries",
+											"name": "Riot Shield. ",
+											"page": 99,
+											"entries": [
+												"General use modern polycarbonate shield used for crowd control and deflection of thrown projectiles. It is lightweight, protects the user, and can be used to bash as well. (10 lb., $75)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Tactical Ballistic Shield.",
+											"page": 99,
+											"entries": [
+												"A specialized militarygrade shield that can deflect bullets, often made of aramidlaced plastic, with a viewing port (20 lb., $200)"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Futuristic Retractable Shield.",
+											"page": 99,
+											"entries": [
+												"A futuristic energy field projection based on the forearm. With an action, the wielder can project a translucent forcefield form the forearm to provide protection (1 lb., $10,000)"
+											]
+										}
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Light Armor Table",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Armor"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost"
+											]
+										},
+										{
+											"colLabels": [
+												"Armor Class (AC)"
+											]
+										},
+										{
+											"colLabels": [
+												"Str",
+												"Req."
+											]
+										},
+										{
+											"colLabels": [
+												"Stealth"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-2",
+										"col-3",
+										"col-2",
+										"col-2",
+										"col-2"
+									],
+									"rows": [
+										[
+											"{@item Tactical Streetwear|Superheroic5E}",
+											"100",
+											"11+Dex",
+											"-",
+											"-",
+											"4 lb."
+										],
+										[
+											"{@item Leather|Superheroic5E}",
+											"50",
+											"11+Dex",
+											"-",
+											"-",
+											"8 lb."
+										],
+										[
+											"{@item Reinforced Leather|Superheroic5E}",
+											"150",
+											"12+Dex",
+											"-",
+											"-",
+											"12 lb."
+										],
+										[
+											"{@item Studded Leather|phb}",
+											"75",
+											"12+Dex",
+											"-",
+											"-",
+											"15 lb."
+										],
+										[
+											"{@item Futuristic Fabrics|Superheroic5E}",
+											"1000",
+											"11 +Prof.Bonus +Dex",
+											"-",
+											"-",
+											"5 lb."
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Medium Armor Table",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Armor"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost"
+											]
+										},
+										{
+											"colLabels": [
+												"Armor Class (AC)"
+											]
+										},
+										{
+											"colLabels": [
+												"Str",
+												"Req."
+											]
+										},
+										{
+											"colLabels": [
+												"Stealth"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-2",
+										"col-3",
+										"col-2",
+										"col-2",
+										"col-2"
+									],
+									"rows": [
+										[
+											"{@item Flak Jacket|Superheroic5E}",
+											"50",
+											"12+Dex (Max 2)",
+											"-",
+											"Disadvantage",
+											"25 lb."
+										],
+										[
+											"{@item Kevlar|Superheroic5E}",
+											"200",
+											"13+Dex (Max 2)",
+											"-",
+											"-",
+											"15 lb."
+										],
+										[
+											"{@item Reinforced Kevlar|Superheroic5E}",
+											"350",
+											"14+Dex (Max 2)",
+											"-",
+											"Disadvantage",
+											"25 lb."
+										],
+										[
+											"{@item Modular Tactical|Superheroic5E}",
+											"1000",
+											"14+Dex (Max 2)",
+											"-",
+											"Disadvantage",
+											"30 lb."
+										],
+										[
+											"{@item Futuristic Tactical|Superheroic5E}",
+											"10,000",
+											"14 +Prof. Bonus +Dex (max 2)",
+											"-",
+											"-",
+											"35 lb."
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Heavy Armor Table",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Armor"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost"
+											]
+										},
+										{
+											"colLabels": [
+												"Armor Class (AC)"
+											]
+										},
+										{
+											"colLabels": [
+												"Str",
+												"Req."
+											]
+										},
+										{
+											"colLabels": [
+												"Stealth"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-2",
+										"col-3",
+										"col-2",
+										"col-2",
+										"col-2"
+									],
+									"rows": [
+										[
+											"{@item Ceramic Composite|Superheroic5E}",
+											"800",
+											"16",
+											"-",
+											"Disadvantage",
+											"4 lb."
+										],
+										[
+											"{@item Emergency Ordnance Disposal (EOD) Suit|Superheroic5E}",
+											"4000",
+											"18",
+											"Str 13",
+											"Disadvantage",
+											"80 lb."
+										],
+										[
+											"{@item Futuristic Exo-suit|Superheroic5E}",
+											"1 million",
+											"20",
+											"Str 13",
+											"Disadvantage",
+											"120 lb."
+										],
+										[
+											"{@item Personal Mech|Superheroic5E}",
+											"10 million",
+											"22",
+											"-",
+											"Disadvantage",
+											"2000 lb."
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Shield Armor Table",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Armor"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost"
+											]
+										},
+										{
+											"colLabels": [
+												"Armor Class (AC)"
+											]
+										},
+										{
+											"colLabels": [
+												"Str",
+												"Req."
+											]
+										},
+										{
+											"colLabels": [
+												"Stealth"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-2",
+										"col-3",
+										"col-2",
+										"col-2",
+										"col-2"
+									],
+									"rows": [
+										[
+											"{@item Riot Shield|Superheroic5E}",
+											"75",
+											"+2",
+											"-",
+											"-",
+											"10 lb."
+										],
+										[
+											"{@item Tactical Ballistic Shield|Superheroic5E}",
+											"200",
+											"+3",
+											"-",
+											"Disadvantage",
+											"20 lb."
+										],
+										[
+											"{@item Futuristic Retractable Shield|Superheroic5E}",
+											"10,000",
+											"+3",
+											"-",
+											"-",
+											"1 lb."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 99,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/SAjTJUu.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Weapons",
+							"page": 100,
+							"entries": [
+								"Your background grants proficiency in certain weapons, reflecting both the class' focus and the tools you are most likely to use. Whether you favor a firearm or a hand-tohand weapon, your weapon, and your ability to wield it effectively, can mean the difference between life and death while adventuring.",
+								"The Weapons table shows the most common weapons used in modern fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A {@b melee weapon} is used to attack a target within 5 feet of you, whereas a {@b ranged weapon} is used to attack a target at a distance.",
+								{
+									"type": "entries",
+									"name":"Weapon Proficiency",
+									"page": 100,
+									"entries": [
+										"Your background and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial. Most people can use simple weapons with proficiency. These weapons include clubs, knives, and other weapons the average person might have some familiarity with, even if they do not have practice using it as a weapon in combat. Martial weapons, including swords, rifles, shotguns, and heavy weapons, require more specialized training to use effectively. Most soldiers use martial weapons because these weapons are more effective and put their training to best use.",
+										"Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with it. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Weapon Properties",
+									"page": 100,
+									"entries": [
+										"Many weapons have special properties related to their use, as shown in the Weapons table.",
+										{
+											"type": "entries",
+											"name":"Ammunition",
+											"page": 100,
+											"entries": [
+												"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition.",
+												"For bows, hand-drawn crossbows, and hand crossbows, drawing ammunition from a quiver or case and loading your weapon is part of the attack (you need a free hand to load a hand crossbow).",
+												"Some weapons can fire multiple pieces of ammunition in a single action. These weapons have the {@b semi-auto} or {@b full auto} properties. For weapons with the semi-auto and full auto modes, switching between modes is also part of the attack.",
+												"Bullets used in combat are spent, but arrows and bolts can be recovered afterwards. At the end of the battle, you can recover half your expended arrows or bolts by taking a minute to search the battlefield.",
+												"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section)."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Capacity",
+											"page": 101,
+											"entries": [
+												"Weapons with the capacity property can hold a certain amount of ammunition before needing to be reloaded. In the chart below, the amount of ammunition each weapon can hold is listed in parentheses after the capacity property."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Finesse",
+											"page": 101,
+											"entries": [		
+												"When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Full Auto",
+											"page": 101,
+											"entries": [
+												"Fully automatic weapons can fire a large amount of ammunition with a single attack, sometimes targeting more than person at once. When you use a such a weapon to make a full auto attack, choose one creature within normal range, or choose two creatures within normal range that are within 5 feet of each other, and make ranged attack rolls against them both. Treat your targets as though they have partial cover. On a hit, you double the damage dice rolled against each target, though not any damage modifiers. You may only use a Full Auto attack against targets within normal range; full auto attacks against targets at long range automatically miss. Full Auto attacks use five times the normal amount of ammunition, unless otherwise specified. You may only make one Full Auto attack per round. Weapons with the full auto property may also be fired in semi-auto mode."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Futuristic",
+											"page": 101,
+											"entries": [
+												"Weapons with the futuristic tag are the stuff of science fiction. As such, players should assume such items are unavailable unless the GM explicitly allows it. They can also serve as equipment for invading aliens, super-advanced enemy soldiers, etc. The assumption is that futuristic equipment cannot be bought or repaired on 21st Century Earth unless your GM says so. Futuristic weapons fire laser blasts that do radiant damage. The ammunition is refilled with a laser capacitor, which resembles a magazine but contains condensed charges.",
+												"{@i Note: this item is only intended for games with science fiction or advanced technology.}"
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Heavy",
+											"page": 101,
+											"entries": [
+												"Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Light",
+											"page": 101,
+											"entries": [
+												"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Quick Loading",
+											"page": 101,
+											"entries": [
+												"Some weapons, like semiautomatic pistols and rifles, use quick loading magazines. When such a weapon runs out of ammunition, you may use either an action or a bonus action to reload it before firing again."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Range",
+											"page": 101,
+											"entries": [
+												"A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Reach",
+											"page": 101,
+											"entries": [
+												"This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Semi-Auto",
+											"page": 101,
+											"entries": [
+												"Semiautomatic weapons can fire several pieces of ammunition with a single attack. When you use a such a weapon to make a semiautomatic attack, choose one creature within normal or long range. On a hit, you add +2 to the damage rolled. Semiautomatic attacks use triple the normal amount of ammunition."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Slow Loading",
+											"page": 101,
+											"entries": [
+												"Some weapons, like revolvers, shotguns, and compound crossbows, require reloading one piece of ammunition at a time. This takes time. When such a weapon runs out of ammunition, you must spend an action reloading it before firing again."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Special",
+											"page": 101,
+											"entries": [
+												"A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Thrown",
+											"page": 101,
+											"entries": [
+												"If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a hand axe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Two-Handed",
+											"page": 101,
+											"entries": [
+												"This weapon requires two hands when you attack with it."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Versatile",
+											"page": 101,
+											"entries": [
+												"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Improvised Weapons",
+									"page": 101,
+									"entries": [
+										"An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a corpse.",
+										"Often, an improvised weapon is like an actual weapon and can be treated as such. For example, a table leg is akin to a club. At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use their proficiency bonus.",
+										"An object that bears no resemblance to a weapon deals {@damage 1d4} damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack or throws a melee weapon that does not have the thrown property, it also deals {@damage 1d4} damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Special Weapons",
+									"page": 102,
+									"entries": [
+										"Weapons with special rules are described here.",
+										{
+											"type": "entries",
+											"name":"Bayonet",
+											"page": 102,
+											"entries": [
+												"A bayonet can be affixed to the barrel of a rifle or shotgun, allowing the gun to be used as a melee weapon."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Boomerang",
+											"page": 102,
+											"entries": [
+												"A boomerang will return to the thrower when thrown if it misses its target."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Chainsaw",
+											"page": 102,
+											"entries": [
+												"Because chainsaws are not intended as weapons, their weight and size make them poor weapons, not to mention dangerous. Chainsaws also require gasoline to operate and are very loud, making noise that can be heard up to 150 feet away."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Flamethrower",
+											"page": 102,
+											"entries": [
+												"This heavy ranged weapon belches a line of flame 60 feet long and 5 feet wide. Each target in range must make a DC 12 Dexterity save or take {@dice 3d6} fire, half on a save. A flamethrower holds enough fuel for three rounds of attack before a new cannister must be loaded."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Grenade, fragmentation",
+											"page": 102,
+											"entries": [
+												"These weapons are thrown at a visible location in range. All creatures within fifteen feet of the target must succeed at a DC 15 Dexterity save or take {@damage 3d6} fire damage, or half on a successful save. Once used, they are destroyed."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Grenade, rocket propelled",
+											"page": 102,
+											"entries": [
+												"These weapons are launched at a visible location in range. All creatures within twenty feet of the target must succeed at a DC 15 Dexterity save or take {@damage 4d10} fire damage, or half on a successful save. Once used, they are destroyed."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Grenade, smoke",
+											"page": 102,
+											"entries": [
+												"These weapons are thrown at a visible location in range. Once thrown, they fill a 20-foot-radius sphere around the target with opaque smoke. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once used, they are destroyed."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Grenade, stun",
+											"page": 102,
+											"entries": [
+												"These weapons are thrown at a visible location in range. All creatures who can see or hear within ten feet of the target must make a DC 15 CON save or be {@condition blinded} and {@condition deafened} for 3 rounds. Once used, they are destroyed."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Machine gun, heavy",
+											"page": 102,
+											"entries": [
+												"This heavy, 50 caliber, powerful weapon can be carried but not fired, unless the user has a Strength score of 20 or higher. It can be fired with a collapsible tripod attached to its underside, which takes an Action to set up."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Minigun",
+											"page": 102,
+											"entries": [
+												"The minigun is a motorized, six barreled, vehicle mounted machine gun that shoots roughly 3000 rounds per minute. When the trigger is pulled, the minigun takes one round to spin up before it begins to shoot. Once it begins shooting, it releases 300 bullets a round\u2014that's 50 bullets a second\u2014at its target or targets. Miniguns fire with Disadvantage against moving targets of Medium size or smaller. If fired for a full minute, the weapon overheats and cannot be used for five minutes afterwards."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Missile, Ballistic",
+											"page": 102,
+											"entries": [
+												"These weapons are sometimes mounted on vehicles or installed in batteries on the ground, though they can also be mounted on jets and helicopters. They can even be carried and fired from the shoulder, as in the case of an anti-tank weapon like a Javelin, though it requires two people to load and fire it. Unlike guided missiles, these weapons must be aimed. When you fire a ballistic missile, make a ranged weapon attack. This may involve interacting with a computer screen or a heads-up display. The missile is destroyed when used."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Missile, guided, large",
+											"page": 104,
+											"entries": [
+												"A large, guided missile, such as a Tomahawk, which is launched from a large sea vessel or submarine. To fire a guided missile, you must first input a location in space into the targeting computer. Once fired, the missile flies to its chosen location. When it hits, every creature in a 30-foot radius of its point of impact takes the listed damage, or half on a successful DC 20 Dexterity save."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Missile, guided, small",
+											"page": 104,
+											"entries": [
+												"A small, guided missile, suchas a Hellfire, which is mounted to a vehicle, such as a drone or other aircraft, or shot from a platform, such as the deck of ship. To fire a guided missile, you must first input a location in space into the targeting computer. Once fired, the missile flies to its chosen location. When it hits, every creature in a 30-foot radius of its point of impact takes the listed damage, or half on a successful DC 18 Dexterity save."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Net",
+											"page": 104,
+											"entries": [
+												"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect, and destroying the net.",
+												"When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make"
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Pepper spray",
+											"page": 105,
+											"entries": [
+												"When you hit a target with pepper spray who has open eyes, they must make a Dexterity save, DC13, or be {@condition blinded} for one minute."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Shotgun sawed off",
+											"page": 105,
+											"entries": [
+												"Sawed off shotguns shoot in a wide spread. When firing, choose up to two creatures in range within 5 feet of each other, and make attack rolls against both."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Tank gun",
+											"page": 105,
+											"entries": [
+												"These 120mm smoothbore guns are mounted atop tanks such as the M1 Abrams. They fire a variety of shells, but the one listed below is an anti-tank variety, designed to pierce tank armor at distances up to a mile. There are other shells with shotgun like cones of effect for use against personnel."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Taser",
+											"page": 105,
+											"entries": [
+												"This weapon uses conducted electricity to stun targets. It shoots two small darts that conduct high voltage electricity. On a hit, the target takes 2 lightning damage and must make a CON save, DC 13, or be {@condition stunned} for 3 rounds."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 102,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/u59PzxU.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Gear",
+							"page": 105,
+							"entries": [
+
+							]
+						},
+						{
+							"type": "section",
+							"name":"Tools",
+							"page": 108,
+							"entries": [
+
+							]
+						},
+						{
+							"type": "image",
+							"page": 109,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/73FUjTr.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Expenses",
+							"page": 109,
+							"entries": []
+						},
+						{
+							"type": "section",
+							"name":"Modern Vehicles",
+							"page": 111,
+							"entries": []
+						}
+					]
+				},
+				{
+					"type": "image",
+					"page": 112,
+					"href": {
+						"type": "external",
+						"url": "https://i.imgur.com/554SIlK.png"
+					}
 				}
 			]
 		}

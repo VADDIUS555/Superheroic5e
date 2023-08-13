@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "S5E-Elementalist",
-                "abbreviation": "Elementalist",
-                "full": "S5E: Elementalist Superhero",
+                "json": "S5E-Backgrounds",
+                "abbreviation": "S5E-Backgrounds",
+                "full": "S5E: Backgrounds",
 				"version": "2023.08.05",
                 "authors": [
 					"Gwendolyn Marshall",
@@ -49,7 +49,7 @@
 			"toolProficiencies": [
 				{
 					"{first aid kit|Superheroic5e}":true,
-					"{@filter  one set of tools|items|source=|type=tools|category=}":true
+					"{@filter one set of tools|items|source=|type=tools|category=}":true
 				}
 			],
 			"languageProficiencies": [
@@ -67,7 +67,10 @@
 							"special": "a gym pass"
 						},
 						{
-							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
+							"special": "a simple melee weapon of your choice"
+						},
+						{
+							"special": "a pair of spectacles"
 						},
 						{
 							"item": "pouch|phb",
@@ -77,42 +80,48 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Either for fun or profit, your life circles around athletics. Perhaps you are a martial arts instructor or an aspiring professional baseball player. Or maybe you simply spend all your time working out, be it Tae Kwon Do, running, or rugby. Whatever the case may be, you participate in the organizations that govern and promote your chosen activities for much of your life."				]
+			},
 			"entries": [
 				{
-					"type": "entries",
-					"name": "Feature: Gym Membership",
-					"entries": [
-
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Armor and Weapons Proficiencies",
-									"entries": [ "{@filter light armor|items|source=|type=light armor|category=",
-									"{@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
-									]
-								},
-								{
-									"type": "item",
-									"name": "Tool Proficiencies",
-									"entry": "{First Aid Kit|Superheroic5e}"
-								},
-								{
-									"type": "item",
-									"name": "Languages",
-									"entry": "one language of your choice"
-								},
-								{
-									"type": "item",
-									"name": "Equipment",
-									"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
-								}
-							]
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "light armor, a simple weapon"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "First Aid Kit"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
 						}
 					]
+				},
+				{
+					"name": "Feature: Gym Membership",
+					"type": "entries",
+					"entries": [
+						"Because of you long time commitment to your sport, or perhaps because you used to work as a trainer, you have a lifetime membership to a huge chain of gyms and workout centers. In every middle-sized town you visit, you always have a place to shower, change, and work out. You can also visit the local gym and get a feel for the latest rumors and gossip in the neighborhood."	
+					],
+					"data": {
+						"isFeature": true
+					}
 				}
+				
 			]
 		},
 		{
@@ -173,42 +182,363 @@
 						}
 					]
 				}
-			],
+			],"fluff": {
+				"entries": [
+					"You make your living telling stories that people want to hear\u2014stories that end with you relieving them of some of their money. It's a skill you've developed over time and built through practiced lies, faked documents, and the occasional picked pocket. You sometimes even must become someone else entirely to escape. Your chosen profession is not popular with the police, who do not take kindly to your practices."
+				]
+			},
 			"entries": [
 				{
-					"type": "entries",
-					"name": "Feature: Permanent Alibi",
-					"entries": [
-
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Armor and Weapons Proficiencies",
-									"entries": [ "{@filter light armor|items|source=|type=light armor|category=",
-									"{@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}"
-									]
-								},
-								{
-									"type": "item",
-									"name": "Tool Proficiencies",
-									"entry": "{@item Disguise kit}, {@item forgery kit}"
-								},
-								{
-									"type": "item",
-									"name": "Languages",
-									"entry": "one language of your choice"
-								},
-								{
-									"type": "item",
-									"name": "Equipment",
-									"entry": " A {@item criminal’s pack|Superheroic5e}, a {@item forgery kit}, a {@filter simple weapons|items|source=|type=simple weapon|category=|miscellaneous=mundane}, and $400"
-								}
-							]
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "light armor, a simple weapon"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Disguise kit, Forgery kit"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
 						}
 					]
+				},
+				{
+					"name": "Feature: Permanent Alibi",
+					"type": "entries",
+					"entries": [
+						"You have an arrangement with another con artist to serve as each other's alibi, should either of you get into trouble with your schemes. Work with your GM to flesh out this other person. Who are they? How did you two meet and make this arrangement? What might happen if they come asking for this service from you? If you are arrested or charged with a crime, your friend comes forward with an alibi for you, providing a strong piece of evidence that points toward your innocence."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+				
+			]
+		},
+		{
+			"name": "Corporate Drone",
+			"source": "Superheroic5E",
+			"page": 77,
+			"armorProficiencies": [
+				{
+				"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+				"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"history",
+							"insight",
+							"investigation",
+							"persuasion"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"{@filter one set of tools|items|source=|type=tools|category=}":true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "An officer worker’s pack"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 60000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The rich and powerful believe it is their work alone that built their wealth, but you know better. Having worked among the cubicles at one of the world's largest corporations, you know how things work and how to get things done. Your name might not have wealth and prestige attached like those of the CEOs, but you know how to cut through bureaucracy when necessary\u2014and other office plebs are more likely to help you out. Work with your GM to determine which corporation you work for or once worked for and whether you still have pull in the office."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "light armor, a simple weapon"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One tool proficiency"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "An officer worker’s pack and $600."
+						}
+					]
+				},
+				{
+					"name": "Feature: Bureacracy",
+					"type": "entries",
+					"entries": [
+						"You have connections in the corporate world. When a bureaucratic issue arises, you can speak to your old fellow officemates and get reliable information about what's going on. Once they learn of your position, most other office workers will also respect you as they might a friend or coworker\u2014except the wealthy bosses, of course, who largely disdain you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Criminal",
+			"source": "Superheroic5E",
+			"page": 77,
+			"armorProficiencies": [
+				{
+				"light": true,
+				"medium": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+				"simple": true,
+				"martial": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"Athletics",
+							"deception",
+							"intimidation",
+							"sleight of hand",
+							"stealth"						
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				},
+				{
+					"{@filter one gaming set of your choice|items|source=|type=gaming set|category=|miscellaneous=mundane}": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "A criminal’s pack"
+						},
+						{
+							"item": "thieves’ tools|phb"
+						},
+						{
+							"special": "a lock"
+						},
+						{
+							"item": "{@filter one gaming set of your choice|items|source=|type=gaming set|category=|miscellaneous=mundane}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 40000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You make your living doing shady work. Perhaps you steal or serve as muscle for other crooks. Some of the most common criminal jobs recently have been credit card skimming and identity theft\u2014lucrative, but dangerous. Whatever you preferred crime, you have spent enough time among the seedier folks in the city to pick up several useful skills. Work with your GM to determine what you preferred job is. Options include burglar, high tech thief, pickpocket, or thug."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter All weapons|items|source=|type=simple weapon;martial weapon|category=}, {@filter light and medium armor|items|source=|type=medium armor;light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Thieves’ Tools}, {@filter one gaming set of your choice|items|source=|type=gaming set|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a criminal’s pack, {@item thieves’ tools}, a lock, a simple weapon of your choice, and $400."
+						}
+					]
+				},
+				{
+					"name": "Feature: You Know a Guy",
+					"type": "entries",
+					"entries": [
+						"Whenever you find yourself in a less than savory area or establishment with a good number of people, there is a very good chance you know someone present. If you don't, then you most likely do have a common acquaintance. The connection allows you access to otherwise unfriendly and dangerous areas of the underworld. These connections also often have information that may prove useful. The city underworld isn't that big, after all! But watch out for the police, or they'll throw you in jail!"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Entertainer",
+			"source": "Superheroic5E",
+			"page": 78,
+			"armorProficiencies": [
+				{
+				"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+				"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"deception",
+							"insight",
+							"performance",
+							"sleight of hand"					
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true
+				},
+				{
+					"{@filter one musical instrument of your choice|items|source=|type=instrument|category=mundane}": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}"
+						},
+						{
+							"special": "a students pack"
+						},
+						{
+							"special": "a set of costume clothes"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 20000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You dance, sing, act, joke, or otherwise entertain people as a living. Perhaps you were brought up in an entertaining family. Possibly it is a path you fell into or chose at some point. Regardless, you now have at least one act that reliably drums up some coin.",
+					"Work with your GM to imagine at least one performance you have in your repertoire. Whatever you choose, make sure you can describe a bit of what it looks like when you perform."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Disguise kit}, {@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "{@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}, a student’s pack, a set of costume clothes, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $200."
+						}
+					]
+				},
+				{
+					"name": "Feature: Life of the Party",
+					"type": "entries",
+					"entries": [
+						"You are practiced at entertaining crowds in public places. If you spend time performing in a public space like a plaza, you can expect to make $20 hour in tips. If you offer to perform at a venue, the proprietor might take you up on your offer and will provide free food, in addition to your tips. Finally, people who watch you perform well will be positively predisposed toward you in any further interactions, though they might also recognize you more easily even when you are trying to lay low"
+					],
+					"data": {
+						"isFeature": true
+					}
 				}
 			]
 		}

@@ -95,7 +95,105 @@
 				"{@i Associated classes: the weapons martial expert training regimen or the weaponry favored tech}",
 				"You are uniquely bound to up to three weapons in some way, rendering them inseparable from you.Perhaps they are physically implanted in your body, you summon them to your hand at will, you manifest new ones whenever you need to do so, or they are DNA linked so that only you can wield them. Whatever the nature of this bond, you cannot be disarmed against your will and can manifest or produce your superpowered or signature weapons at will."
 			]
-		}			
+		},
+		{
+			"name": "Botanical Self",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"level": 7
+				},
+				{
+					"other": "Vitalist"
+				}
+			],
+			"entries": [
+				"You not only can take on a form of plant matter, you are a botanical being. You know the {@spell botanical form|Superheroic5e} power, if you did not before, and it doesn't count against your number of powers known, nor does it require {@status concentration}. Furthermore, for you, it has a duration of Permanent, though you can choose to end the effect and return to human form at will."
+			]
+		},
+		{
+			"name": "Brilliant",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"other": "Intelligence 17"
+				}
+			],
+			"entries": [
+				"You are smarter than the average human. You may add your proficiency bonus to your Intelligence score, to a maximum of 26. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Intelligence score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Intelligence attribute. Later, at level 10, your proficiency bonus is +4, so you increase your Intelligence again, so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Intelligence."
+			]
+		},
+		{
+			"name": "Call for Backup",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Special Agent"
+				}
+			],
+			"entries": [
+				"{@i Associated class: Special Agent soldier division}",
+				"Your service as a Special Agent entitles you to call for backup occasionally when things get dicey. When you are in a city or other relatively accessible location, you can make a call and a number of soldiers equal to your proficiency bonus arrive 1 minute later. The soldiers follow your orders if they are not grossly immoral or obviously suicidal. They withdraw after one hour. Once you have called for backup in this way, you cannot do so again for 3 days."
+			]
+		},
+		{
+			"name": "Charming",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Charisma 17"
+				}
+			],
+			"entries": [
+				"You are more charming than the average human. You may add your proficiency bonus to your Charisma score, to a maximum of 26. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Charisma score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Charisma attribute. Later, at level 10, your proficiency bonus is +4, so you increase your Charisma again, so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Charisma."
+			]
+		},
+		{
+			"name": "Combat Invisibility",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"level": 4
+				},
+				{
+					"other": "Metamorph"
+				},
+				{
+					"other": "invisibility"
+				}
+			],
+			"entries": [
+				"{@i Prerequisite: 4th level or higher Metamorph with the invisibility transformation}",
+				"You learn to use your ability to become {@condition invisible} defensively and in combat situations. Now, whenever you take damage, you can use your reaction to use the {@spell invisibility} power."
+			]
+		},
+		{
+			"name": "COMBAT TECHNIQUE",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Martial Expert"
+				},
+				{
+					"other": "Special Agent"
+				}
+			],
+			"entries": [
+				"{@i Associated classes: Martial Expert or Special Agent}",
+				"You pick up an advanced martial technique, either from experimentation during your practice sessions or by observing another practitioner's form. Select a single 1st-level superpower that you do not have. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
+				"The first time you use this power, you do not need to expend a power slot; after that, you may use it again by expending a power slot as normal. If you have no power slots, you may use it once. You regain the ability when you complete a short or long rest.",
+				"Use your normal power attack modifier or save DC when you use this power. If you do not have any levels in a class with slots, then you calculate you save DC and attack modifier for this power as follows:",
+				"Save DC = 8 + your proficiency bonus + your Power ability modifier",
+				"{@action Attack} modifier = your proficiency bonus + your Power ability modifier",
+				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this power."
+			]
+		}										
     ],
     "optionalfeature": [
         {
