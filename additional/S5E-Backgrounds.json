@@ -92,12 +92,17 @@
 						{
 							"type": "item",
 							"name": "Armor and Weapons Proficiencies",
-							"entry": "light armor, a simple weapon"
+							"entry": "{@filter light armor|items|source=|type=light armor=|category=|miscellaneous=}, a {@filter simple weapon|items|source=|type=simple weapon=|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill acrobatics}, {@skill athletics}, {@skill intimidation}, {@skill medicine}, {@skill sleight of hand}."
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "First Aid Kit"
+							"entry": "{@item First Aid Kit|Superheroic5E}"
 						},
 						{
 							"type": "item",
@@ -107,7 +112,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
+							"entry": "A medic’s pack, a {@item gym pass|Superheroic5E}, a {@filter simple melee weapon|items|source=|type=simple weapon;melee weapon=|category=} of your choice, and $400."
 						}
 					]
 				},
@@ -195,12 +200,17 @@
 						{
 							"type": "item",
 							"name": "Armor and Weapons Proficiencies",
-							"entry": "light armor, a simple weapon"
+							"entry": "{@filter light armor|items|source=|type=light armor=|category=|miscellaneous=}, a {@filter simple weapon|items|source=|type=simple weapon=|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill deception}, {@skill insight}, {@skill performance}, {@skill persuasion}, {@skill sleight of hand}."
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "Disguise kit, Forgery kit"
+							"entry": "{@item Disguise kit}, {@item Forgery kit}"
 						},
 						{
 							"type": "item",
@@ -210,7 +220,8 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A medic’s pack, a gym pass, a simple melee weapon of your choice, and $400."
+							"entry": "A {@item criminal's pack|Superheroic5E}, a {@item forgery kit}, a {@filter simple melee weapon|items|source=|type=simple weapon;melee weapon=|category=} of your choice, and $400"
+
 						}
 					]
 				},
@@ -292,12 +303,17 @@
 						{
 							"type": "item",
 							"name": "Armor and Weapons Proficiencies",
-							"entry": "light armor, a simple weapon"
+							"entry": "{@filter light armor|items|source=|type=light armor=|category=|miscellaneous=}, a {@filter simple weapon|items|source=|type=simple weapon=|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill deception}, {@skill history}, {@skill insight}, {@skill investigation}, {@skill persuasion}."
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One tool proficiency"
+							"entry": "{@filter One tool proficiency|items|source=|type=tools=|category=}"
 						},
 						{
 							"type": "item",
@@ -307,7 +323,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "An officer worker’s pack and $600."
+							"entry": "An {@item officer worker’s pack|Superheroic5E} and $600."
 						}
 					]
 				},
@@ -343,7 +359,7 @@
 				{
 					"choose": {
 						"from": [
-							"Athletics",
+							"athletics",
 							"deception",
 							"intimidation",
 							"sleight of hand",
@@ -406,6 +422,11 @@
 						},
 						{
 							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics|, {@skill deception}, {@skill intimidation}, {@skill sleight of hand}, {@skill stealth}."
+						},
+						{
+							"type": "item",
 							"name": "Tool Proficiencies",
 							"entry": "{@item Thieves’ Tools}, {@filter one gaming set of your choice|items|source=|type=gaming set|category=}"
 						},
@@ -417,7 +438,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "a criminal’s pack, {@item thieves’ tools}, a lock, a simple weapon of your choice, and $400."
+							"entry": "a {@item criminal’s pack|Superheroic5E}, {@item thieves’ tools}, a lock, a {@filter simple weapon|items|source=|type=simple weapon=|category=} of your choice, and $400."
 						}
 					]
 				},
@@ -481,10 +502,10 @@
 							"item": "{@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}"
 						},
 						{
-							"special": "a students pack"
+							"special": "a {@item students pack|Superheroic5E}"
 						},
 						{
-							"special": "a set of costume clothes"
+							"special": "a set of {@item costume clothes}"
 						},
 						{
 							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
@@ -515,6 +536,11 @@
 						},
 						{
 							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill acrobatics|, {@skill deception}, {@skill insight}, {@skill performance}, {@skill sleight of hand}."
+						},
+						{
+							"type": "item",
 							"name": "Tool Proficiencies",
 							"entry": "{@item Disguise kit}, {@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}"
 						},
@@ -526,7 +552,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "{@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}, a student’s pack, a set of costume clothes, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $200."
+							"entry": "{@filter One musical instrument of your choice|items|source=|type=instrument|category=|miscellaneous=mundane}, a {@item student’s pack|Superheroic5E}, a set of {@item costume clothes}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $200."
 						}
 					]
 				},

@@ -11,7 +11,7 @@
 				],
 				"color": "fdc830",
 				"convertedBy": ["VAD"],
-				"version": "2023.07.05",
+				"version": "2023.07.14",
 				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
 			}
 		],
@@ -25,7 +25,7 @@
 			"source": "Superheroic5E",
 			"author": "Gwendolyn Marshall",
 			"published":  "2022-06-22",
-			"group": "homebrew",
+			"group": "supplement",
 			"coverUrl": "https://peginc.com/wp-content/uploads/2022/10/S5E_Superheroic_Roleplaying_Cover_900-1.jpg",
 			"contents": [
 				{
@@ -8053,7 +8053,78 @@
 							"name":"Gear",
 							"page": 105,
 							"entries": [
-
+								"This section describes items that have special rules or require further explanation.",
+								{
+									"type": "inset",
+									"name":"Equipment Packs",
+									"page": 107,
+									"entries": [
+										"The starting equipment you get from your background includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here with their cost in dollars. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.",
+										{
+											"type": "entries",
+											"name": "{@item Criminal's Pack} (175)",
+											"entries": [
+												"backpack, casual clothes, flashlight, flask, lighter, 2 packed meals, nylon rope, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Journalist's Pack} (300)",
+											"entries": [
+												"Backpack, batteries, DSLR camera, casual clothes, coffee mug, notebook, 2 packed meals, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Laborer's Pack} (180)",
+											"entries": [
+												"backpack, batteries, chalk, casual clothes, crowbar, gasoline can (filled), hammer, ladder, 2 packed meals, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Medic's Pack} (200)",
+											"entries": [
+												"backpack, antitoxin (vial), casual clothes, first aid kit, 2 packed meals, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Office Worker's Pack} (350)",
+											"entries": [
+												"briefcase, coffee mug, dress clothes, laptop, notebook, 2 packed meals, perfume, smart phone, soap."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Police Officer's Pack} (200)",
+											"entries": [
+												"backpack, official uniform, flashlight, handcuffs, 2 packed meals, baton, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Scientist's Pack} (375):",
+											"entries": [
+												"briefcase, acid (vial), book, dress clothes, laptop, notebook, 2 packed meals, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Student's Pack} (300)",
+											"entries": [
+												"backpack, batteries, blanket, book, casual clothes, coffee mug, laptop, lighter, notebook, 2 packed meals, smart phone, water bottle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@item Survivalist's Pack} (250)",
+											"entries": [
+												"backpack, bedroll, binoculars, blanket, climber's kit, casual clothes, fishing tackle, flashlight, hunting trap, lighter, mess kit, 5 packed meals, nylon rope, shovel, tent, water bottle."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
@@ -8061,7 +8132,7 @@
 							"name":"Tools",
 							"page": 108,
 							"entries": [
-
+								"A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, maneuver a vehicle, or pick a lock. Your culture, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to maneuver a car down a road littered with dangerous debris, or a Wisdom check to change the car's oil. Having proficiency in Vehicles (land) allows you to add your proficiency bonus to checks such as these."
 							]
 						},
 						{
@@ -8076,23 +8147,1965 @@
 							"type": "section",
 							"name":"Expenses",
 							"page": 109,
-							"entries": []
+							"entries": [
+								"When not descending into the depths of the Earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, heroes face more mundane realities. Even in a fictional world, people require necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.",
+								{
+									"type": "entries",
+									"name":"Lifestyle Expenses",
+									"page": 110,
+									"entries": [
+										"Lifestyle expenses provide you with a simple way to account for the cost of living in your S5E world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when duty next calls. The amounts provided are average prices for cities in the developed world for the purposes of game play. because the modern world has such variance in the cost of living, no one accurate amount can be provided for every situation. GMs should adjust these significantly if the characters are living in an extremely expensive or impoverished area, for example.",
+										"At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.",
+										"Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.",
+										{
+											"type": "table",
+											"colLables": [
+												"Lifestyles",
+												"Price in $/Day"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													"Wretched",
+													"10"
+												],
+												[
+													"Squalid",
+													"20"
+												],
+												[
+													"Poor",
+													"30"
+												],
+												[
+													"Modest",
+													"50"
+												],
+												[
+													"Comfortable",
+													"150"
+												],
+												[
+													"Wealthy",
+													"500"
+												],
+												[
+													"Fabulously Wealthy",
+													"5,000"
+												]
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wretched",
+											"entries": [
+												"You live in inhumane conditions. With no place to call home, you shelter wherever you can, sleeping on the streets, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your possessions, which represent a fortune by their standards. You are beneath the notice of most people."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Squalid",
+											"entries": [
+												"You live in a tiny closet of a room, in a desolate area of the city. The roof leaks and it is vermin infested. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Poor",
+											"entries": [
+												"A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in public housing or in a small apartment in a poor neighborhood. You benefit from some legal protections, but you still must contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, service industry workers, and students, as well as criminals and other disreputable types."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Modest",
+											"entries": [
+												"A modest lifestyle keeps you out of the slums and ensures that you can maintain your equipment. You live in an older part of town, renting an apartment, most likely, or sharing a small house with roommates. You don't go hungry or thirsty, and your living conditions are clean, if simple. Ordinary people living modest lifestyles include police officers, teachers, nurses, journalists, skilled laborers, and the like. Comfortable. You can afford nicer clothing and can easily maintain your equipment. You live in a small house or a nice apartment in a middle-class neighborhood. You associate with white collar workers, retail managers, and small business owners, among others."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wealthy",
+											"entries": [
+												"You live a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. This lifestyle is comparable to that of a highly successful business owner, a professional athlete or successful musician, or perhaps you inherited your money. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine hotel. You likely pay someone to manage housekeeping and garden maintenance, among other things."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fabulously Wealthy",
+											"entries": [
+												"You live a life of plenty and comfort, moving in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or a large manor house in a tastefully remote suburb. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, CEOs, and celebrities. You must also contend with the highest levels of deceit and treachery, since the wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Food, Drink, Lodging",
+									"page": 110,
+									"entries": [
+										"It is assumed that players are familiar with the cost of goods such as bread, cheese, meat, and liquor in the modern world, so a table is not provided here. Hotel prices range from $50/night for a cheap motel, to $150/ night for a decent chain hotel, to $500/night or more for luxury accommodations."
+									]
+								}
+							]
 						},
 						{
 							"type": "section",
 							"name":"Modern Vehicles",
 							"page": 111,
-							"entries": []
+							"entries": [
+								"A good vehicle can get you from A to B much faster than you could get there on foot. A reliable bike, car, cab, train, boat, or plane can be critical for saving time and even lives. The Vehicles tables show each vehicle's cost, speed, and base carrying capacity.",
+								{
+									"type": "list",
+									"items": [
+										"{@i Travel time}. It is assumed that players are familiar with travel times for the most common forms of transportation.",
+										"{@i Damage Resistance}. Most vehicles, especially military and combat models, can withstand a lot of damage. Vehicles that are larger, heavier, or militarized have resistance to bludgeoning, piercing, and slashing damage. The vehicles table indicates which vehicles have this damage resistance.",
+										"{@i Hit points}. Vehicles also have HP. Once a vehicle loses half of its HP, it loses some functionality. Any roll someone makes to pilot such a vehicle is rolled with disadvantage. The vehicle is disabled entirely when the HP drop to zero. The HP are also listed in the table below.",
+										"{@i Fueled}. Except for the bicycle and horses, listed below, all vehicles need fuel\u2014though horses need stabling and food, of course. Fuel for cars and trucks is easy enough to obtain, but fuel for planes, helicopters, and military craft is extremely difficult outside of an airport or military installation. GMs can decide whether or how to allow characters access to such fuel."
+									]
+								}
+							]
 						}
 					]
 				},
 				{
-					"type": "image",
-					"page": 112,
-					"href": {
-						"type": "external",
-						"url": "https://i.imgur.com/554SIlK.png"
-					}
+					"type": "section",
+					"name":"Leveling Up",
+					"page": 113,
+					"entries": [
+						{
+							"type": "image",
+							"page": 112,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/554SIlK.png"
+							}
+						},
+						"This chapter provides instructions for leveling up your hero, including the rules for multiclassing.",
+						{
+							"type": "section",
+							"name":"Leveling Up",
+							"page": 113,
+							"entries": [
+								"As your hero fights crime and overcomes challenges, they gain competence, represented by experience points. A character who reaches a specified experience point total advances in capability. This advancement is called {@b gaining a level}.",
+								{
+									"type": "entries",
+									"name":"Ability Score Increases and Feats",
+									"page": 113,
+									"entries": [
+										"When your character gains a level, their class often grants additional features, as detailed in the class description. Some of these features allow you to increase your ability scores, either increasing two scores by 1 each or increasing one score by 2. (You can't increase an ability score above 26.) In addition, every character's proficiency bonus increases at certain levels.",
+										"Each time you gain a level, you gain 1 additional Hit Die. You can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up). Alternatively, you may roll your Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum.",
+										"When your Constitution modifier increases by 1, your HP maximum increases by 1 for each level you have attained. For example, if your 7th-level fighter has a Constitution score of 17, when she reaches 8th level, she increases her Constitution score from 17 to 18, thus increasing her Constitution modifier from +3 to +4, so HP maximum then increases by 8.",
+										"The Character Advancement table summarizes the XP you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. Consult the information in your character's class description to see what other improvements you gain at each level.",
+										"When you are given the option to increase your ability scores, you may instead choose a feat. The list of feats and instructions for choosing them can be found in Chapter Four."
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 114,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/q9nLVfx.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Multiclassing",
+							"page": 113,
+							"entries": [
+								"Multiclassing allows you to gain levels in multiple classes, letting you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options.",
+								"With this rule, you have the option of gaining a level in a new class whenever you advance in level, instead of gaining a level in your current class. You may not select the same class a second time to gain another subclass, however.",
+								"Your levels in all your classes are added together to determine your character level. For example, if you have three levels in Kinetic and two in Martial Expert, you're a 5th-level character.",
+								"As you advance in levels, you might primarily remain a member of your original class with just a few levels in another class, or you might change course entirely, abandoning advancement in the class you left behind, or you could start progressing in a third or fourth class. Compared to a single-class character of the same level, you'll exchange focus for versatility.",
+								{
+									"type": "entries",
+									"name":"Prerequisites",
+									"page": 114,
+									"entries": [
+										"To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, an Elementalist who decides to multiclass into the Tech class must have an Intelligence score of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Multiclassing Prerequisites",
+									"colLabels": [
+										"Class",
+										"Ability Score Minimum"
+									],
+									"colStyles": [
+										"col-4 text-center",
+										"col-6 text-center"
+									],
+									"rows": [
+										[
+											"Elementalist", "Charisma 13"
+										],
+										[
+											"Kinetic", "Strength 13 or Dexterity 13"
+										],
+										[
+											"Martial Expert", "Dexterity 13 and Wisdom 13"
+										],
+										[
+											"Mastermind", "Intelligence 13 or Charisma 13"
+										],
+										[
+											"Mentalist", "Charisma 13"
+										],
+										[
+											"Metamorph", "Wisdom 13"
+										],
+										[
+											"Mystic", "Intelligence 13"
+										],
+										[
+											"Special Agent", "Dexterity 13 and Charisma 13"
+										],
+										[
+											"Tech", "Intelligence 13"
+										],
+										[
+											"Vitalist", "Wisdom 13"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Experience Points",
+									"page": 114,
+									"entries": [
+										"The experience point cost to gain a level is always based on your total character level, as shown in the Character Advancement table, not your level in a particular class. So, if you are a Mentalist 6/Agent 1, you must gain enough XP to reach 8th level before you can take your second level as an agent or your seventh level as a Mentalist."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Hit Points & Hit Dice",
+									"page": 115,
+									"entries": [
+										"You gain the HP from your new class as described for levels after 1st. You gain the 1st-level HP for a class only when you are a 1st-level character.",
+										"You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the Elementalist and the Kinetic have a {@dice d10}, so if you are a Kinetic 5/Elementalist 5, you have ten {@dice d10} Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a Kinetic 5/Mystic 5, for example, you have five {@dice d10} Hit Dice and five {@dice d8} Hit Dice."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Proficiency Bonus",
+									"page": 115,
+									"entries": [
+										"Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table, not your level in a particular class."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Class Features",
+									"page": 115,
+									"entries": [
+										"When you gain a new level in a class, you get its features for that level. You don't, however, or receive the class' starting equipment. Furthermore, if two classes grant the same feature, you only receive it once, for example, {@b Extra Attack}.",
+										{
+											"type": "entries",
+											"name": "Extra Attack",
+											"entries": [
+												"If you gain the Extra Attack class feature from more than one class, the features don't add together.",
+												"You can't make more than two attacks with this feature unless it says you do (as the Martial Expert's version of Extra Attack does)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Using Powers",
+									"page": 115,
+									"entries": [
+										"Your capacity to use superpowers depends on your individual levels in classes that grant powers. Once you have a powers feature from more than one class, use the rules below. If you multiclass but have a power feature from only one class, you follow the rules as described in that class.",
+										{
+											"type": "entries",
+											"name": "Powers Known and Prepared",
+											"entries": [
+												"You determine what powers you know and can prepare for each class individually, as if you were a single-classed member of that class.",
+												"Each power you know and prepare is associated with one of your classes, and you use the power ability of that class when you use the power."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power Slots",
+											"entries": [
+												"You earn power slots from each class individually, as if you were a single-classed member of that class.",
+												"Reflexive Power Slots are not interchangeable, however, and only grant you the ability to use reflexive power slots with powers of the power list of the class that granted you reflexive slots, as well as with general powers.",
+												"Thus, if you multiclass with two classes that have power slots, you must note which powers are on which class lists, so you can determine whether you may use those powers reflexively or not. General powers can be used with any regular or reflexive power slot.",
+												"In cases where one of your classes does not have powers, like Special Agent or Martial Expert, you only have powers at the levels gained from your power using classes."
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name":"Multiclass Powers Example",
+									"page": 115,
+									"entries": [
+										"Known and prepared powers: If you are an Elementalist 2/Tech 3, for example, you know 4 1st-level Elementalist powers based on your levels in the Elementalist class. As a 3rd-level Tech hero with Intelligence is 16, you can prepare 6 Tech powers from the Tech and general power lists.",
+										"Reflexive Power slots: if you are, say, a Kinetic 1/Vitalist 2, you have three 1st-level power slots from your Vitalist levels and two 1st-level slots from your Kinetic levels. This gives you 5 1st-level slots, which you can expend interchangeably to use any of the Elementalist or Vitalist powers you know.",
+										"If you are a Kinetic 3/Vitalist 2, you have three 1st-level slots from your Vitalist levels and two 2nd-level slots from your Kinetic levels. You can also use Kinetic and general 1st-level powers reflexively. You cannot use any 1st-level Vitalist powers reflexively, however, because having 1st-level reflexive powers is associated with being a 3rd-level Kinetic hero only.",
+										"Only the class-specific powers are limited in this way, however. You can use any of your 1st-level General powers reflexively, even if you gained them via the Vitalist class."
+									]
+								}
+							]
+						}
+					]					
+				},
+				{
+					"type": "section",
+					"name":"Rules",
+					"page": 117,
+					"entries": [
+						{
+							"type": "image",
+							"page": 116,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/jEW24Mj.jpg"
+							}
+						},
+						"This chapter contains almost all the rules you need to run a game of S5E! See Chapter Eight for the rules for powers, as well as the class power lists and the index of powers.",
+						{
+							"type": "section",
+							"name":"Using Ability Scores",
+							"page": 117,
+							"entries": [
+								"Six abilities provide a quick description of every creature's physical and mental characteristics:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Strength}, measuring physical power",
+										"{@b Dexterity}, measuring agility",
+										"{@b Constitution}, measuring endurance",
+										"{@b Intelligence}, measuring reasoning and memory",
+										"{@b Wisdom}, measuring perception and insight",
+										"{@b Charisma}, measuring force of personality"
+									]
+								},
+								"Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities\u2014a creature's assets as well as weaknesses.",
+								"The three main rolls of the game\u2014the {@b ability check}, the {@b saving throw}, and the {@b attack roll}\u2014rely on the six ability scores. In brief, all actions boil down to this: roll a {@dice d20}, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.",
+								{
+									"type": "entries",
+									"name":"Ability Scores & Modifiers",
+									"page": 117,
+									"entries": [
+										"Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.",
+										"A score of 10 or 11 is the normal human average, but many heroes and supernatural creatures are a cut above ordinary in most abilities. A score of 18 is the highest that a non-powered person usually reaches. Superheroes can have scores as high as 26.",
+										"Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers' table notes the ability modifiers for the range of possible ability scores, from 1 to 30.",
+										"To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).",
+										"Because ability modifiers affect almost every attack roll, ability check, and save, ability modifiers come up in play more often than their associated scores."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Advantage & Disadvantage",
+									"page": 117,
+									"entries": [
+										"Sometimes a special ability or power tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll two d20s when you make the roll. Use the higher of the two rolls if you have advantage or the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead had advantage, you use the 17.",
+										"If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you never roll more than one extra {@dice d20}. If two favorable situations grant advantage, you still roll only one additional {@dice d20}.",
+										"If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, so you roll one {@dice d20}. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.",
+										"When you have advantage or disadvantage and something in the game that lets you reroll the {@dice d20} (such as the Good Luck feat), you can reroll only one of the dice. You choose which one. For example, if a hero has advantage or disadvantage on an ability check and rolls a 1 and a 13, the hero could use the Lucky trait to reroll the 1.",
+										"You usually gain advantage or disadvantage using special abilities, actions, or powers. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Proficiency Bonus",
+									"page": 118,
+									"entries": [
+										"Characters have a proficiency bonus determined by level.",
+										"Creatures and villains also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saves, and attack rolls.",
+										"Unless a feature explicitly states that you should add it twice, your proficiency bonus is only added once to a single die roll or other number. For example, if two different rules say you can add your proficiency bonus to a Wisdom save, you nevertheless add the bonus only once when you make the save.",
+										"Occasionally, your proficiency bonus might be doubled or halved before you apply it by a feature or power.",
+										"For example, if you have the Kinetic feature Physical Acumen, your proficiency bonus may double when you roll {@skill Acrobatics} or {@skill Athletics}. With a feature like the Special Agent's Broad Training, on the other hand, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
+										{
+											"type": "table",
+											"colLabels": [
+												"Task Difficulty DC",
+												"Task Difficulty DC"												
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-4 text-center "
+											],
+											"rows": [
+												[ 	"Very Easy", "5" ],
+												[	"Easy", "10" ],
+												[	"Medium", "15" ],
+												[	"Hard", "20" ],
+												[	"Very hard", "25" ],
+												[	"Nearly impossible", "30" ]
+											]
+										},
+										"In general, you don't multiply your proficiency bonus for attack rolls or saves. If a feature or effect allows you to do so, these same rules apply.",
+										"To make an ability check, roll a {@dice d20} and add the relevant ability modifier. As with other {@dice d20} rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success\u2014the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or Creature makes no progress toward the objective or makes progress combined with a setback determined by the GM."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Contests",
+									"page": 118,
+									"entries": [
+										"Sometimes one character's or Creature's efforts are directly opposed to another's. This can occur when both are trying to do the same thing and only one can succeed, such as attempting to snatch up a weapon that has fallen on the floor. This situation also applies when one is trying to prevent the other from accomplishing a goal\u2014for example, when a villain tries to force open a door that a hero is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.",
+										"Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher total check wins the contest. That character or villain either succeeds at the action or prevents the other from succeeding.",
+										"If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. A tie in a contest to snatch a weapon off the floor, neither character grabs it. In a contest trying to open a door, a tie means that the door remains shut."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Skills",
+									"page": 118,
+									"entries": [
+										"Each ability covers a broad range of capabilities, including skills that characters or NPCs can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a NPC's skill proficiencies appear in their stat block.)",
+										"For example, a Dexterity check might reflect a character's attempt at an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: {@skill Acrobatics}, {@skill Sleight of Hand}, and {@skill Stealth}, respectively. So, a character who has proficiency in the {@skill Stealth} skill is particularly good at Dexterity checks related to sneaking and hiding.",
+										"Which skills relate to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description below for examples of how to use a skill associated with an ability.",
+										{
+											"type": "entries",
+											"entries": [
+												{
+												"type": "entries",
+												"name":"Strength",
+												"entries": ["{@skill Athletics}"]
+												},
+												{
+												"type": "entries",
+												"name":"Dexterity",
+												"entries": ["{@skill Acrobatics}, {@skill Slight of Hand}, {@skill Stealth}"]
+												},
+												{
+													"type": "entries",
+													"name":"Constitution",
+													"entries": ["Concentration"]
+												},
+												{
+													"type": "entries",
+													"name":"Intelligence",
+													"entries": ["{@skill History}, {@skill Investigation}, {@skill arcana|phb|Mysticism}, {@skill Science}, {@skill Technology}"]
+												},
+												{
+													"type": "entries",
+													"name":"Wisdom",
+													"entries": ["{@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, {@skill Survial}"]
+												},
+												{
+													"type": "entries",
+													"name":"Charisma",
+													"entries": ["{@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}"]
+												}
+											]
+										},
+										"Sometimes, the GM might ask for an ability check using a specific skill\u2014for example, \"Make a {@skill Perception} check. At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add their proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.",
+										"For example, if a character attempts to climb up a dangerous cliff, the GM might ask for an {@skill Athletics} check. A character proficient in {@skill Athletics}, would add their proficiency bonus to the Strength check. If the character lacks that proficiency, they just make a Strength check.",
+										{
+											"type": "inset",
+											"name":"Different Abilities & Skill Checks",
+											"page": 119,
+											"entries": [
+												"Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in {@skill Athletics}, for example, usually applies to certain Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check.",
+												"Say you must swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in {@skill Athletics} and ask for a Constitution ({@skill Athletics}) check. So, if you're proficient in {@skill Athletics}, you apply your proficiency bonus to the Constitution check just as you would normally do for an {@skill Athletics} check. Similarly, when your Kinetic strength hero uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength ({@skill Intimidation}) check, even though {@skill Intimidation} is normally associated with Charisma."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Passive Checks",
+									"page": 119,
+									"entries": [
+										"A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors repeatedly or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden villain.",
+										"Here's how to determine a character's total for a passive check:",
+										"{@b 10 + all modifiers that normally apply to the check}",
+										"If the character has advantage on the check, add 5. For disadvantage, subtract 5. A passive check total is called a \"{@b score}\"."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Working Together",
+									"page": 119,
+									"entries": [
+										"Sometimes characters team up to attempt a task. The character who's leading the effort\u2014or the one with the highest ability modifier\u2014can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the {@action Help} action.",
+										"A character can only provide help if the task is one that they could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would be productive. Some tasks, such as threading a needle, are no easier with help.",
+										{
+											"type": "entries",
+											"name":"Group Checks",
+											"page": 119,
+											"entries": [
+												"When several individuals are trying to accomplish something as a group, the GM might ask for a {@b group ability check}. In such a situation, the characters who are skilled at a particular task help cover those who aren't.",
+												"To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.",
+												"For example, when heroes are navigating a swamp, the GM might call for a group {@skill Survival} check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters can guide their companions out of danger. Otherwise, the group stumbles into one of these hazards."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Using Each Ability",
+									"page": 119,
+									"entries": [
+										"Every task that a character or NPC might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.",
+										{
+											"type": "entries",
+											"name":"Strength",
+											"page": 119,
+											"entries": [
+												"Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+												{
+													"type": "entries",
+													"name":"Strength Checks",
+													"page": 119,
+													"entries": [
+														"A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athletics} skill reflects aptitude in certain kinds of Strength checks.",
+														{
+															"type": "entries",
+															"name": "Athletics",
+															"entries": [
+																"{@skill Athletics} checks cover difficult situations you encounter while climbing, jumping, or swimming."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Other Strength Checks",
+															"entries": [
+																"The GM might also call for a Strength check when you try to accomplish tasks like forcing open, breaking free of, pushing through, or hanging onto something."
+															]
+														}
+													]
+												},
+												{
+													"type": "entries",
+													"name":"Attack Rolls and Damage",
+													"page": 120,
+													"entries": [
+														"You add your Strength modifier to your attack roll and your damage roll when attacking with any melee weapon. You use melee weapons to make close attacks in handto-hand combat, but some can also be thrown to make a ranged attack."
+													]
+												},
+												{
+													"type": "entries",
+													"name":"Lifting and Carrying",
+													"page": 120,
+													"entries": [
+														"Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.",
+														{
+															"type": "entries",
+															"name": "Carrying Capacity",
+															"entries": [
+																"Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Push, Drag, or Lift",
+															"entries": [
+																"You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight more than your carrying capacity, your speed drops to 5 feet."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Size and Strength",
+															"entries": [
+																"Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Dexterity",
+											"page": 120,
+											"entries": [
+												"Dexterity measures agility, reflexes, and balance.",
+												{
+													"type": "entries",
+													"name":"Dexterity Checks",
+													"page": 120,
+													"entries": [
+														"A Dexterity check models any attempt to move nimbly, quickly, or quietly, or to keep from falling on poor footing. The {@skill Acrobatics}, {@skill Sleight of Hand}, and {@skill Stealth} skills reflect aptitude in certain kinds of Dexterity checks.",
+														{
+															"type": "entries",
+															"name": "Acrobatics",
+															"entries": [
+																"Your {@skill Acrobatics} check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on top of a moving truck. The GM might also use an {@skill Acrobatics} check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Sleight of Hand",
+															"entries": [
+																"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a {@skill Sleight of Hand} check. The GM might also use a {@skill Sleight of Hand} check to determine whether you can lift a purse off another person or slip something out of another person's pocket."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Stealth",
+															"entries": [
+																"Make a {@skill Stealth} check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Other Dexterity Checks",
+															"entries": [
+																"The GM might call for a Dexterity check when you try to accomplish any tasks requiring either gross or fine motor skills, such as piloting a plane around obstacles."
+															]
+														}
+													]
+												},
+												{
+													"type": "entries",
+													"name":"Attack Rolls and Damage",
+													"page": 120,
+													"entries": [
+														"You add your Dexterity modifier to your attack roll and your damage roll when attacking with any ranged weapon.",
+														"You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Constitution",
+											"page": 120,
+											"entries": [
+												"Constitution measures health, stamina, and vital force.",
+												{
+													"type": "entries",
+													"name":"Constitution Checks",
+													"page": 120,
+													"entries": [
+														"Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving any specific effort. A Constitution check can model your attempt to push beyond normal limits, however.",
+														"The GM might call for a Constitution check when you try to accomplish tasks like holding your breath, marching without rest, surviving without sleep or food, or to avoid vomiting."
+													]
+												},
+												{
+													"type": "entries",
+													"name":"Hit Points",
+													"page": 120,
+													"entries": [
+														"Your Constitution modifier contributes to your health. Typically, you add your Constitution modifier to each Hit Die you roll for your HP.",
+														"If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Intelligence",
+											"page": 120,
+											"entries": [
+												"Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
+												{
+													"type": "entries",
+													"name":"Intelligence Checks",
+													"page": 120,
+													"entries": [
+														"An Intelligence check comes into play when you need an aptitude for drawing on logic, education, memory, or deductive reasoning.",
+														{
+															"type": "entries",
+															"name": "History",
+															"entries": [
+																"Your {@skill History} check measures your ability to recall lore about historical events, legendary people, past disputes, recent wars, and lost civilizations."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Investigation",
+															"entries": [
+																"When you look around for clues and make deductions based on those clues, you make an {@skill Investigation} check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse, or poring through online databases in search of hidden data."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Mysticism",
+															"entries": [
+																"Your Mysticism check measures your ability to recall lore about the occult, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Science",
+															"entries": [
+																"Your Science check determines how much you know about the natural world and its laws, your scientific understanding and expertise. It also measures your ability to recall information about terrain, plants and animals, the weather, and natural cycles."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Technology",
+															"entries": [
+																"Your Technology check measures how much you know about computers, electronics, programming, robotics, telephony, and other technological matters. Whereas Science concerns the general, abstract physical laws that govern technology, Technology concerns the particular facts about operating systems, exploits, models, protocols, and so on, as well as the ability to repair or modify devices."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Other Intelligence Checks",
+															"entries": [
+																"The GM might call for an Intelligence check when you try to accomplish tasks like communicate without using words, estimating the value of a precious item, recalling information, or winning a game of skill."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Wisdom",
+											"page": 121,
+											"entries": [
+												"Wisdom reflects how attuned you are to the world around you and represents erudition and intuition.",
+												{
+													"type": "entries",
+													"name":"Wisdom Checks",
+													"page": 121,
+													"entries": [
+														"A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person.",
+														{
+															"type": "entries",
+															"name": "Animal Handling",
+															"entries": [
+																"When there is any question whether you can calm down a domesticated animal, control a mount, or intuit an animal's intentions, the GM might call for an {@skill Animal Handling} check."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Insight",
+															"entries": [
+																"Your {@skill Insight} check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Medicine",
+															"entries": [
+																"A {@skill Medicine} check lets you try to stabilize a dying companion or diagnose an illness."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Perception",
+															"entries": [
+																"Your {@skill Perception} check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear villains moving stealthily in the forest."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Survival",
+															"entries": [
+																"The GM might ask you to make a {@skill Survival} check to follow tracks, hunt, guide your group through frozen wastelands, identify signs that bears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Other Wisdom Checks",
+															"entries": [
+																"The GM might call for a Wisdom check when you try to accomplish tasks like understanding gut feelings or discerning whether a seemingly dead or living creature is undead."
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Charisma",
+											"page": 121,
+											"entries": [
+												"Charisma measures your ability to interact effectively with others. It includes such factors as confidence, eloquence, and a charming or commanding personality.",
+												{
+													"type": "entries",
+													"name":"Charisma Checks",
+													"page": 121,
+													"entries": [
+														"A Charisma check might arise when you try to influence or entertain others, make an impression, or tell a convincing lie, or navigate a tricky social situation.",
+														{
+															"type": "entries",
+															"name": "Deception",
+															"entries": [
+																"Your {@skill Deception} check determines whether you can convincingly hide the truth, through either actions or speech. This deception can encompass everything from misleading through ambiguity to outright lies. Typical situations include trying to fast-talk a guard, con a salesclerk, earn money through gambling, pass in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Intimidation",
+															"entries": [
+																"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make an {@skill Intimidation} check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down, or using a weapon to convince a sneering bureaucrat to reconsider a decision."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Performance",
+															"entries": [
+																"Your {@skill Performance} check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Persuasion",
+															"entries": [
+																"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a {@skill Persuasion} check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing an assistant to let your party see the CEO, negotiating peace between warring gangs, or inspiring a crowd of citizens."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Other Charisma Checks",
+															"entries": [
+																"The GM might call for a Charisma check when you try to accomplish tasks like finding a source for news, rumors, and gossip, or blend into a crowd to get the sense of the conversation."
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Saving Throws",
+									"page": 122,
+									"entries": [
+										"A saving throw\u2014also called a save\u2014represents an attempt to resist a threat, a power, trap, poison, or disease. You don't normally decide to make a save; you are forced to make one because of risk of harm.",
+										"To make a save, roll a {@dice d20} and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity saving throw. Each class gives proficiency in at least two saving throws.",
+										"A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the GM.",
+										"The Difficulty Class for a save is determined by the effect that causes it. For example, the DC for a save allowed by a power is determined by the user's power ability and proficiency bonus. The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Tools, Instruments, Gaming Sets, and Vehicles",
+									"page": 122,
+									"entries": [
+										"Like skills, each tool, instrument, gaming set, and vehicle is also associated with a particular ability. For example, someone attempting to use thieves' tools to pick a lock would likely roll a Dexterity ability check, whereas someone attempting to use navigator's tools might be asked to roll Wisdom. Someone attempting to play the flute might roll Charisma, and a person attempting to drive a bicycle through traffic might make a Dexterity check.",
+										"Characters and NPCs can have proficiency with tools, instruments, and gaming sets, just as they can in skills. So, the lock picker can add their proficiency bonus to that attempt to pick a lock when using thieves' tools if they have proficiency in thieves' tools. Similarly, someone with proficiency in electronics repair kit can add their proficiency bonus to their Intelligence modifier when attempting to repair a device.",
+										"In some cases, the GM might decide to call for a different ability score to be rolled. For example, when piloting an airplane in a dog fight, the GM might call for a Dexterity check. When figuring out how to activate the autopilot, however, they might call for Wisdom or Intelligence instead. If the character has proficiency with Vehicles (Air and Space), then they can add their proficiency bonus to any of these rolls."
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 120,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/wEFtaSd.png"
+							}
+						},
+						{
+							"type": "section",
+							"name":"Time",
+							"page": 122,
+							"entries": [
+								"In situations where the passage of time is important the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In an investigative environment, the heroes' movement happens on a scale of minutes. In a city or wilderness, a scale of hours is often more appropriate. For long journeys, a scale of days works best.",
+								"In combat and other fast-paced situations, the game relies on rounds, a 6-second span of time."
+							]
+						},
+						{
+							"type": "section",
+							"name":"Movement",
+							"page": 122,
+							"entries": [
+								"The GM can summarize the heroes' movement without calculating exact distances or travel times: \"You travel through the city and find the villain's base late in the evening. Even in a dangerous environment, particularly a large base or a cave network, the GM can summarize movement between encounters: \"After killing the guard at the entrance to the evil genius stronghold, you consult the schematics of the base, which leads you through miles of echoing corridors to a great spherical experimental chamber with a platform suspended in the middle and reached by a narrow bridge.",
+								"Sometimes it's important, though, to know how long it takes to get from one spot to another, whether the answer is in days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the creatures moving and the terrain they're moving over.",
+								{
+									"type": "entries",
+									"name":"Speed",
+									"page": 122,
+									"entries": [
+										"Every character and NPC has a speed, which is the distance in feet that they can walk in 1 round. This number assumes short bursts of energetic movement amid a life-threatening situation.",
+										{
+											"type": "entries",
+											"name":"Traveling Pace",
+											"page": 122,
+											"entries": [
+												"While traveling, a group of heroes can move at a normal, fast, or slow pace, as shown on the Travel Pace table.",
+												"The table states how far the party can move in a period and whether the pace has any effect. A fast pace makes characters less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully.",
+												{
+													"type": "entries",
+													"name": "Marching on Foot",
+													"entries": [
+														"The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of {@condition exhaustion}.",
+														"For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each must make a Constitution save at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed save, a character suffers one level of {@condition exhaustion} (see Appendix 1)."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Mounts",
+													"entries": [
+														"For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Vehicles",
+													"entries": [
+														"Characters in cars, trains, planes, or ships choose a pace as the situation dictates. Characters in a car can choose to stop and rest or drive through the night but gain a level of {@condition exhaustion}. In some cases, such as trains or passenger ships, the vessel moves at its allotted pace and travelers sleep in cabins avoiding {@condition exhaustion} penalties or any effects from a fast pace or slow pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day."
+													]
+												}
+											]
+										},
+										{
+											"type": "table",
+											"name": "Travel Pace Table",
+											"caption": "Distance traveled per...",
+											"Page": 123,
+											"colLabels": [
+												"Pace on foot",
+												"Minute",
+												"Hour",
+												"Day",
+												"Effect"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-2 text-center",
+												"col-2 text-center",
+												"col-2 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[ "Fast", "400 ft", "4 mi", "30 mi", "−5 to passive perception"],
+												["Normal", "300 ft", "3 mi", "24 mi", "—"],
+												["Slow", "200 ft", "2 mi", "18 mi", "Able to use Stealth"]
+											]
+											
+										},
+										{
+											"type": "entries",
+											"name":"Difficult Terrain",
+											"page": 123,
+											"entries": [
+												"The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open grass, or clear corridors. But heroes often face dense forests, deep swamps, rubble-filled streets, steep skyscrapers, and ice-covered ground\u2014all considered difficult terrain. Combat also rarely takes place in bare rooms or on featureless spaces. Rubblestrewn streets, crate-choked warehouses, treacherous staircases\u2014the setting of a typical fight contains difficult terrain.",
+												"Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain. Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain.",
+												"You move at half speed in difficult terrain\u2014moving 1 foot in difficult terrain costs 2 feet of speed\u2014so you can cover only half the normal distance in a minute, an hour, or a day"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Special Types of Movement",
+									"page": 123,
+									"entries": [
+										"Movement through dangerous dungeons or wilderness areas often involves more than simply walking. Heroes might have to climb, crawl, swim, or jump to get where they need to go.",
+										{
+											"type": "table",
+											"caption": "Climbing, Swimming, and Crawling",
+											"Page": 123,
+											"entries": [ 
+												"While climbing or swimming, each foot of movement costs 1 extra foot (2 extra feet in difficult terrain), unless a creature has a climbing or swimming speed. At the GM's option, climbing a slippery vertical surface or one with few handholds requires a successful {@skill Athletics} check.",
+												"Similarly, gaining any distance in rough water might require a successful {@skill Athletics} check."
+											]
+										},
+										{
+											"type": "section",
+											"name":"Jumping",
+											"page": 123,
+											"entries": [
+												"Your Strength determines how far you can jump.",
+												{
+													"type": "entries",
+													"name": "Long Jump",
+													"entries": [
+														"When you make a long jump, you cover a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.",
+														"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your",
+														"GM's option, you must succeed on a DC 10 {@skill Athletics} check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.",
+														"When you land in difficult terrain, you must succeed on a DC 10 {@skill Acrobatics} check to land on your feet. Otherwise, you land {@condition prone}."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "High Jump",
+													"entries": [
+														"When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Each foot you clear on either jump costs a foot of movement.",
+														"You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1½ times your height."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Environment",
+							"Page": 123,
+							"entries": [
+								"At times, the work of a superhero can involve delving into places that are dark, dangerous, and deadly. The rules in this section cover some of the most important ways in which heroes interact with the environment in such places.",
+
+								{
+									"type": "entries",
+									"name":"Falling",
+									"page": 123,
+									"entries": [
+										"A fall from a great height is one of the most common hazards facing a hero, as they fight across rooftops of a city. At the end of a fall, a creature takes {@damage 1d6} bludgeoning damage for every 10 feet it fell to a maximum of {@dice 20d6}. The creature lands {@condition prone} unless it avoids taking damage from the fall."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Suffocating",
+									"page": 123,
+									"entries": [
+										"A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).",
+										"When a creature runs out of breath or is choking, it can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round). At the start of its next turn, it drops to 0 HP and is dying, and it can't regain HP or be stabilized until it can breathe again."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Vision & Light",
+									"page": 124,
+									"entries": [
+										"The most fundamental tasks of being a superhero\u2014noticing danger, finding hidden clues, hitting an enemy in combat, and targeting a power, to name just a few\u2014rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.",
+										"A given area might be lightly or heavily obscured. In a lightly obscured area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on {@skill Perception} checks that rely on sight.",
+										"A heavily obscured area\u2014such as darkness, opaque fog, or dense foliage\u2014blocks vision entirely. A creature effectively suffers from the {@condition blinded} condition (see Appendix 1) when trying to see something in that area.",
+										"The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.",
+										"Bright light lets most creatures see normally. Even gloomy days provide bright light, as do flashlights, lanterns, fires, and other sources of illumination within a specific radius.",
+										"Dim light, also called shadows, creates a lightly obscured area. An area of dim light is usually a boundary between a source of bright light, such as a flashlight, and surrounding darkness. The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light.",
+										"Darkness creates a heavily obscured area. Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit room, or a subterranean hideout, or in an area of superpowered darkness.",
+										"{@sense BLINDSIGHT}",
+										"A creature with {@sense blindsight} can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes and creatures with echolocation or heightened senses, such as bats, have this sense.",
+										"{@sense DARKVISION}",
+										"Within a specified range, a creature with {@sense Darkvision} can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.",
+										"{@sense TREMORSENSE|MM}",
+										"A creature with {@sense tremorsense|MM} can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. {@sense Tremorsense|MM} can't be used to detect flying or incorporeal creatures.",
+										"{@sense TRUESIGHT}",
+										"A creature with {@sense truesight} can, out to a specific range, see in both normal and superpowered darkness, see {@condition invisible} creatures and objects, automatically detect visual illusions (succeeding on saves against them), and perceive the original form of a shapechanger or a creature that is transformed by a superpower. Furthermore, the creature can see into the Ethereal Plane."
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Food & Water",
+									"page": 124,
+									"entries": [
+										"Characters who don't eat or drink suffer the effects of {@condition exhaustion} (see Appendix 1). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.",
+										{
+											"type": "entries",
+											"name":"Food",
+											"page": 125,
+											"entries": [
+												"A character needs one pound of food per day and can make food last longer by subsisting on half rations.",
+												"Eating half a pound of food in a day counts as half a day without food.",
+												"A character can go without food for a number of days equal to 3 + their Constitution modifier (minimum 1).",
+												"At the end of each day beyond that limit, a character automatically suffers one level of {@condition exhaustion}. A normal day of eating resets the count of days without food to zero."
+											]
+										},
+										{
+											"type": "entries",
+											"name":"Water",
+											"page": 125,
+											"entries": [
+												"A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a DC 15 Constitution save or suffer one level of {@condition exhaustion} at the end of the day. A character with access to even less water automatically suffers one level of {@condition exhaustion} at the end of the day.",
+												"If the character already has one or more levels of {@condition exhaustion}, the character takes two levels in either case."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name":"Interacting with Objects",
+									"page": 125,
+									"entries": [
+										"A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the GM that their character is doing something, such as moving a lever, and the GM describes what, if anything, happens.",
+										"Characters can also damage objects with their weapons and powers. Objects are immune to poison and psychic damage, but otherwise they can be affected by physical and superpowered attacks much like creatures can. The GM determines an object's Armor Class and HP and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Strength and Dexterity saves, and they are immune to effects that require other saves. When an object drops to 0 HP, it breaks.",
+										"A character can also attempt a Strength check to break an object. The GM sets the DC for any such check.",
+										{
+											"type": "inset",
+											"name":"Interacting with Objects Around You",
+											"page": 125,
+											"entries": [
+												"Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
+												"Draw or holster one pistol",
+												"Open or close a door",
+												"Withdraw a first aid kit from your pack",
+												"Pick up a dropped weapon",
+												"Take a bauble from a table",
+												"Remove a ring from your finger",
+												"Stuff some food into your mouth",
+												"Plant a banner in the ground",
+												"Fish a few dollars from your wallet",
+												"Drink all the contents of a bottle",
+												"Throw a lever or push a button",
+												"Turn a flashlight on or off",
+												"Take a book from a shelf you can reach",
+												"Extinguish a small flame",
+												"Don a mask",
+												"Put the hood of your hoodie up over your head",
+												"Put your ear to a door",
+												"Kick a can down the road",
+												"Turn a key in a lock",
+												"Hand an item to another character"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Resting",
+							"Page": 125,
+							"entries": [
+								"Heroic though they might be superheroes can't spend every hour of the day in the thick of exploration, social interaction, and combat. They need rest\u2014time to sleep and eat, tend their wounds, refresh their minds and spirits for using powers, and brace themselves for further adventure.",
+								"Heroes can take short rests amid their day and a long rest to end the day.",
+								{
+									"type": "entries",
+									"name": "Short Rest",
+									"Page": 125,
+									"entries": [
+										"A short rest is a period of downtime, at least 10 minutes long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+										"A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Constitution modifier to it. The character regains HP equal to the total. The player can decide to spend an additional Hit Die after each roll. A character regains some spent Hit Dice upon finishing a long rest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Long Rest",
+									"Page": 125,
+									"entries": [
+										"A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity\u2014at least 1 hour of walking, fighting, using powers, or similar activity\u2014the characters must begin the rest again to gain any benefit from it.",
+										"At the end of a long rest, a character regains all lost HP. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them (minimum of one die).",
+										"A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 HP at the start of the rest to gain its benefits."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Order of Combat",
+							"Page": 125,
+							"entries": [
+								"A typical combat encounter is a clash between two sides using powers. The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of a combat encounter when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.",
+								{
+									"type": "inset",
+									"name": "Combat Step By Step",
+									"Page": 126,
+									"entries": [
+										"{@b 1. Determine surprise}. The GM determines whether anyone involved in the combat encounter is surprised.",
+										"{@b 2. Establish positions}. The GM decides where all the characters and villains are located. Given the heroes' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are\u2014how far away and in what direction.",
+										"{@b 3. Roll initiative}. Everyone involved in the combat encounter rolls initiative, determining the order of combatants' turns.",
+										"{@b 4. Take turns}. Each participant in the battle takes a turn in initiative order.",
+										"{@b 5. Begin the next round}. When everyone involved in the combat has had a turn, the round ends. Repeat step 4 until the fighting stops."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Surprise & Positions",
+									"Page": 126,
+									"entries": [
+										"If a band of heroes sneaks up on a gang hideout, springing from the walkways above to attack them, our heroes gain surprise over the thugs.",
+										"The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the {@skill Stealth} checks of anyone hiding with the passive {@skill Perception} score of each creature on the opposing side. Any character or creature that doesn't notice a threat is surprised at the start of the encounter.",
+										"If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.",
+										"Additionally, the GM and players decide where everyone is positioned when action freezes for the beginning of a combat."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Initiative",
+									"Page": 126,
+									"entries": [
+										"Initiative determines who goes when during combat. When combat starts, every participant makes a Dexterity check to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.",
+										"The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.",
+										"If a tie occurs, the GM decides the order among tied GM-controlled creatures, and the players decide the order among their tied characters. The GM can decide the order if the tie is between an NPC and a PC. Optionally, the GM can have the tied characters and villains each roll a {@dice d20} to determine the order, highest roll going first."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Turn",
+									"Page": 126,
+									"entries": [
+										"On your turn, you can move a distance up to your speed and take one action. You decide which one to do first. Your speed\u2014sometimes called your walking speed\u2014is noted on your character sheet. The most common actions you can take are described in the \"Actions in Combat\" section. Many class features and other abilities provide additional options for your action.",
+										"The \"Movement & Position\" section gives the rules for your move.",
+										"You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the {@action Dodge} or {@action Ready} action, as described in \"Actions in Combat.",
+										{
+											"type": "entries",
+											"name": "Bonus Actions",
+											"Page": 126,
+											"entries": [
+												"Various class features, powers, and other abilities let you take an additional action on your turn called a bonus action. You can take a bonus action only when a special ability, power, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.",
+												"You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.",
+												"You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Other Activities on Your Turn",
+											"Page": 126,
+											"entries": [
+												"Your turn can include a variety of flourishes that require neither your action nor your move.",
+												"You can freely communicate however you are able, through brief utterances and gestures, as you take your turn.",
+												"You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.",
+												"If you want to interact with a second object, you need to use your action. Some devices and other special objects always require an action to use, as stated in their descriptions.",
+												"The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or access a computer to enter a command."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Reactions",
+											"Page": 127,
+											"entries": [
+												"Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack is the most common type of reaction.",
+												"When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Movement & Position",
+							"Page": 127,
+							"entries": [
+								"In combat, characters and creatures are in constant motion, often using movement and position to gain the upper hand.",
+								"On your turn, you can move a distance up to your speed. You can use as much or as little of your speed as you like on your turn, following the rules here.",
+								"Your movement can include jumping, climbing, and swimming. These different modes of movement can be combined with walking, or they can constitute your entire move. Whichever way you're moving, you deduct the distance of each part of your move from your speed until it is used up or until you are done moving.",
+								{
+									"type": "entries",
+									"name": "Breaking Up Your Movement",
+									"Page": 127,
+									"entries": [
+										"You can split your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.",
+										{
+											"type": "entries",
+											"name": "Moving Between Attacks",
+											"Page": 127,
+											"entries": [ 
+												"If you take an action that includes more than one attack, you can break up your movement even further by moving between those attacks. For example, a hero who can make two attacks with the Extra Attack feature and who has a speed of 30 feet could move 10 feet, make an attack, move 20 feet, and then attack again."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Using Different Speeds",
+											"Page": 127,
+											"entries": [ 
+												"If you have more than one speed, such as either your walking or flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Being Prone",
+									"Page": 127,
+									"entries": [
+										"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition prone}, a condition described more in Appendix 1.",
+										"You can drop {@condition prone} without using any of your speed. {@b Standing up} takes more effort; doing so costs an amount of movement equal to half your speed.",
+										"You can't stand up if you don't have enough movement left or if your speed is 0.",
+										"To move while {@condition prone}, you must {@b crawl} or use a superpower such as teleportation. Crawling costs double normal movement. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Moving Around Other Creatures",
+									"Page": 127,
+									"entries": [
+										"You can move through a nonhostile creature's space. You can only move through a hostile creature's space if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you. Whether a creature is a friend or an enemy, you can't willingly end your move in its space.",
+										"If you leave a hostile creature's reach during your move, you provoke an opportunity attack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Flying Movement",
+									"Page": 127,
+									"entries": [
+										"Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked {@condition prone}, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it can hover or it is being held aloft by someone else's superpower, such as by the telekinesis power."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Creature Size",
+									"Page": 127,
+									"entries": [
+										"Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.",
+										{
+											"type": "table",
+											"caption": "Size Category",
+											"page": 127,
+											"colLabels": [
+												"Size",
+												"Space"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												["Tiny", "2½ by 2½ feet"],
+												["Small", "5 by 5 feet"],
+												["Medium", "5 by 5 feet"],
+												["Large", "10 by 10 feet"],
+												["Huge", "15 by 15 feet"],
+												["Gargantuan", "20 by 20 feet or larger"]
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Space",
+											"Page": 128,
+											"entries": [ 
+												"A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 5 feet wide, for example, but it does control a space that wide. If a Medium henchman stands in a 5-foot-wide doorway, other creatures can't get through unless the thug lets them.",
+												"A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 5-foot radius around another one.",
+												"Because larger creatures take up more space, fewer of them can surround a creature. If five Large creatures crowd around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Squeezing into a Smaller Space",
+											"Page": 128,
+											"entries": [ 
+												"A creature can squeeze through a space that is large enough for a creature one size smaller than it. Thus, a Large creature can squeeze through a passage that's only 5 feet wide. While squeezing through a space, a creature must spend 1 extra foot for every foot it moves there, and it has disadvantage on attack rolls and Dexterity saves. {@action Attack} rolls against the creature have advantage while it's in the smaller space."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cover",
+									"Page": 127,
+									"entries": [
+										"Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.",
+										"There are three amounts of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives ½ cover and a tree trunk that gives ¾ cover, the target has ¾ cover.",
+										"A target with {@b half cover} has a +2 bonus to AC and Dexterity saves. A target has ½ cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
+										"A target with {@b three-quarters cover} has a +5 bonus to AC and Dexterity saves. A target has ¾ cover if about ¾ of it is covered by an obstacle. The obstacle might be a mailbox, an arrow slit, or a thick tree trunk.",
+										"A target with {@b total cover} can't be targeted directly by an attack or a power (although some powers can reach such a target by including it in an area of effect). A target has total cover if it is completely concealed by an obstacle."
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 129,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/t8pP5Mu.png"
+							}
+						},
+						{
+							"type": "section",
+							"name": "Actions in Combat",
+							"Page": 128,
+							"entries": [
+								"When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise. Many foes have action options of their own in their stat blocks.",
+								"When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.",
+								{
+									"type": "entries",
+									"name": "Attack",
+									"Page": 128,
+									"entries": [
+										"The most common action to take in combat is the {@action Attack} action, whether you are swinging a baton, shooting a rifle, using a power to make an attack, or brawling with your fists.",
+										"With this action, you make one melee or ranged attack. Certain features, such as the Extra Attack feature of the trained hero, allow you to make more than one attack with this action.",
+										{
+											"type": "entries",
+											"name": "Making an Attack",
+											"Page": 128,
+											"entries": [
+												"Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a power, an attack has a simple structure.",
+												{
+													"type": "inset",
+													"Page": 128,
+													"entries": [
+														"{@b 1. Choose a target}. Pick a target within your attack's range: a creature, an object, or a location.",
+														"{@b 2. Determine modifiers}. The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.",
+														"{@b 3. Resolve the attack}. You make the attack roll. On a hit, you roll damage, unless that attack has rules that specify otherwise. (Some attacks cause special effects in addition to or instead of damage.)"
+													]
+												},
+												"If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.",
+												{
+													"type": "entries",
+													"name": "Attack Rolls",
+													"Page": 128,
+													"entries": [
+														"When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a {@dice d20} and add the appropriate modifiers. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Modifiers to the Roll",
+													"Page": 128,
+													"entries": [
+														"When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. When an NPC makes an attack roll, it uses whatever modifier is provided in its stat block.",
+														{
+															"type": "entries",
+															"name": "Ability Modifier",
+															"entries": [
+																"The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule.",
+																"Some powers also require an attack roll. The ability modifier used for a power attack depends on the power ability of the superhero."
+															]
+														},
+														{
+															"type": "entries",
+															"name": "Proficiency Bonus",
+															"entries": [
+																"You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a power."
+															]
+														}
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Rolling 1 or 20",
+													"Page": 129,
+													"entries": [
+														"Sometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.",
+														"If the {@dice d20} roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. This is called a critical hit.",
+														"If the {@dice d20} roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Two-Weapon Fighting",
+													"Page": 129,
+													"entries": [
+														"When you take the {@action Attack} action and attack with a light melee or ranged weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee or ranged weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack unless that modifier is negative."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Unseen Attackers and Targets",
+													"Page": 129,
+													"entries": [
+														"Combatants often try to escape their foes' notice by hiding, using an invisibility power, or lurking in darkness.",
+														"When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss.",
+														"When a creature can't see you, you have advantage on attack rolls against it. If you are hidden\u2014both unseen and unheard\u2014when you make an attack, you give away your location when the attack hits or misses."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Ranged Attacks",
+											"Page": 129,
+											"entries": [
+												"When you make a ranged attack, you fire a gun, sling superpowered fire, hurl a dagger, or otherwise send projectiles to strike a foe at a distance. Many powers involve making a ranged attack.",
+												{
+													"type": "entries",
+													"name": "Range",
+													"Page": 128,
+													"entries": [
+														"You can make ranged attacks only against targets within a specified range.",
+														"If a ranged attack, such as one made with a power, has a single range, you can't attack a target beyond this range.",
+														"Some ranged attacks, such as those made with a rifle or a crossbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Ranged Attacks in Close Combat",
+													"Page": 130,
+													"entries": [
+														"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a power, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't {@condition incapacitated}."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Melee Attacks",
+											"Page": 130,
+											"entries": [
+												"Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a knife, a baton, or a bayonet. A monstrous foe might make a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. Many powers also involve making a melee attack.",
+												"Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions.",
+												"Instead of using a weapon to make a melee weapon attack, you can use an {@b unarmed strike}: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are always proficient with your unarmed strikes."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Opportunity Attacks",
+											"Page": 130,
+											"entries": [
+												"In a fight, everyone is watching for a chance to strike an enemy who is fleeing or passing by. Such a strike is called an {@b opportunity attack}.",
+												"You can make an opportunity attack when a visible hostile creature moves out of your reach. To make the opportunity attack, you use your {@b reaction} to make one melee attack against the provoking creature. The attack occurs right before the creature leaves your reach.",
+												"You can avoid provoking an opportunity attack by taking the {@action Disengage} action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Contests in Combat",
+											"Page": 130,
+											"entries": [
+												"Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The GM can use these contests as models for improvising others."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Grappling",
+											"Page": 130,
+											"entries": [
+												"When you want to grab a creature or wrestle with it, you can use the {@action Attack} action to make a special melee attack, a grapple. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them.",
+												"The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: an {@skill Athletics} check contested by the target's {@skill Athletics} or {@skill Acrobatics} check (the target chooses the ability to use). If you succeed, you subject the target to the {@condition grappled} condition (see Appendix 1). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
+												{
+													"type": "entries",
+													"name": "Escaping a Grapple",
+													"entries": [
+														"A {@condition grappled} creature can use its action to escape. To do so, it must succeed on an {@skill Athletics} or {@skill Acrobatics} check contested by your {@skill Athletics} check."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Moving a Grappled Creature",
+													"entries": [
+														"When you move, you can drag or carry the {@condition grappled} creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Shoving a Creature",
+											"Page": 130,
+											"entries": [
+												"Using the {@action Attack} action, you can make a special melee attack to {@action shove} a creature, either to knock it {@condition prone} or push it away from you. If you're able to make multiple attacks with the {@action Attack} action, this attack replaces one of them.",
+												"The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll, you make an {@skill Athletics} check contested by the target's {@skill Athletics} or {@skill Acrobatics} check (the target chooses the ability to use). If you win the contest, you either knock the target {@condition prone} or push it 5 feet away from you."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dash",
+									"Page": 130,
+									"entries": [
+										"When you take the {@action Dash} action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.",
+										"Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you dash."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Disengage",
+									"Page": 130,
+									"entries": [
+										"If you take the {@action Disengage} action, your movement doesn't provoke opportunity attacks for the rest of the turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dodge",
+									"Page": 130,
+									"entries": [
+										"When you take the {@action Dodge} action, you focus entirely on avoiding attacks. Until the start of your next turn, you make Dexterity saves with advantage and any attack roll made against you has disadvantage if you can see the attacker. You lose this benefit if you are {@condition incapacitated} (as explained in Appendix 1) or if your speed drops to 0."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Help",
+									"Page": 131,
+									"entries": [
+										"You can lend your aid to another creature in the completion of a task. When you take the {@action Help} action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, if it makes the check before the start of your next turn.",
+										"Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hide",
+									"Page": 131,
+									"entries": [
+										"When you take the {@action Hide} action, you make a {@skill Stealth} check to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the \"Unseen Attackers and Targets\" section.",
+										{
+											"type": "entries",
+											"name": "Hiding",
+											"Page": 131,
+											"entries": [
+												"The GM decides when circumstances are appropriate for hiding. When you try to hide, make a {@skill Stealth} check. Until you are discovered, or you stop hiding, that check's total is contested by the {@skill Perception} check of any creature that actively searches for signs of your presence.",
+												"You can't hide from a creature that can see you clearly, and you give away your position if you make any noise.",
+												"An {@condition invisible} creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet. In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.",
+												{
+													"type": "entries",
+													"name": "Passive Perception",
+													"entries": [
+														"When you hide, you might be noticed even if no one is actively searching. To determine being noticed, the GM compares your {@skill Stealth} check with that looker's passive {@skill Perception} score, which equals 10",
+														"+ the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add",
+														"5. For disadvantage, subtract 5."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "What Can You See?",
+													"entries": [
+														"One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured, as explained in \"The Environment\""
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ready",
+									"Page": 131,
+									"entries": [
+										"Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the {@action Ready} action on your turn, which lets you act using your reaction before the start of your next turn.",
+										"First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include \"If the goon steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the watchman steps next to me, I move away.",
+										"When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.",
+										"When you ready a power, you use it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a power must have a use time of 1 action and holding onto the power's energy requires {@status concentration}. If your {@status concentration} is broken, the power dissipates without taking effect. For example, if you are {@status concentration||concentrating} on the web power and ready force missile, your web power ends, and if you take damage before you release force missile with your reaction, your {@status concentration} might be broken."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Search",
+									"Page": 131,
+									"entries": [
+										"When you take the {@action Search} action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a {@skill Perception} check or an {@skill Investigation} check."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Use an Object",
+									"Page": 131,
+									"entries": [
+										"You normally interact with an object while doing something else, such as when you draw a pistol as part of an attack. When an object requires your action for its use, you take the {@action Use an Object} action during combat. This action is also useful when you want to interact with more than one object on your turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Use a Power",
+									"Page": 131,
+									"entries": [
+										"Superheroes, as well as many villains, have access to powers and can use them to great effect in combat. Each power has a use time, which specifies whether the user must use an action, a reaction, minutes, or even hours to use a power. Using a power is, therefore, not necessarily an action. Most powers do have a use time of 1 action, so a superhero often uses their action in combat to use such a power."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Damage & Healing",
+							"Page": 131,
+							"entries": [
+								"Injury and the risk of death are constant companions of those who explore RPG worlds. The thrust of a blade, a well-placed bullet, or a blast from powers all have the potential to damage, or even kill, the hardiest of creatures.",
+								{
+									"type": "entries",
+									"name": "Hit Points",
+									"Page": 131,
+									"entries": [
+										"Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more HP are more difficult to kill. Those with fewer HP are more fragile.",
+										"A creature's current HP can be any number from the creature's maximum down to 0. This number changes frequently as a creature takes damage or receives healing.",
+										"Whenever a creature takes damage, that damage is subtracted from its HP. The loss of HP has no effect on a creature's capabilities until the creature drops to 0 HP."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage Rolls",
+									"Page": 132,
+									"entries": [
+										"Each weapon, power, and harmful ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Superpowered weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.",
+										"When attacking with a weapon, you add your ability modifier\u2014the same modifier used for the attack roll\u2014to the damage. A power tells you which dice to roll for damage and whether to add any modifiers.",
+										"If a power or other effect deals damage to more than one target at the same time, roll the damage once for all of them. For example, when someone uses a grenade, the power's damage is rolled once for all creatures caught in the blast.",
+										{
+											"type": "entries",
+											"name": "Critical Hits",
+											"Page": 132,
+											"entries": [
+												"When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Damage Types",
+											"Page": 132,
+											"entries": [
+												"Different attacks, damaging powers, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.",
+												"The damage types follow, with examples to help a GM assign a damage type to a new effect.",
+												{
+													"type": "entries",
+													"name": "Acid",
+													"entries": [
+														"The corrosive liquids used in some manufacturing processes, as well as the dissolving enzymes secreted digestive tracks, deal acid damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Bludgeoning",
+													"entries": [
+														"Blunt force attacks\u2014hammers, falling, constriction, and the like\u2014deal bludgeoning damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Cold",
+													"entries": [
+														"The damage one suffers in the low temperatures of the arctic or in a deep freezer is cold damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Fire",
+													"entries": [
+														"A burning building or an explosion might deal fire damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Force",
+													"entries": [
+														"Force is pure energy focused into a damaging form. Most effects that deal force damage are powers, including force missile and unerring projectile."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Lightning",
+													"entries": [
+														"A lightning bolt power and a high voltage power line deal lightning damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Necrotic",
+													"entries": [
+														"Necrotic damage, the power of decay and rot, which is dealt by certain undead creatures, withers matter and even one's consciousness."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Piercing",
+													"entries": [
+														"Puncturing and impaling attacks, including arrows and bullets, deal piercing damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Poison",
+													"entries": [
+														"Venomous stings and the toxic fumes of a gas attack deal poison damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Psychic",
+													"entries": [
+														"Mental abilities such as a telepath's attacks can deal psychic damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Radiant",
+													"entries": [
+														"Radiant damage, dealt by a laser blast or laser sword, sears the flesh like fire and overloads the spirit with power."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Slashing",
+													"entries": [
+														"Swords, chainsaws, and monstrous claws deal slashing damage."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Thunder",
+													"entries": [
+														"A concussive burst of sound, such as the effect of the thunderwave power, deals thunder damage."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage Resistance & Vulnerability",
+									"Page": 132,
+									"entries": [
+										"Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.",
+										"If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.",
+										"Resistance and then vulnerability are applied after all other modifiers to damage. Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance.",								
+										{
+											"type": "inset",
+											"Page": 132,
+											"entries": [
+												"For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a superpowered aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.",
+												"Or, if a creature has resistance to fire damage, the damage is reduced by ½ against the creature, not reduced by ¾."
+											]
+										},
+										"If a creature's stat block indicates it has resistance or immunity to \"non-magical\" bludgeoning, piercing, or slashing damage, count damage caused by powers as if it were magical damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Healing",
+									"Page": 132,
+									"entries": [
+										"Unless it results in death, damage isn't permanent. Even death is reversible through superpowers or magic. Rest can restore a creature's HP, and superpowered methods such as a cure wounds can remove damage in an instant.",
+										"When a creature receives healing of any kind, HP regained are added to its current HP. A creature's HP can't exceed its hit point maximum, so any HP regained above this number are lost. A creature that has died can't regain HP until a power such as the revivify power has restored it to life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dropping to 9 Hit Points",
+									"Page": 133,
+									"entries": [
+										"When you drop to 0 HP, you either die outright or fall {@condition unconscious}, as explained in the following sections.",
+										{
+											"type": "entries",
+											"name": "Instant Death",
+											"Page": 133,
+											"entries": [
+												"Massive damage can kill you instantly. When damage reduces you to 0 HP and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Falling Unconscious",
+											"Page": 133,
+											"entries": [
+												"If damage reduces you to 0 HP and fails to kill you, you fall {@condition unconscious} (see Appendix 1). This unconsciousness ends if you regain any HP."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Death Saving Throws",
+											"Page": 133,
+											"entries": [
+												"Whenever you start your turn with 0 HP, you must make a special saving throw, called a {@b death saving throw}, to determine whether you creep closer to death or hang onto life. Unlike other saves, this one isn't tied to any ability score. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw.",
+												"{@i Each turn you may roll a {@dice d20}. If the roll is 10 or higher, you gain one success. Otherwise, you collect one failure. A success or failure has no effect by itself.}",
+												"On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any HP or become stable.",
+												{
+													"type": "entries",
+													"name": "Rolling 1 or 20",
+													"entries": [
+														"When you make a death save and roll a 1 on the {@dice d20}, it counts as two failures. If you roll a 20 on the {@dice d20}, you regain 1 hit point."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Damage at 0 Hit Points",
+													"entries": [
+														"If you take any damage while you have 0 HP, you suffer a death save failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Stabilizing a Creature",
+											"Page": 133,
+											"entries": [
+												"The best way to save a creature with 0 HP is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death save.",
+												"You can use your action to administer first aid to an {@condition unconscious} creature and attempt to stabilize it, which requires a successful DC 10 {@skill Medicine} check.",
+												"A {@b stable} creature doesn't make death saving throws, even though it has 0 HP, but it does remain {@condition unconscious}. The creature stops being stable, and must start making death saves again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after {@dice 1d4} hours."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Knocking a Creature Out",
+									"Page": 133,
+									"entries": [
+										"Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 HP with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls {@condition unconscious} and is stable."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Temporary Hit Points (HP)",
+									"Page": 133,
+									"entries": [
+										"Some powers and special abilities confer temporary HP to a creature. Temporary HP aren't actual Hit Points; they are a buffer against damage, a pool of HP that protect you from injury.",
+										"When you have temporary HP and take damage, the temporary HP are lost first, and any leftover damage carries over to your normal HP. Because temporary HP are separate from your actual HP, they can exceed your hit point maximum. A character can, therefore, be at full HP and receive temporary HP.",
+										"Healing can't restore temporary HP, and they can't be added together. If you have temporary HP and receive more of them, you decide whether to keep the ones you have or to gain the new ones.",
+										"If you have 0 HP, receiving temporary HP doesn't restore you to consciousness or stabilize you. They can still absorb damage directed at you while you're in that state, but only true healing can save you.",
+										"Unless a feature that grants you temporary HP has a duration, they last until they're depleted, or you finish a long rest."
+									]
+								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 134,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/p2XbTbn.png"
+							}
+						},
+						{
+							"type": "section",
+							"name": "Vehicular Combat",
+							"Page": 133,
+							"entries": [
+								"A Special Agent charging into battle on a motorcycle, an Elementalist slinging powers from the back of a truck, or a Mystic soaring through the sky in a helicopter all enjoy the benefits of speed and mobility that a vehicle can provide.",
+								{
+									"type": "entries",
+									"name": "Getting Into & Out of a Vehicle",
+									"Page": 133,
+									"entries": [
+										"Once during your move, you can enter a vehicle that is within 5 feet of you or exit one you're in. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a motorcycle. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.",
+										{
+											"type": "entries",
+											"name": "Vehicles and Being Knocked Prone",
+											"Page": 133,
+											"entries": [
+												"Some vehicles you ride on rather than within, such as a bicycle or motorcycle. You are more vulnerable to being knocked off such vehicles. If an effect moves your vehicle against your will while you're on it, you must succeed on a DC 10 Dexterity save or fall off the vehicle, landing {@condition prone} in a space within 5 feet of it. If you're knocked {@condition prone} while mounted, you must make the same save.",
+												"If your vehicle is one or two wheeled, it can also be knocked {@condition prone}. If the vehicle is targeted with an effect that knocks it {@condition prone} which requires a save, the driver must succeed on a DC 10 save or they lose control of the vehicle, and it falls over. If your vehicle is knocked {@condition prone}, you can use your reaction to jump off it as it falls and land on your feet. Otherwise, you are thrown from the vehicle and fall {@condition prone} in a space within 5 feet it.",
+												"Vehicles with four or more wheels cannot be knocked {@condition prone} easily, though they can be flipped in extreme circumstances if the GM decides."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Controlling A Vehicle",
+									"Page": 135,
+									"entries": [
+										"While you're in a vehicle, you have two options. You can either control the vehicle or allow it to move without steering.",
+										"To control a vehicle through exceptionally challenging circumstances or difficult terrain, such as a superpowered sleet storm, the GM may call for a Dexterity check. To avoid crashing into a sudden obstacle or to dodge an explosion, the GM may call for a Dexterity save.",
+										"If you pilot or ride in a vehicle and move away from a foe, this provokes an opportunity attack. The attacker can target you or the vehicle."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Combat In & With Vehicles",
+									"Page": 135,
+									"entries": [
+										"When characters wish to make an attack from a moving vehicle, the rules apply as normal. If the vehicle is moving quickly and the target is stationary or moving in a different direction, however, the GM may decide to apply disadvantage on the roll, to account for the difficulty of hitting a target under those conditions.",
+										{
+											"type": "entries",
+											"name": "Attacking From a Moving Vehicle",
+											"Page": 135,
+											"entries": [
+												"If characters wish to attack someone within a vehicle, the GM decides how much cover, if any, the target has. Someone driving a motorcycle has no cover, though the GM might decide that the attack has disadvantage because the motorcycle is moving at high speed and the attacker is stationary, making the motorcycle harder to hit. Someone in a car might have three-quarter cover and someone in a tank or inside a train has total cover.",
+												"Note that an attacker must break a window before being able to hit a passenger. To do so, the attacker must overcome the damage resistance of the vehicle to break the glass."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Attacking a Target Inside a Moving Vehicle",
+											"Page": 135,
+											"entries": [
+												"If the vehicle is stationary and there is nothing interfering with the character, assume the vehicle has an AC of 10.If the vehicle is moving, the GM may decide to apply disadvantage to the roll, depending on how fast it is moving relative to the attacker."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Attacking a Vehicle Itself",
+											"Page": 135,
+											"entries": [
+												"If the vehicle is stationary and there is nothing interfering with the character, assume the vehicle has an AC of 10.If the vehicle is moving, the GM may decide to apply disadvantage to the roll, depending on how fast it is moving relative to the attacker."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Attacking With a Vehicle",
+											"Page": 135,
+											"entries": [
+												"Sometimes a character might choose to ram another character or vehicle. The pilot or driver must make a Dexterity check to steer the vehicle most effectively into the collision. On impact, the GM must determine a damage amount, based on the speed of the vehicles and their relative size and weight. Generally, the larger the vehicle and faster it is moving on impact, the more damage it does. What's more, if the ramming vehicle is larger than its target, the damage increases.",
+												"To calculate damage, use the following rules. For every 10 mph faster that the rammer is traveling than its target, it does {@damage 1d10} bludgeoning damage. For every step up in Size the rammer is than its target, the damage doubles."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Underwater Combat",
+									"Page": 135,
+									"entries": [
+										"When heroes pursue a submarine beneath the waves, fight off sharks around an underwater base, or find themselves in a flooded room, they must fight in a challenging environment. Underwater the following rules apply.",
+										"When making a melee weapon attack, a creature that doesn't have a swimming speed (either natural or granted by a superpower) has disadvantage on the attack roll unless the weapon does piercing damage.",
+										"A ranged weapon attack automatically misses a target beyond the weapon's normal range. Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is thrown like a javelin (including a spear, trident, or dart). Creatures and objects that are fully immersed in water have resistance to fire damage."
+									]									
+								}
+							]
+						}
+					]
 				}
 			]
 		}
