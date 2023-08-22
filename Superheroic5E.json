@@ -10296,31 +10296,31 @@
 											"name": "At Will (0 Level)",
 											"page": 140,
 											"items": [
-												"Acid Splash (acid)",
-												"Acid Touch (acid)",
-												"Command Substance (acid, cold, darkness, earth, electricity, fire, light, water, wind)",
-												"Dancing Lights (light)",
-												"Distract (light, sound)",
-												"Electromagnetic Nudge (electricity, magnetism)",
-												"Encumber (gravity)",
-												"Fire Bolt (fire)",
-												"Glimpse (time)",
-												"Light (light)",
-												"Message (sound)",
-												"Minor Illusion (light, sound)",
-												"Mud Splash (earth, water)",
-												"Obscure (darkness)",
-												"Power Device (electricity)",
-												"Produce Flame (fire)",
-												"Produce Water (water)",
-												"Ray of Frost (cold, water)",
-												"Sense Device (electricity, magnetism)",
-												"Shocking Grasp (electricity)",
-												"Silent Step (sound)",
-												"Snowball (cold, water)",
-												"Temporal Sense (time)",
-												"Thaumaturgy (earth, fire, gravity, sound)",
-												"Zephyr (wind)"
+												"{@spell Acid Splash|phb|Acid Splash (acid)}",
+												"{@spell Acid Touch|Superheroic5E|Acid Touch (acid)}",
+												"{@spell Command Substance|Superheroic5E|Command Substance (acid, cold, darkness, earth, electricity, fire, light, water, wind)}",
+												"{@spell Dancing Lights|phb|Dancing Lights (light)}",
+												"{@spell Distract|Superheroic5E|Distract (light, sound)}",
+												"{@spell Electromagnetic Nudge|Superheroic5E|Electromagnetic Nudge (electricity, magnetism)}",
+												"{@spell Encumber|Superheroic5E|Encumber (gravity)}",
+												"{@spell Fire Bolt|phb|Fire Bolt (fire)}",
+												"{@spell Glimpse|Superheroic5E|Glimpse (time)}",
+												"{@spell Light|phb|Light (light)}",
+												"{@spell Message|phb|Message (sound)}",
+												"{@spell Minor Illusion|phb Minor Illusion (light, sound)}",
+												"{@spell Mud Splash|Superheroic5E|Mud Splash (earth, water)}",
+												"{@spell Obscure|Superheroic5E|Obscure (darkness)}",
+												"{@spell Power Device|Superheroic5E|Power Device (electricity)}",
+												"{@spell Produce Flame|phb|Produce Flame (fire)}",
+												"{@spell Produce Water|Superheroic5E|Produce Water (water)}",
+												"{@spell Ray of Frost|phb|Ray of Frost (cold, water)}",
+												"{@spell Sense Device|Superheroic5E|Sense Device (electricity, magnetism)}",
+												"{@spell Shocking Grasp|phb|Shocking Grasp (electricity)}",
+												"{@spell Silent Step|Superheroic5E|Silent Step (sound)}",
+												"{@spell Snowball|Superheroic5E|Snowball (cold, water)}",
+												"{@spell Temporal Sense|Superheroic5E|Temporal Sense (time)}",
+												"{@spell Thaumaturgy|phb|Thaumaturgy (earth, fire, gravity, sound)}",
+												"{@spell Zephyr|Superheroic5E|Zephyr (wind)}"
 											]
 										},
 										{
@@ -10330,35 +10330,35 @@
 											"name": "1st Level",
 											"page": 140,
 											"items": [
-												"Burning Hands (fire)",
-												"Caustic Spray (acid)",
-												"Chill of Night (cold, darkness)",
-												"Color Spray (light)",
-												"Corrosive Sweat (acid)",
-												"Delay (time)",
-												"Discordant Susurrations (sound)",
-												"Elemental Blast (all)",
-												"Elemental Rebuke (all)",
-												"Elemental Strike (all)",
-												"Expedite (time)",
-												"Extinguish (darkness)",
-												"Faerie Fire (light)",
-												"Feather Fall (gravity)",
-												"Fog Cloud (water, wind)",
-												"Freeze (cold, water)",
-												"Gravity Pulse (gravity)",
-												"Grease (earth)",
-												"Guiding Bolt (electricity, light)",
-												"Ignite (fire)",
-												"Magnetokinesis (magnetism)",
-												"Minor Concealment (darkness)",
-												"Noxious Mist (acid, wind)",
-												"Purify Food and Drink (water)",
-												"Sense Metal (magnetism)",
-												"Shock (electricity, water)",
-												"Silent Image (light)",
-												"Steam (fire, water)",
-												"Thunderwave (sound)"
+												"{@spell Burning Hands|phb|Burning Hands (fire)}",
+												"{@spell Caustic Spray|Superheroic5E|Caustic Spray (acid)}",
+												"{@spell Chill of Night|Superheroic5E|Chill of Night (cold, darkness)}",
+												"{@spell Color Spray|phb|Color Spray (light)}",
+												"{@spell Corrosive Sweat|Superheroic5E|Corrosive Sweat (acid)}",
+												"{@spell Delay|Superheroic5E|Delay (time)}",
+												"{@spell Discordant Susurrations|Superheroic5E|Discordant Susurrations (sound)}",
+												"{@spell Elemental Blast|Superheroic5E|Elemental Blast (all)}",
+												"{@spell Elemental Rebuke|Superheroic5E|Elemental Rebuke (all)}",
+												"{@spell Elemental Strike|Superheroic5E|Elemental Strike (all)}",
+												"{@spell Expedite|Superheroic5E|Expedite (time)}",
+												"{@spell Extinguish|Superheroic5E|Extinguish (darkness)}",
+												"{@spell Faerie Fire|phb|Faerie Fire (light)}",
+												"{@spell Feather Fall|phb|Feather Fall (gravity)}",
+												"{@spell Fog Cloud|phb|Fog Cloud (water, wind)}",
+												"{@spell Freeze|Superheroic5E|Freeze (cold, water)}",
+												"{@spell Gravity Pulse|Superheroic5E|Gravity Pulse (gravity)}",
+												"{@spell Grease|phb|Grease (earth)}",
+												"{@spell Guiding Bolt|phb|Guiding Bolt (electricity, light)}",
+												"{@spell Ignite|Superheroic5E|Ignite (fire)}",
+												"{@spell Magnetokinesis|Superheroic5E|Magnetokinesis (magnetism)}",
+												"{@spell Minor Concealment|Superheroic5E|Minor Concealment (darkness)}",
+												"{@spell Noxious Mist|Superheroic5E|Noxious Mist (acid, wind)}",
+												"{@spell Purify Food and Drink|phb|Purify Food and Drink (water)}",
+												"{@spell Sense Metal|Superheroic5E|Sense Metal (magnetism)}",
+												"{@spell Shock|Superheroic5E|Shock (electricity, water)}",
+												"{@spell Silent Image|phb|Silent Image (light)}",
+												"{@spell Steam|Superheroic5E|Steam (fire, water)}",
+												"{@spell Thunderwave|phb|Thunderwave (sound)}"
 											]
 										},
 										{
@@ -10368,33 +10368,33 @@
 											"name": "2nd Level",
 											"page": 140,
 											"items": [
-												"Acid Arrow (acid)",
-												"Avalanche (cold, earth)",
-												"Blindness/Deafness (darkness, sound)",
-												"Blur (light)",
-												"Continual Flame (fire)",
-												"Darkness (darkness)",
-												"Elemental Blade (all)",
-												"Elemental Shield (all)",
-												"Flaming Sphere (fire)",
-												"Flash Freeze (cold)",
-												"Gust of Wind (wind)",
-												"Heat Metal (fire)",
-												"Impetus (gravity)",
-												"Knock (sound)",
-												"Levitate (gravity)",
-												"Mire (earth, water)",
-												"Pause Projectiles (magnetism, time)",
-												"Propel Projectile (magnetism)",
-												"Scorching Ray (fire)",
-												"Shape Metal (magnetism)",
-												"Shatter (sound)",
-												"Silence (sound)",
-												"Stun (electricity, light, sound)",
-												"Undo Attack (time)",
-												"Vibration Sense (earth)",
-												"Vomit (acid)",
-												"Wind Blade (wind)"
+												"{@spell Melf's Acid Arrow|phb|Acid Arrow (acid)}",
+												"{@spell Avalanche|Superheroic5E|Avalanche (cold, earth)}",
+												"{@spell Blindness/Deafness|phb|Blindness/Deafness (darkness, sound)}",
+												"{@spell Blur|phb|Blur (light)}",
+												"{@spell Continual Flame|phb|Continual Flame (fire)}",
+												"{@spell Darkness|phb|Darkness (darkness)}",
+												"{@spell Elemental Blade|Superheroic5E|Elemental Blade (all)}",
+												"{@spell Elemental Shield|Superheroic5E|Elemental Shield (all)}",
+												"{@spell Flaming Sphere|phb|Flaming Sphere (fire)}",
+												"{@spell Flash Freeze|Superheroic5E|Flash Freeze (cold)}",
+												"{@spell Gust of Wind|phb|Gust of Wind (wind)}",
+												"{@spell Heat Metal|phb|Heat Metal (fire)}",
+												"{@spell Impetus|Superheroic5E|Impetus (gravity)}",
+												"{@spell Knock|phb|Knock (sound)}",
+												"{@spell Levitate|phb|Levitate (gravity)}",
+												"{@spell Mire|Superheroic5E|Mire (earth, water)}",
+												"{@spell Pause Projectiles|Superheroic5E|Pause Projectiles (magnetism, time)}",
+												"{@spell Propel Projectile|Superheroic5E|Propel Projectile (magnetism)}",
+												"{@spell Scorching Ray|phb|Scorching Ray (fire)}",
+												"{@spell Shape Metal|Superheroic5E|Shape Metal (magnetism)}",
+												"{@spell Shatter|phb|Shatter (sound)}",
+												"{@spell |phb|Silence (sound)}",
+												"{@spell Silence|Superheroic5E|Stun (electricity, light, sound)}",
+												"{@spell Undo Attack|Superheroic5E|Undo Attack (time)}",
+												"{@spell Vibration Sense|Superheroic5E|Vibration Sense (earth)}",
+												"{@spell Vomit|Superheroic5E|Vomit (acid)}",
+												"{@spell Wind Blade|Superheroic5E|Wind Blade (wind)}"
 											]
 										},
 										{
@@ -10404,34 +10404,34 @@
 											"name": "3rd Level",
 											"page": 140,
 											"items": [
-												"Burrow (earth)",
-												"Call Lightning (electricity)",
-												"Cacophony (sound)",
-												"Create Food and Water (water)",
-												"Cosmic Chasm (cold, darkness)",
-												"Crush (gravity)",
-												"Daylight (light)",
-												"Deluge (water)",
-												"Elemental Burst (all)",
-												"Fireball (fire)",
-												"Gaseous Form (wind)",
-												"Haste (time)",
-												"Hypnotic Pattern (light)",
-												"Lightning Bolt (electricity)",
-												"Manipulate Device (magnetism)",
-												"Meld Into Stone (earth)",
-												"Oxidizing Touch (acid)",
-												"Protection from Energy (all)",
-												"Shrapnel (magnetism)",
-												"Sleet Storm (cold)",
-												"Slow (gravity, time)",
-												"Stinking Cloud (wind)",
-												"Thunderclap (sound)",
-												"Tremor (gravity, earth)",
-												"Water Breathing (water)",
-												"Water Walk (water)",
-												"Wind Wall (wind)",
-												"Wire Walk (electricity)"
+												"{@spell Burrow|Superheroic5E|Burrow (earth)",
+												"{@spell Call Lightning|phb|Call Lightning (electricity)",
+												"{@spell Cacophony|Superheroic5E|Cacophony (sound)",
+												"{@spell Create Food and Water|phb|Create Food and Water (water)",
+												"{@spell Cosmic Chasm|Superheroic5E|Cosmic Chasm (cold, darkness)",
+												"{@spell Crush|Superheroic5E|Crush (gravity)",
+												"{@spell Daylight|phb|Daylight (light)",
+												"{@spell Deluge|Superheroic5E|Deluge (water)",
+												"{@spell Elemental Burst|Superheroic5E|Elemental Burst (all)",
+												"{@spell Fireball|phb|Fireball (fire)",
+												"{@spell Gaseous Form|phb|Gaseous Form (wind)",
+												"{@spell Haste|phb|Haste (time)",
+												"{@spell Hypnotic Pattern|phb|Hypnotic Pattern (light)",
+												"{@spell Lightning Bolt|phb|Lightning Bolt (electricity)",
+												"{@spell Manipulate Device|Superheroic5E|Manipulate Device (magnetism)",
+												"{@spell Meld Into Stone|phb|Meld Into Stone (earth)",
+												"{@spell Oxidizing Touch|Superheroic5E|Oxidizing Touch (acid)",
+												"{@spell Protection from Energy|phb|Protection from Energy (all)",
+												"{@spell Shrapnel|Superheroic5E|Shrapnel (magnetism)",
+												"{@spell Sleet Storm|phb|Sleet Storm (cold)",
+												"{@spell Slow|phb|Slow (gravity, time)",
+												"{@spell Stinking Cloud|phb|Stinking Cloud (wind)",
+												"{@spell Thunderclap|Superheroic5E|Thunderclap (sound)",
+												"{@spell Tremor|Superheroic5E|Tremor (gravity, earth)",
+												"{@spell Water Breathing|phb|Water Breathing (water)",
+												"{@spell Water Walk|phb|Water Walk (water)",
+												"{@spell Wind Wall|phb|Wind Wall (wind)",
+												"{@spell Wire Walk|Superheroic5E|Wire Walk (electricity)"
 											]
 										},
 										{
@@ -10441,24 +10441,24 @@
 											"name": "4th Level",
 											"page": 141,
 											"items": [
-												"Banishment (time)",
-												"Blight (water)",
-												"Conjure Minor Elementals (cold, earth, fire, water, wind)",
-												"Control Water (water)",
-												"Fire Shield (fire)",
-												"Flood (water)",
-												"Ice Shape (cold, water)",
-												"Ice Storm (cold, water)",
-												"Radiant Wall (light)",
-												"Shadow Aura (darkness)",
-												"Shackle (magnetism)",
-												"Sonic Wall (sound)",
-												"Stomp Quake (earth, gravity)",
-												"Stone Shape (earth)",
-												"Stoneskin (earth)",
-												"Technological Disruption (electricity)",
-												"Wall of Acid (acid)",
-												"Wall of Fire (fire)"
+												"{@spell Banishment|phb|Banishment (time)}",
+												"{@spell Blight|phb|Blight (water)",
+												"{@spell Conjure Minor Elementals|phb|Conjure Minor Elementals (cold, earth, fire, water, wind)}",
+												"{@spell Control Water|phb|Control Water (water)}",
+												"{@spell Fire Shield|phb|Fire Shield (fire)}",
+												"{@spell Flood|Superheroic5E|Flood (water)}",
+												"{@spell Ice Shape|Superheroic5E|Ice Shape (cold, water)}",
+												"{@spell Ice Storm|phb|Ice Storm (cold, water)}",
+												"{@spell Radiant Wall|Superheroic5E|Radiant Wall (light)}",
+												"{@spell Shadow Aura|Superheroic5E|Shadow Aura (darkness)}",
+												"{@spell Shackle|Superheroic5E|Shackle (magnetism)}",
+												"{@spell Sonic Wall|Superheroic5E|Sonic Wall (sound)}",
+												"{@spell Stomp Quake|Superheroic5E|Stomp Quake (earth, gravity)}",
+												"{@spell Stone Shape|phb|Stone Shape (earth)}",
+												"{@spell Stoneskin|phb|Stoneskin (earth)}",
+												"{@spell Technological Disruption|Superheroic5E|Technological Disruption (electricity)}",
+												"{@spell Wall of Acid|Superheroic5E|Wall of Acid (acid)}",
+												"{@spell Wall of Fire|phb|Wall of Fire (fire)}"
 											]
 										},
 										{
@@ -10468,21 +10468,21 @@
 											"name": "5th Level",
 											"page": 141,
 											"items": [
-												"Cone of Cold (cold)",
-												"Conjure Elemental (earth, fire, water, wind)",
-												"Electromagnetic Pulse (electricity, magnetism)",
-												"Fast Forward (time)",
-												"Flame Strike (fire)",
-												"Gravity Well (gravity)",
-												"Elemental Form (all)",
-												"Hard Light Constructs (light)",
-												"Lightning Fence (electricity)",
-												"Passwall (acid, earth)",
-												"Shadow Self (darkness)",
-												"Thunderstrike (sound)",
-												"Tidal Wave (water)",
-												"Wall of Ice (cold, water)",
-												"Wall of Stone (earth)"
+												"{@spell Cone of Cold|phb|Cone of Cold (cold)}",
+												"{@spell Conjure Elemental|phb|Conjure Elemental (earth, fire, water, wind)}",
+												"{@spell Electromagnetic Pulse|Superheroic5E|Electromagnetic Pulse (electricity, magnetism)}",
+												"{@spell Fast Forward|Superheroic5E|Fast Forward (time)}",
+												"{@spell Flame Strike|phb|Flame Strike (fire)}",
+												"{@spell Gravity Well|Superheroic5E|Gravity Well (gravity)}",
+												"{@spell Elemental Form|Superheroic5E|Elemental Form (all)}",
+												"{@spell Hard Light Constructs|Superheroic5E|Hard Light Constructs (light)}",
+												"{@spell Lightning Fence|Superheroic5E|Lightning Fence (electricity)}",
+												"{@spell Passwall|phb|Passwall (acid, earth)}",
+												"{@spell Shadow Self|Superheroic5E|Shadow Self (darkness)}",
+												"{@spell Thunderstrike|Superheroic5E|Thunderstrike (sound)}",
+												"{@spell Tidal Wave|xge|Tidal Wave (water)}",
+												"{@spell Wall of Ice|phb|Wall of Ice (cold, water)}",
+												"{@spell Wall of Stone|phb|Wall of Stone (earth)}"
 											]
 										},
 										{
@@ -10492,22 +10492,22 @@
 											"name": "6th Level",
 											"page": 141,
 											"items": [
-												"Blade Barrier (all)",
-												"Blood Control (water)",
-												"Chain Lightning (electricity)",
-												"Disintegrate (acid)",
-												"Entropic Wave (darkness, time)",
-												"Flesh to Ice (cold)",
-												"Flesh to Stone (earth)",
-												"Freezing Sphere (cold)",
-												"Keening (sound)",
-												"Launch (gravity)",
-												"Move Earth (earth)",
-												"Rail Gun (magnetism)",
-												"Shadow Strike (darkness)",
-												"Sunbeam (light)",
-												"Vacuum (wind)",
-												"Volcanic Eruption (earth, fire)"
+												"{@spell Blade Barrier|phb|Blade Barrier (all)}",
+												"{@spell Blood Control|Superheroic5E|Blood Control (water)}",
+												"{@spell Chain Lightning|phb|Chain Lightning (electricity)}",
+												"{@spell Disintegrate|phb|Disintegrate (acid)}",
+												"{@spell Entropic Wave|Superheroic5E|Entropic Wave (darkness, time)}",
+												"{@spell Flesh to Ice|Superheroic5E|Flesh to Ice (cold)}",
+												"{@spell Flesh to Stone|phb|Flesh to Stone (earth)}",
+												"{@spell Freezing Sphere|Superheroic5E|Freezing Sphere (cold)}",
+												"{@spell Keening|Superheroic5E|Keening (sound)}",
+												"{@spell Launch|Superheroic5E|Launch (gravity)}",
+												"{@spell Move Earth|phb|Move Earth (earth)}",
+												"{@spell Rail Gun|Superheroic5E|Rail Gun (magnetism)}",
+												"{@spell Shadow Strike|Superheroic5E|Shadow Strike (darkness)}",
+												"{@spell Sunbeam|phb|Sunbeam (light)}",
+												"{@spell Vacuum|Superheroic5E|Vacuum (wind)}",
+												"{@spell Volcanic Eruption|Superheroic5E|Volcanic Eruption (earth, fire)}"
 											]
 										},
 										{
@@ -10517,18 +10517,18 @@
 											"name": "7th Level",
 											"page": 141,
 											"items": [
-												"Acid Jet (acid)",
-												"Animated Sword (all)",
-												"Delayed Blast Fireball (fire, time)",
-												"Elemental Storm (all)",
-												"Etherealness (darkness)",
-												"Greater Magnetokinesis (magnetism)",
-												"Prismatic Spray (acid, cold, earth, electricity, fire, light, sound)",
-												"Retrocognition (time)",
-												"Reverse Gravity (gravity)",
-												"Ride the Lightning (electricity)",
-												"Sequester (time)",
-												"Waterspout (water, wind)"
+												"{@spell Acid Jet|Superheroic5E|Acid Jet (acid)}",
+												"{@spell Animated Sword|Superheroic5E|Animated Sword (all)}",
+												"{@spell Delayed Blast Fireball|phb|Delayed Blast Fireball (fire, time)}",
+												"{@spell Elemental Storm|Superheroic5E|Elemental Storm (all)}",
+												"{@spell Etherealness|phb|Etherealness (darkness)}",
+												"{@spell Greater Magnetokinesis|Superheroic5E|Greater Magnetokinesis (magnetism)}",
+												"{@spell Prismatic Spray|phb|Prismatic Spray (acid, cold, earth, electricity, fire, light, sound)}",
+												"{@spell Retrocognition|Superheroic5E|Retrocognition (time)}",
+												"{@spell Reverse Gravity|phb|Reverse Gravity (gravity)}",
+												"{@spell Ride the Lightning|Superheroic5E|Ride the Lightning (electricity)}",
+												"{@spell Sequester|phb|Sequester (time)}",
+												"{@spell Waterspout|Superheroic5E|Waterspout (water, wind)}"
 											]
 										},
 										{
@@ -10538,14 +10538,14 @@
 											"name": "8th Level",
 											"page": 141,
 											"items": [
-												"Biomagnetic Control (magnetism)",
-												"Control Weather (cold, water, wind)",
-												"Earthquake (earth, gravity)",
-												"Elemental Cloud (all)",
-												"Neural Shock (electricity)",
-												"Power Word Stun (sound)",
-												"Rewind (time)",
-												"Sunburst (light)"
+												"{@spell Biomagnetic Control|Superheroic5E|Biomagnetic Control (magnetism)}",
+												"{@spell Control Weather|phb|Control Weather (cold, water, wind)}",
+												"{@spell Earthquake|phb|Earthquake (earth, gravity)}",
+												"{@spell Elemental Cloud|Superheroic5E|Elemental Cloud (all)}",
+												"{@spell Neural Shock|Superheroic5E|Neural Shock (electricity)}",
+												"{@spell Power Word Stun|phb|Power Word Stun (sound)}",
+												"{@spell Rewind|Superheroic5E|Rewind (time)}",
+												"{@spell Sunburst|phb|Sunburst (light)}"
 											]
 										},
 										{
@@ -10555,15 +10555,15 @@
 											"name": "9th Level",
 											"page": 141,
 											"items": [
-												"Absolute Zero (cold)",
-												"Imprisonment (darkness)",
-												"Magnetokinetic Mastery (magnetism)",
-												"Meteor Swarm (earth, fire)",
-												"Power Word Kill (sound)",
-												"Prismatic Wall (acid, cold, earth, electricity, fire, light, sound)",
-												"Storm of Vengeance (acid, cold, electricity, water, wind)",
-												"Singularity (gravity)",
-												"Time Stop (time)"
+												"{@spell Absolute Zero|Superheroic5E|Absolute Zero (cold)}",
+												"{@spell |phb|Imprisonment (darkness)}",
+												"{@spell |Superheroic5E|Magnetokinetic Mastery (magnetism)}",
+												"{@spell |phb|Meteor Swarm (earth, fire)}",
+												"{@spell |phb|Power Word Kill (sound)}",
+												"{@spell |phb|Prismatic Wall (acid, cold, earth, electricity, fire, light, sound)}",
+												"{@spell |phb|Storm of Vengeance (acid, cold, electricity, water, wind)}",
+												"{@spell |Superheroic5E|Singularity (gravity)}",
+												"{@spell |phb|Time Stop (time)}"
 											]
 										}
 									]
@@ -10580,16 +10580,16 @@
 											"name": "At Will (0 Level)",
 											"page": 141,
 											"items": [
-												"Contort (agility)",
-												"Far Grasp (teleportation)",
-												"Inertia (strength, toughness)",
-												"Kip Up (agility, speed)",
-												"Mighty Focus (strength)",
-												"Quick Dodge (agility, speed, teleportation)",
-												"Resistance (toughness)",
-												"Side Step (teleportation)",
-												"Turn the Blade (toughness)",
-												"Unarmed Might (strength)"
+												"{@spell Contort|Superheroic5E|Contort (agility)}",
+												"{@spell Far Grasp|Superheroic5E|Far Grasp (teleportation)}",
+												"{@spell Inertia|Superheroic5E|Inertia (strength, toughness)}",
+												"{@spell Kip Up|Superheroic5E|Kip Up (agility, speed)}",
+												"{@spell Mighty Focus|Superheroic5E|Mighty Focus (strength)}",
+												"{@spell Quick Dodge|Superheroic5E|Quick Dodge (agility, speed, teleportation)}",
+												"{@spell Resistance|phb|Resistance (toughness)}",
+												"{@spell Side Step|Superheroic5E|Side Step (teleportation)}",
+												"{@spell Turn the Blade|Superheroic5E|Turn the Blade (toughness)}",
+												"{@spell Unarmed Might|Superheroic5E|Unarmed Might (strength)}"
 											]
 										},
 										{
@@ -10599,18 +10599,18 @@
 											"name": "1st Level",
 											"page": 141,
 											"items": [
-												"Death From Above (all)",
-												"Expeditious Retreat (speed)",
-												"False Life (toughness)",
-												"Hurl (strength)",
-												"Jump (agility, strength)",
-												"Longstrider (speed)",
-												"Portal Punch (teleportation)",
-												"Shield of Tenacity (agility, speed, strength, toughness)",
-												"Stash (teleportation)",
-												"Sudden Swerve (agility, teleportation)",
-												"Unerring Projectile (all)",
-												"Unseen Step (agility, teleportation)"
+												"{@spell Death From Above|Superheroic5E|Death From Above (all)}",
+												"{@spell Expeditious Retreat|phb|Expeditious Retreat (speed)}",
+												"{@spell False Life|phb|False Life (toughness)}",
+												"{@spell Hurl|Superheroic5E|Hurl (strength)}",
+												"{@spell Jump|phb|Jump (agility, strength)}",
+												"{@spell Longstrider|phb|Longstrider (speed)}",
+												"{@spell Portal Punch|Superheroic5E|Portal Punch (teleportation)}",
+												"{@spell Shield of Tenacity|Superheroic5E|Shield of Tenacity (agility, speed, strength, toughness)}",
+												"{@spell Stash|Superheroic5E|Stash (teleportation)}",
+												"{@spell Sudden Swerve|Superheroic5E|Sudden Swerve (agility, teleportation)}",
+												"{@spell Unerring Projectile|Superheroic5E|Unerring Projectile (all)}",
+												"{@spell Unseen Step|Superheroic5E|Unseen Step (agility, teleportation)}"
 											]
 										},
 										{
@@ -10620,17 +10620,17 @@
 											"name": "2nd Level",
 											"page": 141,
 											"items": [
-												"Blur (agility, speed, teleportation)",
-												"Bull's Rush (strength)",
-												"Enhance Ability (all)",
-												"Hovering Step (speed)",
-												"Knock (strength)",
-												"Misty Step (teleportation)",
-												"Power Climb (strength)",
-												"Rope Trick (teleportation)",
-												"Second Wind (toughness)",
-												"Smite (all)",
-												"Spider Climb (agility)"
+												"{@spell Blur|phb|Blur (agility, speed, teleportation)}",
+												"{@spell Bull's Rush|Superheroic5E|Bull's Rush (strength)}",
+												"{@spell Enhance Ability|phb|Enhance Ability (all)}",
+												"{@spell Hovering Step|Superheroic5E|Hovering Step (speed)}",
+												"{@spell Knock|phb|Knock (strength)}",
+												"{@spell Misty Step|phb|Misty Step (teleportation)}",
+												"{@spell Power Climb|Superheroic5E|Power Climb (strength)}",
+												"{@spell Rope Trick|phb|Rope Trick (teleportation)}",
+												"{@spell Second Wind|Superheroic5E|Second Wind (toughness)}",
+												"{@spell Smite|Superheroic5E|Smite (all)}",
+												"{@spell Spider Climb|Superheroic5E|Spider Climb (agility)}"
 											]
 										},
 										{
@@ -10640,21 +10640,21 @@
 											"name": "3rd Level",
 											"page": 141,
 											"items": [
-												"Blink (teleportation)",
-												"Endure Attack (toughness)",
-												"Expansive Pocket (teleportation)",
-												"Haste (speed)",
-												"Inspiring Strike (all)",
-												"Persistence (toughness)",
-												"Powerful Throw (strength)",
-												"Preemptive Attack (agility, speed)",
-												"Protection from Energy (toughness)",
-												"Rage (toughness)",
-												"Redirect Attack (agility)",
-												"Smash (strength)",
-												"Thunderclap (strength)",
-												"Transpose (teleportation)",
-												"Water Walk (speed)"
+												"{@spell Blink|phb|Blink (teleportation)}",
+												"{@spell Endure Attack|Superheroic5E|Endure Attack (toughness)}",
+												"{@spell Expansive Pocket|Superheroic5E|Expansive Pocket (teleportation)}",
+												"{@spell Haste|phb|Haste (speed)}",
+												"{@spell Inspiring Strike|Superheroic5E|Inspiring Strike (all)}",
+												"{@spell Persistence|Superheroic5E|Persistence (toughness)}",
+												"{@spell Powerful Throw|Superheroic5E|Powerful Throw (strength)}",
+												"{@spell Preemptive Attack|Superheroic5E|Preemptive Attack (agility, speed)}",
+												"{@spell Protection from Energy|phb|Protection from Energy (toughness)}",
+												"{@spell Rage|Superheroic5E|Rage (toughness)}",
+												"{@spell Redirect Attack|Superheroic5E|Redirect Attack (agility)}",
+												"{@spell Smash|Superheroic5E|Smash (strength)}",
+												"{@spell Thunderclap|Superheroic5E|Thunderclap (strength)}",
+												"{@spell Transpose|Superheroic5E|Transpose (teleportation)}",
+												"{@spell Water Walk|phb|Water Walk (speed)}"
 											]
 										},
 										{
@@ -10664,18 +10664,18 @@
 											"name": "4th Level",
 											"page": 142,
 											"items": [
-												"Banishment (teleportation)",
-												"Barricade (strength)",
-												"Death Ward (toughness)",
-												"Deflect Projectiles (agility, speed)",
-												"Dimension Door (teleportation)",
-												"Freedom of Movement (agility, speed)",
-												"Reactive Resistance (agility, speed, toughness)",
-												"Secret Cache (teleportation)",
-												"Stomp Quake (strength)",
-												"Stoneskin (toughness)",
-												"Superior Defense (agility, speed, toughness)",
-												"Whirlwind (speed)"
+												"{@spell Banishment|phb|Banishment (teleportation)}",
+												"{@spell Barricade|Superheroic5E|Barricade (strength)}",
+												"{@spell Death Ward|phb|Death Ward (toughness)}",
+												"{@spell Deflect Projectiles|Superheroic5E|Deflect Projectiles (agility, speed)}",
+												"{@spell Dimension Door|phb|Dimension Door (teleportation)}",
+												"{@spell Freedom of Movement|phb|Freedom of Movement (agility, speed)}",
+												"{@spell Reactive Resistance|Superheroic5E|Reactive Resistance (agility, speed, toughness)}",
+												"{@spell Secret Cache|Superheroic5E|Secret Cache (teleportation)}",
+												"{@spell Stomp Quake|Superheroic5E|Stomp Quake (strength)}",
+												"{@spell Stoneskin|phb|Stoneskin (toughness)}",
+												"{@spell Superior Defense|Superheroic5E|Superior Defense (agility, speed, toughness)}",
+												"{@spell Whirlwind|xge|Whirlwind (speed)}"
 											]
 										},
 										{
@@ -10685,14 +10685,14 @@
 											"name": "5th Level",
 											"page": 142,
 											"items": [
-												"Anvil Drop (teleportation)",
-												"Crushing Grip (strength)",
-												"Reactive Endurance (toughness)",
-												"Indomitability (toughness)",
-												"Passwall (strength, teleportation)",
-												"Rapid Barrage (speed)",
-												"Teleportation Anchor (teleportation)",
-												"Vulnerable Strike (agility, speed, strength)"
+												"{@spell Anvil Drop|Superheroic5E|Anvil Drop (teleportation)}",
+												"{@spell Crushing Grip|Superheroic5E|Crushing Grip (strength)",
+												"{@spell Reactive Endurance|Superheroic5E|Reactive Endurance (toughness)}",
+												"{@spell Indomitability|Superheroic5E|Indomitability (toughness)}",
+												"{@spell Passwall|phb|Passwall (strength, teleportation)}",
+												"{@spell Rapid Barrage|Superheroic5E|Rapid Barrage (speed)}",
+												"{@spell Teleportation Anchor|Superheroic5E|Teleportation Anchor (teleportation)}",
+												"{@spell Vulnerable Strike|Superheroic5E|Vulnerable Strike (agility, speed, strength)}"
 											]
 										},
 										{
@@ -10702,15 +10702,15 @@
 											"name": "6th Level",
 											"page": 142,
 											"items": [
-												"Blitz Attack (agility, speed, teleportation)",
-												"Explosive Strength (strength)",
-												"Instant Summons (teleportation)",
-												"Globe of Invulnerability (toughness)",
-												"Mass Cure Wounds (primordial)",
-												"Regenerate Self (toughness)",
-												"Shadow Stride (teleportation)",
-												"Teleport (teleportation)",
-												"Word of Recall (teleportation)"
+												"{@spell Blitz Attack|Superheroic5E|Blitz Attack (agility, speed, teleportation)}",
+												"{@spell Explosive Strength|Superheroic5E|Explosive Strength (strength)}",
+												"{@spell Instant Summons|Superheroic5E|Instant Summons (teleportation)}",
+												"{@spell Globe of Invulnerability|phb|Globe of Invulnerability (toughness)}",
+												"{@spell Mass Cure Wounds|phb|Mass Cure Wounds (primordial)}",
+												"{@spell Regenerate Self|Superheroic5E|Regenerate Self (toughness)}",
+												"{@spell Shadow Stride|Superheroic5E|Shadow Stride (teleportation)}",
+												"{@spell Teleport|phb|Teleport (teleportation)}",
+												"{@spell Word of Recall|phb|Word of Recall (teleportation)}"
 											]
 										},
 										{
@@ -10720,12 +10720,12 @@
 											"name": "7th Level",
 											"page": 142,
 											"items": [
-												"Burst of Speed (speed)",
-												"Impossible Acrobatics (agility)",
-												"Momentum (strength)",
-												"Muscle (strength)",
-												"Plane Shift (teleportation)",
-												"Reflect Damage (toughness)"
+												"{@spell Burst of Speed|Superheroic5E|Burst of Speed (speed)}",
+												"{@spell Impossible Acrobatics|Superheroic5E|Impossible Acrobatics (agility)}",
+												"{@spell Momentum|Superheroic5E|Momentum (strength)}",
+												"{@spell Muscle|Superheroic5E|Muscle (strength)}",
+												"{@spell Plane Shift|phb|Plane Shift (teleportation)}",
+												"{@spell Reflect Damage|Superheroic5E|Reflect Damage (toughness)}"
 											]
 										},
 										{
@@ -10735,11 +10735,11 @@
 											"name": "8th Level",
 											"page": 142,
 											"items": [
-												"Deftness (agility)",
-												"Demiplane (teleportation)",
-												"Earthquake (strength)",
-												"Maze (teleportation)",
-												"Rewind (speed)"
+												"{@spell Deftness|Superheroic5E|Deftness (agility)}",
+												"{@spell Demiplane|phb|Demiplane (teleportation)}",
+												"{@spell Earthquake|phb|Earthquake (strength)}",
+												"{@spell Maze|phb|Maze (teleportation)}",
+												"{@spell Rewind|Superheroic5E|Rewind (speed)}"
 											]
 										},
 										{
@@ -10749,12 +10749,12 @@
 											"name": "9th Level",
 											"page": 142,
 											"items": [
-												"Gate (teleportation)",
-												"Impossible Strength (strength)",
-												"Imprisonment (teleportation)",
-												"Time Stop (speed)",
-												"Ultimate Durability (toughness)",
-												"Untouchable (agility, speed)"
+												"{@spell Gate|phb|Gate (teleportation)}",
+												"{@spell Impossible Strength|Superheroic5E|Impossible Strength (strength)}",
+												"{@spell Imprisonment|phb|Imprisonment (teleportation)}",
+												"{@spell Time Stop|phb|Time Stop (speed)}",
+												"{@spell Ultimate Durability|Superheroic5E|Ultimate Durability (toughness)}",
+												"{@spell Untouchable|Superheroic5E|Untouchable (agility, speed)}"
 											]
 										}
 									]
@@ -10771,16 +10771,16 @@
 											"name": "At Will (0 Level)",
 											"page": 141,
 											"items": [
-												"Beguile (illusion, telepathy)",
-												"Corrupting Touch (telepathy)",
-												"Distract (illusion, telepathy)",
-												"Guidance (telepathy)",
-												"Inertia (telekinesis)",
-												"Meditative Attention (telepathy)",
-												"Message (telepathy)",
-												"Minor Illusion (illusion)",
-												"Obscure (illusion)",
-												"Telekinetic Hand (telekinesis)"
+												"{@spell Beguile|Superheroic5E|Beguile (illusion, telepathy)}",
+												"{@spell Corrupting Touch|Superheroic5E|Corrupting Touch (telepathy)}",
+												"{@spell Distract|Superheroic5E|Distract (illusion, telepathy)}",
+												"{@spell Guidance|phb|Guidance (telepathy)}",
+												"{@spell Inertia|Superheroic5E|Inertia (telekinesis)}",
+												"{@spell Meditative Attention|Superheroic5E|Meditative Attention (telepathy)}",
+												"{@spell Message|phb|Message (telepathy)}",
+												"{@spell Minor Illusion|phb|Minor Illusion (illusion)}",
+												"{@spell Obscure|Superheroic5E|Obscure (illusion)}",
+												"{@spell Telekinetic Hand|Superheroic5E|Telekinetic Hand (telekinesis)}"
 											]
 										},
 										{
@@ -10790,23 +10790,23 @@
 											"name": "1st Level",
 											"page": 141,
 											"items": [
-												"Charm Person (telepathy)",
-												"Color Spray (illusion)",
-												"Command (telepathy)",
-												"Feather Fall (telekinesis)",
-												"Floating Disk (telekinesis)",
-												"Force Armor (telekinesis)",
-												"Force Missile (telekinesis)",
-												"Forceful Strike (telekinesis)",
-												"Hideous Laughter (telepathy)",
-												"Minor Concealment (illusion)",
-												"Psychic Blast (illusion, telepathy)",
-												"Psychic Strike (illusion, telepathy)",
-												"Sanctuary (telepathy)",
-												"Shield (telekinesis)",
-												"Silent Image (illusion)",
-												"Sleep (telepathy)",
-												"Unseen Servant (telekinesis)"
+												"{@spell Charm Person|phb|Charm Person (telepathy)}",
+												"{@spell Color Spray|phb|Color Spray (illusion)}",
+												"{@spell Command|phb|Command (telepathy)}",
+												"{@spell Feather Fall|phb|Feather Fall (telekinesis)}",
+												"{@spell Floating Disk|phb|Floating Disk (telekinesis)}",
+												"{@spell Force Armor|Superheroic5E|Force Armor (telekinesis)}",
+												"{@spell Force Missile|Superheroic5E|Force Missile (telekinesis)}",
+												"{@spell Forceful Strike|Superheroic5E|Forceful Strike (telekinesis)}",
+												"{@spell Hideous Laughter|phb|Hideous Laughter (telepathy)}",
+												"{@spell Minor Concealment|Superheroic5E|Minor Concealment (illusion)}",
+												"{@spell Psychic Blast|Superheroic5E|Psychic Blast (illusion, telepathy)}",
+												"{@spell Psychic Strike|Superheroic5E|Psychic Strike (illusion, telepathy)}",
+												"{@spell Sanctuary|phb|Sanctuary (telepathy)}",
+												"{@spell Shield|phb|Shield (telekinesis)}",
+												"{@spell Silent Image|phb|Silent Image (illusion)}",
+												"{@spell Sleep|phb|Sleep (telepathy)}",
+												"{@spell Unseen Servant|phb|Unseen Servant (telekinesis)}"
 											]
 										},
 										{
@@ -10816,15 +10816,15 @@
 											"name": "2nd Level",
 											"page": 141,
 											"items": [
-												"Calm Emotions (telepathy)",
-												"Detect Thoughts (telepathy)",
-												"Enthrall (illusion)",
-												"Hold Person (telekinesis)",
-												"Mirror Image (illusion)",
-												"Stun (illusion, telepathy)",
-												"Suggestion (telepathy)",
-												"Telekinetic Weapon (telekinesis)",
-												"Zone of Truth (telepathy)"
+												"{@spell Calm Emotions|phb|Calm Emotions (telepathy)}",
+												"{@spell Detect Thoughts|phb|Detect Thoughts (telepathy)}",
+												"{@spell Enthrall|phb|Enthrall (illusion)}",
+												"{@spell Hold Person|phb|Hold Person (telekinesis)}",
+												"{@spell Mirror Image|phb|Mirror Image (illusion)}",
+												"{@spell Stun|Superheroic5E|Stun (illusion, telepathy)}",
+												"{@spell Suggestion|phb|Suggestion (telepathy)}",
+												"{@spell Telekinetic Weapon|Superheroic5E|Telekinetic Weapon (telekinesis)}",
+												"{@spell Zone of Truth|phb|Zone of Truth (telepathy)}"
 											]
 										},
 										{
@@ -10834,20 +10834,20 @@
 											"name": "3rd Level",
 											"page": 141,
 											"items": [
-												"Beacon of Hope (telepathy)",
-												"Clairvoyance (telepathy)",
-												"Despair (telepathy)",
-												"Fear (illusion, telepathy)",
-												"Hypnotic Pattern (illusion)",
-												"Lesser Telekinesis (telekinesis)",
-												"Major Image (illusion)",
-												"Nightmare (illusion, telepathy)",
-												"Pulse Wave (telekinesis)",
-												"Sending (telepathy)",
-												"Slow (telekinesis)",
-												"Stress (telepathy)",
-												"Tiny Hut (telekinesis)",
-												"Tongues (telepathy)"
+												"{@spell Beacon of Hope|phb|Beacon of Hope (telepathy)}",
+												"{@spell Clairvoyance|phb|Clairvoyance (telepathy)}",
+												"{@spell Despair|Superheroic5E|Despair (telepathy)}",
+												"{@spell Fear|phb|Fear (illusion, telepathy)}",
+												"{@spell Hypnotic Pattern|phb|Hypnotic Pattern (illusion)}",
+												"{@spell Lesser Telekinesis|Superheroic5E|Lesser Telekinesis (telekinesis)}",
+												"{@spell Major Image|phb|Major Image (illusion)}",
+												"{@spell Nightmare|Superheroic5E|Nightmare (illusion, telepathy)}",
+												"{@spell Pulse Wave|Superheroic5E|Pulse Wave (telekinesis)}",
+												"{@spell Sending|phb|Sending (telepathy)}",
+												"{@spell Slow|phb|Slow (telekinesis)}",
+												"{@spell Stress|Superheroic5E|Stress (telepathy)}",
+												"{@spell Leomund's Tiny Hut|phb|Tiny Hut (telekinesis)}",
+												"{@spell Tongues|phb|Tongues (telepathy)}"
 											]
 										},
 										{
@@ -10857,15 +10857,15 @@
 											"name": "4th Level",
 											"page": 142,
 											"items": [
-												"Arcane Eye (telepathy)",
-												"After Image (illusion)",
-												"Confusion (illusion, telepathy)",
-												"Compulsion (telekinesis, telepathy)",
-												"Hallucinatory Terrain (illusion)",
-												"Phantasmal Killer (illusion, telepathy)",
-												"Psychometry (telepathy)",
-												"Resilient Sphere (telekinesis)",
-												"Telekinesis (telekinesis)"
+												"{@spell Arcane Eye|phb|Arcane Eye (telepathy)}",
+												"{@spell After Image|Superheroic5E|After Image (illusion)}",
+												"{@spell Confusion|phb|Confusion (illusion, telepathy)}",
+												"{@spell Compulsion|phb|Compulsion (telekinesis, telepathy)}",
+												"{@spell Hallucinatory Terrain|phb|Hallucinatory Terrain (illusion)}",
+												"{@spell Phantasmal Killer|phb|Phantasmal Killer (illusion, telepathy)}",
+												"{@spell Psychometry|Superheroic5E|Psychometry (telepathy)}",
+												"{@spell Resilient Sphere|phb|Resilient Sphere (telekinesis)}",
+												"{@spell Telekinesis|phb|Telekinesis (telekinesis)}"
 											]
 										},
 										{
@@ -10875,19 +10875,19 @@
 											"name": "5th Level",
 											"page": 142,
 											"items": [
-												"Animate Objects (telekinesis)",
-												"Arcane Hand (telekinesis)",
-												"Dominate Person (telepathy)",
-												"Dream (illusion, telepathy)",
-												"Concealment (illusion)",
-												"Geas (telepathy)",
-												"Hold Creature (telekinesis)",
-												"Mislead (illusion)",
-												"Modify Memory (telepathy)",
-												"Scrying (telepathy)",
-												"Seeming (illusion)",
-												"Telepathic Bond (telepathy)",
-												"Wall of Force (telekinesis)"
+												"{@spell Animate Objects|phb|Animate Objects (telekinesis)}",
+												"{@spell Bigby's Hand|phb|Arcane Hand (telekinesis)}",
+												"{@spell Dominate Person|phb|Dominate Person (telepathy)}",
+												"{@spell Dream|phb|Dream (illusion, telepathy)",
+												"{@spell Concealment|Superheroic5E|Concealment (illusion)}",
+												"{@spell Geas|phb|Geas (telepathy)}",
+												"{@spell Hold Monster|phb|Hold Creature (telekinesis)}",
+												"{@spell Mislead|phb|Mislead (illusion)}",
+												"{@spell Modify Memory|phb|Modify Memory (telepathy)}",
+												"{@spell Scrying|phb|Scrying (telepathy)}",
+												"{@spell Seeming|phb|Seeming (illusion)}",
+												"{@spell Telepathic Bond|phb|Telepathic Bond (telepathy)}",
+												"{@spell Wall of Force|phb|Wall of Force (telekinesis)}"
 											]
 										},
 										{
@@ -10897,12 +10897,12 @@
 											"name": "6th Level",
 											"page": 142,
 											"items": [
-												"Bottomless Pit (illusion)",
-												"Irresistible Dance (telekinesis)",
-												"Launch (telekinesis)",
-												"Magic Jar (telepathy)",
-												"Mass Suggestion (telepathy)",
-												"Move Earth (telekinesis)"
+												"{@spell Bottomless Pit|Superheroic5E|Bottomless Pit (illusion)}",
+												"{@spell Otto's Irresistible Dance|phb|Irresistible Dance (telekinesis)}",
+												"{@spell Launch|Superheroic5E|Launch (telekinesis)}",
+												"{@spell Magic Jar|phb|Magic Jar (telepathy)}",
+												"{@spell Mass Suggestion|phb|Mass Suggestion (telepathy)}",
+												"{@spell Move Earth|phb|Move Earth (telekinesis)}"
 											]
 										},
 										{
@@ -10912,10 +10912,10 @@
 											"name": "7th Level",
 											"page": 142,
 											"items": [
-												"Arcane Sword (telekinesis)",
-												"Forcecage (telekinesis)",
-												"Retrocognition (telepathy)",
-												"Virtual Reality (illusion)"
+												"{@spell |Superheroic5E|Arcane Sword (telekinesis)}",
+												"{@spell |phb|Forcecage (telekinesis)}",
+												"{@spell |Superheroic5E|Retrocognition (telepathy)}",
+												"{@spell |Superheroic5E|Virtual Reality (illusion)}"
 											]
 										},
 										{
@@ -10925,13 +10925,13 @@
 											"name": "8th Level",
 											"page": 142,
 											"items": [
-												"Antipathy/Sympathy (illusion, telepathy)",
-												"Dominate Creature (telepathy)",
-												"Earthquake (telekinesis)",
-												"Feeblemind (telepathy)",
-												"Glibness (illusion, telepathy)",
-												"Greater Telekinesis (telekinesis)",
-												"Mind Blank (illusion, telepathy)"
+												"{@spell Antipathy/Sympathy|phb|Antipathy/Sympathy (illusion, telepathy)}",
+												"{@spell Dominate Monster|phb|Dominate Creature (telepathy)}",
+												"{@spell Earthquake|phb|Earthquake (telekinesis)}",
+												"{@spell Feeblemind|phb|Feeblemind (telepathy)}",
+												"{@spell Glibness|phb|Glibness (illusion, telepathy)}",
+												"{@spell Greater Telekinesis|Superheroic5E|Greater Telekinesis (telekinesis)}",
+												"{@spell Mind Blank|phb|Mind Blank (illusion, telepathy)}"
 											]
 										},
 										{
@@ -10941,8 +10941,8 @@
 											"name": "9th Level",
 											"page": 143,
 											"items": [
-												"Astral Projection (telepathy)",
-												"Weird (illusion)"
+												"{@spell Astral Projection|phb|Astral Projection (telepathy)}",
+												"{@spell Weird|phb|Weird (illusion)}"
 											]
 										}
 									]
@@ -10959,14 +10959,14 @@
 											"name": "At Will (0 Level)",
 											"page": 143,
 											"items": [
-												"Blind Spot (intangibility, invisibility)",
-												"Contort (elasticity, polymorph, symbiosis)",
-												"Fangs (polymorph, symbiosis)",
-												"Mending (all)",
-												"Poker Face (all)",
-												"Quick Dodge (elasticity)",
-												"Silent Step (intangibility, invisibility)",
-												"Thorn and Claw (polymorph, symbiosis)"
+												"{@spell Blind Spot|Superheroic5E|Blind Spot (intangibility, invisibility)}",
+												"{@spell Contort|Superheroic5E|Contort (elasticity, polymorph, symbiosis)}",
+												"{@spell Fangs|Superheroic5E|Fangs (polymorph, symbiosis)}",
+												"{@spell Mending|phb|Mending (all)}",
+												"{@spell Poker Face|Superheroic5E|Poker Face (all)}",
+												"{@spell Quick Dodge|Superheroic5E|Quick Dodge (elasticity)}",
+												"{@spell Silent Step|Superheroic5E|Silent Step (intangibility, invisibility)}",
+												"{@spell Thorn and Claw|Superheroic5E|Thorn and Claw (polymorph, symbiosis)}"
 											]
 										},
 										{
@@ -10976,17 +10976,17 @@
 											"name": "1st Level",
 											"page": 143,
 											"items": [
-												"Alter Metabolism (elasticity, polymorph, symbiosis)",
-												"Disguise Self (polymorph)",
-												"Enlarged Strike (elasticity, symbiosis)",
-												"Slippery Sweat (polymorph, symbiosis)",
-												"Helping Hand (elasticity, symbiosis)",
-												"Jump (elasticity, symbiosis)",
-												"Longstrider (elasticity)",
-												"Minor Concealment (invisibility)",
-												"Pass Without Trace (intangibility, invisibility)",
-												"Sucker Punch (intangibility, invisibility)",
-												"Unseen Step (intangibility, invisibility)"
+												"{@spell Alter Metabolism|Superheroic5E|Alter Metabolism (elasticity, polymorph, symbiosis)}",
+												"{@spell Disguise Self|phb|Disguise Self (polymorph)}",
+												"{@spell Enlarged Strike|Superheroic5E|Enlarged Strike (elasticity, symbiosis)}",
+												"{@spell Slippery Sweat|Superheroic5E|Slippery Sweat (polymorph, symbiosis)}",
+												"{@spell Helping Hand|Superheroic5E|Helping Hand (elasticity, symbiosis)}",
+												"{@spell Jump|phb|Jump (elasticity, symbiosis)}",
+												"{@spell Longstrider|phb|Longstrider (elasticity)}",
+												"{@spell Minor Concealment|Superheroic5E|Minor Concealment (invisibility)}",
+												"{@spell Pass Without Trace|phb|Pass Without Trace (intangibility, invisibility)}",
+												"{@spell Sucker Punch|Superheroic5E|Sucker Punch (intangibility, invisibility)}",
+												"{@spell Unseen Step|Superheroic5E|Unseen Step (intangibility, invisibility)}"
 											]
 										},
 										{
@@ -10996,15 +10996,15 @@
 											"name": "2nd Level",
 											"page": 143,
 											"items": [
-												"Alter Density (elasticity, polymorph, symbiosis)",
-												"Alter Self (elasticity, polymorph)",
-												"Blur (intangibility, invisibility)",
-												"Enhance Ability (all)",
-												"Enlarge/Reduce (elasticity, symbiosis)",
-												"Invisibility (intangibility, invisibility)",
-												"Lesser Restoration (elasticity, polymorph, symbiosis)",
-												"Silence (intangibility, invisibility)",
-												"Spider Climb (elasticity, polymorph, symbiosis)"
+												"{@spell Alter Density|Superheroic5E|Alter Density (elasticity, polymorph, symbiosis)}",
+												"{@spell Alter Self|phb|Alter Self (elasticity, polymorph)}",
+												"{@spell Blur|phb|Blur (intangibility, invisibility)}",
+												"{@spell Enhance Ability|phb|Enhance Ability (all)}",
+												"{@spell Enlarge/Reduce|phb|Enlarge/Reduce (elasticity, symbiosis)}",
+												"{@spell Invisibility|phb|Invisibility (intangibility, invisibility)}",
+												"{@spell Lesser Restoration|phb|Lesser Restoration (elasticity, polymorph, symbiosis)}",
+												"{@spell Silence|phb|Silence (intangibility, invisibility)}",
+												"{@spell Spider Climb|phb|Spider Climb (elasticity, polymorph, symbiosis)}"
 											]
 										},
 										{
@@ -11014,16 +11014,16 @@
 											"name": "3rd Level",
 											"page": 143,
 											"items": [
-												"Absorb Power (all)",
-												"Chameleon (invisibility, polymorph)",
-												"Cure Wounds (elasticity, polymorph, symbiosis)",
-												"Environmental Adaptation (polymorph, symbiosis)",
-												"Extrude Spikes (elasticity, symbiosis)",
-												"Gaseous Form (intangibility, invisibility)",
-												"Limited Elasticity (elasticity)",
-												"Nondetection (intangibility, invisibility)",
-												"Water Breathing (polymorph, symbiosis)",
-												"Water Walk (intangibility)"
+												"{@spell Absorb Power|Superheroic5E|Absorb Power (all)}",
+												"{@spell Chameleon|Superheroic5E|Chameleon (invisibility, polymorph)}",
+												"{@spell Cure Wounds|phb|Cure Wounds (elasticity, polymorph, symbiosis)}",
+												"{@spell Environmental Adaptation|Superheroic5E|Environmental Adaptation (polymorph, symbiosis)}",
+												"{@spell Extrude Spikes|Superheroic5E|Extrude Spikes (elasticity, symbiosis)}",
+												"{@spell Gaseous Form|phb|Gaseous Form (intangibility, invisibility)}",
+												"{@spell Limited Elasticity|Superheroic5E|Limited Elasticity (elasticity)}",
+												"{@spell Nondetection|phb|Nondetection (intangibility, invisibility)}",
+												"{@spell Water Breathing|phb|Water Breathing (polymorph, symbiosis)}",
+												"{@spell Water Walk|phb|Water Walk (intangibility)}"
 											]
 										},
 										{
@@ -11033,13 +11033,13 @@
 											"name": "4th Level",
 											"page": 143,
 											"items": [
-												"Greater Invisibility (invisibility)",
-												"Imitate Object (elasticity)",
-												"Limited Shapechange (elasticity, polymorph, symbiosis)",
-												"Momentary Insubstantiality (intangibility)",
-												"Shadow Aura (symbiosis)",
-												"Sniper (intangibility, invisibility)",
-												"Wicked Claws (polymorph, symbiosis)"
+												"{@spell Greater Invisibility|phb|Greater Invisibility (invisibility)}",
+												"{@spell Imitate Object|Superheroic5E|Imitate Object (elasticity)}",
+												"{@spell Limited Shapechange|Superheroic5E|Limited Shapechange (elasticity, polymorph, symbiosis)}",
+												"{@spell Momentary Insubstantiality|Superheroic5E|Momentary Insubstantiality (intangibility)}",
+												"{@spell Shadow Aura|Superheroic5E|Shadow Aura (symbiosis)}",
+												"{@spell Sniper|Superheroic5E|Sniper (intangibility, invisibility)}",
+												"{@spell Wicked Claws|Superheroic5E|Wicked Claws (polymorph, symbiosis)}"
 											]
 										},
 										{
@@ -11049,16 +11049,16 @@
 											"name": "5th Level",
 											"page": 143,
 											"items": [
-												"Concealment (invisibility)",
-												"Enhanced Enlarge/Reduce (elasticity, symbiosis)",
-												"Greater Restoration (elasticity, polymorph, symbiosis)",
-												"Lesser Mind Blank (intangibility, invisibility)",
-												"Mimic Substance (elasticity, polymorph)",
-												"Mislead (intangibility, invisibility)",
-												"Passwall (intangibility)",
-												"Shadow Self (symbiosis)",
-												"Superior Alter Self (elasticity, polymorph)",
-												"Vicious Jaws (polymorph, symbiosis)"
+												"{@spell Concealment|Superheroic5E|Concealment (invisibility)}",
+												"{@spell Enhanced Enlarge/Reduce|Superheroic5E|Enhanced Enlarge/Reduce (elasticity, symbiosis)}",
+												"{@spell Greater Restoration|phb|Greater Restoration (elasticity, polymorph, symbiosis)}",
+												"{@spell Lesser Mind Blank|Superheroic5E|Lesser Mind Blank (intangibility, invisibility)}",
+												"{@spell Mimic Substance|Superheroic5E|Mimic Substance (elasticity, polymorph)}",
+												"{@spell Mislead|phb|Mislead (intangibility, invisibility)}",
+												"{@spell Passwall|phb|Passwall (intangibility)}",
+												"{@spell Shadow Self|Superheroic5E|Shadow Self (symbiosis)}",
+												"{@spell Superior Alter Self|Superheroic5E|Superior Alter Self (elasticity, polymorph)}",
+												"{@spell Vicious Jaws|Superheroic5E|Vicious Jaws (polymorph, symbiosis)}"
 											]
 										},
 										{
@@ -11068,12 +11068,12 @@
 											"name": "6th Level",
 											"page": 142,
 											"items": [
-												"Elasticity (elasticity)",
-												"Heal Self (elasticity, polymorph, symbiosis) Insubstantiality (intangibility)",
-												"Mass Invisibility (invisibility)",
-												"Regenerate Self (elasticity, polymorph, symbiosis)",
-												"Untraceable Communication (intangibility, invisibility)",
-												"Wind Walk (intangibility)"
+												"{@spell Elasticity|Superheroic5E|Elasticity (elasticity)}",
+												"{@spell Heal Self|Superheroic5E|Heal Self (elasticity, polymorph, symbiosis) Insubstantiality (intangibility)}",
+												"{@spell Mass Invisibility|Superheroic5E|Mass Invisibility (invisibility)}",
+												"{@spell Regenerate Self|Superheroic5E|Regenerate Self (elasticity, polymorph, symbiosis)}",
+												"{@spell Untraceable Communication|Superheroic5E|Untraceable Communication (intangibility, invisibility)}",
+												"{@spell Wind Walk|phb|Wind Walk (intangibility)}"
 											]
 										},
 										{
@@ -11083,9 +11083,9 @@
 											"name": "7th Level",
 											"page": 143,
 											"items": [
-												"Etherealness (intangibility)",
-												"Greater Concealment (invisibility)",
-												"Regenerate Others (elasticity, polymorph, symbiosis)"
+												"{@spell Etherealness|phb|Etherealness (intangibility)}",
+												"{@spell Greater Concealment|Superheroic5E|Greater Concealment (invisibility)}",
+												"{@spell Regenerate|phb|Regenerate Others (elasticity, polymorph, symbiosis)}"
 											]
 										},
 										{
@@ -11095,9 +11095,9 @@
 											"name": "8th Level",
 											"page": 143,
 											"items": [
-												"Greater Elasticity (elasticity)",
-												"Greater Insubstantiality (intangibility)",
-												"Mind Blank (intangibility, invisibility, symbiosis)"
+												"{@spell Greater Elasticity|Superheroic5E|Greater Elasticity (elasticity)}",
+												"{@spell Greater Insubstantiality|Superheroic5E|Greater Insubstantiality (intangibility)}",
+												"{@spell Mind Blank|phb|Mind Blank (intangibility, invisibility, symbiosis)}"
 											]
 										},
 										{
@@ -11107,8 +11107,8 @@
 											"name": "9th Level",
 											"page": 143,
 											"items": [
-												"Astral Projection (intangibility, invisibility)",
-												"Shapechange (elasticity, polymorph, symbiosis)"
+												"{@spell Astral Projection|phb|Astral Projection (intangibility, invisibility)}",
+												"{@spell Shapechange|phb|Shapechange (elasticity, polymorph, symbiosis)}"
 											]
 										}
 									]
@@ -11125,13 +11125,13 @@
 											"name": "At Will (0 Level)",
 											"page": 143,
 											"items": [
-												"Chill Touch (primordial)",
-												"Corrupting Touch (arcane, eldritch)",
-												"Eldritch Blast (eldritch)",
-												"Prestidigitation (arcane)",
-												"Primordial Flame (primordial)",
-												"Spare the Dying (primordial)",
-												"Telekinetic Hand (arcane)"
+												"{@spell Chill Touch|phb|Chill Touch (primordial)}",
+												"{@spell Corrupting Touch|Superheroic5E|Corrupting Touch (arcane, eldritch)}",
+												"{@spell Eldritch Blast|phb|Eldritch Blast (eldritch)}",
+												"{@spell Prestidigitation|phb|Prestidigitation (arcane)}",
+												"{@spell Primordial Flame|Superheroic5E|Primordial Flame (primordial)}",
+												"{@spell Spare the Dying|phb|Spare the Dying (primordial)}",
+												"{@spell Telekinetic Hand|Superheroic5E|Telekinetic Hand (arcane)}"
 											]
 										},
 										{
@@ -11141,21 +11141,21 @@
 											"name": "1st Level",
 											"page": 143,
 											"items": [
-												"Alarm (arcane)",
-												"Bane (eldritch)",
-												"Bless (primordial)",
-												"Comprehend Languages (arcane)",
-												"False Life (primordial)",
-												"Find Familiar (arcane, eldritch)",
-												"Glare (eldritch)",
-												"Hellish Rebuke (eldritch)",
-												"Infect (eldritch, primordial)",
-												"Inflict Wounds (primordial)",
-												"Sanctuary (all)",
-												"Shadowy Blast (eldritch)",
-												"Shadowy Strike (eldritch)",
-												"Sleep (all)",
-												"Unseen Servant (arcane, eldritch)"
+												"{@spell Alarm|phb|Alarm (arcane)}",
+												"{@spell Bane|phb|Bane (eldritch)}",
+												"{@spell Bless|phb|Bless (primordial)}",
+												"{@spell Comprehend Languages|phb|Comprehend Languages (arcane)}",
+												"{@spell False Life|phb|False Life (primordial)}",
+												"{@spell Find Familiar|phb|Find Familiar (arcane, eldritch)}",
+												"{@spell Glare|Superheroic5E|Glare (eldritch)}",
+												"{@spell Hellish Rebuke|phb|Hellish Rebuke (eldritch)}",
+												"{@spell Infect|Superheroic5E|Infect (eldritch, primordial)}",
+												"{@spell Inflict Wounds|phb|Inflict Wounds (primordial)}",
+												"{@spell Sanctuary|phb|Sanctuary (all)}",
+												"{@spell Shadowy Blast|Superheroic5E|Shadowy Blast (eldritch)}",
+												"{@spell Shadowy Strike|Superheroic5E|Shadowy Strike (eldritch)}",
+												"{@spell Sleep|phb|Sleep (all)}",
+												"{@spell Unseen Servant|phb|Unseen Servant (arcane, eldritch)}"
 											]
 										},
 										{
@@ -11165,18 +11165,18 @@
 											"name": "2nd Level",
 											"page": 143,
 											"items": [
-												"Aid (primordial)",
-												"Alter Self (eldritch)",
-												"Arcane Lock (arcane)",
-												"Augury (eldritch, primordial)",
-												"Bestow Curse (eldritch)",
-												"Chill of the Grave (primordial)",
-												"Enthrall (eldritch)",
-												"Gentle Repose (primordial)",
-												"Knock (arcane)",
-												"Magic Mouth (arcane, eldritch)",
-												"Mirror Image (arcane, eldritch)",
-												"Ray of Enfeeblement (primordial)"
+												"{@spell Aid|phb|Aid (primordial)}",
+												"{@spell Alter Self|phb|Alter Self (eldritch)}",
+												"{@spell Arcane Lock|phb|Arcane Lock (arcane)}",
+												"{@spell Augury|phb|Augury (eldritch, primordial)}",
+												"{@spell Bestow Curse|phb|Bestow Curse (eldritch)}",
+												"{@spell Chill of the Grave|Superheroic5E|Chill of the Grave (primordial)}",
+												"{@spell Enthrall|phb|Enthrall (eldritch)}",
+												"{@spell Gentle Repose|phb|Gentle Repose (primordial)}",
+												"{@spell Knock|phb|Knock (arcane)}",
+												"{@spell Magic Mouth|phb|Magic Mouth (arcane, eldritch)}",
+												"{@spell Mirror Image|phb|Mirror Image (arcane, eldritch)}",
+												"{@spell Ray of Enfeeblement|phb|Ray of Enfeeblement (primordial)}"
 											]
 										},
 										{
@@ -11186,21 +11186,21 @@
 											"name": "3rd Level",
 											"page": 144,
 											"items": [
-												"Animate Dead (primordial)",
-												"Beacon of Hope (primordial)",
-												"Clairvoyance (arcane, eldritch)",
-												"Cure Wounds (primordial)",
-												"Disperse Power (arcane)",
-												"Elemental Burst (necrotic only) (eldritch, primordial)",
-												"Fear (eldritch)",
-												"Glyph of Warding (arcane)",
-												"Healing Word (primordial)",
-												"Phantom Ride (arcane, eldritch)",
-												"Power Circle (arcane, eldritch)",
-												"Remove Curse (eldritch)",
-												"Speak with Dead (primordial)",
-												"Spirit Guardians (primordial)",
-												"Vampiric Touch (primordial)"
+												"{@spell Animate Dead|phb|Animate Dead (primordial)}",
+												"{@spell Beacon of Hope|phb|Beacon of Hope (primordial)}",
+												"{@spell Clairvoyance|phb|Clairvoyance (arcane, eldritch)}",
+												"{@spell Cure Wounds|phb|Cure Wounds (primordial)}",
+												"{@spell Disperse Power|Superheroic5E|Disperse Power (arcane)}",
+												"{@spell Elemental Burst|Superheroic5E|Elemental Burst (necrotic only) (eldritch, primordial)}",
+												"{@spell Fear|phb|Fear (eldritch)}",
+												"{@spell Glyph of Warding|phb|Glyph of Warding (arcane)}",
+												"{@spell Healing Word|phb|Healing Word (primordial)}",
+												"{@spell Phantom Ride|Superheroic5E|Phantom Ride (arcane, eldritch)}",
+												"{@spell Power Circle|Superheroic5E|Power Circle (arcane, eldritch)}",
+												"{@spell Remove Curse|phb|Remove Curse (eldritch)}",
+												"{@spell Speak with Dead|phb|Speak with Dead (primordial)}",
+												"{@spell Spirit Guardians|phb|Spirit Guardians (primordial)}",
+												"{@spell Vampiric Touch|phb|Vampiric Touch (primordial)}"
 											]
 										},
 										{
@@ -11210,20 +11210,20 @@
 											"name": "4th Level",
 											"page": 144,
 											"items": [
-												"Arcane Eye (arcane)",
-												"Black Tentacles (eldritch)",
-												"Blight (primordial)",
-												"Death Ward (primordial)",
-												"Divination (arcane, eldritch)",
-												"Faithful Hound (all)",
-												"Greater Invisibility (all)",
-												"Hallow (primordial)",
-												"Polymorph (eldritch)",
-												"Private Sanctum (arcane)",
-												"Radiant Wall (primordial)",
-												"Secret Chest (arcane)",
-												"Spectral Guardian (primordial)",
-												"Magic Mouth (arcane, eldritch)"
+												"{@spell Arcane Eye|phb|Arcane Eye (arcane)}",
+												"{@spell Evard's Black Tentacles|phb|Black Tentacles (eldritch)}",
+												"{@spell Blight|phb|Blight (primordial)}",
+												"{@spell Death Ward|phb|Death Ward (primordial)}",
+												"{@spell Divination|phb|Divination (arcane, eldritch)}",
+												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (all)}",
+												"{@spell Greater Invisibility|phb|Greater Invisibility (all)}",
+												"{@spell Hallow|phb|Hallow (primordial)}",
+												"{@spell Polymorph|phb|Polymorph (eldritch)}",
+												"{@spell Private Sanctum|Superheroic5E|Private Sanctum (arcane)}",
+												"{@spell Radiant Wall|Superheroic5E|Radiant Wall (primordial)}",
+												"{@spell Secret Chest|Superheroic5E|Secret Chest (arcane)}",
+												"{@spell Spectral Guardian|Superheroic5E|Spectral Guardian (primordial)}",
+												"{@spell Magic Mouth|phb|Magic Mouth (arcane, eldritch)}"
 											]
 										},
 										{
@@ -11233,20 +11233,20 @@
 											"name": "5th Level",
 											"page": 144,
 											"items": [
-												"Antilife Shell (primordial)",
-												"Commune (arcane, eldritch)",
-												"Contact Other Plane (eldritch)",
-												"Creation (arcane)",
-												"Dream (all)",
-												"Geas (arcane)",
-												"Greater Restoration (primordial)",
-												"Legend Lore (arcane, eldritch)",
-												"Mass Healing Word (primordial)",
-												"Planar Binding (arcane, eldritch)",
-												"Radiant Form (primordial)",
-												"Revivify (primordial)",
-												"Scrying (arcane, eldritch)",
-												"Shadow Self (eldritch)"
+												"{@spell Antilife Shell|phb|Antilife Shell (primordial)}",
+												"{@spell Commune|phb|Commune (arcane, eldritch)}",
+												"{@spell Contact Other Plane|phb|Contact Other Plane (eldritch)}",
+												"{@spell Creation|phb|Creation (arcane)}",
+												"{@spell Dream|phb|Dream (all)}",
+												"{@spell Geas|phb|Geas (arcane)}",
+												"{@spell Greater Restoration|phb|Greater Restoration (primordial)}",
+												"{@spell Legend Lore|phb|Legend Lore (arcane, eldritch)}",
+												"{@spell Mass Healing Word|phb|Mass Healing Word (primordial)}",
+												"{@spell Planar Binding|phb|Planar Binding (arcane, eldritch)}",
+												"{@spell Radiant Form|Superheroic5E|Radiant Form (primordial)}",
+												"{@spell Revivify|phb|Revivify (primordial)}",
+												"{@spell Scrying|phb|Scrying (arcane, eldritch)}",
+												"{@spell Shadow Self|Superheroic5E|Shadow Self (eldritch)}"
 											]
 										},
 										{
@@ -11256,14 +11256,14 @@
 											"name": "6th Level",
 											"page": 144,
 											"items": [
-												"Circle of Death (primordial)",
-												"Conjure Fey (eldritch)",
-												"Create Undead (primordial)",
-												"Eyebite (eldritch)",
-												"Guards & Wards (arcane)",
-												"Harm (eldritch, primordial)",
-												"Magic Jar (arcane)",
-												"Planar Ally (arcane, eldritch)",
+												"{@spell |phb|Circle of Death (primordial)",
+												"{@spell |phb|Conjure Fey (eldritch)",
+												"{@spell |phb|Create Undead (primordial)",
+												"{@spell |phb|Eyebite (eldritch)",
+												"{@spell |phb|Guards & Wards (arcane)",
+												"{@spell |phb|Harm (eldritch, primordial)",
+												"{@spell |phb|Magic Jar (arcane)",
+												"{@spell |phb|Planar Ally (arcane, eldritch)",
 												"Regenerate Self (primordial)"
 											]
 										},
@@ -11274,15 +11274,15 @@
 											"name": "7th Level",
 											"page": 144,
 											"items": [
-												"Conjure Celestial (arcane)",
-												"Empowered Word (all)",
-												"Finger of Death (eldritch, primordial)",
-												"Heal (primordial)",
-												"Magnificent Mansion (arcane)",
-												"Raise Dead (primordial)",
-												"Simulacrum (arcane, eldritch)",
-												"Symbol (arcane)",
-												"Regenerate Others (primordial)"
+												"{@spell Conjure Celestial|phb|Conjure Celestial (arcane)}",
+												"{@spell Empowered Word|Superheroic5E|Empowered Word (all)}",
+												"{@spell Finger of Death|phb|Finger of Death (eldritch, primordial)}",
+												"{@spell Heal|phb|Heal (primordial)}",
+												"{@spell Mordenkainen's Magnificent Mansion|phb|Magnificent Mansion (arcane)}",
+												"{@spell Raise Dead|phb|Raise Dead (primordial)}",
+												"{@spell Simulacrum|phb|Simulacrum (arcane, eldritch)}",
+												"{@spell Symbol|phb|Symbol (arcane)}",
+												"{@spell Regenerate|phb|Regenerate Others (primordial)}"
 											]
 										},
 										{
@@ -11292,8 +11292,8 @@
 											"name": "8th Level",
 											"page": 144,
 											"items": [
-												"Clone (arcane, eldritch)",
-												"Primordial Wellspring (primordial)"
+												"{@spell Clone|phb|Clone (arcane, eldritch)}",
+												"{@spell Primordial Wellspring|Superheroic5E|Primordial Wellspring (primordial)}"
 											]
 										},
 										{
@@ -11303,12 +11303,12 @@
 											"name": "9th Level",
 											"page": 144,
 											"items": [
-												"Astral Projection (arcane, eldritch)",
-												"Channel Elder God (eldritch)",
-												"Imprisonment (arcane, eldritch)",
-												"Mass Heal (primordial)",
-												"Resurrection (primordial)",
-												"Wish (arcane)"
+												"{@spell Astral Projection|phb|Astral Projection (arcane, eldritch)}",
+												"{@spell Channel Elder God|Superheroic5E|Channel Elder God (eldritch)}",
+												"{@spell Imprisonment|phb|Imprisonment (arcane, eldritch)}",
+												"{@spell Mass Heal|phb|Mass Heal (primordial)}",
+												"{@spell Resurrection|phb|Resurrection (primordial)}",
+												"{@spell Wish|phb|Wish (arcane)}"
 											]
 										}
 									]
@@ -11325,17 +11325,17 @@
 											"name": "At Will (0 Level)",
 											"page": 144,
 											"items": [
-												"Distract",
-												"Electromagnetic Nudge",
-												"Fire Bolt",
-												"Inertia",
-												"Light",
-												"Minor Illusion",
-												"Power Device",
-												"Produce Flame",
-												"Ray of Frost",
-												"Sense Device",
-												"Shocking Grasp"
+												"{@spell Distract|Superheroic5E}",
+												"{@spell Electromagnetic Nudge|Superheroic5E}",
+												"{@spell Fire Bolt}",
+												"{@spell Inertia|Superheroic5E}",
+												"{@spell Light}",
+												"{@spell Minor Illusion}",
+												"{@spell Power Device|Superheroic5E}",
+												"{@spell Produce Flame}",
+												"{@spell Ray of Frost}",
+												"{@spell Sense Device|Superheroic5E }",
+												"{@spell Shocking Grasp}"
 											]
 										},
 										{
@@ -11345,24 +11345,24 @@
 											"name": "1st Level",
 											"page": 144,
 											"items": [
-												"Alarm",
-												"Autonomous Drone",
-												"Burning Hands",
-												"Caustic Spray",
-												"Color Spray",
-												"Comprehend Languages",
-												"Encrypt Message",
-												"Fog Cloud",
-												"Force Armor",
-												"Grease",
-												"Jump",
-												"Longstrider",
-												"Sense Metal",
-												"Shield",
-												"Shock",
-												"Silent Image",
-												"Sonic Blast",
-												"Unerring Projectile"
+												"{@spell Alarm}",
+												"{@spell Autonomous Drone|Superheroic5E}",
+												"{@spell Burning Hands}",
+												"{@spell Caustic Spray|Superheroic5E}",
+												"{@spell Color Spray}",
+												"{@spell Comprehend Languages}",
+												"{@spell Encrypt Message|Superheroic5E}",
+												"{@spell Fog Cloud}",
+												"{@spell Force Armor|Superheroic5E}",
+												"{@spell Grease}",
+												"{@spell Jump}",
+												"{@spell Longstrider}",
+												"{@spell Sense Metal|Superheroic5E}",
+												"{@spell Shield}",
+												"{@spell Shock|Superheroic5E}",
+												"{@spell Silent Image}",
+												"{@spell Sonic Blast|Superheroic5E}",
+												"{@spell Unerring Projectile|Superheroic5E}"
 											]
 										},
 										{
@@ -11372,21 +11372,21 @@
 											"name": "2nd Level",
 											"page": 144,
 											"items": [
-												"Blur",
-												"Combat Drone",
-												"Flash Freeze",
-												"Hack System",
-												"Heat Metal",
-												"Impetus",
-												"Invisibility",
-												"Levitate",
-												"Mirror Image",
-												"Propel Projectile",
-												"Scorching Ray",
-												"Second Wind",
-												"Stun",
-												"Upgrade Weapon",
-												"Vibration Sense"
+												"{@spell Blur}",
+												"{@spell Combat Drone|Superheroic5E}",
+												"{@spell Flash Freeze|Superheroic5E}",
+												"{@spell Hack System|Superheroic5E}",
+												"{@spell Heat Metal}",
+												"{@spell Impetus|Superheroic5E}",
+												"{@spell Invisibility}",
+												"{@spell Levitate}",
+												"{@spell Mirror Image}",
+												"{@spell Propel Projectile|Superheroic5E}",
+												"{@spell Scorching Ray}",
+												"{@spell Second Wind|Superheroic5E}",
+												"{@spell Stun|Superheroic5E}",
+												"{@spell Upgrade Weapon|Superheroic5E}",
+												"{@spell Vibration Sense|Superheroic5E}"
 											]
 										},
 										{
@@ -11396,15 +11396,15 @@
 											"name": "3rd Level",
 											"page": 144,
 											"items": [
-												"Cacophony",
-												"Chameleon",
-												"Defensive Drone",
-												"Endure Attack",
-												"Lightning Bolt",
-												"Major Image",
-												"Repulse",
-												"Surveil",
-												"Tremor"
+												"{@spell Cacophony|Superheroic5E}",
+												"{@spell Chameleon|Superheroic5E}",
+												"{@spell Defensive Drone|Superheroic5E}",
+												"{@spell Endure Attack|Superheroic5E}",
+												"{@spell Lightning Bolt}",
+												"{@spell Major Image}",
+												"{@spell Repulse|Superheroic5E}",
+												"{@spell Surveil|Superheroic5E}",
+												"{@spell Tremor|Superheroic5E}"
 											]
 										},
 										{
@@ -11414,13 +11414,13 @@
 											"name": "4th Level",
 											"page": 144,
 											"items": [
-												"Fire Shield",
-												"Stomp Quake",
-												"Surveillance Drone",
-												"Hallucinatory Terrain",
-												"Sonic Wall",
-												"Tactical Analysis",
-												"Technological Disruption"
+												"{@spell Fire Shield}",
+												"{@spell Stomp Quake|Superheroic5E}",
+												"{@spell Surveillance Drone|Superheroic5E}",
+												"{@spell Hallucinatory Terrain}",
+												"{@spell Sonic Wall|Superheroic5E}",
+												"{@spell Tactical Analysis|Superheroic5E}",
+												"{@spell Technological Disruption|Superheroic5E}"
 											]
 										},
 										{
@@ -11430,14 +11430,14 @@
 											"name": "5th Level",
 											"page": 144,
 											"items": [
-												"Advanced Hack",
-												"Cone of Cold",
-												"Crushing Grip",
-												"Electromagnetic Pulse",
-												"Lightning Fence",
-												"Mislead",
-												"Missile Salvo",
-												"Skill Chip"
+												"{@spell Advanced Hack|Superheroic5E}",
+												"{@spell Cone of Cold}",
+												"{@spell Crushing Grip|Superheroic5E}",
+												"{@spell Electromagnetic Pulse|Superheroic5E}",
+												"{@spell Lightning Fence|Superheroic5E}",
+												"{@spell Mislead|Superheroic5E}",
+												"{@spell Missile Salvo|Superheroic5E}",
+												"{@spell Skill Chip|Superheroic5E}"
 											]
 										},
 										{
@@ -11447,13 +11447,13 @@
 											"name": "6th Level",
 											"page": 144,
 											"items": [
-												"Chain Lightning",
-												"Disintegrate",
-												"Explosive Strength",
-												"Find the Path",
-												"Programmed Illusion",
-												"Rail Gun",
-												"Untraceable Communication"
+												"{@spell Chain Lightning}",
+												"{@spell Disintegrate}",
+												"{@spell Explosive Strength|Superheroic5E}",
+												"{@spell Find the Path}",
+												"{@spell Programmed Illusion}",
+												"{@spell Rail Gun|Superheroic5E}",
+												"{@spell Untraceable Communication|Superheroic5E}"
 											]
 										},
 										{
@@ -11463,9 +11463,9 @@
 											"name": "7th Level",
 											"page": 145,
 											"items": [
-												"Virtual Reality",
-												"Project Image",
-												"Reflect Damage"
+												"{@spell Virtual Reality|Superheroic5E}",
+												"{@spell Project Image|Superheroic5E}",
+												"{@spell Reflect Damage|Superheroic5E}"
 											]
 										},
 										{
@@ -11475,7 +11475,7 @@
 											"name": "8th Level",
 											"page": 145,
 											"items": [
-												"Nanite Aura"
+												"{@spell Nanite Aura|Superheroic5E}"
 											]
 										},
 										{
@@ -11485,7 +11485,7 @@
 											"name": "9th Level",
 											"page": 145,
 											"items": [
-												"Foresight"
+												"{@spell Foresight|Superheroic5E}"
 											]
 										}
 									]
@@ -11502,13 +11502,13 @@
 											"name": "At Will (0 Level)",
 											"page": 145,
 											"items": [
-												"Corrupting Touch (all)",
-												"Druidcraft (plant)",
-												"Fangs (animal)",
-												"Mud Splash (plant)",
-												"Poison Spray (animal)",
-												"Shillelagh (plant)",
-												"Thorn and Claw (all)"
+												"{@spell Corrupting Touch|Superheroic5E|Corrupting Touch (all)}",
+												"{@spell Druidcraft|phb|Druidcraft (plant)}",
+												"{@spell Fangs|Superheroic5E|Fangs (animal)}",
+												"{@spell Mud Splash|Superheroic5E|Mud Splash (plant)}",
+												"{@spell Poison Spray|phb|Poison Spray (animal)}",
+												"{@spell Shillelagh|phb|Shillelagh (plant)}",
+												"{@spell Thorn and Claw|Superheroic5E|Thorn and Claw (all)}"
 											]
 										},
 										{
@@ -11518,17 +11518,17 @@
 											"name": "1st Level",
 											"page": 145,
 											"items": [
-												"Animal Friendship (animal)",
-												"Detect Poison and Disease (all)",
-												"Entangle (plant)",
-												"Goodberry (plant)",
-												"Infect (all)",
-												"Inflict Wounds (all)",
-												"Noxious Mist (all)",
-												"Purify Food and Drink (all)",
-												"Speak with Animals (animal)",
-												"Toxic Blast (all)",
-												"Venomous Strike (all)"
+												"{@spell Animal Friendship|phb|Animal Friendship (animal)}",
+												"{@spell Detect Poison and Disease|phb|Detect Poison and Disease (all)}",
+												"{@spell Entangle|phb|Entangle (plant)}",
+												"{@spell Goodberry|phb|Goodberry (plant)}",
+												"{@spell Infect|Superheroic5E|Infect (all)}",
+												"{@spell Inflict Wounds|phb|Inflict Wounds (all)}",
+												"{@spell Noxious Mist|Superheroic5E|Noxious Mist (all)}",
+												"{@spell Purify Food and Drink|phb|Purify Food and Drink (all)}",
+												"{@spell Speak with Animals|phb|Speak with Animals (animal)}",
+												"{@spell Toxic Blast|Superheroic5E|Toxic Blast (all)}",
+												"{@spell Venomous Strike|Superheroic5E|Venomous Strike (all)}"
 											]
 										},
 										{
@@ -11538,14 +11538,14 @@
 											"name": "2nd Level",
 											"page": 145,
 											"items": [
-												"Animal Messenger (animal)",
-												"Barkskin (plant)",
-												"Locate Animals or Plants (all)",
-												"Mire (all)",
-												"Moonbeam (all)",
-												"Protection from Poison (all)",
-												"Spike Growth (plant)",
-												"Web (animal)"
+												"{@spell Animal Messenger|phb|Animal Messenger (animal)}",
+												"{@spell Barkskin|phb|Barkskin (plant)}",
+												"{@spell Locate Animals or Plants|phb|Locate Animals or Plants (all)}",
+												"{@spell Mire|Superheroic5E|Mire (all)}",
+												"{@spell Moonbeam|phb|Moonbeam (all)}",
+												"{@spell Protection from Poison|phb|Protection from Poison (all)}",
+												"{@spell Spike Growth|phb|Spike Growth (plant)}",
+												"{@spell Web|phb|Web (animal)}"
 											]
 										},
 										{
@@ -11555,14 +11555,14 @@
 											"name": "3rd Level",
 											"page": 145,
 											"items": [
-												"Call Lightning (all)",
-												"Conjure Animals (animal)",
-												"Elemental Burst (poison only) (all)",
-												"Plant Growth (plant)",
-												"Speak with Plants (plant)",
-												"Stinking Cloud (all)",
-												"Vampiric Touch (all)",
-												"Water Breathing (animal)"
+												"{@spell Call Lightning|phb|Call Lightning (all)}",
+												"{@spell Conjure Animals|phb|Conjure Animals (animal)}",
+												"{@spell Elemental Burst|Superheroic5E|Elemental Burst (poison only) (all)}",
+												"{@spell Plant Growth|phb|Plant Growth (plant)}",
+												"{@spell Speak with Plants|phb|Speak with Plants (plant)}",
+												"{@spell Stinking Cloud|phb|Stinking Cloud (all)}",
+												"{@spell Vampiric Touch|phb|Vampiric Touch (all)}",
+												"{@spell Water Breathing|phb|Water Breathing (animal)}"
 											]
 										},
 										{
@@ -11572,17 +11572,17 @@
 											"name": "4th Level",
 											"page": 145,
 											"items": [
-												"Blight (plant)",
-												"Botanical Constructs (plant)",
-												"Botanical Form (plant)",
-												"Conjure Woodland Beings (animal)",
-												"Dominate Beast (animal)",
-												"Faithful Hound (animal)",
-												"Giant Insect (animal)",
-												"Hallucinatory Terrain (plant)",
-												"Limited Shapechange (animal)",
-												"Sense Vital Signs (all)",
-												"Toxic Wall (all)"
+												"{@spell Blight|phb|Blight (plant)}",
+												"{@spell Botanical Constructs|Superheroic5E|Botanical Constructs (plant)}",
+												"{@spell Botanical Form|Superheroic5E|Botanical Form (plant)}",
+												"{@spell Conjure Woodland Beings|phb|Conjure Woodland Beings (animal)}",
+												"{@spell Dominate Beast|phb|Dominate Beast (animal)}",
+												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (animal)}",
+												"{@spell Giant Insect|phb|Giant Insect (animal)}",
+												"{@spell Hallucinatory Terrain|phb|Hallucinatory Terrain (plant)}",
+												"{@spell Limited Shapechange|Superheroic5E|Limited Shapechange (animal)}",
+												"{@spell Sense Vital Signs|Superheroic5E|Sense Vital Signs (all)}",
+												"{@spell Toxic Wall|Superheroic5E|Toxic Wall (all)}"
 											]
 										},
 										{
@@ -11592,16 +11592,16 @@
 											"name": "5th Level",
 											"page": 145,
 											"items": [
-												"Antilife Shell (all)",
-												"Awaken (all)",
-												"Cloudkill (all)",
-												"Commune With Nature (all)",
-												"Contagion (all)",
-												"Insect Plague (animal)",
-												"Greater Restoration (all)",
-												"Revivify (all)",
-												"Toxic Form (all)",
-												"Tree Stride (plant)"
+												"{@spell Antilife Shell|phb|Antilife Shell (all)}",
+												"{@spell Awaken|phb|Awaken (all)}",
+												"{@spell Cloudkill|phb|Cloudkill (all)}",
+												"{@spell Commune With Nature|phb|Commune With Nature (all)}",
+												"{@spell Contagion|phb|Contagion (all)}",
+												"{@spell Insect Plague|phb|Insect Plague (animal)}",
+												"{@spell Greater Restoration|phb|Greater Restoration (all)}",
+												"{@spell Revivify|phb|Revivify (all)}",
+												"{@spell Toxic Form|Superheroic5E|Toxic Form (all)}",
+												"{@spell Tree Stride|Superheroic5E|Tree Stride (plant)}"
 											]
 										},
 										{
@@ -11611,12 +11611,12 @@
 											"name": "6th Level",
 											"page": 145,
 											"items": [
-												"Find the Path (all)",
-												"Harm (poison damage only) (all)",
-												"Regenerate Self (all)",
-												"Reincarnate (animal)",
-												"Transport via Plants (plant)",
-												"Wall of Thorns (plant)"
+												"{@spell Find the Path|Superheroic5E|Find the Path (all)}",
+												"{@spell Harm|phb|Harm (poison damage only) (all)}",
+												"{@spell Regenerate Self|Superheroic5E|Regenerate Self (all)}",
+												"{@spell Reincarnate|phb|Reincarnate (animal)}",
+												"{@spell Transport via Plants|phb|Transport via Plants (plant)}",
+												"{@spell Wall of Thorns|phb|Wall of Thorns (plant)}"
 											]
 										},
 										{
@@ -11626,11 +11626,11 @@
 											"name": "7th Level",
 											"page": 145,
 											"items": [
-												"Arboreal Form (plant)",
-												"Elemental Storm (poison damage only) (all)",
-												"Raise Dead (all)",
-												"Regenerate Others (all)",
-												"Swarm Shape (animal)"
+												"{@spell Arboreal Form|Superheroic5E|Arboreal Form (plant)}",
+												"{@spell Elemental Storm|Superheroic5E|Elemental Storm (poison damage only) (all)}",
+												"{@spell Raise Dead|phb|Raise Dead (all)}",
+												"{@spell Regenerate|phb|Regenerate Others (all)}",
+												"{@spell Swarm Shape|Superheroic5E|Swarm Shape (animal)}"
 											]
 										},
 										{
@@ -11640,13 +11640,13 @@
 											"name": "8th Level",
 											"page": 145,
 											"items": [
-												"Animal Shapes (animal)",
-												"Commune with Biosphere (all)",
-												"Control Weather (all)",
-												"Earthquake (all)",
-												"Elemental Cloud (poison damage only) (all)",
-												"Heal (all)",
-												"Pod Duplicate (plant)"
+												"{@spell Animal Shapes|phb|Animal Shapes (animal)}",
+												"{@spell Commune with Biosphere|Superheroic5E|Commune with Biosphere (all)}",
+												"{@spell Control Weather|phb|Control Weather (all)}",
+												"{@spell Earthquake|phb|Earthquake (all)}",
+												"{@spell Elemental Cloud|Superheroic5E|Elemental Cloud (poison damage only) (all)}",
+												"{@spell Heal|phb|Heal (all)}",
+												"{@spell Pod Duplicate|Superheroic5E|Pod Duplicate (plant)}"
 											]
 										},
 										{
@@ -11656,11 +11656,11 @@
 											"name": "9th Level",
 											"page": 145,
 											"items": [
-												"Mass Heal (all)",
-												"Resurrection (all)",
-												"Shapechange (animal)",
-												"Storm of Vengeance (all)",
-												"Ultimate Toxicity (plant)"
+												"{@spell Mass Heal|phb|Mass Heal (all)}",
+												"{@spell Resurrection|phb|Resurrection (all)}",
+												"{@spell Shapechange|phb|Shapechange (animal)}",
+												"{@spell Storm of Vengeance|phb|Storm of Vengeance (all)}",
+												"{@spell Ultimate Toxicity|Superheroic5E|Ultimate Toxicity (plant)}"
 											]
 										}
 									]
@@ -11677,16 +11677,16 @@
 											"name": "At Will (0 Level)",
 											"page": 145,
 											"items": [
-												"Bombard",
-												"Boost",
-												"Catch Your Breath",
-												"Glide",
-												"Pow!",
-												"Sensory Focus",
-												"Solidarity",
-												"Sweep Attack",
-												"True Strike",
-												"Vicious Mockery"
+												"{@spell Bombard|Superheroic5E}",
+												"{@spell Boost|Superheroic5E}",
+												"{@spell Catch Your Breath|Superheroic5E}",
+												"{@spell Glide|Superheroic5E}",
+												"{@spell Pow!|Superheroic5E}",
+												"{@spell Sensory Focus|Superheroic5E}",
+												"{@spell Solidarity|Superheroic5E}",
+												"{@spell Sweep Attack|Superheroic5E}",
+												"{@spell True Strike}",
+												"{@spell Vicious Mockery}"
 											]
 										},
 										{
@@ -11696,15 +11696,15 @@
 											"name": "1st Level",
 											"page": 145,
 											"items": [
-												"Challenge",
-												"Charge",
-												"Fate's Favor",
-												"Heroism",
-												"Hunter's Mark",
-												"Innate Orientation",
-												"Martial Strike",
-												"Reckless Attack",
-												"Shelter"
+												"{@spell Challenge|Superheroic5E}",
+												"{@spell Charge|Superheroic5E}",
+												"{@spell Fate's Favor|Superheroic5E}",
+												"{@spell Heroism}",
+												"{@spell Hunter's Mark}",
+												"{@spell Innate Orientation|Superheroic5E}",
+												"{@spell Martial Strike|Superheroic5E}",
+												"{@spell Reckless Attack|Superheroic5E}",
+												"{@spell Shelter|Superheroic5E}"
 											]
 										},
 										{
@@ -11714,16 +11714,16 @@
 											"name": "2nd Level",
 											"page": 145,
 											"items": [
-												"Darkvision",
-												"Enhanced Hearing",
-												"Find Traps",
-												"Levitate",
-												"Locate Object",
-												"Pep Talk",
-												"Protect",
-												"See Invisibility",
-												"Stick and Move",
-												"Warding Bond"
+												"{@spell Darkvision}",
+												"{@spell Enhanced Hearing|Superheroic5E}",
+												"{@spell Find Traps}",
+												"{@spell Levitate}",
+												"{@spell Locate Object}",
+												"{@spell Pep Talk|Superheroic5E}",
+												"{@spell Protect|Superheroic5E}",
+												"{@spell See Invisibility}",
+												"{@spell Stick and Move|Superheroic5E}",
+												"{@spell Warding Bond}"
 											]
 										},
 										{
@@ -11733,15 +11733,15 @@
 											"name": "3rd Level",
 											"page": 145,
 											"items": [
-												"Counterpunch",
-												"Eavesdrop",
-												"Fly",
-												"Furious Onslaught",
-												"Infrared Vision",
-												"Inspire",
-												"Raise Morale",
-												"Superior Olfaction",
-												"Vigilance"
+												"{@spell Counterpunch|Superheroic5E}",
+												"{@spell Eavesdrop|Superheroic5E}",
+												"{@spell Fly}",
+												"{@spell Furious Onslaught|Superheroic5E}",
+												"{@spell Infrared Vision|Superheroic5E}",
+												"{@spell Inspire|Superheroic5E}",
+												"{@spell Raise Morale|Superheroic5E}",
+												"{@spell Superior Olfaction|Superheroic5E}",
+												"{@spell Vigilance|Superheroic5E}"
 											]
 										},
 										{
@@ -11751,13 +11751,13 @@
 											"name": "4th Level",
 											"page": 146,
 											"items": [
-												"Blindsight",
-												"Frenzy",
-												"Healing Factor",
-												"Locate Creature",
-												"Lock Down",
-												"Superior Vision",
-												"Trade Shots"
+												"{@spell Blindsight|Superheroic5E}",
+												"{@spell Frenzy|Superheroic5E}",
+												"{@spell Healing Factor|Superheroic5E}",
+												"{@spell Locate Creature}",
+												"{@spell Lock Down|Superheroic5E}",
+												"{@spell Superior Vision|Superheroic5E}",
+												"{@spell Trade Shots|Superheroic5E}"
 											]
 										},
 										{
@@ -11767,12 +11767,12 @@
 											"name": "5th Level",
 											"page": 146,
 											"items": [
-												"Critical Strike",
-												"Danger Sense",
-												"Improved Fly",
-												"Interrupt Power",
-												"Rally",
-												"Tremorsense"
+												"{@spell Critical Strike|Superheroic5E}",
+												"{@spell Danger Sense|Superheroic5E}",
+												"{@spell Improved Fly|Superheroic5E}",
+												"{@spell Interrupt Power|Superheroic5E}",
+												"{@spell Rally|Superheroic5E}",
+												"{@spell Tremorsense|Superheroic5E}"
 											]
 										},
 										{
@@ -11782,9 +11782,9 @@
 											"name": "6th Level",
 											"page": 146,
 											"items": [
-												"Contingency",
-												"Pin",
-												"True Seeing"
+												"{@spell Contingency}",
+												"{@spell Pin|Superheroic5E}",
+												"{@spell True Seeing}"
 											]
 										},
 										{
@@ -11794,8 +11794,8 @@
 											"name": "7th Level",
 											"page": 146,
 											"items": [
-												"Flight Mastery",
-												"X-Ray Vision"
+												"{@spell Flight Mastery|Superheroic5E}",
+												"{@spell X-Ray Vision|Superheroic5E}"
 											]
 										},
 										{
@@ -11805,8 +11805,8 @@
 											"name": "8th Level",
 											"page": 146,
 											"items": [
-												"Assassinate",
-												"Supersonic Flight"
+												"{@spell Assassinate|Superheroic5E}",
+												"{@spell Supersonic Flight|Superheroic5E}"
 											]
 										},
 										{
@@ -11816,8 +11816,8 @@
 											"name": "9th Level",
 											"page": 146,
 											"items": [
-												"Plot Armor",
-												"Retcon"
+												"{@spell Plot Armor|Superheroic5E}",
+												"{@spell Retcon|Superheroic5E}"
 											]
 										}
 									]
