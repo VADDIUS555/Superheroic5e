@@ -1,0 +1,107 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "S5E-Powers",
+                "abbreviation": "S5E-Powers",
+                "full": "S5E: Powers",
+				"version": "2023.08.21",
+                "authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"color": "fdc830",
+                "convertedBy": ["VAD"]
+            }
+        ],
+		"dateAdded": 20230806,
+		"dateLastModified": 20230806
+    },
+    "spell": [
+        {
+            "name": "Absolute Zero",
+            "source": "Superheroic5E",
+            "page": 147,
+            "level": 9,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 300
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "The temperature in a 50-foot-radius sphere centered on a point in range suddenly drops to absolute zero, as cold as the depths of outer space.",
+                "Everyone in range must make a Constitution save. A creature takes {@damage 10d10} cold damage on a failed save and is frozen solid, {@condition paralyzed} for the duration. On a successful save, the creature is {@condition paralyzed} until the end of your next turn and takes only {@damage 5d10} cold damage."
+            ],
+            "damageInflict": [
+                "cold"
+            ],
+            "conditionInflict": [
+                "paralyzed"
+            ]
+        },
+        {
+            "name": "ABSORB POWER",
+            "source": "Superheroic5E",
+            "page": 147,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "When you touch a willing creature who possesses superpowers, you may absorb one of their powers of a level for which you have power slots or reflexive powers.",
+                "You may then use the power as though it was your own for the duration. During this time, the original possessor is unable to use the power. When you use the power, you must expend a slot as normal, unless you have reflexive powers at that level, in which case you can use the absorbed power reflexively as well",
+                "To use this power on an unwilling target, you must first observe them using the power. Once you have direct experience of the target using the power, you must make skin-to-skin contact to attempt to absorb their power. Your",
+                "GM may decide that a melee power attack is required. If you succeed in touching them, the target must make a Charisma save against your power DC. On a failed save, you absorb the specific power, and they lose the use of it for the duration."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "If you use this power using a slot of 4th or 5th level, the duration of the power increases to 10 minutes. If you use a slot of 6th or 7th level, the duration increases to 1 hour. If you use a slot of 8th or 9th level, the duration increases to 1 day."
+                    ]
+                }
+            ]
+        }
+        
+        
+    ]
+}
