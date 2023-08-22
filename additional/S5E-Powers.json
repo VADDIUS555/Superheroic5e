@@ -5,17 +5,19 @@
                 "json": "S5E-Powers",
                 "abbreviation": "S5E-Powers",
                 "full": "S5E: Powers",
-				"version": "2023.08.21",
+                "version": "2023.08.21",
                 "authors": [
-					"Gwendolyn Marshall",
-					"Amy Bliss Marshall"
-				],
-				"color": "fdc830",
-                "convertedBy": ["VAD"]
+                    "Gwendolyn Marshall",
+                    "Amy Bliss Marshall"
+                ],
+                "color": "fdc830",
+                "convertedBy": [
+                    "VAD"
+                ]
             }
         ],
-		"dateAdded": 20230806,
-		"dateLastModified": 20230806
+        "dateAdded": 20230806,
+        "dateLastModified": 20230806
     },
     "spell": [
         {
@@ -59,7 +61,7 @@
             ]
         },
         {
-            "name": "ABSORB POWER",
+            "name": "Absorb Power",
             "source": "Superheroic5E",
             "page": 147,
             "level": 3,
@@ -100,8 +102,865 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Acid Jet",
+            "source": "Superheroic5E",
+            "page": 147,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Caustic acid shoots from your hands in a line 120 feet long and 5 feet wide in 2 directions you choose. The blasts can be in the same direction, but the damage does not double.",
+                "Instead, the 2 lines combine into a single 10-foot-wide line that does the same damage. Each creature in the line must make a Dexterity save. A creature takes {@damage 9d8} acid damage on a failed save, or half as much on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 8th level or higher, the damage increases by {@dice 2d8} for each level above 7th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "acid"
+            ]
+        },
+        {
+            "name": "Acid Touch",
+            "source": "Superheroic5E",
+            "page": 147,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You may cause your skin to secrete acid. You may choose to have this acid emerge from all or part of your body. Make a melee power attack against a creature within your reach.",
+                "On a hit, the target takes {@damage 1d10} acid damage.",
+                "You may also use this acid to burn through objects, though it may take time. The acid cannot be harvested or collected, however; once it is removed from your skin it loses its potency.",
+                "This power's damage increases by {@dice 1d12} when you reach 5th level ({@dice 2d12}), 11th level ({@dice 3d12}), 14th level ({@dice 4d12}), and 17th level ({@dice 5d12})."
+            ],
+            "damageInflict": [
+                "acid"
+            ],
+            "miscTags": [
+                "SCL"
+            ]
+        },
+        {
+            "name": "Advanced Hack",
+            "source": "Superheroic5E",
+            "page": 148,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You send a lethal script to a computer or security system in range, gaining full access to its administrative functions.",
+                "When you hack or disable such security systems, you go undetected unless someone uses an action to make an {@skill Investigation} check that beats a DC equal to 8 + your Intelligence modifier + your proficiency bonus."
+            ]
+        },
+        {
+            "name": "After Image",
+            "source": "Superheroic5E",
+            "page": 148,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You disappear and a visual illusion of you appears somewhere you've been in the past minute in range. The image exactly duplicates what you were doing at the time.",
+                "As long as you maintain focus, the illusion continues to recreate what you were doing 1 minute in the past, while you remain {@condition invisible}. While {@condition invisible}, you are hidden from everyone's sight.",
+                "Physical interaction with the image reveals it to be an illusion because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful {@skill Investigation} check against your power save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.",
+                "Nevertheless, you remain {@condition invisible} for the duration. The power ends also ends if you attack or use another power."
+            ],
+            "conditionInflict": [
+                "invisible"
+            ]
+        },
+        {
+            "name": "Alter Density",
+            "source": "Superheroic5E",
+            "page": 148,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 reaction"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You can choose to alter your density as a reaction whenever you must make a Strength or Dexterity save or {@skill Athletics} or {@skill Acrobatics} check. Rather than changing your body mass when you stretch and retract, you can keep you shape the same and increase or decrease your density, becoming heavier or lighter. When you activate this power and choose to increase your density, you have advantage on {@skill Athletics} checks and Strength saves to resist being shoved, knocked {@condition prone}, or moved against your will.",
+                "If you choose to decrease your density, on the other hand, you gain advantage on Dexterity saves and {@skill Acrobatics} checks.",
+                "You may maintain your altered density as long as you concentrate on this power. As an action, you may choose to switch from increasing your density to decreasing it, or vice versa, for the duration of this power."
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Alter Metabolism",
+            "source": "Superheroic5E",
+            "page": 148,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You have remarkable control over your body, including your metabolic processes; when you activate this power, you choose whether to accelerate or slow them. If you choose to slow them down, your heart rate and breathing slow significantly and your body temperature drops. You need very little air and no food or water during the time you focus on this power. Further, you have advantage on {@skill Stealth} checks, but your speed is cut in half, and you cannot use the {@action Dash} or {@action Attack} actions.",
+                "If you choose to speed up your metabolism, on the other hand, your speed increases by 10 feet and you heal 1 HP every 1 minute, as you accelerate the natural healing process."
+            ],
+            "miscTags": [
+                "HL"
+            ]
+        },
+        {
+            "name": "Animated Sword",
+            "source": "Superheroic5E",
+            "page": 150,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a sword-shaped plane of your Elemental",
+                "Manifestation that hovers in range, lasting for the duration.",
+                "When the sword appears, you make a melee power attack against a target within 5 feet of the sword. On a hit, the target takes {@damage 3d10} damage and suffers an Elemental Effect.",
+                "The type of damage and the Elemental Effect the target suffers is determined by your Elemental Manifestation, as indicated in the Elemental Manifestations and the Elemental Effects tables.",
+                "Until the power ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a visible spot and repeat this attack against the same target or a different one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 8th level or higher, the damage increases by {@dice 2d10} for each level above 7th."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+            "name": "Anvil Drop",
+            "source": "Superheroic5E",
+            "page": 0,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "As an Action, you may select a Large or smaller object in range weighing less than 2000 lb. With a quick exertion of effort, you teleport the object above a point in range, dropping the object onto whatever is below. Each creature within 5 feet of the target must make a Dexterity save. On a failed save, creatures in the area take {@damage 8d8} bludgeoning damage, or half on a successful save. Regardless of whether the target makes the save or not, the teleported object also takes {@damage 8d8} bludgeoning damage."
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "miscTags": [
+                "OBJ",
+                "TP"
+            ]
+        },
+        {
+            "name": "Aboreal Form",
+            "source": "Superheroic5E",
+            "page": 152,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "You transform yourself into a massive humanoid tree, capable of walking and talking.",
+                "When in your chosen species of arboreal form, your game statistics are the same, with the following exceptions:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your size is Huge.",
+                        "You gain 100 temporary HP.",
+                        "Your AC is 16 and you are resistant to bludgeoning, slashing, and piercing damage.",
+                        "You can't use powers, though you retain your ability to speak and your walking speed."
+                    ]
+                },
+                "Transforming doesn't break your {@status concentration} on a power you've already used, however, or prevent you from taking actions that are part of a power, such as call lightning.",
+                "You can make unarmed attacks using your power attack bonus, dealing {@damage 4d10} bludgeoning damage on a hit.",
+                "You retain the benefit of any features from your class, ancestry, culture, or other source and can use them if the new form is physically capable of doing so.",
+                "You can revert to your normal form earlier by using a bonus action on your turn, though you lose the temporary",
+                "HP. You automatically revert if you fall {@condition unconscious}, drop to 0 HP, or die.",
+                "You choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges has no effect until you leave the form."
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [
+                "unconscious"
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+            "name": "Arcane Sword",
+            "source": "Superheroic5E",
+            "page": 153,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a sword-shaped plane of force that hovers in range, lasting for the duration.",
+                "When the sword appears, you make a melee power attack against a target within 5 feet of the sword. A hit causes {@damage 3d10} force damage. Until the power ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a visible spot and repeat this attack against the same target or a different one."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 8th level or higher, the damage increases by {@dice 2d10} for each level above 7th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+            "name": "Assassinate",
+            "source": "Superheroic5E",
+            "page": 153,
+            "level": 8,
+            "school": "power",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "When given an opportunity to prepare yourself, you can be a deadly killer. The next time you hit a creature with a weapon attack before this power ends, you deal an extra {@damage 12d6} force damage. This damage cannot be added to a power attack."
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "miscTags": [
+                "AAD"
+            ]
+        },
+        {
+            "name": "Autonomous Drone",
+            "source": "Superheroic5E",
+            "page": 154,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You deploy a simple, autonomous drone. Appearing in an unoccupied space in range, it has the statistics listed below.",
+                "Your drone acts independently of you, but always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. An autonomous drone can't attack, but it can take other actions as normal.",
+                "When the drone drops to 0 HP, it malfunctions, but you can deploy a new version when you use this power again.",
+                "While your autonomous drone is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action you can:",
+                {
+                    "type": "list",
+                    "items": [
+                        "see through the drone's camera and hear through its microphone until the start of your next turn. During this time, you are deaf and blind regarding your own senses.",
+                        "temporarily deactivate your drone, causing it to shut down. As a further action while it is temporarily deactivated, you can transfer its programming to a new drone within 30 feet of you."
+                    ]
+                },
+                "You can't have more than 1 autonomous drone at a time.",
+                "If you use this power while you already have a drone, the old one deactivates.",
+                {
+                    "type": "statblockInline",
+                    "style": "inset",
+                    "dataType": "monster",
+                    "data": {
+                        "name": "Autonomous Drone",
+                        "source": "Superheroic5E",
+                        "page": 154,
+                        "size": [
+                            "T"
+                        ],
+                        "type": "construct",
+                        "ac": [
+                            13
+                        ],
+                        "hp": {
+                            "average": 5,
+                            "formula": "2d4"
+                        },
+                        "speed": {
+                            "fly": 50
+                        },
+                        "str": 3,
+                        "dex": 13,
+                        "con": 8,
+                        "int": 2,
+                        "wis": 12,
+                        "cha": 1,
+                        "senses": [
+                            "darkvision 60 feet"
+                        ],
+                        "passive": 11,
+                        "immune": [
+                            "poison",
+                            "psychic"
+                        ],
+                        "vulnerable": [
+                            "lightning"
+                        ],
+                        "conditionImmune": [
+                            "charmed",
+                            "exhaustion",
+                            "frightened",
+                            "paralyzed",
+                            "petrified",
+                            "poisoned"
+                        ],
+                        "cr": "1/8",
+                        "pbNote": "+2 Recording device. When the drone is active, it records audio and video from its surroundings, sending it back via cellular or satellite network to its home base or owner.",
+                        "action": [
+                            {
+                                "name": "Slam",
+                                "entries": [
+                                    "{@atk mw} +3 to hit, reach 5 feet, 1 target. {@h}1 bludgeoning damage."
+                                ]
+                            }
+                        ],
+                        "senseTags": [
+                            "D"
+                        ],
+                        "damageTags": [
+                            "B"
+                        ],
+                        "miscTags": [
+                            "MW"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Avalanche",
+            "source": "Superheroic5E",
+            "page": 154,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 20
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "An explosion of ice, snow, and rock cascades from you.",
+                "Each creature in a 15-foot cube originating from you must make a Strength save. On a failed save, a creature takes {@dice 2d6} cold and {@damage 2d6} bludgeoning damage and is pushed 10 feet away from you. On a success, the creature takes half as much and isn't pushed.",
+                "In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the power's effect, and the area is difficult terrain until the end of your next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 3rd level or higher, the damage increases by {@dice 1d6} bludgeoning for each level above 2nd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "miscTags": [
+                "DFT",
+                "FMV",
+                "OBJ"
+            ]
+        },
+        {
+            "name": "Barricade",
+            "source": "Superheroic5E",
+            "page": 155,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You pick up or rip up a large chunk of your environment\u2014pavement at your feet, a nearby wall, or even a parked car\u2014and prop it up in front of you to use as a makeshift barricade. This barricade is 10 feet wide and 10 feet tall, and at least a foot thick of solid material, which is more than enough to stop most attacks. It collapses under its own weight after a minute, or after it has sustained 30 points of damage. You can shape the barricade into a 10-foot wide and tall semicircle if you prefer, as well as a dome just large enough to cover 2 Medium creatures."
+            ]
+        },
+        {
+            "name": "Beguile",
+            "source": "Superheroic5E",
+            "page": 155,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "This power grants you advantage on Charisma checks toward 1 creature who can hear and understand you in range for the duration, if the creature is not hostile toward you. Perhaps you project positive affect into the creature's mind or cloak yourself in an appealing illusion.",
+                "When the power ends, the creature knows you tricked it and becomes angry with you, which may lead it to seek revenge or compensation."
+            ]
+        },
+        {
+            "name": "Biomagnetic Control",
+            "source": "Superheroic5E",
+            "page": 155,
+            "level": 8,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You can sense and control the organic metals within living beings. A visible creature in range must make a Constitution save or be {@condition restrained}. This and each subsequent round, you can use your action to either move the {@condition restrained} creature around at a rate of 30 feet, or rip the iron from their bodies, doing {@damage 8d8} necrotic damage. At the end of each of the creature's turns, they can make another Constitution save to resist the power. If the creature makes their save, you can use your action to shift this power to a different creature in range, causing them to make the save as if you had used the power on them for the first time."
+            ],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "conditionInflict": [
+                "restrained"
+            ]
+        },
+        {
+            "name": "Blind Spot",
+            "source": "Superheroic5E",
+            "page": 157,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "If you remain perfectly still and quiet, you can momentarily hide in plain sight. As an action while remaining quiet and immobile, you are {@condition invisible} to 1 visible creature within 30 feet. To the creature, you seem to disappear for a moment, as if you had stepped into their blind spot. You blink back into visibility for them at the beginning of your next turn.",
+                "You remain visible to all other creatures in the area."
+            ],
+            "conditionInflict": [
+                "invisible"
+            ]
+        },
+        {
+            "name": "Blindsight",
+            "source": "Superheroic5E",
+            "page": 157,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You focus your attentions away from sight and to your other senses. For the duration, you have {@sense blindsight} out to a range of 60 feet."
+            ]
+        },
+        {
+            "name": "Blitz Attack",
+            "source": "Superheroic5E",
+            "page": 157,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Using agility, speed, or teleportation, you careen around the battlefield, striking up to 6 visible foes in range who are not behind total cover. Each target must make a Dexterity save or take {@damage 10d6} bludgeoning damage. As you move across the battlefield, you cannot be hit with opportunity attacks. You end the action in a space in range."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 7th level or higher, you can hit 2 additional targets for each level over 6th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ]
+        },
+        {
+            "name": "Blood Control",
+            "source": "Superheroic5E",
+            "page": 157,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You reach out and take control of the water within a living creature. It must make a Constitution save or you successfully twist the tissues of the creature, incapacitating it, dealing {@damage 10d8} necrotic damage, and causing it intense pain. For the duration, you can use your action to take control of the target, moving it in crude motions like a puppet. While you control it, you can force the target to move half its speed in any direction and make a single melee weapon attack against a target you choose in range.",
+                "When you use your action to control the target, it takes an additional {@damage 2d8} necrotic damage. At the end of each of its turns, the target may make another Constitution save.",
+                "On a success, the power ends."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a 7th-level slot or above, the duration is {@status concentration}, up to 10 minutes."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "necrotic"
+            ]
         }
-        
         
     ]
 }

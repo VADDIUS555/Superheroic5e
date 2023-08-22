@@ -145,7 +145,15 @@
 						"What Is a power?",
 						"Using a Power",
 						"Superpower List",
-						"Powers A-Z"
+						"Powers A-Z",
+						"Elementalist",
+						"Kinetic",
+						"Mentalist",
+						"Metamorph",
+						"Mystic",
+						"Tech",
+						"Vitalist",
+						"General Powers"
 					],
 					"ordinal": {
 						"type": "chapter",
