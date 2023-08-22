@@ -1807,7 +1807,7 @@
 														],
 														[
 															"5th",
-															"{@spell haste}"
+															"{@spell haste-S5E|Superheroic5E}"
 														],
 														[
 															"7th",
@@ -3628,7 +3628,7 @@
 														],
 														[
 															"5th",
-															"{@spell fear}. {@spell sending}"
+															"{@spell Fear-S5E|Superheroic5E}. {@spell sending}"
 														],
 														[
 															"7th",
@@ -4684,7 +4684,7 @@
 														],
 														[
 															"3rd",
-															"{@spell fear}, {@spell remove curse}"
+															"{@spell Fear-S5E|Superheroic5E}, {@spell remove curse}"
 														],
 														[
 															"4th",
@@ -10350,7 +10350,7 @@
 												"{@spell Elemental Strike|Superheroic5E|Elemental Strike (all)}",
 												"{@spell Expedite|Superheroic5E|Expedite (time)}",
 												"{@spell Extinguish|Superheroic5E|Extinguish (darkness)}",
-												"{@spell Faerie Fire|phb|Faerie Fire (light)}",
+												"{@spell Faerie Fire-S5E|Superheroic5E|Faerie Fire (light)}",
 												"{@spell Feather Fall|phb|Feather Fall (gravity)}",
 												"{@spell Fog Cloud|phb|Fog Cloud (water, wind)}",
 												"{@spell Freeze|Superheroic5E|Freeze (cold, water)}",
@@ -10381,7 +10381,7 @@
 												"{@spell Blindness/Deafness|phb|Blindness/Deafness (darkness, sound)}",
 												"{@spell Blur|phb|Blur (light)}",
 												"{@spell Continual Flame|phb|Continual Flame (fire)}",
-												"{@spell Darkness|phb|Darkness (darkness)}",
+												"{@spell Darkness-S5E|Superheroic5E|Darkness (darkness)}",
 												"{@spell Elemental Blade|Superheroic5E|Elemental Blade (all)}",
 												"{@spell Elemental Shield|Superheroic5E|Elemental Shield (all)}",
 												"{@spell Flaming Sphere|phb|Flaming Sphere (fire)}",
@@ -10423,7 +10423,7 @@
 												"{@spell Elemental Burst|Superheroic5E|Elemental Burst (all)",
 												"{@spell Fireball|phb|Fireball (fire)",
 												"{@spell Gaseous Form|phb|Gaseous Form (wind)",
-												"{@spell Haste|phb|Haste (time)",
+												"{@spell haste-S5E|Superheroic5E|Haste (time)",
 												"{@spell Hypnotic Pattern|phb|Hypnotic Pattern (light)",
 												"{@spell Lightning Bolt|phb|Lightning Bolt (electricity)",
 												"{@spell Manipulate Device|Superheroic5E|Manipulate Device (magnetism)",
@@ -10547,7 +10547,7 @@
 											"page": 141,
 											"items": [
 												"{@spell Biomagnetic Control|Superheroic5E|Biomagnetic Control (magnetism)}",
-												"{@spell Control Weather|phb|Control Weather (cold, water, wind)}",
+												"{@spell Control Weather-S5E|Superheroic5E|Control Weather (cold, water, wind)}",
 												"{@spell Earthquake|phb|Earthquake (earth, gravity)}",
 												"{@spell Elemental Cloud|Superheroic5E|Elemental Cloud (all)}",
 												"{@spell Neural Shock|Superheroic5E|Neural Shock (electricity)}",
@@ -10651,7 +10651,7 @@
 												"{@spell Blink|phb|Blink (teleportation)}",
 												"{@spell Endure Attack|Superheroic5E|Endure Attack (toughness)}",
 												"{@spell Expansive Pocket|Superheroic5E|Expansive Pocket (teleportation)}",
-												"{@spell Haste|phb|Haste (speed)}",
+												"{@spell haste-S5E|Superheroic5E|Haste (speed)}",
 												"{@spell Inspiring Strike|Superheroic5E|Inspiring Strike (all)}",
 												"{@spell Persistence|Superheroic5E|Persistence (toughness)}",
 												"{@spell Powerful Throw|Superheroic5E|Powerful Throw (strength)}",
@@ -10712,7 +10712,7 @@
 											"items": [
 												"{@spell Blitz Attack|Superheroic5E|Blitz Attack (agility, speed, teleportation)}",
 												"{@spell Explosive Strength|Superheroic5E|Explosive Strength (strength)}",
-												"{@spell Instant Summons|Superheroic5E|Instant Summons (teleportation)}",
+												"{@spell Drawmij's Instant Summons|phb|Instant Summons (teleportation)}",
 												"{@spell Globe of Invulnerability|phb|Globe of Invulnerability (toughness)}",
 												"{@spell Mass Cure Wounds|phb|Mass Cure Wounds (primordial)}",
 												"{@spell Regenerate Self|Superheroic5E|Regenerate Self (toughness)}",
@@ -10802,7 +10802,7 @@
 												"{@spell Color Spray|phb|Color Spray (illusion)}",
 												"{@spell Command|phb|Command (telepathy)}",
 												"{@spell Feather Fall|phb|Feather Fall (telekinesis)}",
-												"{@spell Floating Disk|phb|Floating Disk (telekinesis)}",
+												"{@spell Tenser's Floating Disk|phb|Floating Disk (telekinesis)}",
 												"{@spell Force Armor|Superheroic5E|Force Armor (telekinesis)}",
 												"{@spell Force Missile|Superheroic5E|Force Missile (telekinesis)}",
 												"{@spell Forceful Strike|Superheroic5E|Forceful Strike (telekinesis)}",
@@ -10845,7 +10845,7 @@
 												"{@spell Beacon of Hope|phb|Beacon of Hope (telepathy)}",
 												"{@spell Clairvoyance|phb|Clairvoyance (telepathy)}",
 												"{@spell Despair|Superheroic5E|Despair (telepathy)}",
-												"{@spell Fear|phb|Fear (illusion, telepathy)}",
+												"{@spell Fear-S5E|Superheroic5E|Fear (illusion, telepathy)}",
 												"{@spell Hypnotic Pattern|phb|Hypnotic Pattern (illusion)}",
 												"{@spell Lesser Telekinesis|Superheroic5E|Lesser Telekinesis (telekinesis)}",
 												"{@spell Major Image|phb|Major Image (illusion)}",
@@ -11200,7 +11200,7 @@
 												"{@spell Cure Wounds|phb|Cure Wounds (primordial)}",
 												"{@spell Disperse Power|Superheroic5E|Disperse Power (arcane)}",
 												"{@spell Elemental Burst|Superheroic5E|Elemental Burst (necrotic only) (eldritch, primordial)}",
-												"{@spell Fear|phb|Fear (eldritch)}",
+												"{@spell Fear-S5E|Superheroic5E|Fear (eldritch)}",
 												"{@spell Glyph of Warding|phb|Glyph of Warding (arcane)}",
 												"{@spell Healing Word|phb|Healing Word (primordial)}",
 												"{@spell Phantom Ride|Superheroic5E|Phantom Ride (arcane, eldritch)}",
@@ -11223,7 +11223,7 @@
 												"{@spell Blight|phb|Blight (primordial)}",
 												"{@spell Death Ward|phb|Death Ward (primordial)}",
 												"{@spell Divination|phb|Divination (arcane, eldritch)}",
-												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (all)}",
+												"{@spell Faithful Hound|Superheroic5E|Faithful Hound (all)}",
 												"{@spell Greater Invisibility|phb|Greater Invisibility (all)}",
 												"{@spell Hallow|phb|Hallow (primordial)}",
 												"{@spell Polymorph|phb|Polymorph (eldritch)}",
@@ -11585,7 +11585,7 @@
 												"{@spell Botanical Form|Superheroic5E|Botanical Form (plant)}",
 												"{@spell Conjure Woodland Beings|phb|Conjure Woodland Beings (animal)}",
 												"{@spell Dominate Beast|phb|Dominate Beast (animal)}",
-												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (animal)}",
+												"{@spell Faithful Hound|Superheroic5E|Faithful Hound (animal)}",
 												"{@spell Giant Insect|phb|Giant Insect (animal)}",
 												"{@spell Hallucinatory Terrain|phb|Hallucinatory Terrain (plant)}",
 												"{@spell Limited Shapechange|Superheroic5E|Limited Shapechange (animal)}",
@@ -11650,7 +11650,7 @@
 											"items": [
 												"{@spell Animal Shapes|phb|Animal Shapes (animal)}",
 												"{@spell Commune with Biosphere|Superheroic5E|Commune with Biosphere (all)}",
-												"{@spell Control Weather|phb|Control Weather (all)}",
+												"{@spell Control Weather-S5E|Superheroic5E|Control Weather (all)}",
 												"{@spell Earthquake|phb|Earthquake (all)}",
 												"{@spell Elemental Cloud|Superheroic5E|Elemental Cloud (poison damage only) (all)}",
 												"{@spell Heal|phb|Heal (all)}",
@@ -11743,7 +11743,7 @@
 											"items": [
 												"{@spell Counterpunch|Superheroic5E}",
 												"{@spell Eavesdrop|Superheroic5E}",
-												"{@spell Fly}",
+												"{@spell Fly-S5E|Superheroic5E|Fly}",
 												"{@spell Furious Onslaught|Superheroic5E}",
 												"{@spell Infrared Vision|Superheroic5E}",
 												"{@spell Inspire|Superheroic5E}",
