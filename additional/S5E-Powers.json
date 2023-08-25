@@ -16,6 +16,11 @@
                 ]
             }
         ],
+        "dependencies": {
+			"spell": [
+				"PHB"
+			]
+		},
         "dateAdded": 20230806,
         "dateLastModified": 20230806
     },
@@ -10191,8 +10196,2061 @@
             "conditionInflict": [
                 "stunned"
             ]
+        },
+        {
+            "name": "Sucker Punch",
+            "source": "Superheroic5E",
+            "page": 241,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Perhaps you become {@condition invisible} for a split second, move so silently as to evade notice, or strike at your target from a place they can't see well, or they glance away at an opportune moment. Regardless, they don't sense the hit coming and are caught off guard. Make a power attack against 1 creature in range. On a hit, you deal {@damage 2d12} bludgeoning damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 2nd level or higher, the damage increases by {@dice 1d8} for each level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [
+                "invisible"
+            ]
+        },
+        {
+            "name": "Sudden Swerve",
+            "source": "Superheroic5E",
+            "page": 241,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Almost like flinching, you can attempt to teleport or leap to safety as you are about to be hit. When you are about to take damage from an attack, you can use your reaction to attempt to teleport or leap up to 5 feet to an unoccupied visible space. Against the triggering attack, you have a +5 bonus to AC. If this changes a hit into a miss, you teleport or leap and take no damage. If the AC bonus does not prevent you from being hit, however, you take the damage and teleport or leap afterwards."
+            ],
+            "miscTags": [
+                "MAC",
+                "TP"
+            ]
+        },
+        {
+            "name": "Superior Alter Self",
+            "source": "Superheroic5E",
+            "page": 241,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You alter your form with power and sophistication. When you use the power, choose one or more of the following options, the effects of which last for the duration of the power. While the power lasts, you can end one option as an action to gain the benefits of a different one.",
+                {
+                    "type": "entries",
+                    "name": "Aquatic Adaptation",
+                    "entries": [
+                        "You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Change Appearance and Gear",
+                    "entries": [
+                        "You transform your appearance, including your clothing and equipment as you like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another ancestry, though none of your statistics change.",
+                        "You can also alter the appearance of your clothing and items, or manifest the appearance of clothing from your body, even when not wearing any clothing or carrying any equipment. You can transform your skin into the clothing to match those worn by your target. The texture is convincing, but they are attached to your skin and cannot be removed. You can even manifest the appearance of weapons, though they can only make melee attacks and count as an unarmed strike.",
+                        "You can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this power to become quadrupedal, for instance. At any time for the duration of the power, you can use your action to change your appearance in this way again."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Weapons",
+                    "entries": [
+                        "You grow claws, fangs, spines, horns, or a different natural weapon of your choice.",
+                        "Your unarmed strikes deal {@damage 1d8} bludgeoning, piercing, or slashing damage, as appropriate to that weapon, and you are proficient with your unarmed strikes. Finally, you have a +3 bonus to the attack and damage rolls you make using it."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning",
+                "piercing",
+                "slashing"
+            ]
+        },
+        {
+            "name": "Superior Defense",
+            "source": "Superheroic5E",
+            "page": 242,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You focus your attention on being difficult to hit or resistant to damage. You gain +5 to your Armor Class for the duration."
+            ]
+        },
+        {
+            "name": "Superior Olfaction",
+            "source": "Superheroic5E",
+            "page": 242,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "use time: 1 action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Your senses of smell and taste are incredibly sophisticated.",
+                "If you direct your attention to your environment, you can recognize a rich, overlapping array of scents, allowing you to olfactorily track people and things with moderate accuracy as though they had left footprints. Such tracking is not fool-proof and strong interrupting odors can cause you to lose the trail, just as a bloodhound might.",
+                "You can also sense otherwise undetectable poisons and toxins in food and drink you either taste or smell, as well as in the air around you. You can even sense if an individual is sick, {@condition poisoned}, or drugged by their subtle scent. You always detect such aromas, though you may not always be able to identify them. For example, only someone with medical training could identify the specific disease they sense in a person; an untrained hero would only sense that the individual is ill."
+            ],
+            "conditionInflict": [
+                "poisoned"
+            ]
+        },
+        {
+            "name": "Superior Vision",
+            "source": "Superheroic5E",
+            "page": 242,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "miles",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You can shift the focus of your vision to the microscopic and telescopic levels or alternate between the two when you use this power. As an action, you shift your vision telescopically, allowing you to see as though you were using a pair of binoculars with 50 times magnification.",
+                "You can read a book from several blocks away or a license plate from a mile. This narrows your field of vision, but you can quickly refocus your attention, as well as reduce the magnification of your focus, to take in a wider range.",
+                "As an action, you can refocus your vision to look microscopically as well. You can study 1 object in melee range and determine its microscopic structure and properties. With this ability, you can do several things: uniquely identify fingerprints, see the molecular structure of a substance, and locate miniscule flaws in objects, which can be utilized to more easily destroy or repair them. When you use this power, you still have normal peripheral vision, but are at disadvantage on {@skill Perception} checks involving sight in your local vicinity"
+            ]
+        },
+        {
+            "name": "Supersonic Flight",
+            "source": "Superheroic5E",
+            "page": 242,
+            "level": 8,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "The sound barrier is no limit for you when you fly. For the duration, you gain a flying speed of 17000 feet (roughly 2000 mph). Additionally, as an Action while in flight, you can create a sonic boom, causing {@damage 10d6} thunder damage in a 60-foot cone behind you as you move.",
+                "Finally, when you fly in the upper atmosphere or outer space, you can gain enough speed to reach escape velocity (25,000 mph). When you leave an atmosphere, you can choose to bring a bubble of air with you, providing you sufficient air for 1 person to breathe for 24 hours. The bubble also protects you from the bitter cold of space.",
+                "While in space, you multiply your flying speed by ten, thanks to there being no atmospheric resistance."
+            ],
+            "damageInflict": [
+                "thunder"
+            ]
+        },
+        {
+            "name": "Surveil",
+            "source": "Superheroic5E",
+            "page": 242,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 10,
+                    "unit": "minutes"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "miles",
+                    "amount": 1
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You deploy a cloaked surveillance sensor in range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a nearby grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.",
+                "When you use the power, you choose either seeing or hearing and can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between sight and sound."
+            ]
+        },
+        {
+            "name": "Surveillance Drone",
+            "source": "Superheroic5E",
+            "page": 243,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You deploy a cloaked surveillance drone in range that hovers in the air for the duration. The drone does not count as a creature or object but is a power effect created by the Tech hero The drone is {@condition invisible} and Tiny in size.",
+                "You mentally receive visual information from the drone, which has normal vision and {@sense Darkvision} out to 30 feet, in 360 degrees.",
+                "As an action, you can move the drone up to 30 feet in any direction. There is no limit to how far away from you the drone can move, but it can only function in an atmosphere and must be on the same planet as you. A solid barrier blocks the drone's movement, but the drone can pass through an opening as small as 3 inches in diameter."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 7th level or higher, you may create 2 drones to move in different directions for the duration."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "invisible"
+            ],
+            "miscTags": [
+                "OBJ"
+            ]
+        },
+        {
+            "name": "Swarm Shape",
+            "source": "Superheroic5E",
+            "page": 243,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "You assume the form of a swarm of creatures for the duration. This power is identical to the 4th-level power limited shapechange with one additional option: you can transform into a Medium sized swarm of Tiny creatures, such as a swarm of bats, insects, rats, or piranha.",
+                "When in this form, use the stat block for the swarm and treat it as if it were a single creature for mechanical purposes. Your constituent members can flow around and over obstacles, including foes attempting to grapple.",
+                "You cannot be {@condition grappled} or {@condition restrained}. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature.",
+                "You can even momentarily split your form, perhaps to pass around an obstacle or through cage bars, but you must recombine at the end of your turn or take {@damage 4d6} psychic damage for each turn you end divided. If the swarm drops to 0 HP while divided, you decide which part of the swarm transformed back into your original form."
+            ],
+            "damageInflict": [
+                "psychic"
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ]
+        },
+        {
+            "name": "Sweep Attack",
+            "source": "Superheroic5E",
+            "page": 243,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You make a sweeping attack at all foes around you, perhaps dropping low to kick your leg around or swinging forcefully in an arc with your fist. Each target that you choose in range must succeed on a Dexterity save or take {@damage 1d10} bludgeoning damage and be knocked {@condition prone}.",
+                "This power's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), 14th level ({@dice 4d10}), and 17th level ({@dice 5d10})."
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [
+                "prone"
+            ],
+            "miscTags": [
+                "SCL"
+            ]
+        },
+        {
+            "name": "Swing",
+            "source": "Superheroic5E",
+            "page": 243,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "If you have access to ropes or lines of some sort, you can navigate a space almost as if you were flying. Like a circus acrobat, you can swing from ropes or lines in whatever direction you like, gaining or losing altitude as you prefer, if there are ropes or lines available. Paired with a grappling hook, this allows you to move through the air freely if there are taller structures around you. You can only move as high as the supporting structures, however.",
+                "When swinging past a creature, you can use your momentum to make a melee weapon or unarmed attack as a part of this bonus action. If you hit them, they cannot make an opportunity attack against you. You can also pick up a willing creature of Medium or smaller as a part of this action, sweeping them from their space and bringing them with you, if you have the strength to carry them."
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+			"name": "Symbol-S5E",
+			"source": "Superheroic5E",
+			"_copy": {
+				"name": "Symbol",
+				"source": "PHB",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Corrupted Cognition",
+							"entries": [
+								"Make an Intelligence save. On a failed save, the target has their grasp on reality shattered for 1 minute. Such a creature can't take actions, understand what other creatures say, read, or speak intelligibly. The GM controls its movement, which is erratic."
+							]
+						}
+					}
+				}
+			}
+		},
+        {
+            "name": "Tactical Analysis",
+            "source": "Superheroic5E",
+            "page": 244,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 3
+                    }
+                }
+            ],
+            "entries": [
+                "You spend a moment studying the movements and techniques of a foe, gaining valuable insight into their weaknesses in the process. As an action, you study 1 creature in range. For the next 5 rounds, you have Advantage on attack rolls made against them."
+            ]
+        },
+        {
+            "name": "Technological Disruption",
+            "source": "Superheroic5E",
+            "page": 244,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "entries": [
+                "You can cause 1 piece of technology in range that is not being worn or carried to malfunction for the duration. As an action, you can choose a new target in range. If you switch targets, the prior target is no longer affected by the power and returns to normal functioning."
+            ]
+        },
+        {
+            "name": "Telekinetic Hand",
+            "source": "Superheroic5E",
+            "page": 245,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "A spectral, hovering hand appears at a point you choose in range and lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you use this power again.",
+                "You can use your action to control the hand to manipulate an object, open an unlocked door or container, stow, or retrieve an item from an open container, or empty the contents of a flask. You can move the hand up to 30 feet each time you use it.",
+                "The hand can't attack, activate power items, or carry more than 10 pounds."
+            ],
+            "miscTags": [
+                "OBJ"
+            ]
+        },
+        {
+            "name": "Telekinetic Weapon",
+            "source": "Superheroic5E",
+            "page": 245,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You create a hovering phantom weapon in range that lasts for the duration or until you use this power again. It can take whatever form you choose. When you use the power, you can make a melee power attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to {@dice 1d8} + your power ability modifier.",
+                "As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 3rd level or higher, the damage increases by {@dice 1d8} for every 2 levels above 2nd."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+            "name": "Temporal Sense",
+            "source": "Superheroic5E",
+            "page": 246,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "When you take a moment to attune to temporal energies around you, you learn the following things:",
+                {
+                    "type": "list",
+                    "items": [
+                        "the exact time at your current location.",
+                        "how much time has passed since you last checked the time.",
+                        "how much time has passed since you had your last long rest; and • whether there are any temporal anomalies nearby, such as those caused using time or gravity powers, or the presence of a massive body like a star or singularity that is not normally present."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thorn and Claw",
+            "source": "Superheroic5E",
+            "page": 247,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You manipulate your body to grow and harden your fingernails, transforming them into the talons of a beast or the sharp thorns of a dangerous plant. Make a melee power attack against one foe within reach. On a hit, the target takes {@damage 1d12} piercing damage.",
+                "The power's damage increases by {@dice 1d12} when you reach",
+                "5th level ({@dice 2d12}), 11th level ({@dice 3d12}), 14th level ({@dice 4d12}), and 17th level ({@dice 5d12})."
+            ],
+            "damageInflict": [
+                "piercing"
+            ],
+            "miscTags": [
+                "SCL"
+            ]
+        },
+        {
+            "name": "Thunderclap",
+            "source": "Superheroic5E",
+            "page": 247,
+            "level": 3,
+            "school": "Evoc.",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You slap your hands together, creating a shockwave of sonic force that explodes outward. You choose whether this sonic wave explodes forward in a 30-foot cone or in every direction from you in a 20-foot-radius sphere.",
+                "Each creature in range must make a Constitution save or take {@damage 4d12} thunder damage and be knocked {@condition prone}.",
+                "On a successful save, they take half damage and are not knocked {@condition prone}.",
+                "Your thunderous clap tears up the ground as well, making the area difficult terrain."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 4th level or higher, the damage increases by {@dice 1d6} for each level above 3rd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Thunderstrike",
+            "source": "Superheroic5E",
+            "page": 247,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "An explosion of thunderous force detonates in a 30-footradius sphere from a point in range. Each creature in that area must make a Constitution save. A target takes {@damage 10d6} thunder damage on a failed save, or half as much on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 6th level or higher, the damage increases by {@dice 1d6} for each level above 5th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "thunder"
+            ]
+        },
+        {
+            "name": "Tidal Wave",
+            "source": "Superheroic5E",
+            "page": 247,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "A massive swell of turbulent water cascades out from you, engulfing everything in front of you. Each creature in a 60-foot cone must make a Strength save. A creature takes {@damage 6d10} bludgeoning damage and is pushed back 15 feet on a failed save, or half as much and is not pushed on a success. Loose objects smaller than a compact car that are not being worn or carried are pushed back to the end of the affected area."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 6th level or higher, the damage increases by {@dice 1d10} for each level above 5th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "miscTags": [
+                "FMV"
+            ]
+        },
+        {
+            "name": "Toxic Blast",
+            "source": "Superheroic5E",
+            "page": 248,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "A shimmering green poison pools in your palm and gels into a translucent orb which you hurl at a visible target in range.",
+                "Make a ranged power attack against the target. If the attack hits, the creature takes {@damage 2d8} poison damage and the creature is {@condition poisoned} until the end of your next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 2nd level or higher, the damage increases by {@dice 1d8} for each level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "conditionInflict": [
+                "poisoned"
+            ]
+        },
+        {
+            "name": "Toxic Form",
+            "source": "Superheroic5E",
+            "page": 248,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "As an action, you transform your body, and anything you are wearing or carrying, into a living embodiment of poison, with your body morphing into an emeraldgreen liquid, humanoid form. In this form, you can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as solid surfaces.",
+                "Until you use an action to transform out of your toxic form or until you are {@condition incapacitated}, you gain the following features:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Immunity to poison damage.",
+                        "Any creature who touches use takes {@damage 2d6} poison damage. They take this damage for each round they are in contact with your body.",
+                        "You can emit a splash of toxic poisonous liquid in a 10-foot-radius sphere from your body. All creatures in range must make a Dexterity save against your power"
+                    ]
+                },
+                "DC, taking {@damage 5d6} poison damage on a failed save or half on a success."
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "conditionInflict": [
+                "incapacitated"
+            ]
+        },
+        {
+            "name": "Toxic Wall",
+            "source": "Superheroic5E",
+            "page": 248,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create an undulating wall of sickly green poison on a solid surface in range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick.",
+                "The wall is opaque and lasts for the duration.",
+                "When the wall appears, each creature within its area must make a Constitution save. On a failed save, a creature takes {@damage 5d8} poison damage, or half as much on a success. Whenever a creature fails this save, it is {@condition poisoned} for the duration."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 5th level or higher, the damage increases by {@dice 1d8} for each level above 4th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "conditionInflict": [
+                "poisoned"
+            ]
+        },
+        {
+            "name": "Trade Shots",
+            "source": "Superheroic5E",
+            "page": 249,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "When you are hit by a visible ranged attack, you can use your reaction to return fire. As a part of this reaction, you can make a ranged attack against the creature who attacked you, if they are in range."
+            ]
+        },
+        {
+            "name": "Transpose",
+            "source": "Superheroic5E",
+            "page": 249,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You touch 1 person next to you and select another visible person within 60 feet, causing them to swap places. If either person is unwilling, they must make a Charisma save to resist. If either creature succeeds on the save, the power fails."
+            ]
+        },
+        {
+            "name": "Tremor",
+            "source": "Superheroic5E",
+            "page": 249,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You cause the ground beneath your foes to quake, throwing them violently to the ground. Each creature who is not flying or hovering in a 20-foot radius area centered on a visible point in range must make a Dexterity save. They each take {@damage 5d8} bludgeoning damage on a failed save, or half as much on a success. The effect is not blocked by cover. Furthermore, the area becomes difficult terrain."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 4th level or higher, the damage increases by {@dice 1d8} for each level above 3rd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "miscTags": [
+                "DFT"
+            ]
+        },
+        {
+            "name": "Tremorsense",
+            "source": "Superheroic5E",
+            "page": 249,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "entries": [
+                "With a thought, you grant yourself the ability to sense without sight. For the duration, you have {@sense tremorsense|MM} out to a range of 120 feet. This sense extends behind full cover, even through walls into other rooms, and is sensitive enough to detect otherwise undetectable things, such as a creature's heartbeat, subtle vibration of an active appliance, or movement of water through pipes in nearby walls. The differential movement of the air also indicates the exact locations of walls, objects, and so on, creating a highly accurate, 360-degree spatial map of the range."
+            ]
+        },
+        {
+            "name": "Ultimate Durability",
+            "source": "Superheroic5E",
+            "page": 250,
+            "level": 9,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "As a reaction when you take damage, you dig deep and resist the harm done to you. The damage that triggered this reaction is negated and you are invulnerable to all damage except psychic damage for 1 minute."
+            ]
+        },
+        {
+            "name": "Ultimate Toxicity",
+            "source": "Superheroic5E",
+            "page": 250,
+            "level": 9,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "With your touch comes death. Make a melee power attack against a target within reach. If you hit, you infect them with an imperceptible disease, which lasts for a number of days equal to your level. The disease does no harm to the target unless you use your action to end the infection. When you use this action, the creature must make a Constitution save. If it fails, it is reduced to 0 HP.",
+                "If it succeeds, it takes {@damage 10d10} necrotic damage.",
+                "You can have only 1 creature under the effect of this feature at a time. You can choose to end the disease harmlessly without using an action."
+            ],
+            "damageInflict": [
+                "necrotic"
+            ]
+        },
+        {
+            "name": "Unarmed Might",
+            "source": "Superheroic5E",
+            "page": 250,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You channel your strength into your fists and feet. For the duration, you can roll a {@dice 1d6} and add your Strength modifier in place of the normal damage of your unarmed strike.",
+                "While this power is in effect, you may make 1 unarmed strike as a bonus action after using the {@action Attack} action to make an unarmed strike. If you do so, you roll a {@dice 1d6} plus your Strength modifier in place of normal damage for both unarmed attacks. If you already do {@dice d6} plus your Strength modifier for unarmed attacks, you now do a {@dice d8}.",
+                "This power's damage increases by {@dice 1d6} when you reach",
+                "5th level ({@dice 2d6}), 11th level ({@dice 3d6}), 14th level ({@dice 4d6}), and 17th level ({@dice 5d6}). If you already do a {@dice d6}, then these increases are {@dice 2d8}, {@dice 3d8}, {@dice 4d8}, and {@dice 5d8}."
+            ],
+            "miscTags": [
+                "SCL",
+                "UBA"
+            ]
+        },
+        {
+            "name": "Undo Attack",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "When a visible creature makes an attack against one of your allies in range, you can use your reaction to roll back time for a split second. The target must re-roll the {@dice d20} roll, taking the second result. You can use this reaction after the first roll has been made but before the GM has adjudicated the result."
+            ]
+        },
+        {
+            "name": "Unerring Projectile",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You quickly produce 3 tiny objects at hand, be they pencils, playing cards, or pennies, and hurl them with perfect accuracy. Each projectile hits a visible creature in range.",
+                "A projectile deals {@damage 1d4 + 1} force damage to its target. The projectiles all strike simultaneously, and you can direct them to hit 1 creature or several."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 2nd level or higher, the power produces 1 more projectile for each level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ]
+        },
+        {
+            "name": "Unseen Step",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Just when your enemy's eye looks away, you disappear behind cover, potentially hiding from view. If there is full cover in range, you may use an action to step behind it without being seen doing so, allowing you to hide behind it. As a part of using this power, you may use the {@action Hide} action, even when enemies had been looking at you beforehand. There must be full cover that you can reach with a combination of this power and your movement, and you must still make a {@skill Stealth} check to hide successfully. No one watching can tell whether you wait until they aren't looking to leap behind cover or literally teleport, as they look away or blink at just the wrong moment! When they look back, you are gone. If your {@skill Stealth} check beats their passive perception, they momentarily do not know where you are, though they can use their action to search for you."
+            ]
+        },
+        {
+            "name": "Untouchable",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 9,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "As a bonus action, you focus on being impossible to hit, moving quickly and deftly around the battlefield. For the duration, every attack against you misses and you automatically succeed on all Dexterity saves."
+            ],
+            "miscTags": [
+                "UBA"
+            ]
+        },
+        {
+            "name": "Untraceable Communication",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "meta": {
+                "ritual": true
+            },
+            "entries": [
+                "You spend time composing an electronic message, either text or email or via a messaging app. The message is utterly untraceable. You can also elect to have the message remain in the possession of the receiver or delete itself 1 round after having been read the first time."
+            ]
+        },
+        {
+            "name": "Upgrade Weapon",
+            "source": "Superheroic5E",
+            "page": 251,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You charge a weapon with energy. Until the power ends, that weapon becomes a power weapon with a +1 bonus to attack rolls and damage rolls."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 4th level or higher, the bonus increases to +2. When you use a slot of 6th level or higher, the bonus increases to +3."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vacuum",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You suddenly suck the air out of a 30-foot-radius sphere located at a visible point in range. Each creature in the area must hold its breath or begin to suffocate. Each creature in the area is also {@condition deafened} for the duration, as there is no air to transmit sound waves. When the power ends, the air comes rushing back into the area so violently that it creates a massive thunderclap. Each creature in the area at that time must make a Constitution save or take {@damage 10d8} thunder damage, and half as much on a successful save."
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "conditionInflict": [
+                "deafened"
+            ]
+        },
+        {
+            "name": "Venomous Strike",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 1,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Your fingernails momentarily sharpen and glisten with emerald-green poison as they shoot forward toward a nearby foe. Make a melee power attack against a creature you can reach. On a hit, the target takes {@damage 2d10} poison damage and is {@condition poisoned} until the end of your next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 2nd level or higher, the damage increases by {@dice 1d10} for each level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "conditionInflict": [
+                "poisoned"
+            ]
+        },
+        {
+            "name": "Vibration Sense",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You close your eyes and focus on the earth beneath you.",
+                "For the duration, you have the Blinded condition, but you have {@sense Tremorsense|MM} out to 30 feet."
+            ]
+        },
+        {
+            "name": "Vicious Jaws",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You form a set of terrifying, massive jaws, full of jagged, slavering teeth, and bite down on 1 creature in range.",
+                "Make a melee power attack against 1 creature in range.",
+                "On a hit, the target takes {@damage 10d6} piercing damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 6th level or higher, the damage increases by {@dice 1d6} for each level above 5th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "piercing"
+            ]
+        },
+        {
+            "name": "Vigilance",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "You take special care to attend to your senses over the coming minutes. For the duration, you gain a +5 bonus to your passive {@skill Perception} score, and you can't be surprised while you are conscious."
+            ]
+        },
+        {
+            "name": "Virtual Reality",
+            "source": "Superheroic5E",
+            "page": 252,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "miles",
+                    "amount": 1
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "day",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "You make terrain in an area up to 1-mile square look, sound, smell, and even feel like some other sort of terrain. The terrain's general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain.",
+                "A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.",
+                "Similarly, you can alter the appearance of structures, or add them where none are present. The spell can also disguise any creatures present in the area when the power is used, though it will not change any that enter after the fact.",
+                "You can even create illusory creatures in the area. The virtual beings within can perform complex actions, like having a conversation; they also respond in superficial ways to stimuli. If you use an action while {@status concentration||concentrating} on this power, you can alter anything in the environment and make it appear as though the illusory beings are reacting even more naturally.",
+                "The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.",
+                "Creatures with {@sense truesight} can see through the illusion to the terrain's true form; however, a l l ot her elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.",
+                "This illusion can also harm people within it. If something occurs in the illusion that would cause damage, such as when an illusory guard shoots her pistol at you, the rolls and effects should be determined normally, with one exception: the most damage a victim can suffer each round from the virtual reality equals the ability score modifier of its creator. The victim feels as though they were really shot with the full force of a bullet, for example, but in fact they only suffer a few points of damage. If a victim attacks a part of the illusion, it reacts accordingly and realistically, but is not dispersed."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you use this power with a 9th level slot, the duration becomes Until Dispersed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Volcanic Eruption",
+            "source": "Superheroic5E",
+            "page": 253,
+            "level": 6,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "Choose a visible point on the ground in range. The ground splits and molten lava flows from within, filling an area with a 20-foot radius centered on that point. Each creature in that area must make a Dexterity save.",
+                "A creature takes {@damage 10d6} fire damage on a failed save, or half as much on a success. Furthermore, the ground becomes difficult terrain for 1 minute, as the lava cools and hardens. Creatures who end their turns within the affected area during the 1-minute cooling period take {@damage 2d6} fire damage as well."
+            ],
+            "entriesHigherLevel": [
+                "At Higher Levels.",
+                "When you cast this spell using a slot of",
+                "7th level or higher, the damage of the initial eruption increases by {@dice 2d6} for each level above 6th."
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "miscTags": [
+                "DFT"
+            ]
+        },
+        {
+            "name": "Vomit",
+            "source": "Superheroic5E",
+            "page": 253,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 20
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You open your mouth and expel a cone of acidic spray that burns everything in range. Each creature in a 20-foot cone must make a Dexterity save. A creature takes {@damage 4d6} acid damage on a failed save, or half as much on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a spell slot of",
+                        "3rd level or higher, the damage increases by {@dice 1d6} for each level above 2nd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "acid"
+            ]
+        },
+        {
+            "name": "Vulnerable Strike",
+            "source": "Superheroic5E",
+            "page": 254,
+            "level": 5,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You aim carefully, deftly directing your attack toward your foe's weak points. The next time you hit a creature with an attack in range during this power's duration, your attack finds a weakness in your target's defenses, dealing an extra {@damage 4d6} force damage to the target. The target has disadvantage on attack rolls and ability checks, and can't take reactions, until the end of its next turn."
+            ],
+            "damageInflict": [
+                "force"
+            ]
+        },
+        {
+            "name": "Wall of Acid",
+            "source": "Superheroic5E",
+            "page": 254,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You create a wall of bubbling yellow acid on a solid surface in range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.",
+                "When the wall appears, each creature within its area must make a Dexterity save. On a failed save, a creature takes {@damage 5d8} acid damage, or half as much on a successful save.",
+                "One side of the wall, selected by you when you use this power, deals {@damage 5d8} acid damage to each creature that ends its turn within 10 feet of that side or inside the wall.",
+                "A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+                "Loose, lightweight materials brought into the wall become mired in the acid and slowly dissolve. Arrows, bullets, and other ordinary projectiles launched through the wall are similarly captured and dissolve. (Missiles, tank artillery, and similar projectiles, are unaffected.) Creatures in gaseous form can't pass through it."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 5th level or higher, the damage increases by {@dice 1d8} for each level above 4th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "acid"
+            ]
+        },
+        {
+            "name": "Waterspout",
+            "source": "Superheroic5E",
+            "page": 256,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 300
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Water and raging wind fill a 10-foot square in range and heeds your command, spiraling upwards into a watery vortex. This waterspout\u2014a tornado filled with water, effectively\u2014is 10 feet wide and 20 feet tall. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Strength save or take {@damage 6d6} bludgeoning damage and be {@condition restrained} by the waterspout until the power ends. A creature that starts its turn in the area and is already {@condition restrained} by the waterspout takes {@damage 2d6} bludgeoning damage and cannot breathe. On a successful save, the creature is ejected from the waterspout's space, though the creature decides where they emerge. Large creatures have advantage on the save, as do creatures with a swim speed. Huge or larger creatures are unaffected. The waterspout can hold 1 Large or up to 4 Medium or smaller creatures.",
+                "As a bonus action, you can move the waterspout, and all creatures {@condition restrained} within it, up to 30 feet in range.",
+                "If you ram the waterspout into a creature, that creature must make the save against the waterspout, and the waterspout stops moving this turn. If the waterspout is already holding the maximum number of creatures, the new creature takes the damage but is not {@condition restrained}.",
+                "When you move the waterspout, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The waterspout extinguishes flammable objects not being worn or carried."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 8th level or higher, the damage increases by {@dice 2d6} for each level above 7th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [
+                "restrained"
+            ],
+            "miscTags": [
+                "OBJ",
+                "UBA"
+            ]
+        },
+        {
+            "name": "Wicked Claws",
+            "source": "Superheroic5E",
+            "page": 257,
+            "level": 4,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You grow massive, wicked claws from your hands and fingers, extending jagged blades 2 feet long. Each round you have the claws, you may make a melee power attack against 1 creature in reach. On a hit, the target takes {@damage 6d10} slashing damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 5th level or higher, the damage increases by {@dice 1d10} for each level above 4th."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "slashing"
+            ]
+        },
+        {
+            "name": "Wind Blade",
+            "source": "Superheroic5E",
+            "page": 257,
+            "level": 2,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 15
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "With a sweep of your arm, a razor-thin slice of fast-moving wind shoots out in front of you, filling a 15-foot cone. Each creature in a 15-foot cone must make a Dexterity save. A creature takes {@damage 4d6} slashing damage on a failed save and are knocked {@condition prone}, or half as much and remain standing on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "Using a slot of 3rd level or higher, the damage increases by {@dice 1d6} for each level above 2nd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "slashing"
+            ],
+            "conditionInflict": [
+                "prone"
+            ]
+        },
+        {
+            "name": "Wire Walk",
+            "source": "Superheroic5E",
+            "page": 258,
+            "level": 3,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You transform into pure electricity and travel through a circuit or wire, emerging elsewhere in the network. You may enter a power outlet or conductive access point of a wire or cable and pass through it, emerging at another outlet or plug to which it is connected. The entry and exit point must be within 150 feet of one another."
+            ]
+        },
+        {
+            "name": "X-Ray Vision",
+            "source": "Superheroic5E",
+            "page": 259,
+            "level": 7,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "When you use this power, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet.",
+                "To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead."
+            ],
+            "miscTags": [
+                "SGT"
+            ]
+        },
+        {
+            "name": "Zephyr",
+            "source": "Superheroic5E",
+            "page": 259,
+            "level": 0,
+            "school": "",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You create a small puff of air in range strong enough to knock over small objects like chairs, fling tiny objects like bottles up to 10 feet, or slam shut doors. You can also focus it more carefully and throw switches or push buttons.",
+                "Finally, you can direct the gust of air into a creature's eyes, if it has them, causing them to have disadvantage on their next roll before the beginning of your next turn."
+            ]
         }
-        
         
     ]
 }

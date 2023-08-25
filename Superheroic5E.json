@@ -18,6 +18,11 @@
 				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
 			}
 		],
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		},
 		"dateAdded": 20230805,
 		"dateLastModified": 20230805
 	},
@@ -1978,7 +1983,7 @@
 														],
 														[
 															"9th",
-															"{@spell teleportation anchor|Superheroic5E}"
+															"{@spell Teleportation Circle|phb|teleportation anchor}"
 														]
 													]
 												}
@@ -2075,7 +2080,7 @@
 											"type": "entries",
 											"name": "Take a Hit",
 											"entries": [
-												"When you reach 6th level, you can use the {@spell turn the blade|Superheroic5E} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
+												"When you reach 6th level, you can use the {@spell Blade Ward|phb|turn the blade} power as a reaction when you take any bludgeoning, slashing, and piercing damage dealt from a source you can sense."
 											]
 										},
 										{
@@ -2269,7 +2274,7 @@
 									"page": 33,
 									"name": "Improved Focus",
 									"entries": [
-										"Your training brings you to levels that border on the superhuman. At 10th level, you may now spend 1 focus point for a use of any of the following powers: {@spell catch your breath|Superheroic5E}, {@spell guidance}, {@spell turn the blade|Superheroic5E}, {@spell resistance}, and {@spell true strike}. When you use these powers, they are not superpowers, however, but focus abilities."
+										"Your training brings you to levels that border on the superhuman. At 10th level, you may now spend 1 focus point for a use of any of the following powers: {@spell catch your breath|Superheroic5E}, {@spell guidance}, {@spell Blade Ward|phb|turn the blade}, {@spell resistance}, and {@spell true strike}. When you use these powers, they are not superpowers, however, but focus abilities."
 									]
 								},
 								{
@@ -2309,7 +2314,7 @@
 									"page": 33,
 									"name": "Advanced Focus",
 									"entries": [
-										"At the 18th level, your focus abilities continue to improve. You may use the true strike, guidance, or catch your breath powers as a bonus action. Further, when you take damage, you can use your reaction to use turn the blade against that instance of damage. Finally, when you make a save, you may use your reaction to activate the resistance power before rolling your saving throw."
+										"At the 18th level, your focus abilities continue to improve. You may use the {@spell true strike}, {@spell guidance}, or {@spell Catch Your Breath|Superheroic5E} powers as a bonus action. Further, when you take damage, you can use your reaction to use {@spell Blade Ward|phb|turn the blade} against that instance of damage. Finally, when you make a save, you may use your reaction to activate the resistance power before rolling your saving throw."
 									]
 								},
 								{
@@ -3636,7 +3641,7 @@
 														],
 														[
 															"9th",
-															"{@spell dominate person}, {@spell telepathic bond}"
+															"{@spell dominate person}, {@spell Rary's Telepathic Bond|phb|telepathic bond}"
 														]
 													]
 												}
@@ -10332,6 +10337,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10370,6 +10378,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10404,6 +10415,9 @@
 												"{@spell Vomit|Superheroic5E|Vomit (acid)}",
 												"{@spell Wind Blade|Superheroic5E|Wind Blade (wind)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10443,6 +10457,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10470,6 +10487,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10492,6 +10512,9 @@
 												"{@spell Wall of Ice|phb|Wall of Ice (cold, water)}",
 												"{@spell Wall of Stone|phb|Wall of Stone (earth)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10519,6 +10542,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10540,6 +10566,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10555,6 +10584,9 @@
 												"{@spell Rewind|Superheroic5E|Rewind (time)}",
 												"{@spell Sunburst|phb|Sunburst (light)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10596,9 +10628,12 @@
 												"{@spell Quick Dodge|Superheroic5E|Quick Dodge (agility, speed, teleportation)}",
 												"{@spell Resistance|phb|Resistance (toughness)}",
 												"{@spell Side Step|Superheroic5E|Side Step (teleportation)}",
-												"{@spell Turn the Blade|Superheroic5E|Turn the Blade (toughness)}",
+												"{@spell Blade Ward|phb|Turn the Blade (toughness)}",
 												"{@spell Unarmed Might|Superheroic5E|Unarmed Might (strength)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10622,6 +10657,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10640,6 +10678,9 @@
 												"{@spell Smite|Superheroic5E|Smite (all)}",
 												"{@spell Spider Climb|Superheroic5E|Spider Climb (agility)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10666,6 +10707,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10687,6 +10731,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10699,9 +10746,12 @@
 												"{@spell Indomitability|Superheroic5E|Indomitability (toughness)}",
 												"{@spell Passwall|phb|Passwall (strength, teleportation)}",
 												"{@spell Rapid Barrage|Superheroic5E|Rapid Barrage (speed)}",
-												"{@spell Teleportation Anchor|Superheroic5E|Teleportation Anchor (teleportation)}",
+												"{@spell Teleportation Circle|phb|Teleportation Anchor (teleportation)}",
 												"{@spell Vulnerable Strike|Superheroic5E|Vulnerable Strike (agility, speed, strength)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10722,6 +10772,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10737,6 +10790,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10749,6 +10805,9 @@
 												"{@spell Maze|phb|Maze (teleportation)}",
 												"{@spell Rewind|Superheroic5E|Rewind (speed)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10792,6 +10851,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10818,6 +10880,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10834,6 +10899,9 @@
 												"{@spell Telekinetic Weapon|Superheroic5E|Telekinetic Weapon (telekinesis)}",
 												"{@spell Zone of Truth|phb|Zone of Truth (telepathy)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10859,6 +10927,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10875,6 +10946,9 @@
 												"{@spell Resilient Sphere|phb|Resilient Sphere (telekinesis)}",
 												"{@spell Telekinesis|phb|Telekinesis (telekinesis)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10894,9 +10968,12 @@
 												"{@spell Modify Memory|phb|Modify Memory (telepathy)}",
 												"{@spell Scrying|phb|Scrying (telepathy)}",
 												"{@spell Seeming|phb|Seeming (illusion)}",
-												"{@spell Telepathic Bond|phb|Telepathic Bond (telepathy)}",
+												"{@spell Rary's Telepathic Bond|phb|Telepathic Bond (telepathy)}",
 												"{@spell Wall of Force|phb|Wall of Force (telekinesis)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10914,6 +10991,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10925,6 +11005,9 @@
 												"{@spell |Superheroic5E|Retrocognition (telepathy)}",
 												"{@spell |Superheroic5E|Virtual Reality (illusion)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10941,6 +11024,9 @@
 												"{@spell Greater Telekinesis|Superheroic5E|Greater Telekinesis (telekinesis)}",
 												"{@spell Mind Blank|phb|Mind Blank (illusion, telepathy)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -10978,6 +11064,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -10998,6 +11087,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11014,6 +11106,9 @@
 												"{@spell Silence|phb|Silence (intangibility, invisibility)}",
 												"{@spell Spider Climb|phb|Spider Climb (elasticity, polymorph, symbiosis)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11035,6 +11130,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11049,6 +11147,9 @@
 												"{@spell Sniper|Superheroic5E|Sniper (intangibility, invisibility)}",
 												"{@spell Wicked Claws|Superheroic5E|Wicked Claws (polymorph, symbiosis)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11070,6 +11171,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11085,6 +11189,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11097,6 +11204,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11107,6 +11217,9 @@
 												"{@spell Greater Insubstantiality|Superheroic5E|Greater Insubstantiality (intangibility)}",
 												"{@spell Mind Blank|phb|Mind Blank (intangibility, invisibility, symbiosis)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11143,6 +11256,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11167,6 +11283,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11186,6 +11305,9 @@
 												"{@spell Mirror Image|phb|Mirror Image (arcane, eldritch)}",
 												"{@spell Ray of Enfeeblement|phb|Ray of Enfeeblement (primordial)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11212,6 +11334,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11223,7 +11348,7 @@
 												"{@spell Blight|phb|Blight (primordial)}",
 												"{@spell Death Ward|phb|Death Ward (primordial)}",
 												"{@spell Divination|phb|Divination (arcane, eldritch)}",
-												"{@spell Faithful Hound|Superheroic5E|Faithful Hound (all)}",
+												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (all)}",
 												"{@spell Greater Invisibility|phb|Greater Invisibility (all)}",
 												"{@spell Hallow|phb|Hallow (primordial)}",
 												"{@spell Polymorph|phb|Polymorph (eldritch)}",
@@ -11233,6 +11358,9 @@
 												"{@spell Spectral Guardian|Superheroic5E|Spectral Guardian (primordial)}",
 												"{@spell Magic Mouth|phb|Magic Mouth (arcane, eldritch)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11258,6 +11386,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11276,6 +11407,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11289,9 +11423,12 @@
 												"{@spell Mordenkainen's Magnificent Mansion|phb|Magnificent Mansion (arcane)}",
 												"{@spell Raise Dead|phb|Raise Dead (primordial)}",
 												"{@spell Simulacrum|phb|Simulacrum (arcane, eldritch)}",
-												"{@spell Symbol|phb|Symbol (arcane)}",
+												"{@spell Symbol-S5E|Superheroic5E|Symbol (arcane)}",
 												"{@spell Regenerate|phb|Regenerate Others (primordial)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11303,6 +11440,9 @@
 												"{@spell Clone|phb|Clone (arcane, eldritch)}",
 												"{@spell Primordial Wellspring|Superheroic5E|Primordial Wellspring (primordial)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11347,6 +11487,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11374,6 +11517,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11398,6 +11544,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11416,6 +11565,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11430,6 +11582,9 @@
 												"{@spell Tactical Analysis|Superheroic5E}",
 												"{@spell Technological Disruption|Superheroic5E}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11449,6 +11604,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11465,6 +11623,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11477,6 +11638,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11485,6 +11649,9 @@
 											"items": [
 												"{@spell Nanite Aura|Superheroic5E}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11520,6 +11687,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11540,6 +11710,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11555,6 +11728,9 @@
 												"{@spell Spike Growth|phb|Spike Growth (plant)}",
 												"{@spell Web|phb|Web (animal)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11574,6 +11750,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11585,13 +11764,16 @@
 												"{@spell Botanical Form|Superheroic5E|Botanical Form (plant)}",
 												"{@spell Conjure Woodland Beings|phb|Conjure Woodland Beings (animal)}",
 												"{@spell Dominate Beast|phb|Dominate Beast (animal)}",
-												"{@spell Faithful Hound|Superheroic5E|Faithful Hound (animal)}",
+												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound (animal)}",
 												"{@spell Giant Insect|phb|Giant Insect (animal)}",
 												"{@spell Hallucinatory Terrain|phb|Hallucinatory Terrain (plant)}",
 												"{@spell Limited Shapechange|Superheroic5E|Limited Shapechange (animal)}",
 												"{@spell Sense Vital Signs|Superheroic5E|Sense Vital Signs (all)}",
 												"{@spell Toxic Wall|Superheroic5E|Toxic Wall (all)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11613,6 +11795,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11626,6 +11811,9 @@
 												"{@spell Transport via Plants|phb|Transport via Plants (plant)}",
 												"{@spell Wall of Thorns|phb|Wall of Thorns (plant)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11642,6 +11830,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11656,6 +11847,9 @@
 												"{@spell Heal|phb|Heal (all)}",
 												"{@spell Pod Duplicate|Superheroic5E|Pod Duplicate (plant)}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11698,6 +11892,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11714,6 +11911,9 @@
 												"{@spell Reckless Attack|Superheroic5E}",
 												"{@spell Shelter|Superheroic5E}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11735,6 +11935,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11753,6 +11956,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11767,6 +11973,9 @@
 												"{@spell Superior Vision|Superheroic5E}",
 												"{@spell Trade Shots|Superheroic5E}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11784,6 +11993,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11794,6 +12006,9 @@
 												"{@spell Pin|Superheroic5E}",
 												"{@spell True Seeing}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11807,6 +12022,9 @@
 											]
 										},
 										{
+											"type": "hr"
+										},
+										{
 											"type": "list",
 											"columns": 3,
 											"style": "list-hang",
@@ -11816,6 +12034,9 @@
 												"{@spell Assassinate|Superheroic5E}",
 												"{@spell Supersonic Flight|Superheroic5E}"
 											]
+										},
+										{
+											"type": "hr"
 										},
 										{
 											"type": "list",
@@ -11838,6 +12059,1610 @@
 										"url": "https://i.imgur.com/k7fIl9S.png"
 									}
 								}
+							]
+						},
+						{
+							"type": "image",
+							"page": 151,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/1gkSaIc.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 156,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/ZcAJRuQ.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 161,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/vbm4bii.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 168,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/xanIKnO.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 173,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/oH8grd2.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 179,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/8JK1Nw4.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 183,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/aNbq0ro.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 188,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/78iDWWq.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 197,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/1OvRlht.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 204,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/mbqGzGm.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 209,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/swqczuz.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 215,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/aKjI9pK.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 220,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/i4RM9Qj.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 224,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/vH0emEZ.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 228,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/MboiYPb.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 233,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/8K1CDC8.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 238,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/UunSz0V.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 243,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/oZdFDjW.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 253,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/w0cievt.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 256,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/vNKr6W5.png"
+							}
+						},
+						{
+							"type": "image",
+							"page": 259,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/OrwJ7pG.png"
+							}
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendices",
+					"page": 261,
+					"entries": [
+						{
+							"type": "section",
+							"entries": [
+								{
+									"type": "image",
+									"page": 260,
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/K25ojrE.png"
+									}
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "1. Conditions",
+							"page": 261,
+							"entries": [
+								"Conditions alter a creature's capabilities in a variety of ways and can arise because of a power, a class feature, a monster's attack, or other effect. Most conditions, such as {@condition blinded}, are impairments, but a few, such as {@condition invisible}, can be advantageous.",
+								"A condition lasts either until it is countered (the {@condition prone} condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
+								"If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.",
+								"The following definitions specify what happens to a creature while it is subjected to a condition.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "{@condition Blinded}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition blinded} creature can't see and automatically fails any ability check that requires sight.",
+														"{@action Attack} rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Charmed}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition charmed} creature can't attack the charmer or target the charmer with harmful abilities or superpowered effects.",
+														"The charmer has advantage on any ability check to interact socially with the creature."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Deafened}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition deafened} creature can't hear and automatically fails any ability check that requires hearing"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Exhaustion}",
+											"page": 261,
+											"entries": [
+												"Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called {@condition exhaustion}. Exhaustion is measured in 6 levels. An effect can give a creature 1 or more levels of {@condition exhaustion}, as specified in the effect's description.",
+												{
+													"type": "table",
+													"colLabels": [
+														"Level",
+														"Effect"
+													],
+													"colStyles": [
+														"col-2 text-center",
+														"col-10 text-center"
+													],
+													"rows": [
+														[
+															"1",
+															"Disadvantage on ability checks"
+														],
+														[
+															"2",
+															"Speed halved"
+														],
+														[
+															"3",
+															"Disadvantage on attack rolls and saves"
+														],
+														[
+															"4",
+															"Hit point maximum halved"
+														],
+														[
+															"5",
+															"Speed reduced to 0"
+														],
+														[
+															"6",
+															"Death"
+														]
+													]
+												},
+												"If an already exhausted creature suffers another effect that causes {@condition exhaustion}, its current level of {@condition exhaustion} increases by the amount specified in the effect's description.",
+												"A creature suffers the effect of its current level of {@condition exhaustion} as well as all lower levels. For example, a creature suffering level 2 {@condition exhaustion} has its speed halved and has disadvantage on ability checks.",
+												"An effect that removes {@condition exhaustion} reduces its level as specified in the effect's description, with all {@condition exhaustion} effects ending if a creature's {@condition exhaustion} level is reduced below 1.",
+												"Finishing a long rest reduces a creature's {@condition exhaustion} level by 1, provided that the creature has also ingested some food and drink."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Frightened}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition frightened} creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+														"The creature can't willingly move closer to the source of its fear."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Grappled}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition grappled} creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+														"The condition ends if the grappler is {@condition incapacitated} (see the condition).",
+														"The condition also ends if an effect removes the {@condition grappled} creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave power."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Incapacitated}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"An {@condition incapacitated} creature can't take actions or reactions."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Invisible}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"An {@condition invisible} creature is impossible to see without the aid of superpower or a special sense. For hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
+														"{@action Attack} rolls against the creature have disadvantage, and the creature's attack rolls have advantage"
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Paralyzed}",
+											"page": 261,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition paralyzed} creature is {@condition incapacitated} (see the condition) and can't move or speak.",
+														"The creature automatically fails Strength and Dexterity saves.",
+														"{@action Attack} rolls against the creature have advantage.",
+														"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Petrified}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition petrified} creature is transformed, along with any object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
+														"The creature is {@condition incapacitated} (see the condition), can't move or speak, and is unaware of its surroundings.",
+														"{@action Attack} rolls against the creature have advantage.",
+														"The creature automatically fails Strength and • Dexterity saves.",
+														"The creature has resistance to all damage.",
+														"The creature is immune to poison and disease, • although a poison or disease already in its system is suspended, not neutralized."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Poisoned}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition poisoned} creature has disadvantage on attack rolls and ability checks."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Prone}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition prone} creature's only movement option is to crawl unless it stands up and thereby ends the condition.",
+														"The creature has disadvantage on attack rolls.",
+														"An attack roll against the creature has advantage if",
+														"the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Restrained}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition restrained} creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+														"{@action Attack} rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+														"The creature has disadvantage on Dexterity saves."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Stunned}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"A {@condition stunned} creature is {@condition incapacitated} (see the condition), can't move, and can speak only falteringly.",
+														"The creature automatically fails Strength and Dexterity saves.",
+														"{@action Attack} rolls against the creature have advantage."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "{@condition Unconscious}",
+											"page": 262,
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"An {@condition unconscious} creature is {@condition incapacitated} (see the condition), can't move or speak, and is unaware of its surroundings",
+														"The creature drops whatever it's holding and falls {@condition prone}.",
+														"The creature automatically fails Strength and Dexterity saves.",
+														"{@action Attack} rolls against the creature have advantage.",
+														"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "2. Safety Tools",
+							"page": 262,
+							"entries": [
+								"Safety tools are a set of practices to use at your gaming table to make sure everyone has a good time. They help players and GMs communicate what they want from the game experience, as well as what they would like to avoid. These tools facilitate that communication before, during, and after play.",
+								{
+									"type": "entries",
+									"name": "Why Have Them?",
+									"page": 262,
+									"entries": [
+										"Perhaps you and your friends all know each other and don't think you have any need for such safety tools. Their use is entirely voluntary, but even long-time gaming groups can benefit from introducing them into their games.",
+										"For one thing, these tools are a way for players and GMs to exchange ongoing feedback about what is working well and what isn't. Even experienced gamers can benefit from that, just as any creative person can. What's more, people's preferences may change over time.",
+										"More generally, though, safety tools are a way to be considerate of your fellow gamers, in a way that is perfectly appropriate in most shared activities. For example, say that you and your friends are going out to eat. Doesn't it make sense to check in with everyone to see what they are in the mood for? You wouldn't force someone to eat pizza who just had it for lunch and really doesn't want it again, would you? And what if you are going out to eat with someone new and they have an allergy you don't know about yet?",
+										"Or say you are about to watch a movie. Shouldn't you have a conversation about what genre you want to watch that evening? Maybe a friend has a loved one struggling with an illness, so they don't want to watch a movie about someone dying of the illness that evening. You won't know unless you ask!",
+										"Just as you wouldn't insist that everyone eat the food you prefer, GMs shouldn't control the tone and content of the game, not without consulting their players. Safety tools facilitate these conversations, so that everyone can enjoy themselves. But safety tools are much more than that, too, and they can immeasurably improve the quality of your games.",
+										"Rather than reproduce them here, we would like to direct you to two excellent free resources online, the TTRPG Safety Toolkit, from Kienna Shaw and Lauren Bryant-Monk, and Consent in Gaming, from Monte Cook Games."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resources",
+									"page": 263,
+									"entries": [
+										"{@b The TTRPG Safety Toolkit} is a compilation of safety tools that have been designed by members of the tabletop roleplaying games community for use by players and GMs at the table. You can find it at {@link bit.ly/ttrpgsafetytoolkit}.",
+										"{@b Consent in Gaming} is a similar resource, providing safety tools, as well as a useful consent checklist. Sean K. Reynolds and Shanna Germain write it. You can find it free in the Monte Cook Games store at {@link https://www.montecookgames.com/consent-in-gaming/]."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "3. Superpowered Animal",
+							"page": 263,
+							"entries": [
+								"The Vitalist hero who chooses the animal domain receives an animal companion at 1st level. This animal is special, to be sure; it is better in every way than a typical animal, but it is still, ultimately a mundane animal with which the Vitalist hero forms a special bond. But what if you want your animal companion to have superpowers? This appendix provides optional rules for superpowered animal companions and pets.",
+								"Like the Vitalist's animal companion, your superpowered animal friend grows in power as you do, but the superpowered animal also gains powers. Use the following rules for creating and leveling up your super best friend",
+								{
+									"type": "entries",
+									"name": "Origin & Nature",
+									"source": "Superheroic5E",
+									"page": 263,
+									"entries": [
+										"Superpowered animal companions can have a variety of origins. Some accompany their alien hero friends from their home planets; others are mutated Earth creatures who have gained their powers the same way a mutant hero might."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Creating a Super Animal Companion",
+									"source": "Superheroic5E",
+									"page": 263,
+									"entries": [
+										"When you create a superpowered animal companion, use the Animal Companion feature from the Vitalist hero's animal domain to choose your animal and increase its stats, with the following two changes.",
+										"First, your super animal companion has base Intelligence and Wisdom score of 10 and a Charisma score of 14, unless the animal's stats are higher, in which case use those instead. Be sure to add your hero's proficiency bonus to those scores, as explained in the Animal Companion feature. Your super pet also understands all the languages you do, but cannot speak them unless a feature grants them the power to do so.",
+										"Second, your superpowered animal companion also gains additional features, as well as superpowers. When you create your superpowered companion, choose one Mental Ability: {@b telepathy, empathy, or super-intelligence}.",
+										"As your animal companion levels up with you, you'll also choose a Mobility feature as well. Use the chart below to track how your superpowered animal companion grows as your heroic PC levels up. The chart below is to be used in addition to the bonuses granted by the Vitalist's Animal Companion feature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Superpowered Animal Companion table",
+									"entries": [
+										{
+											"type": "tableGroup",
+											"tables": [
+												{
+													"type": "table",
+													"caption": "Superpowered Pet's by Level",
+													"colLabels": [
+														"",
+														"",
+														"Leveled Power Uses"
+													],
+													"colStyles": [
+														"col-4-5",
+														"col-4-5",
+														"col-3"
+													],
+													"rows": [
+														[]
+													]
+												},
+												{
+													"type": "table",
+													"colLabels": [
+														"{@b PC<br>Level}",
+														"{@b PC's<br>Prof. Bonus}",
+														"{@b Features}",
+														"{@b Leveled<br>Powers}",
+														"{@b At Will<br>Powers}",
+														"{@b 1st}",
+														"{@b 2nd}",
+														"{@b 3rd}",
+														"{@b 4th}",
+														"{@b 5th}"
+													],
+													"colStyles": [
+														"col-2 text-center",
+														"col-1 text-center",
+														"col-3 text-center",
+														"col-1 text-center",
+														"col-1 text-center",
+														"col-1 text-center",
+														"col-1 text-center",
+														"col-1 text-center",
+														"col-1 text-center"
+													],
+													"rows": [
+														[
+															"1st–4th",
+															"+2",
+															"Pet Power, Mental Ability",
+															"2",
+															"2",
+															"1",
+															"—",
+															"—",
+															"—",
+															"—"
+														],
+														[
+															"5th–8th",
+															"+3",
+															"Mobility",
+															"3",
+															"2",
+															"2",
+															"1",
+															"—",
+															"—",
+															"—"
+														],
+														[
+															"9th–12th",
+															"+4",
+															"Reflexive Powers",
+															"4",
+															"3",
+															"∞",
+															"2",
+															"1",
+															"—",
+															"—"
+														],
+														[
+															"13th–16th",
+															"+5",
+															"Reflexive Powers",
+															"6",
+															"4",
+															"∞",
+															"∞",
+															"2",
+															"1",
+															"—"
+														],
+														[
+															"17th–20th",
+															"+6",
+															"Reflexive Powers",
+															"8",
+															"4",
+															"∞",
+															"∞",
+															"∞",
+															"2",
+															"1"
+														]
+													],
+													"footnotes": [
+														"* ∞ denotes unlimited usage on an ability."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Pet Power",
+									"source": "Superheroic5E",
+									"page": 263,
+									"entries": [
+										"Your superpowered animal companion can do amazing things.",
+										{
+											"type": "entries",
+											"name": "At Will Powers",
+											"source": "Superheroic5E",
+											"page": 263,
+											"entries": [
+												"At 1st level, your pet knows 2 at will powers from the Pet Powers list below. It learns additional at will powers at higher levels, as shown in the at will powers column of the Superpowered Animal Companion table."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Powers known of 1st Level and Highter",
+											"source": "Superheroic5E",
+											"page": 263,
+											"entries": [
+												"Your pet knows 2 1st level powers from the Pet Powers lists.",
+												"The Leveled Powers Known column of the table shows when you learn more powers of your choice. Each of these powers must be of a level for which your pet has slots.",
+												"For example, when your PC reaches 5th level, your super pet can learn one new power of 1st or 2nd level.Additionally, when your hero gains a level, you can choose one of the powers your pet knows and replace it with another power from the Pet Power list, which also must be of a level for which your pet has slots"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Leveled Power Slots",
+											"source": "Superheroic5E",
+											"page": 263,
+											"entries": [
+												"The Super Pet table shows how many power slots your pet has available for powers at each level. To use one of these powers, your pet must expend a slot of the power's level or higher. Your pet regains all expended slots when your pet finishes a long rest.",
+												"For example, if your pet knows the 1st level power jump and has a 1st level and a 2nd level slot available, your pet can use jump with either slot.",
+												"Once your hero reaches certain levels, your pet gain the ability to use powers at certain levels reflexively. Once you do so, your pet no longer has slots at those levels and can use powers at those levels at will, as if they had an endless number of slots available."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power Ability",
+											"source": "Superheroic5E",
+											"page": 263,
+											"entries": [
+												"Your super pet's power ability is Charisma. Your pet uses this ability whenever a power refers to your power ability.",
+												"In addition, your pet uses their power ability modifier when setting the save DC for a power they use and when making an attack roll with one.",
+												"{@b Power save DC =} 8 + your hero's proficiency bonus + your pet's Charisma modifier",
+												"{@b Power attack modifier =} your hero's proficiency bonus + your pet's Charisma modifier."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mental Ability",
+									"source": "Superheroic5E",
+									"page": 264,
+									"entries": [
+										"The first thing that sets your super pet apart is its ability to communicate with you. Choose one of the following three abilities.",
+										{
+											"type": "entries",
+											"name": "Empathy",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet is attuned to your emotions and knows how you always feel, and vice versa. This connection reaches great distances. If you both are on the same planet, you each know the emotional state of the other.",
+												"When your hero reaches 13th level, your super pet can also detect the emotions of others within 120 feet of them and can communicate those feelings to your hero as well."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Super-Intelligence",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet is highly intelligent, with a base Intelligence score of 16 before you add your proficiency bonus. What's more, they can speak, even if they don't normally have the physiology to do so. In fact, they can read, write, and speak the same languages you can.",
+												"When your hero reaches 13th level, your super pet can gain proficiency in three skills of your choice, using your proficiency bonus on skill checks."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Telepathy",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet can communicate telepathically with you over short distances. If the two of you are within 120 feet, you can speak and even share senses, allowing you to see what your pet sees and vice versa.",
+												"When your hero reaches 13th level, your hero and your super pet can telepathically communicate at a distance of 1 mile; further, your super pet can telepathically communicate with any creature within 120 feet of them."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mobility",
+									"source": "Superheroic5E",
+									"page": 264,
+									"entries": [
+										"When your hero reaches 5th level, your super pet gains the ability to travel more quickly than normal. Choose one of the following three mobility options:",
+										{
+											"type": "entries",
+											"name": "Flight",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet now knows the {@spell fly} power, if they did not before, and it does not count toward their total number of powers known. What's more, they can use it at will, reflexively.",
+												"When your hero reaches 13th level, your super pet also learns the {@spell improved fly|Superheroic5E} power, if they did not before, and it does not count toward their total number of powers known. What's more, they can use it at will, reflexively."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Speed",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet now knows the {@spell expeditious retreat} and {@spell haste} powers, if they did not before, and they do not count toward their total number of powers known. What's more, they can use them at will, reflexively.",
+												"When your hero reaches 13th level, your super pet also learns the {@spell freedom of movement} power, if they did not before, and it does not count toward their total number of powers known. What's more, they can use it at will, reflexively."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Teleportation",
+											"source": "Superheroic5E",
+											"page": 264,
+											"entries": [
+												"Your super pet now knows the {@spell misty step} power, if they did not before, and it does not count toward their total number of powers known. What's more, they can use it at will, reflexively.",
+												"When your hero reaches 13th level, your super pet also learns the {@spell dimension door} power, if they did not before, and it does not count toward their total number of powers known. What's more, they can use it at will, reflexively."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Pet Powers List",
+									"source": "Superheroic5E",
+									"page": 264,
+									"entries": [
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "At Will (0 Level)",
+											"page": 264,
+											"items": [
+												"{@spell Catch Your Breath|Superheroic5E}",
+												"{@spell Contort|Superheroic5E}",
+												"{@spell fangs|Superheroic5E}",
+												"{@spell glide|Superheroic5E}",
+												"{@spell message}",
+												"{@spell pow!|Superheroic5E}",
+												"{@spell quick dodge|Superheroic5E}",
+												"{@spell resistance}",
+												"{@spell sensory focus|Superheroic5E}",
+												"{@spell sweep attack|Superheroic5E}",
+												"{@spell thorn and claw|Superheroic5E}",
+												"{@spell Blade Ward|phb|turn the blade}"
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "1st Level",
+											"page": 264,
+											"items": [
+												"{@spell animal friendship}",
+												"{@spell Death From Above|Superheroic5E}",
+												"{@spell detect poison and disease}",
+												"{@spell expeditious retreat}",
+												"{@spell feather fall}",
+												"{@spell heroism}",
+												"{@spell hunter’s mark}",
+												"{@spell Innate Orientation|Superheroic5E}",
+												"{@spell jump}",
+												"{@spell longstrider}",
+												"{@spell pass without trace}",
+												"{@spell shield of tenacity|Superheroic5E}",
+												"{@spell speak with animals}",
+												"{@spell sudden swerve|Superheroic5E}",
+												"{@spell unseen step|Superheroic5E}"
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "2nd Level",
+											"page": 264,
+											"items": [
+												"{@spell aid}",
+												"{@spell animal messenger}",
+												"{@spell blur}",
+												"{@spell bull’s rush|Superheroic5E}",
+												"{@spell calm emotions}",
+												"{@spell darkvision}",
+												"{@spell enhanced hearing|Superheroic5E}",
+												"{@spell enlarge/reduce}",
+												"{@spell find traps}",
+												"{@spell invisibility}",
+												"{@spell lesser restoration}",
+												"{@spell locate animals or plants}",
+												"{@spell locate object}",
+												"{@spell mirror image}",
+												"{@spell misty step}",
+												"{@spell second wind|Superheroic5E}",
+												"{@spell see invisibility}",
+												"{@spell spider climb}",
+												"{@spell web}"
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "3rd Level",
+											"page": 265,
+											"items": [
+												"{@spell beacon of hope}",
+												"{@spell burrow|Superheroic5E}",
+												"{@spell chameleon|Superheroic5E}",
+												"{@spell conjure animals}",
+												"{@spell cure wounds}",
+												"{@spell endure attack|Superheroic5E}",
+												"{@spell environmental adaptation|Superheroic5E}",
+												"{@spell fly}",
+												"{@spell haste}",
+												"{@spell infrared vision|Superheroic5E}",
+												"{@spell lesser telekinesis|Superheroic5E}",
+												"{@spell limited elasticity|Superheroic5E}",
+												"{@spell persistence|Superheroic5E}",
+												"{@spell protection from energy}",
+												"{@spell sending}",
+												"{@spell superior olfaction|Superheroic5E}",
+												"{@spell tongues}",
+												"{@spell vigilance|Superheroic5E}",
+												"{@spell water breathing}"
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "4th Level",
+											"page": 265,
+											"items": [
+												"{@spell after image|Superheroic5E}",
+												"{@spell blindsight|Superheroic5E}",
+												"{@spell death ward}",
+												"{@spell dimension door}",
+												"{@spell dominate beast}",
+												"{@spell Mordenkainen's Faithful Hound|phb|Faithful Hound}",
+												"{@spell freedom of movement}",
+												"{@spell locate creature}",
+												"{@spell stoneskin}",
+												"{@spell superior defense|Superheroic5E}",
+												"{@spell wicked claws|Superheroic5E}"
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "list",
+											"columns": 5,
+											"style": "list-hang",
+											"name": "5th Level",
+											"page": 265,
+											"items": [
+												"{@spell danger sense|Superheroic5E}",
+												"{@spell elemental form|Superheroic5E}",
+												"{@spell improved fly|Superheroic5E}",
+												"{@spell Rary's Telepathic Bond|phb|telepathic bond}",
+												"{@spell vicious jaws|Superheroic5E}"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "4. Sidekick Rules",
+							"page": 265,
+							"entries": [
+								{
+									"type": "image",
+									"page": 265,
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/L1DUzZ2.png"
+									}
+								},
+								"Does your cowled crusader need a young ward to mentor who helps you on your adventures? If so, you might want a Sidekick! These rules make it possible.",
+								{
+									"type": "entries",
+									"name": "Complexity and Power",
+									"source": "Superheroic5E",
+									"page": 265,
+									"entries": [
+										"If the idea of running two PCs is not intimidating to you, then the best way to have a superpowered sidekick is to create a second PC hero with half the number of levels your first hero has, and who gains levels at half speed\u2014thus always having half as many levels as your main hero (rounded down). An 11th level hero, therefore, would have a 5th level hero sidekick. Simple! You can decide whether your sidekick has the same class and powers as you do or different.",
+										"On the other hand, you may prefer a sidekick that is simpler to manage than a full-blown PC. If so, you can use the rules below.",
+										"Finally, note that sidekicks only really make sense with heroic PCs who are already established and are thus higher level. You can make a sidekick to go with your 1st level heroic PC if you like, though the sidekick will be about as powerful as your PC is! Over time, though, your PC will grow into a powerful hero and the sidekick into, well, a sidekick."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Creating a Sidekick",
+									"source": "Superheroic5E",
+									"page": 265,
+									"entries": [
+										"creating a 1st level hero according to the character creation rules, but then use the following chart to govern the sidekick's level-up process, significantly simplifying the experience."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Class Abilities",
+									"source": "Superheroic5E",
+									"page": 265,
+									"entries": [
+										"according to the character creation rules. Choose an ancestry, and background for your sidekick and try to answer the question of how and why this person has chosen to become your hero's sidekick. If your companion drops to zero HP, it is {@condition incapacitated}, but does not die."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"PC",
+												"Level"
+											]
+										},
+										{
+											"colLabels": [
+												"Sidekick",
+												"Level"
+											]
+										},
+										{
+											"colLabels": [
+												"Prof.",
+												"Bonus"
+											]
+										},
+										{
+											"colLabels": [
+												"Features"
+											]
+										},
+										{
+											"colLabels": [
+												"Focus",
+												"Points/",
+												"Minion",
+												"Levels *"
+											]
+										},
+										{
+											"colLabels": [
+												"Martial",
+												"Practive",
+												"Die *"
+											]
+										},
+										{
+											"colLabels": [
+												"Special",
+												"Attack *"
+											]
+										},
+										{
+											"colLabels": [
+												"Leveled",
+												"Powers",
+												"Known *"
+											]
+										},
+										{
+											"colLabels": [
+												"At Will",
+												"Powers *"
+											]
+										},
+										{
+											"colLabels": [
+												"1st"
+											]
+										},
+										{
+											"colLabels": [
+												"2nd"
+											]
+										},
+										{
+											"colLabels": [
+												"3rd"
+											]
+										},
+										{
+											"colLabels": [
+												"4th"
+											]
+										},
+										{
+											"colLabels": [
+												"5th"
+											]
+										}
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-3 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-1 text-center",
+										"col-0-2 text-center",
+										"col-0-2 text-center",
+										"col-0-2 text-center",
+										"col-0-2 text-center",
+										"col-0-2 text-center"
+									],
+									"rows": [
+										[
+											"1st–2nd",
+											"1st",
+											"+2",
+											"Class Abilities, Dutiful",
+											"1",
+											"1d6",
+											"1d6",
+											"2",
+											"2",
+											"2",
+											"-",
+											"-",
+											"-",
+											"-"
+										],
+										[
+											"3rd–4th",
+											"2nd",
+											"+2",
+											"Helpful, Deploy Minion*",
+											"2",
+											"1d6",
+											"1d6",
+											"3",
+											"2",
+											"3",
+											"-",
+											"-",
+											"-",
+											"-"
+										],
+										[
+											"5th–6th",
+											"3rd",
+											"+2",
+											"Reflexive Powers",
+											"3",
+											"1d6",
+											"2d6",
+											"4",
+											"2",
+											"∞",
+											"2",
+											"-",
+											"-",
+											"-"
+										],
+										[
+											"7th–8th",
+											"4th",
+											"+2",
+											"Ability Score Improvement",
+											"4",
+											"1d6",
+											"2d6",
+											"5",
+											"2",
+											"∞",
+											"3",
+											"-",
+											"-",
+											"-"
+										],
+										[
+											"9th–10th",
+											"5th",
+											"+3",
+											"Reflexive Powers",
+											"5",
+											"1d6",
+											"3d6",
+											"6",
+											"2",
+											"∞",
+											"3",
+											"2",
+											"-",
+											"-"
+										],
+										[
+											"11th–12th",
+											"6th",
+											"+3",
+											"Ability Score Improvement",
+											"6",
+											"1d8",
+											"3d6",
+											"7",
+											"3",
+											"∞",
+											"3",
+											"3",
+											"-",
+											"-"
+										],
+										[
+											"13th–14th",
+											"7th",
+											"+3",
+											"Reflexive Powers",
+											"7",
+											"1d8",
+											"4d6",
+											"8",
+											"3",
+											"∞",
+											"∞",
+											"3",
+											"1",
+											"-"
+										],
+										[
+											"15th–16th",
+											"8th",
+											"+3",
+											"Ability Score Improvement",
+											"8",
+											"1d8",
+											"4d6",
+											"9",
+											"3",
+											"∞",
+											"∞",
+											"3",
+											"2",
+											"-"
+										],
+										[
+											"17th–18th",
+											"9th",
+											"+4",
+											"Reflexive Powers",
+											"9",
+											"1d8",
+											"5d6",
+											"10",
+											"3",
+											"∞",
+											"∞",
+											"∞",
+											"3",
+											"1"
+										],
+										[
+											"19th–20th",
+											"10th",
+											"+4",
+											"Ability Score Improvement",
+											"10",
+											"1d8",
+											"5d6",
+											"11",
+											"4",
+											"∞",
+											"∞",
+											"∞",
+											"3",
+											"2"
+										]
+									],
+									"footnotes": [
+										"* These features are available only if you chose the relevant class at Sidekick creation."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dutiful",
+									"source": "Superheroic5E",
+									"page": 266,
+									"entries": [
+										"sidekick can see and hear you, your hero can issue verbal commands that your sidekick will try its best to follow. You can command your sidekick to move somewhere, as well as to perform one action: attack a foe you specify, defend, interact with an object, or hide. Your sidekick continues to perform that action until they can no longer do so, or you issue a new command."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Helpful",
+									"source": "Superheroic5E",
+									"page": 266,
+									"entries": [
+										"to know your hero's style and can better assist. The sidekick can now take the {@action Help} action as a bonus action on their turn."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Reflexive Powers",
+									"source": "Superheroic5E",
+									"page": 266,
+									"entries": [
+										"they eventually reach a level where they can use some of their powers reflexively. This means that you have a limitless supply of 1st-level power slots. If you wish to use abilities at higher level, however, you must expend a higher-level slot as normal. Follow the rules for reflexive powers as listed in classes with slots. Levels at which sidekicks can use powers reflexively are marked on the chart with an infinity sign (∞)."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "5. Optional Mechanics",
+							"page": 266,
+							"entries": [
+								"to help you make your game feel even more like your favorite superhero stories from comics, movies, TV, and games. Feel free to use them or not as you prefer.",
+								{
+									"type": "entries",
+									"name": "Secret Identity",
+									"source": "Superheroic5E",
+									"page": 266,
+									"entries": [
+										"School by day and putting on a mask to fight crime at night. You can't let your parents know, though, or they'd flip out. And some of the neighbors might even call the cops on you, so you must keep your vigilante work on the down low. Or maybe you teach at the high school and need to keep your job to support an ailing parent. You'd lose your job for sure if the public found out. Principal Henderson would have no choice; they can't have a teacher setting that kind of example for the kids.",
+										"Whatever your reason, you want to keep your mundane life entirely separate from your superheroic exploits. You try hard to maintain your superheroic anonymity. But each time you put on the mask, and each time things don't go how you plan, you risk losing that precious resource!",
+										{
+											"type": "entries",
+											"name": "Anonymity",
+											"source": "Superheroic5E",
+											"page": 267,
+											"entries": [
+												"At character creation or when you decide to implement this mechanic, set your Anonymity equal to your Wisdom score. You Anonymity score has a modifier, just like your abilities scores do. So, if you Anonymity is 14, you have a + 2 modifier. If your score is 6, you have a -2.",
+												"Each time you switch from your mundane life to your superheroic one\u2014for example, when you put on or take off your mask\u2014you must roll on the anonymity chart below. To determine your outcome, roll a {@dice d20} and add your Anonymity modifier.",
+												{
+													"type": "table",
+													"colLabels": [
+														"Result",
+														"Outcome"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"0 or below",
+															"Someone thinks they saw you! Deduct 2 from your Anonymity score."
+														],
+														[
+															"1-5",
+															"Someone suspects something is up and will be keeping an eye on you. Subtract 1 from your Anonymity score."
+														],
+														[
+															"6-15",
+															"There was a chance you could be discovered, but you played it cool enough that no one noticed."
+														],
+														[
+															"15-20",
+															"You reassure someone that everything is normal, nothing to see here. Add 1 to your Anonymity score."
+														],
+														[
+															"21+",
+															"You allayed someone’s suspicions so successfully, that they laugh off any concerns they had. Add 2 to your Anonymity score."
+														]
+													]
+												},
+												"If your Anonymity score drops to zero, you're discovered! Your secret identity is compromised. Where and when you make the roll that drops your score to zero will determine who discovers, and how. Are you a high schooler returning home after a mission? Then your parents open the door at just the wrong time and see you half out of your costume! Does it occur when you are trying to put on your costume because you came across a crime in progress? Then maybe the criminal sees you and now knows your secret identity!",
+												"Whatever happens, the GM and player should work together to weave this new development into the story. If the GM decides that the player has done an exceptional job of denying or covering up for the apparent revelation, they can decide to award Anonymity points to bring a hero back up to their Wisdom score. The point is to have fun with this mechanic, not to make it feel like punishment, so, as always, communicate with your fellow players about what you all would like to do together at the table."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Collateral Damage",
+									"source": "Superheroic5E",
+									"page": 267,
+									"entries": [
+										"Once heroes reach a certain level of fame, politicians and the public start wanting accountability. Their power has grown to be so great, they argue, that they should be regulated, just like military-grade weapons are. Whether or not the US government, or the UN, cracks down on your superteam or not may depend on the amount of collateral damage you've caused in battles.",
+										"To use the mechanic, the GM should keep track of how much damage and how many casualties the heroes cause, and how much it costs to repair or compensate the losses, according to the chart below. Then consult the second chart to see what the consequences are.",
+										{
+											"type": "table",
+											"colLabels": [
+												"Destroyed or Dead",
+												"Estimated Cost"
+											],
+											"colStyles": [
+												"col-2",
+												"col-10"
+											],
+											"rows": [
+												[
+													"Car, truck, bus",
+													"$10,000"
+												],
+												[
+													"Plane, train, boat",
+													"$50,000"
+												],
+												[
+													"Small building",
+													"$100,000"
+												],
+												[
+													"Large building",
+													"$300,000"
+												],
+												[
+													"City landmark",
+													"$500,000"
+												],
+												[
+													"Skyscraper",
+													"$1,000,000"
+												],
+												[
+													"1 innocent life",
+													"$1,000,000"
+												],
+												[
+													"City block",
+													"$5,000,000"
+												]
+											]
+										},
+										"GMs can keep a running tally as the heroes continue their adventures of how much damage they've done. Once those numbers start to reach astronomical levels, governments are compelled to step in. Consult the chart below to see what sorts of interventions governments might demand. These interventions are appropriate only if the heroes successfully stopped a crime or saved lives. If the heroes failed to save lives or stop crime, then the appropriate intervention for damage accrued is one level more expensive. In other words, if the heroes destroy one million dollars' worth of property but save lives, then the city may request a public apology for the collateral damage. If they do a million in damage and fail to save any lives or stop any crime, however, the city may demand the heroes compensate the city somehow",
+										{
+											"type": "table",
+											"colLabels": [
+												"Amount",
+												"Intervention"
+											],
+											"colStyles": [
+												"col-2",
+												"col-10"
+											],
+											"rows": [
+												[
+													"$10,000",
+													"Nothing"
+												],
+												[
+													"$100,000",
+													"Issue a formal warning"
+												],
+												[
+													"$1,000,000",
+													"Request a public apology"
+												],
+												[
+													"$10,000,000",
+													"Demand the heroes either compensate the losses or work to make up for it through service"
+												],
+												[
+													"$100,000,000",
+													"Demand the heroes retire"
+												],
+												[
+													"$1,000,000,000",
+													"Declare the heroes enemies of the people, to be arrested on sight, and demand all superhumans register with their governments"
+												]
+											]
+										},
+										"GMs can decide whether to implement the chart above on a per encounter basis, or keep track as an ongoing, ever growing tally over the course of a campaign."
+									]
+								},
+								{
+									"type": "image",
+									"page": 268,
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/BG7SkVH.png"
+									}
+								},
+								{
+									"type": "entries",
+									"name": "Secret Headquarters",
+									"source": "Superheroic5E",
+									"page": 268,
+									"entries": [
+										"Once a team of superheroes grows enough in power, it's time for them to get a headquarters or secret base. The rules below sketch one way that GMs and players can establish parameters for their customized headquarters. Players should first pick a location, either from the list or one they come up with on their own. Second, they should select the headquarters' characteristics, selecting some strengths and at least one weakness. Finally, they should describe its appearance and feel.",
+										{
+											"type": "entries",
+											"name": "Location",
+											"source": "Superheroic5E",
+											"page": 268,
+											"entries": [
+												"Some possible locations for your headquarters include: one of the arctic poles, the bottom of the ocean, in orbit, the top of a skyscraper downtown, the dark side of the moon, a compound in the middle of nowhere, just past Pluto, deep space, another dimension, or on a mobile platform. Pick One."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Features",
+											"source": "Superheroic5E",
+											"page": 268,
+											"entries": [
+												"The chart below contains strengths and weaknesses for your headquarters. For each line, choose either a strength or a weakness, or neither, but not both. You should select at least two strengths and at least one weakness. For every additional strength you wish to add above two, you must also add an additional weakness, so that you have either two strengths and one weakness, or three strengths and two weaknesses, and so on.",
+												{
+													"type": "table",
+													"colLabels": [
+														"Category",
+														"Strength",
+														"Weakness"
+													],
+													"colStyles": [
+														"col-3 text-center",
+														"col-6 text-center",
+														"col-3 text-center"
+													],
+													"rows": [
+														[
+															"Defenses",
+															"Automated defenses",
+															"Poorly defended"
+														],
+														[
+															"Maintenance",
+															"AI custodian",
+															"Unmaintained"
+														],
+														[
+															"Accessibility",
+															"Fast travel: teleportation pads or space ships",
+															"Hard to reach"
+														],
+														[
+															"Medicine",
+															"A high-tech healing station",
+															"No medical supplies"
+														],
+														[
+															"Capacity",
+															"Large capacity (room for 100)",
+															"Can house only the team"
+														],
+														[
+															"Tech",
+															"Cutting edge science lab",
+															"Primitive tech"
+														],
+														[
+															"Secrecy",
+															"Its location is a well-kept secret",
+															"Known location"
+														],
+														[
+															"Shielded or not",
+															"Shielded from superpowered and electronic surveillance",
+															"Vulnerable to surveillance"
+														]
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Defenses",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"If your is protected by {@b automated defenses}, choose one: 15 automatons; one advanced combat robot; or 60 weaponized drones. Otherwise, choose one of these: one automaton, 5 reconnaissance drones, and 5 weaponized drones. If your base is {@b poorly defended}, however, then it has no defenses of any sort when the team is not present. Drone stat blocks can be found in the {@u {@i Augmented Operative Registry}}."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Maintenance",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"If you have an {@b A.I. custodian}, then you can always expect the headquarters to be ready for your arrival. The AI can communicate with you via a commlink at any time if you are on the same plane of existence. It can report in on the status of the base and do basic information searches, as well as maintain simple experiments and projects while you are away. Otherwise, your base can have an automated alarm and even video surveillance, but you must access the video via a web interface and will be notified if the alarm if tripped. If you chose {@b unmaintained}, then it has none of the above."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Accessibility",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"Your base may have {@b fast travel} technology. Perhaps a teleporting superhero created teleportation circles for you to use, or some high-tech alien race provided teleporter technology. Or perhaps you have a futuristic space ship that can jump to trans-light speeds when necessary. Work with your GM to make sure the travel tech works in your shared universe. Otherwise, you must travel to via conventional means to your base or to the locations of your next operation. If you chose {@b hard to reach}, however, then you must endure some ordeal to reach it, either traversing a snowy mountain pass on foot or undergo a trial to reach it."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Medicine",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"If you chose a {@b high-tech healing station}, then you have a bay in your base than can perform the equivalent of the cure wounds and lesser restoration powers once per hour. These powers take one minute to take effect as the system analyzes the injuries and implements a treatment. The system can also perform the heal and greater restoration powers once per day, though this process takes 4 hours to take effect, during which time the patient must remain in the healing station throughout. If you do not choose this strength, then the headquarters has ample first aid kits and antitoxins, as well as beds and a clean, modern, stocked mini-clinic, should a medical professional be available to use it. If your headquarters has {@b no medical supplies}, however, then it lacks all the above."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Capacity",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"Your headquarters may be able to house a large group of people in need of shelter. If it has a {@b large capacity}, it can house up to 100 people indefinitely. If it {@b can house only the team}, then it is very small and has only enough beds and food for the team. If it has neither property, then it can house 10 guests temporarily, but not permanently."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Tech",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"Your headquarters may have a {@b cutting edge science lab}. If you perform experiments, conduct scientific investigations, or attempt to construct something using a science or technology related tool, you receive a +5 bonus to your roll. If you have {@b primitive tech}, however, you receive a -5. If you have neither, any such roll is unaffected."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Secrecy",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"Is your base's location or access point known to your friends, and possibly enemies, or not? If its {@b location is a well-kept secret}, then no one knows but the team and those they agree to tell. If it is a {@b known location}, then your enemies know where it is. If it is neither, then some of your friends and allies know, as well as a few key people in governments."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Shielded or Not",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"If your base is {@b shielded from surveillance}, then neither superpowered surveillance, such as the scrying power, nor electronic surveillance, such as bugs and phone taps, can reach inside the headquarters. If it is {@b vulnerable to surveillance}, on the other hand, any attempt to surveil the base has an easy time doing so. Any roll to surveil has a +5 bonus, or may simply be a success, depending on the circumstances as determined by the GM. If the base has neither feature, then surveillance attempts are decided normally."
+													]
+												},
+												{
+													"type": "entries",
+													"name": "Filling in the Blanks",
+													"source": "Superheroic5E",
+													"page": 269,
+													"entries": [
+														"Once your superhero headquarters is defined, describe it. Is it made of crystals? A fancy, modern, high-the office? A strange rock floating in space? A hovercraft? A cave hidden in the side of a mountain? You decide!"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "6. Beast Stat Blocks",
+							"page": 270,
+							"entries": [
+								"The stat blocks below consist of a variety of animals, which are useful for the Wild Shape and Animal Companion features for Animal Domain Vitalist heroes, as well as to serve as familiars for Mystic heroes."
 							]
 						}
 					]
