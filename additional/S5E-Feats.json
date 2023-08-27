@@ -1,39 +1,41 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "S5E-Feats",
-                "abbreviation": "S5E-Feats",
-                "full": "S5E: Feats",
-                "authors": [
-                    "Gwendolyn Marshall",
-                    "Amy Bliss Marshall"
-                ],
-                "color": "a4811f",
-                "convertedBy": ["VAD"],
-                "version": "2023.07.05",
-                "url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
-            }
-        ],
-        "dateAdded": 20230805,
-        "dateLastModified": 20230806  
-    },
-    "feat":[
-        {
-            "name": "Always Ready",
-            "source": "Superheroic5E",
-            "page": 86,
-            "entries": [
-                "You are more vigilant than most people, always on the lookout for trouble and on guard against ambushes. Add +5 to your initiative bonus. Additionally, you cannot be surprised and people attacking you from hiding do not get advantage while you are conscious."
-            ]
-        },
+	"_meta": {
+		"sources": [
+			{
+				"json": "S5E-Feats",
+				"abbreviation": "S5E-Feats",
+				"full": "S5E: Feats",
+				"authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"color": "a4811f",
+				"convertedBy": [
+					"VAD"
+				],
+				"version": "2023.07.05",
+				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
+			}
+		],
+		"dateAdded": 20230805,
+		"dateLastModified": 20230806
+	},
+	"feat": [
+		{
+			"name": "Always Ready",
+			"source": "Superheroic5E",
+			"page": 86,
+			"entries": [
+				"You are more vigilant than most people, always on the lookout for trouble and on guard against ambushes. Add +5 to your initiative bonus. Additionally, you cannot be surprised and people attacking you from hiding do not get advantage while you are conscious."
+			]
+		},
 		{
 			"name": "Ancient Talisman",
 			"source": "Superheroic5E",
 			"page": 86,
 			"prerequisite": [
 				{
-					"other": "Mystic"				
+					"other": "Mystic"
 				}
 			],
 			"entries": [
@@ -64,7 +66,7 @@
 			"page": 87,
 			"prerequisite": [
 				{
-					"other": "power armor"		
+					"other": "power armor"
 				}
 			],
 			"entries": [
@@ -193,53 +195,57 @@
 				"{@action Attack} modifier = your proficiency bonus + your Power ability modifier",
 				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this power."
 			]
-		}										
-    ],
-    "optionalfeature": [
-        {
-            "name": "Boon of the Tome",
-            "source": "Superheroic5E",
-            "page": 54,
-            "featureType": ["PB"],
-            "entries": [
-                "You study the art of the arcane, becoming a dilettante of a wide variety of magics hidden and dangerous. You create a Mystical Text\u2014perhaps a grimoire, scroll, or other form of text. When you gain this feature, choose three at will powers from any superpower list (the three needn't be from the same list). While the book is on your person, you can use those powers at will. They don't count against your number of at will powers known.",
-                "If you lose your Mystic Book, you can perform a 1-hour ceremony to receive a replacement from your source of power. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",
-                "In addition, you become more emersed in the occult. When you make a Mystic check, you roll with advantage.",
-                "At 9th level, you receive an additional mystic boon. you may add two 1st or 2nd level powers from any superpower list to your Mystical Text. As long as you have your Mystical Text with you, these powers count as reflexive powers for you. You cannot expend power slots to use these powers at higher levels, however. They don't count against your total number of powers known.",
-                "When you reach 15th level, your Mystical Text imbues you with the wisdom of the ages. Now, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
-                "At 20th level, your familiarity with all forms of superpowered and supernatural energies is unparalleled. With great effort, you can now capture and redirect superpowered attacks. When you are targeted with a superpower by a visible foe who is within 60 feet, you can use your reaction to reflect the power back at the original power user, as though you had used the power yourself. If the reflected power requires an attack roll or save, those rolls must be made using your power attack modifier or save DC.",
-                "This takes massive effort, however, so, once you have done this, you cannot do again until you complete a short or long rest."
-            ]
-        },
-        {
-            "name": "Boon of the Avatar",
-            "source": "Superheroic5E",
-            "page": 55,
-            "featureType": ["PB"],
-            "entries": [
-                "Your contact with otherworldly forces is more than just scholarly; it is immersive. As such, you gradually come to embody more and more of your mystic path, until you truly become a specialist in your power.",
-                "When you gain this feature, you may select an additional at will power and an additional 1st level power from the Mystic power list. These powers do not count against your numbers of at will or leveled powers known. When you use the 1st level power, you must still expend a slot as normal.",
-                "At 9th level, channeling your Mystic powers bolsters you. When you use a power from your mystic path powers table, you gain temporary HP equal to your proficiency bonus. Furthermore, when you use a power listed in your Mystic path powers table that requires an attack roll or save, you may add +1 to the attack roll or save DC.",
-                "When you reach 15th level, the power flowing through you reinforces your existing strengths. Choose two skills you have proficiency in. When you roll these skills, you may add double your proficiency bonus.",
-                "At 20th level, you truly become the apotheosis of your Mystic path. When you use a power from your mystic path powers table that requires an attack roll or save, you may roll a {@dice 1d4 + 1}, rather than the +1 you gained at 9th level, and add it to the attack roll or power save DC"
-            ]
-        },
-        {
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Boon of the Tome",
+			"source": "Superheroic5E",
+			"page": 54,
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				"You study the art of the arcane, becoming a dilettante of a wide variety of magics hidden and dangerous. You create a Mystical Text\u2014perhaps a grimoire, scroll, or other form of text. When you gain this feature, choose three at will powers from any superpower list (the three needn't be from the same list). While the book is on your person, you can use those powers at will. They don't count against your number of at will powers known.",
+				"If you lose your Mystic Book, you can perform a 1-hour ceremony to receive a replacement from your source of power. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",
+				"In addition, you become more emersed in the occult. When you make a Mystic check, you roll with advantage.",
+				"At 9th level, you receive an additional mystic boon. you may add two 1st or 2nd level powers from any superpower list to your Mystical Text. As long as you have your Mystical Text with you, these powers count as reflexive powers for you. You cannot expend power slots to use these powers at higher levels, however. They don't count against your total number of powers known.",
+				"When you reach 15th level, your Mystical Text imbues you with the wisdom of the ages. Now, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.",
+				"At 20th level, your familiarity with all forms of superpowered and supernatural energies is unparalleled. With great effort, you can now capture and redirect superpowered attacks. When you are targeted with a superpower by a visible foe who is within 60 feet, you can use your reaction to reflect the power back at the original power user, as though you had used the power yourself. If the reflected power requires an attack roll or save, those rolls must be made using your power attack modifier or save DC.",
+				"This takes massive effort, however, so, once you have done this, you cannot do again until you complete a short or long rest."
+			]
+		},
+		{
+			"name": "Boon of the Avatar",
+			"source": "Superheroic5E",
+			"page": 55,
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				"Your contact with otherworldly forces is more than just scholarly; it is immersive. As such, you gradually come to embody more and more of your mystic path, until you truly become a specialist in your power.",
+				"When you gain this feature, you may select an additional at will power and an additional 1st level power from the Mystic power list. These powers do not count against your numbers of at will or leveled powers known. When you use the 1st level power, you must still expend a slot as normal.",
+				"At 9th level, channeling your Mystic powers bolsters you. When you use a power from your mystic path powers table, you gain temporary HP equal to your proficiency bonus. Furthermore, when you use a power listed in your Mystic path powers table that requires an attack roll or save, you may add +1 to the attack roll or save DC.",
+				"When you reach 15th level, the power flowing through you reinforces your existing strengths. Choose two skills you have proficiency in. When you roll these skills, you may add double your proficiency bonus.",
+				"At 20th level, you truly become the apotheosis of your Mystic path. When you use a power from your mystic path powers table that requires an attack roll or save, you may roll a {@dice 1d4 + 1}, rather than the +1 you gained at 9th level, and add it to the attack roll or power save DC"
+			]
+		},
+		{
 			"name": "Agonizing Power",
 			"source": "Superheroic5E",
-            "page": 57,
+			"page": 57,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-                "{@i Prerequisite: {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E} at will power.}",
-                "When you use {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E}, add your Intelligence modifier to one damage roll it deals on a hit each round."
+				"{@i Prerequisite: {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E} at will power.}",
+				"When you use {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E}, add your Intelligence modifier to one damage roll it deals on a hit each round."
 			]
 		},
-        {
+		{
 			"name": "Incarnation of the Avatar",
 			"source": "Superheroic5E",
-            "page": 57,
+			"page": 57,
 			"featureType": [
 				"EI"
 			],
@@ -249,25 +255,25 @@
 				}
 			],
 			"entries": [
-                "{@i Prerequisite: Boon of the Avatar feature}",
-                "The purity of the connection between you and your Mystic path is so strong that you can tap into the source of your power as few other Mystic heroes can. When you use a power on the Mystic power list that requires an attack roll, you gain a critical success on a 19 or 20. What's more, you roll damage for a power on the Mystic power list, you may reroll damage and take the higher result."
+				"{@i Prerequisite: Boon of the Avatar feature}",
+				"The purity of the connection between you and your Mystic path is so strong that you can tap into the source of your power as few other Mystic heroes can. When you use a power on the Mystic power list that requires an attack roll, you gain a critical success on a 19 or 20. What's more, you roll damage for a power on the Mystic power list, you may reroll damage and take the higher result."
 			]
 		},
-        {
+		{
 			"name": "Bewitching Whispers",
 			"source": "Superheroic5E",
-            "page": 57,
+			"page": 57,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-                "You can use compulsion once without expending a slot, and the power does not require {@status concentration} to maintain when you use this invocation, though you can only create one instance of this power at a time. You can't use this invocation again until you finish a long rest."
+				"You can use compulsion once without expending a slot, and the power does not require {@status concentration} to maintain when you use this invocation, though you can only create one instance of this power at a time. You can't use this invocation again until you finish a long rest."
 			]
 		},
-        {
+		{
 			"name": "Dreadful Word",
 			"source": "Superheroic5E",
-            "page": 57,
+			"page": 57,
 			"featureType": [
 				"EI"
 			],
@@ -285,21 +291,21 @@
 				"You can use {@spell confusion} once without expending a slot, and the power does not require {@status concentration} to maintain when you use this invocation, though you can only create one instance of this power at a time. You can't use this invocation again until you finish a long rest"
 			]
 		},
-        {
+		{
 			"name": "Eldritch Eye",
 			"source": "Superheroic5E",
-            "page": 57,
+			"page": 57,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-                "You can use {@spell glare|Superheroic5E} reflexively, and the power no longer requires {@status concentration} to maintain whenever you use it."
+				"You can use {@spell glare|Superheroic5E} reflexively, and the power no longer requires {@status concentration} to maintain whenever you use it."
 			]
 		},
-        {
+		{
 			"name": "Font of the Origin",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"EI"
 			],
@@ -314,13 +320,13 @@
 				}
 			],
 			"entries": [
-                "Your connection to your power source is so strong now that any damage done to you of a type to which you are immune heals you for half of the amount of damage it would have caused."
+				"Your connection to your power source is so strong now that any damage done to you of a type to which you are immune heals you for half of the amount of damage it would have caused."
 			]
 		},
-        {
+		{
 			"name": "Grasping Touch",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"EI"
 			],
@@ -330,14 +336,14 @@
 				}
 			],
 			"entries": [
-                "{@i Prerequisite: {@spell chill touch} at will power}",
-                "When you hit a creature with chill touch, the skeletal hand pulls the creature up to ten feet toward you."
+				"{@i Prerequisite: {@spell chill touch} at will power}",
+				"When you hit a creature with chill touch, the skeletal hand pulls the creature up to ten feet toward you."
 			]
 		},
-        {
+		{
 			"name": "Intuitions of Ancient Secrets",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"EI"
 			],
@@ -347,27 +353,27 @@
 				}
 			],
 			"entries": [
-                "{@i Prerequisite: Boon of the Tomb feature}",
-                "You divine deeper mysteries by communing with entities otherworldly and strange. You can now inscribe superpowered rituals in your Mystical Text. Choose two 1st level powers that have the ritual tag from any superpower list. The powers appear in the book and don't count against the number of powers you know. With your Mystical Text in hand, you can use the chosen powers as rituals. You can't use the powers except as rituals unless you've learned them by some other means. You can also now use Mystic powers you know as rituals if they have the ritual tag.",
-                "As your power as a Mystic grows, you may see other heroes using powers that can be used as rituals (indicated by the ritual tag). When you observe such a power, you can add it to the book if the power's level is equal to or less than half your Mystic level (rounded up) and if you can spare the time to analyze and record the power. It takes two hours of work with your Book per level of the power to record it as a ritual."
+				"{@i Prerequisite: Boon of the Tomb feature}",
+				"You divine deeper mysteries by communing with entities otherworldly and strange. You can now inscribe superpowered rituals in your Mystical Text. Choose two 1st level powers that have the ritual tag from any superpower list. The powers appear in the book and don't count against the number of powers you know. With your Mystical Text in hand, you can use the chosen powers as rituals. You can't use the powers except as rituals unless you've learned them by some other means. You can also now use Mystic powers you know as rituals if they have the ritual tag.",
+				"As your power as a Mystic grows, you may see other heroes using powers that can be used as rituals (indicated by the ritual tag). When you observe such a power, you can add it to the book if the power's level is equal to or less than half your Mystic level (rounded up) and if you can spare the time to analyze and record the power. It takes two hours of work with your Book per level of the power to record it as a ritual."
 			]
 		},
-        {
+		{
 			"name": "Mythic Spear",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"EI"
 			],
 			"entries": [
-                "{@i Prerequisite: {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E} at will power.}",
-                "When you use {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E}, its range is 300 feet."
+				"{@i Prerequisite: {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E} at will power.}",
+				"When you use {@spell eldritch blast}, {@spell chill touch}, or {@spell primordial flame|Superheroic5E}, its range is 300 feet."
 			]
 		},
-        {
+		{
 			"name": "Oppressive Enchantment",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"EI"
 			],
@@ -377,14 +383,14 @@
 				}
 			],
 			"entries": [
-                "{@i Prerequisite: {@spell primordial flame|Superheroic5E} at will power}",
-                "When you use {@spell primordial flame|Superheroic5E} against a creature and it fails its Dexterity save, its movement is reduced by 15 feet for one round."
+				"{@i Prerequisite: {@spell primordial flame|Superheroic5E} at will power}",
+				"When you use {@spell primordial flame|Superheroic5E} against a creature and it fails its Dexterity save, its movement is reduced by 15 feet for one round."
 			]
 		},
 		{
 			"name": "Street Fighter",
 			"source": "Superheroic5E",
-            "page": 58,
+			"page": 58,
 			"featureType": [
 				"FS:F"
 			],
@@ -405,7 +411,7 @@
 		{
 			"name": "Escape the Skirmish",
 			"source": "Superheroic5E",
-            "page": 63,
+			"page": 63,
 			"featureType": [
 				"OTH"
 			],
@@ -426,7 +432,7 @@
 		{
 			"name": "Multiattack Defense",
 			"source": "Superheroic5E",
-            "page": 63,
+			"page": 63,
 			"featureType": [
 				"OTH"
 			],
@@ -447,7 +453,7 @@
 		{
 			"name": "Steel Will",
 			"source": "Superheroic5E",
-            "page": 63,
+			"page": 63,
 			"featureType": [
 				"OTH"
 			],
@@ -468,7 +474,7 @@
 		{
 			"name": "Grenadier",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"FS:F"
 			],
@@ -489,7 +495,7 @@
 		{
 			"name": "Double Down",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"OTH"
 			],
@@ -510,7 +516,7 @@
 		{
 			"name": "David vs Goliath",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"OTH"
 			],
@@ -531,7 +537,7 @@
 		{
 			"name": "Squad Breaker",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"OTH"
 			],
@@ -552,7 +558,7 @@
 		{
 			"name": "Volley",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"OTH"
 			],
@@ -573,7 +579,7 @@
 		{
 			"name": "Whirlwind Attack",
 			"source": "Superheroic5E",
-            "page": 64,
+			"page": 64,
 			"featureType": [
 				"OTH"
 			],
@@ -591,5 +597,5 @@
 				"You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
 			]
 		}
-    ]
+	]
 }

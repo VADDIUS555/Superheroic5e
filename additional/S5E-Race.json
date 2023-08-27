@@ -1,29 +1,35 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "S5E-Race",
-                "abbreviation": "S5E-Races",
-                "full": "S5E: Ancestries & Cultures",
+	"_meta": {
+		"sources": [
+			{
+				"json": "S5E-Race",
+				"abbreviation": "S5E-Races",
+				"full": "S5E: Ancestries & Cultures",
 				"version": "2023.08.05",
-                "authors": [
+				"authors": [
 					"Gwendolyn Marshall",
 					"Amy Bliss Marshall"
 				],
 				"color": "fdc830",
-                "convertedBy": ["VAD"]
-            }
-        ],
+				"convertedBy": [
+					"VAD"
+				]
+			}
+		],
 		"dateAdded": 20230806,
 		"dateLastModified": 20230806
-    },
-    "race": [
+	},
+	"race": [
 		{
 			"name": "Alien (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 16,
-			"size": ["M"],
-			"speed": {"walk": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
 			"traitTags": [
 				"Natural Armor",
 				"Natural Weapon"
@@ -43,19 +49,25 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal."]
+					"entries": [
+						"Aliens vary so widely that some emerge from the birthing process as adults, while others take centuries to mature. Similarly, some live only a few years while others are nearly immortal."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small."]
+					"entries": [
+						"Most alien superheroes are roughly human in size, varying from 4 to 8 feet in height. If you fall in that range, your size is Medium. Some are smaller, with heights of 1 to 4 feet tall making your size is Small."
+					]
 				},
-				{						
+				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number."]
+					"entries": [
+						"Aliens typically have a base walking speed of 30 feet, though your Alien Physiology trait (see following) may alter this number."
+					]
 				},
-				{						
+				{
 					"type": "entries",
 					"name": "Alien Physiology",
 					"entries": [
@@ -67,70 +79,104 @@
 								{
 									"type": "entries",
 									"name": "Broad-Spectrum Sight",
-									"entries": ["The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."]
+									"entries": [
+										"The dark conditions on your ancestry's home planet have granted you superior vision in dark and dim conditions. You have {@sense darkvision} out to 60 feet."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Climbing",
-									"speed": {"walk": 30, "climb": 30},
-									"entries": ["Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."]
+									"speed": {
+										"walk": 30,
+										"climb": 30
+									},
+									"entries": [
+										"Your hands and feet evolved for climbing and clinging to vertical surfaces. You have a climbing speed equal to your walking speed."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Fleet-Footed",
-									"speed": {"walk": 35},
-									"entries": ["Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."]
+									"speed": {
+										"walk": 35
+									},
+									"entries": [
+										"Your alien limbs can propel you along the ground more rapidly than humans. Your walking speed is 35 feet."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Hardened Skin",
-									"entries": ["You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."]
+									"entries": [
+										"You have unusually resilient skin or, perhaps, scales) which provides you extra protection. When you aren't wearing armor, your AC is 13 + your Proficiency Bonus + Dexterity modifier (maximum 2). You can use your hardened skin to determine your AC if the armor you wear would leave you with a lower AC."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Keen Senses",
-									"entries": ["Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."]
+									"entries": [
+										"Your ancestry is more highly evolved for survival. You roll {@skill Perception} checks with advantage."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Natural Weapons",
-									"entries": ["Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."]
+									"entries": [
+										"Your alien physiology includes claws, fangs, barbs, a spiked tail, ram's horns, or some other bodily weapon, which you can use to make unarmed strikes. If you hit with them, you can deal damage equal to {@dice 1d6} + your Strength modifier, instead of the normal damage for an unarmed strike. If your natural weapon is claw-like, the damage is slashing. If it is fang or stinger like, the damage is piercing. If it is like ram's horns, the damage is bludgeoning."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Resistance",
-									"entries": ["Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."]
+									"entries": [
+										"Your home is a harsh environment compared to earth. You have resistance to one of the following forms of damage: acid, cold, fire, lightning, necrotic, poison, radiant, or thunder. If a creature or an object has resistance to a damage type, damage of that type is halved against it."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Toughness",
-									"entries": [" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."]
+									"entries": [
+										" Perhaps your planet has an unusually high gravity, or maybe it is simply a harsh environment. Either way, your HP maximum increases by 1 for each level."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Toxin Resistance",
-									"entries": ["Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."]
+									"entries": [
+										"Due to the hostile environment on your people's planet, you have advantage on saves against poison, and you have resistance against poison damage."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Extraterrestrial Mutation",
-									"entries": ["Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+									"entries": [
+										"Your alien ancestry evolved to possess a power typically only found among mutants on Earth. You are not a mutant among your people; instead, all your people possess a remarkable ability. You have the Mutation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Flight",
-									"speed": {"Walk": 30, "fly": 30},
-									"entries": ["You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+									"speed": {
+										"Walk": 30,
+										"fly": 30
+									},
+									"entries": [
+										"You have some means of flight, such as wings or the ability to move yourself through the air with your mind. You have a flying speed equal to your walking speed. Note: if you choose this option, you may not choose a second Alien Physiology trait."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Inorganic Physiology",
-									"entries": ["Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+									"entries": [
+										"Your people followed a very different evolutionary path than humans. You have the Inorganic Physiology feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Natural Manifestation",
-									"entries": ["Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."]
+									"entries": [
+										"Your species evolved closely intertwined with nature. You have the Natural Manifestation feat (\"Feats\"). Note: if you choose this option, you may not choose a second Alien Physiology trait."
+									]
 								}
 							]
 						}
@@ -142,8 +188,13 @@
 			"name": "Aquatic (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 16,
-			"size": ["M"],
-			"speed": {"walk": 30, "swim": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
 			"age": {
 				"mature": 15,
 				"max": 500
@@ -162,32 +213,44 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Aquatic people age more slowly than humans do, reaching maturity in about fifty years and living close to five hundred."]
+					"entries": [
+						"Aquatic people age more slowly than humans do, reaching maturity in about fifty years and living close to five hundred."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Aquatic people are roughly human in size and shape, though they tend to have blue or green skin and small fins along their arms and legs. Your size is Medium."]
+					"entries": [
+						"Aquatic people are roughly human in size and shape, though they tend to have blue or green skin and small fins along their arms and legs. Your size is Medium."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Your base walking and swim speeds are 30 feet."]
+					"entries": [
+						"Your base walking and swim speeds are 30 feet."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Amphibious",
-					"entries": ["Your people were once land-dwellers but have long since evolved to reside underwater. You can breathe comfortably in both air and water."]
+					"entries": [
+						"Your people were once land-dwellers but have long since evolved to reside underwater. You can breathe comfortably in both air and water."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Deep Sea Sight",
-					"entries": ["Sunlight rarely reaches the depths of your aquatic cities, so your ancestry grants you {@sense darkvision}, allowing you to see in dark and dim conditions."]
+					"entries": [
+						"Sunlight rarely reaches the depths of your aquatic cities, so your ancestry grants you {@sense darkvision}, allowing you to see in dark and dim conditions."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Resilience of the Depths",
-					"entries": ["Your people have spent millennia at the bottom of the ocean. You can ignore the effects of water pressure due to depths and have resistance against cold damage."]
+					"entries": [
+						"Your people have spent millennia at the bottom of the ocean. You can ignore the effects of water pressure due to depths and have resistance against cold damage."
+					]
 				}
 			]
 		},
@@ -195,8 +258,12 @@
 			"name": "Human (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 16,
-			"size": ["M"],
-			"speed": {"walk": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
 			"age": {
 				"mature": 15,
 				"max": 80
@@ -241,22 +308,30 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Humans reach adulthood in their late teens and usually live less than a century."]
+					"entries": [
+						"Humans reach adulthood in their late teens and usually live less than a century."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Typical humans vary widely in height and build, from almost 5 feet to upwards to 7 feet tall. If you fall in that range, your size is Medium. Some humans are little people, with heights of 3 to 4 feet tall. If your height falls in this range, your size is Small."]
+					"entries": [
+						"Typical humans vary widely in height and build, from almost 5 feet to upwards to 7 feet tall. If you fall in that range, your size is Medium. Some humans are little people, with heights of 3 to 4 feet tall. If your height falls in this range, your size is Small."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Your base walking speed is 30 feet."]
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Versatility",
-					"entries": ["Earth has a variety of climates, as well as some limited experience with superheroes, mutants, and even, perhaps, aliens. Throughout, humans adapt surprisingly well, even taking to life in outer space if necessary. This diversity is a strength, granting you one skill proficiency of your choice."]
+					"entries": [
+						"Earth has a variety of climates, as well as some limited experience with superheroes, mutants, and even, perhaps, aliens. Throughout, humans adapt surprisingly well, even taking to life in outer space if necessary. This diversity is a strength, granting you one skill proficiency of your choice."
+					]
 				}
 			]
 		},
@@ -264,8 +339,12 @@
 			"name": "Mutant (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 16,
-			"size": ["M"],
-			"speed": {"walk": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
 			"age": {
 				"mature": 15,
 				"max": 80
@@ -281,17 +360,23 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Mutants age the same as non-mutant humans."]
+					"entries": [
+						"Mutants age the same as non-mutant humans."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small."]
+					"entries": [
+						"Like humans, typical mutants vary widely in height and build, from roughly 5 to 7 feet tall. If you fall in that range, your size is Medium. Some are little people, with heights of 3 to 4 feet, if in this range, your size is Small."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Your base walking speed is 30 feet."]
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
 				},
 				{
 					"type": "entries",
@@ -307,8 +392,12 @@
 			"name": "Mythic (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 17,
-			"size": ["M"],
-			"speed": {"walk": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
 			"age": {
 				"mature": 15,
 				"max": 150
@@ -324,22 +413,30 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years."]
+					"entries": [
+						"Mythic heroes tend to live somewhat longer than humans, reaching ages up to 150 years."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Mythic characters are human is size."]
+					"entries": [
+						"Mythic characters are human is size."
+					]
 				},
-				{						
+				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Your base walking speed is 30 feet."]
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
 				},
-				{						
+				{
 					"type": "entries",
 					"name": "Mythic Talent",
-					"entries": ["Mythical humans hail from lineages of great and primordial power. You know the mighty focus at will power and the heroism 1st level power and can use it once, regaining the ability when you complete a long rest."]
+					"entries": [
+						"Mythical humans hail from lineages of great and primordial power. You know the mighty focus at will power and the heroism 1st level power and can use it once, regaining the ability when you complete a long rest."
+					]
 				}
 			]
 		},
@@ -347,8 +444,12 @@
 			"name": "Robotic (Ancestry)",
 			"source": "Superheroic5E",
 			"page": 17,
-			"size": ["M"],
-			"speed": {"walk": 30},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
 			"age": {
 				"mature": 0,
 				"max": 200
@@ -368,17 +469,23 @@
 				{
 					"type": "entries",
 					"name": "Age",
-					"entries": ["Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear."]
+					"entries": [
+						"Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
-					"entries": ["Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium."]
+					"entries": [
+						"Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Speed",
-					"entries": ["Your base walking speed is 30 feet."]
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
 				},
 				{
 					"type": "entries",
@@ -390,7 +497,9 @@
 				{
 					"type": "entries",
 					"name": "Robotic Resilience",
-					"entries": ["You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."]
+					"entries": [
+						"You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."
+					]
 				}
 			]
 		},
@@ -532,7 +641,9 @@
 			"name": "Aquatic (Culture)",
 			"source": "Superheroic5E",
 			"page": 19,
-			"speed": {"swim": true},
+			"speed": {
+				"swim": true
+			},
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -810,5 +921,5 @@
 				}
 			]
 		}
-    ]
+	]
 }

@@ -5,17 +5,19 @@
                 "json": "S5E-Items",
                 "abbreviation": "S5E-Items",
                 "full": "S5E: Equipment and Items",
-				"version": "2023.08.05",
+                "version": "2023.08.05",
                 "authors": [
-					"Gwendolyn Marshall",
-					"Amy Bliss Marshall"
-				],
-				"color": "fdc830",
-                "convertedBy": ["VAD"]
+                    "Gwendolyn Marshall",
+                    "Amy Bliss Marshall"
+                ],
+                "color": "fdc830",
+                "convertedBy": [
+                    "VAD"
+                ]
             }
         ],
-		"dateAdded": 20230806,
-		"dateLastModified": 20230806
+        "dateAdded": 20230806,
+        "dateLastModified": 20230806
     },
     "item": [
         {
@@ -24,7 +26,7 @@
             "page": 0,
             "rarity": "legendary",
             "value": 0,
-			"weight": 0,
+            "weight": 0,
             "reqAttune": true,
             "wondrous": true,
             "entries": [
@@ -69,20 +71,20 @@
             "attachedSpells": [
                 "dominate monster"
             ]
-        },        
-		{
-			"name": "Example: Weapon Rack",
-			"source": "Superheroic5E",
-			"page": 34,
-			"type": "G",
-			"rarity": "none",
-			"value": 40,
-			"weight": 8,
+        },
+        {
+            "name": "Example: Weapon Rack",
+            "source": "Superheroic5E",
+            "page": 34,
+            "type": "G",
+            "rarity": "none",
+            "value": 40,
+            "weight": 8,
             "reqAttune": false,
             "wondrous": false,
-			"entries": [
-				"This item lets a fingerless creature mount a polearm type weapon (spear, pike, lance, halberd, glaive, ect.) to its body and use it despite its two-handed status. It cannot be worn at the same time as a shield rack, and the haft cannot be used to strike while such a weapon is mounted."
-			]
-		}
+            "entries": [
+                "This item lets a fingerless creature mount a polearm type weapon (spear, pike, lance, halberd, glaive, ect.) to its body and use it despite its two-handed status. It cannot be worn at the same time as a shield rack, and the haft cannot be used to strike while such a weapon is mounted."
+            ]
+        }
     ]
 }
