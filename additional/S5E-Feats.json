@@ -39,6 +39,7 @@
 				}
 			],
 			"entries": [
+				"{@i Associated class: Mystic}",
 				"Your research uncovers an ancient talisman endowed with mystical power. It might be a medallion, or a ring, or something else that you wear or wield.",
 				"While the item is in your possession, you may draw on its arcane might to empower your own magical powers.",
 				"Select one 1st or 2nd level power you do not have. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
@@ -70,6 +71,7 @@
 				}
 			],
 			"entries": [
+				"{@i Associated class: the power armor favored tech}",
 				"You have a built-in AI who assists you, granting you advantage on all Intelligence checks. As a bonus action, you can query your assistance and have it access the web for any information that a dedicated researcher could find in a matter of minutes, which, for your AI, takes only a moment. If the query is difficult, the GM may call for an {@skill Investigation} check. Finally, the AI can perform a tactical analysis of your foes, though this takes a few moments of observation to achieve. At the beginning of the third round of combat, your AI informs you of any damage and condition resistances, immunities, or vulnerabilities your foes have."
 			]
 		},
@@ -175,7 +177,7 @@
 			]
 		},
 		{
-			"name": "COMBAT TECHNIQUE",
+			"name": "Combat Techique",
 			"source": "Superheroic5E",
 			"page": 88,
 			"prerequisite": [
@@ -194,6 +196,875 @@
 				"Save DC = 8 + your proficiency bonus + your Power ability modifier",
 				"{@action Attack} modifier = your proficiency bonus + your Power ability modifier",
 				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this power."
+			]
+		},
+		{
+			"name": "Contacts",
+			"source": "Superheroic5E",
+			"page": 85,
+			"prerequisite": [
+				{
+					"other": "Special Agent operator division"
+				}
+			],
+			"entries": [
+				"{@i Associated class: Special Agent operator division}",
+				"You have contacts in a variety of underground economy and underworld circles. With a phone call or message, you can tap a contact for a small favor. For example, you could learn basic facts about organized crime and illicit activity in the area, get an invite to an off-the-books club, or set up a meeting with a local crime lord.",
+				"You can also reach out to a contact to ask for a favor for something more substantial, though the contact may want something in return. Work with your GM to figure out what the contact might ask for in exchange, though the favor they ask should be equivalent to the one you request. If you are unable to come to an agreement with the contact, you won't be able to ask a contact for a substantial favor again for 7 days.",
+				"Appropriate substantial favors could include providing you with contraband heavy weaponry or explosives on short notice, tracking down someone in hiding and giving you their location, getting you out of federal custody, and so on."
+			]
+		},
+		{
+			"name": "Debilitating Strike",
+			"source": "Superheroic5E",
+			"page": 85,
+			"prerequisite": [
+				{
+					"other": "Martial Expert"
+				},
+				{
+					"other": "he hand-to-hand training regimen"
+				}
+			],
+			"entries": [
+				"{@i Associated classes: Martial Expert or the hand-to-hand training regimen}",
+				"Your martial training extends to targeted attack on your opponent's pressure points. When you strike a creature with an unarmed attack, you may spend two focus points to debilitate them. The target must succeed on a Constitution save or be knocked {@condition prone} and {@condition paralyzed} until the end of your next turn."
+			]
+		},
+		{
+			"name": "Defensive",
+			"source": "Superheroic5E",
+			"page": 85,
+			"prerequisite": [
+				{
+					"other": "You cannot take this feat if you already have the Nimble feat."
+				}
+			],
+			"entries": [
+				"You are harder to hit than the average human. You may add half your proficiency bonus, rounded up, to your Armor Class. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Armor Class score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +1 to your Armor Class. Later, at level 15, your proficiency bonus is +5, so you increase your Armor Class so that the total bonus from the feat is +3. This bonus applies in addition to any bonus to your Armor Class from your Dexterity, armor, or superpowered effects.",
+				"{@i * You cannot take this feat if you already have the Nimble feat.}"
+			]
+		},
+		{
+			"name": "Demolitionist",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "Special Agent"
+				}
+			],
+			"entries": [
+				"{@i Associated class: Special Agent}",
+				"You have a knack for blowing things up. Unless you have explicitly been disarmed, you always have three fragmentation grenades, 1 lb. of C4, and a land mine in your equipment. Once you have used these items, you no longer have any until you complete a long rest, at which time your supply refreshes.",
+				"Further, when you spend 1 minute placing an explosive like C4 or a land mine, it is {@condition invisible} to cursory inspection, though someone actively searching for it can discover it if they beat you in a contested roll between your {@skill Stealth} and their {@skill Investigation}.",
+				"Finally, when you use an explosive device, it always deals the maximum damage."
+			]
+		},
+		{
+			"name": "Disruptive Phasing",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "the Metamorph class, with the intangibility transformation"
+				}
+			],
+			"entries": [
+				"When you become intangible, either via the momentary intangibility or intangibility powers, your form emanates a disruptive energy field. While intangible, if you pass through the space of a creature, it must make a Constitution save against your power save DC or take {@damage 2d6} force damage.",
+				"What's more, if you phase through an electronic device or system, you can choose to deal {@damage 2d6} lightning damage to it."
+			]
+		},
+		{
+			"name": "Diviner",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"level": 4
+				},
+				{
+					"other": "eldritch mystic path"
+				}
+			],
+			"entries": [
+				"{@i Associated class: 4th level in the eldritch mystic path}",
+				"You have adopted instruments and practices that allow you to see beyond the veil. You may perform a divination for yourself or another person using your preferred divination tools. Perhaps you read tarot cards, bones, tea leaves, or runes. The divination takes one minute and requires a divination tool. Upon completing the reading, the querent (the person for whom the reading is done) may use the divination power without expending a power slot, even if they do not know the power normally."
+			]
+		},
+		{
+			"name": "Drive Back",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "Strength 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You know that it is best to crush your enemies and see them driven before you. Increase your Strength by 1, to a maximum of 26. When you hit a creature with a melee attack, you can push them away from you 5 feet to an unoccupied space, if the target is no more than one size larger than you. If the target would already be moved back by your attack, then you move them an additional 5 feet."
+			]
+		},
+		{
+			"name": "Elemental Being",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"level": 9
+				},
+				{
+					"other": "higher or Elementalist class"
+				}
+			],
+			"entries": [
+				"You not only can take on the form of your favored element, you become that element. You know the {@spell elemental form|Superheroic5E} power, if you did not before, and it doesn't count against your number of powers known, nor does it require {@status concentration}.",
+				"Furthermore, for you, it has a duration of Permanent, though you can choose to end the effect and return to human form at will."
+			]
+		},
+		{
+			"name": "Enhanced Senses",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "Wisdom of 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"Your senses heighten to a preternatural degree, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain +1 to your Wisdom score, to a maximum of 26.",
+						"You have advantage on all {@skill Perception} checks.",
+						"You have advantage on {@skill Survival} checks to track a person.",
+						"You have {@sense Tremorsense|MM} to a range of ten feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Empathic Sense",
+			"source": "Superheroic5E",
+			"page": 86,
+			"entries": [
+				"{@i Associated class: Mentalist with the telepath mental aptitude}",
+				"Your connection to the minds of others attunes you not only to their thoughts but their feelings as well, allowing you to notice when someone nearby is experiencing strong emotions. Whenever a visible beast or humanoid within 30 feet of you feels a strong emotion, you sense it. You only become of aware of the emotion, but not its object.",
+				"For example, you might sense that someone is afraid, but not what they are afraid of. Once you have sensed a strong emotion from someone, they have disadvantage on any saves to resist you if you use detect thoughts or calm emotions on them."
+			]
+		},
+		{
+			"name": "Extradimensional Storage",
+			"source": "Superheroic5E",
+			"page": 86,
+			"prerequisite": [
+				{
+					"other": "the teleporting Kinetic talent"
+				}
+			],
+			"entries": [
+				"Not only can you teleport yourself to other locations, but you can use your teleporting ability to access an extradimensional space.",
+				"You touch a container no larger than a backpack. For 24 hours, the container has an interior space considerably larger than its outside dimensions. If the container is the size of a small purse, pouch, or pocket which can normally hold no more than 1/5th cubic foot or roughly 6 pounds of gear, it can now hold 5 cubic feet or roughly 60 pounds of gear. If it is the size of a backpack, which can normally hold roughly 1 cubic foot or 30 pounds of gear, it can now hold 50 cubic feet or 400 pounds of gear. Purse-sized containers weigh 2 pounds and backpack sized containers weight 15 pounds, regardless of what they contain, though all gear to enter the container must be able to fit through its normal opening. Retrieving an item from the bag requires an action.",
+				"If the container is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the area surrounding the container. If the container is turned inside out, its contents spill forth, unharmed, but it must be put right before it can be used again.",
+				"After 24 hours, its contents are expelled onto the ground around it. If the container is sealed or otherwise prevented from emptying its contents, it ruptures."
+			]
+		},
+		{
+			"name": "Fencing Expert",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"You have trained in classic and modern fencing techniques, though the moves here can be used with any melee weapon. When you take the attack action, you can forego one of your attacks to do one of the following:",
+				{
+					"type": "list",
+					"items": [
+						"You may attempt to disarm a foe. They must make a Dexterity save against a DC equal to 8 + your Dexterity modifier + your proficiency bonus or drop whatever they are holding.",
+						"You may perform a feint, distracting the foe and granting advantage to the next attack against that foe before the beginning of your next turn.",
+						"You can lunge to hit a target five feet further than the normal range of a melee weapon you are holding and strike a foe, returning to your original place without incurring an opportunity attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fly-By",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"other": "the fly power and a Dexterity of 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"When you take to the air, you do so with remarkable agility, twisting and turning into and out of the reach of your foes. Gain +1 to your Dexterity score, to a maximum. Furthermore, if you make a melee attack against a creature on your turn while flying, they can't make an opportunity attack against you for the rest of your turn."
+			]
+		},
+		{
+			"name": "Good Luck",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"You are blessed with good fortune. When you roll an attack, skill check, or save you may reroll after you have seen the result but before the GM has determined whether the roll was a success or not. Once you have done this, you may not do it again until you've taken a short or long rest."
+			]
+		},
+		{
+			"name": "Grappler",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"other": "Strength 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You've developed the skills necessary to hold your own in close quarters grappling. When you choose this feat, you gain the following benefits:",
+				"You have advantage on attack rolls against a creature you are grappling.",
+				"You can use an attack action to try to pin a creature {@condition grappled} by you. To do so, make another grapple check. If you succeed, you and the creature are both {@condition restrained} until the grapple ends.",
+				"You may attempt to grapple a foe as a bonus action."
+			]
+		},
+		{
+			"name": "Grit",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"No matter what hardships you must weather, you persist. Add half of your proficiency bonus, rounded down, to your saves. Thus, at 5th level, your proficiency bonus is +3, so you add +1 to all saves, but at 19th level, when your proficiency bonus is +6, you add +3 to all saves."
+			]
+		},
+		{
+			"name": "Fungal Rapport",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"other": "the plant natural domain"
+				}
+			],
+			"entries": [
+				"Your connection to plants extends to spores, molds, and fungi. This special communion grants you the following abilities:",
+				{
+					"type": "list",
+					"items": [
+						"You can accelerate the decay of damaged organic matter, infusing it with mold. When you do damage to a living creature that is not a construct or undead, you can call upon the ambient mold spore in the area, doing an additional {@damage 1d8} necrotic damage to your target.",
+						"You can touch organic objects like food or plant life and consume its essence. As an action, you can destroy a palm sized amount of an organic object you touch and gain HP equal to your proficiency bonus.",
+						"When you use the blight power, you can roll the damage dice twice and take the higher result."
+					]
+				}
+			]
+		},
+		{
+			"name": "Futuristic Gear",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"{@i Associated classes: technological hero or your GM's permission}",
+				"Whether through your own brilliant research or from raiding an alien armory, you may now possess highly advanced armor, weapons, and equipment. You gain +1 to you Intelligence score and may now purchase or create items with the futuristic property."
+			]
+		},
+		{
+			"name": "Great Luck",
+			"source": "Superheroic5E",
+			"page": 87,
+			"prerequisite": [
+				{
+					"feat": [
+						"{@feat good luck|Superheroic5E}"
+					]
+				}
+			],
+			"entries": [
+				"Your luck is positively uncanny. Now, you may reroll an attack, skill check, or save two times until you need a short or long rest."
+			]
+		},
+		{
+			"name": "Heroic Transformation",
+			"source": "Superheroic5E",
+			"page": 87,
+			"entries": [
+				"{@i Players should speak with their GMs about possibly taking this feat for free.}",
+				"Some superheroes alternate between a secret identity and a heroic one, but you have two literally different selves. When you take on your superheroic persona, you literally transform your body, gaining a new appearance and perhaps, an inhuman form. When you are not in your superhuman form, however, you lack powers.",
+				"What's more, you can choose to have different ability scores in each form as well. Maybe you are a brilliant scientist when in your mundane human form, but a super strong brute in your heroic form. You might capture this radical transformation by assigning your ability scores as normal for your heroic form, and then a second time for your mundane, powerless form.",
+				"For example, you might be a typical schoolboy until you say your word of power and transform into a mighty hero. Or maybe you must be angered before you can adopt your heroic form. Describe what it looks like when you transform and work with your GM to decide whether you keep your two forms a secret, how you feel about these two forms, how they feel about each other (do they hate each other, like Jekyll and Hyde?), and whether you have total control over the trigger for the transformation."
+			]
+		},
+		{
+			"name": "High-Tech Investigator",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Special Agent investigator division"
+				}
+			],
+			"entries": [
+				"In your continuing pursuit of the truth, you employ several custom devices to help you uncover truths, fight crime, and otherwise solve problems. Now, your Forensic Sense can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. When you use the scan, you also gain the following information:",
+				{
+					"type": "list",
+					"items": [
+						"You sense every creature within 30 feet and can see whether they have any weapons on them, even those that are otherwise concealed.",
+						"You sense any nearby explosives.",
+						"You detect any nearby networked devices."
+					]
+				},
+				"When you find a networked device within 30 feet, you can attempt to hack it remotely. Make a DC 13 Technology check; on a success, you gain access to the device as if you had the admin's username and password and can direct the device to do whatever it is capable of. The GM nay decide that certain devices have increased network security, however, and raise the DC or even not allow this feat to apply (for example, to the NSA's mainframe)."
+			]
+		},
+		{
+			"name": "Identity Thief",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "4th-level"
+				},
+				{
+					"other": "higher Metamorph with the polymorph transformation"
+				}
+			],
+			"entries": [
+				"When you use the alter self or superior alter self powers while touching a humanoid, you can not only take on their appearance, but also perfectly mimic their voice. If the target fails a Wisdom save against your power save DC, you even learn a few superficial facts about the person, such as a preferred nickname, where they were headed most recently, and one distinctive personality trait that acquaintances would look for."
+			]
+		},
+		{
+			"name": "Ineffable Lucidity",
+			"source": "Superheroic5E",
+			"page": 88,
+			"entries": [
+				"{@i Associated class: the eldritch mystic path}",
+				"Perhaps you were reading a forbidden grimoire or experimenting with extradimensional energies. Somehow, you have glimpsed the space beyond the edge of reality, and somehow know something you shouldn't. Whenever you fail an Intelligence check, you can substitute a 15 for whatever you rolled and use it instead. Once you have used this feature, you cannot do so again until you complete a short or long rest."
+			]
+		},
+		{
+			"name": "Inorganic Physiology",
+			"source": "Superheroic5E",
+			"page": 88,
+			"entries": [
+				"{@i Associated class: the Metamorph class}",
+				"Your resting form is composed of an inorganic substance such as iron, sand, or stone and you gain some of that material's properties. For example, if you are a substance that conducts electricity, like copper, you are now immune to lightning damage and can conduct electricity harmlessly. If you are stone or steel, you now have natural armor\u2014add +3 to your Armor Class. If you are nonreactive with acid, like glass, then you too are immune to acid damage. If you are made of rubber, then you have resistance to bludgeoning damage. Work with your GM to determine the exact consequences of the substance you have chosen."
+			]
+		},
+		{
+			"name": "Insightful",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Wisdom 17"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You are more astute than the average human. You may add your proficiency bonus to your Wisdom score, to a maximum of 26. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Wisdom score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Wisdom attribute. Later, at level 10, your proficiency bonus is +4, so you increase your Wisdom again, so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Wisdom."
+			]
+		},
+		{
+			"name": "Jury-Rigger",
+			"source": "Superheroic5E",
+			"page": 88,
+			"entries": [
+				"{@i Associated class: the gadget-favored tech}",
+				"You can put together just the right item from an improbable collection of simple raw materials. Once per long rest, you can spend 10 minutes with a selection of random items, combining them into a Rube Goldberg-esque contraption that holds together until you take your next rest.",
+				"You can convert raw materials into products of the similar materials. For example, you could put together a working pistol from some piping of various sizes, a hacksaw, a hammer, and some gunpowder. Your GM should allow you a fair amount of leeway with the necessary ingredients.",
+				"Choose visible raw materials in range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or two connected 5-foot cubes), given enough raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by this Feat is commensurate with the quality of the raw materials.",
+				"Creatures or powers can't be created or reproduced by this Feat. You also can't use it to create intricate items that require a high degree of craftsmanship, such as jewelry or electronics, unless you have proficiency with the type of artisan's tools used to craft such objects."
+			]
+		},
+		{
+			"name": "Kinesthetic Mimic",
+			"source": "Superheroic5E",
+			"page": 89,
+			"prerequisite": [
+				{
+					"other": "Dexterity of 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You can perfectly emulate a physical behavior, performance, or attack you have witnessed. For example, you could watch someone play a complex piano piece and then repeat the performance exactly, errors and all. Similarly, you could precisely replicate a dance, or a martial arts form. Out of combat, you cannot copy any activities that require a power you do not possess or a higher Strength score or walking speed than you have.",
+				"In combat, when a visible creature within 30 feet makes certain kinds of attacks or uses certain powers, you can use your reaction to copy it. You can copy one of the following maneuvers:",
+				{
+					"type": "list",
+					"items": [
+						"A weapon attack with a weapon you wield.",
+						"An unarmed melee attack.",
+						"A feature from the Martial Expert or Special Agent class gained at 3rd level or lower.",
+						"A power from the Kinetic power list of 2nd level or lower, except for portal punch.",
+						"An at will or 1st level power from the General power list."
+					]
+				},
+				"When you copy this attack, feature, or power, also make sure to record the results of any attack and damage rolls that the creature made as well as any power save DCs involved, because you copy the exact action, down to the smallest detail. If the attack roll was a natural 20, it only counts as a hit for you and not a critical success, however.",
+				"Once you have copied it, you can use an action to reproduce the attack, feature, or power as if it were your own, without expending a power slot or focus points. When you do so, you use the same attack and damage roll results, or the same power save DC, that the original creature did when you copied it.",
+				"For example, if you see your ally punch a foe and roll an 18 on their attack roll, doing 10 bludgeoning damage, you can punch someone on your turn for the same attack roll result and damage, gaining the benefits and effects as if you had rolled them yourself. Similarly, if you see a foe using the spider climb ability to scale a wall, you too can do so.",
+				"You lose the ability to reproduce the copied effect when you complete a short or long rest or when you use your reaction to copy a new maneuver."
+			]
+		},
+		{
+			"name": "Layered Illusion",
+			"source": "Superheroic5E",
+			"page": 89,
+			"prerequisite": [
+				{
+					"other": "the illusion mental aptitude"
+				}
+			],
+			"entries": [
+				"When you craft illusions, you make illusions within illusions. When someone successfully sees through one of your illusions while you are within 120 feet of them and you can see them, you can use your reaction to create another illusion, using the same power that created the original illusion if you have an available power slot to use. When you do so, the person seeing through the initial illusion sees your newly created replacement illusion rather than the real world. They may use their action on a subsequent turn to investigate this new illusion, as normal, but they do not immediately have any reason to believe they are viewing a second illusion, unless you decide to create something outlandish."
+			]
+		},
+		{
+			"name": "Manipulate Energy",
+			"source": "Superheroic5E",
+			"page": 90,
+			"prerequisite": [
+				{
+					"other": "Mystic's Boon of the Tome"
+				}
+			],
+			"entries": [
+				"Drawing power through your mystic tome grants you more flexibility regarding your powers, allowing you to manipulate the very fabric of reality around you. Perhaps you can make fire that freezes, or lightning that batters the target's mind. When you use a power from your tome that does damage, you may select a different type of damage for it to do than the one listed, though the power appears and acts otherwise the same."
+			]
+		},
+		{
+			"name": "Mastery of Magnetism",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "the telekinesis mental aptitude"
+				}
+			],
+			"entries": [
+				"You develop the ability to manipulate magnetic fields along with your telekinesis, moving metallic objects around with this new power. Now, when you use the telekinetic hand, telekinesis, or animate objects powers on something that is primarily metallic, you may choose to use them as a bonus action. Telekinesis and animate objects no longer require {@status concentration} if you are manipulating something that is primarily metallic, though you may only have one instance of each of these powers active at a given time.",
+				"The powers last for the duration or until you choose to end them."
+			]
+		},
+		{
+			"name": "Mighty",
+			"source": "Superheroic5E",
+			"page": 88,
+			"prerequisite": [
+				{
+					"other": "Strength 17"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"{@i Associated class: the strength Kinetic talent}",
+				"You are stronger than the average human. You may add your proficiency bonus to your Strength score. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Strength score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Strength attribute. Later, at level 10, for example, your proficiency bonus is +4; therefore, you increase your Strength so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Strength."
+			]
+		},
+		{
+			"name": "Monstrous Form",
+			"source": "Superheroic5E",
+			"page": 90,
+			"prerequisite": [
+				{
+					"other": "2nd-level"
+				},
+				{
+					"other": "higher in the animal natural domain"
+				}
+			],
+			"entries": [
+				"Your Wild Shape ability to take on the forms of beasts broadens to include monstrous creatures you have seen in person or studied in fiction. Now, in addition to beasts, you can take on the form of a celestial, dragon, fey, fiend, or monstrosity, though the rules on challenge ratings and movement still apply."
+			]
+		},
+		{
+			"name": "Mutation",
+			"source": "Superheroic5E",
+			"page": 90,
+			"entries": [
+				"You have been exposed to something that has caused you to undergo a mutation. Regardless of whether you encountered a chemical, or radiation, or something more exotic, you now manifest a superhuman trait. Select a single 1st or 2nd level superpower that you do not have. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
+				"The first time you use this power, you do not need to expend a power slot; after that, you may use it again by expending a power slot as normal. If you have no power slots, you may use it once. You regain the ability when you complete a short or long rest.",
+				"Use your normal power attack modifier or save DC when you use this power. If you do not have any levels in a class with slots, then you calculate you save DC and attack modifier for this power as follows:",
+				"{@b Save DC =} 8 + your proficiency bonus + your Power ability modifier",
+				"{@b Attack modifier =} your proficiency bonus + your Power ability modifier",
+				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this mutation."
+			]
+		},
+		{
+			"name": "Mutation, Advanced",
+			"source": "Superheroic5E",
+			"page": 90,
+			"prerequisite": [
+				{
+					"feat": [
+						"{@feat mutation|Superheroic5E"
+					]
+				}
+			],
+			"entries": [
+				"Your mutation develops further, growing and expressing itself in new ways. Select an additional superpower that you do not have of 4th level or lower from the same list from which you chose your first mutation power. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
+				"The first time you use this power, you do not need to expend a power slot; after that, you may use it again by expending a power slot as normal. If you have no power slots, you may use it once. You regain the ability when you complete a short or long rest. Calculate your power attack modifier and save DC the same way you do for your first mutation."
+			]
+		},
+		{
+			"name": "Natural Manifestation",
+			"source": "Superheroic5E",
+			"page": 91,
+			"entries": [
+				"{@i Associated class: Vitalism hero}",
+				"You have an intimate connection to some aspect of nature. Choose two characteristics from the list of natural characteristics below. You can manifest one or both characteristics as a free action on your turn, altering your body to incorporate them and gaining their benefits.",
+				"On a subsequent turn, you can dismiss the characteristics as a free action.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Camouflage}: You subtly change the color of your skin, like a chameleon, granting you advantage on {@skill Stealth} checks.",
+						"Enhanced sense: You may have either {@sense Darkvision} to 60', {@sense Blindsight} to 10 feet, or heightened senses, the last of which grants you advantage on all {@skill Perception} checks. You may choose this option twice, selecting two different senses.",
+						"{@b Environmental adaptation}: You can survive in environments most humans can't. Either you have gills and can breathe underwater, or you can ignore fire and cold damage from extreme desert or arctic temperatures, etc.",
+						"{@b Improved movement}: You have either a swim speed or a climb speed equal to your walking speed. Alternately, you can jump twice the normal distance. You may choose this option twice, selecting different forms of movement.",
+						"{@b Natural defenses}: Your skin is covered in scales or bark. When you take damage, you can ignore the first point.",
+						"{@b Natural weaponry}: You have fangs, claws, talons, a stinger, or thorns. When you make an unarmed strike, you deal slashing damage equal to {@dice 1d8} + your Strength modifier.",
+						"{@b Photosynthesis}: Your skin turns green, absorbing energy from the sun. Every minute you remain in sunlight you gain one hit point up to your maximum, if you are conscious.",
+						"{@b Toxic}: Your blood is poisonous, making your eyes glow a color of your choice. When you take damage from a melee attack that deals piercing or slashing damage, the attacker takes poison damage equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nimble*",
+			"source": "Superheroic5E",
+			"page": 91,
+			"prerequisite": [
+				{
+					"other": "Dexterity of 17"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"{@i Associated Class: the agility Kinetic talent.}",
+				"You are more adept than the average human. You may add your proficiency bonus to your Dexterity score. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Dexterity score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Dexterity attribute. Later, at level 10, your proficiency bonus is +4, so you increase your Dexterity again, so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Dexterity.",
+				"* You cannot take this feat if you already have the Defensive feat"
+			]
+		},
+		{
+			"name": "Parkour",
+			"source": "Superheroic5E",
+			"page": 91,
+			"prerequisite": [
+				{
+					"other": "Dexterity of 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You have practiced deftly moving through complex urban environments without slowing down. You now have a climbing speed equal to your walking speed, though surfaces must have hand- or footholds to climb.",
+				"You can now also add your Dexterity bonus to your Strength bonus when calculating your high jumps and your Dexterity score to your Strength score when calculating your long jumps. Finally, your base walking speed increases by 10 feet."
+			]
+		},
+		{
+			"name": "Performer",
+			"source": "Superheroic5E",
+			"page": 91,
+			"prerequisite": [
+				{
+					"other": "Charisma of 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You have the presence of a seasoned stage actor. Add +1 to your Charisma score, to a maximum of 26. You now have proficiency with one musical instrument of your choice. You are gain expertise in {@skill Performance}; when you make a {@skill Performance} check, add double your proficiency bonus."
+			]
+		},
+		{
+			"name": "Polyglot",
+			"source": "Superheroic5E",
+			"page": 91,
+			"entries": [
+				"You have a knack for picking up languages. Add +1 to your Intelligence score, to a maximum of 26. Furthermore, you know four more languages. Finally, you require only a day of study to learn enough of a language to get around, and a week to pass as a local."
+			]
+		},
+		{
+			"name": "Precision Flame",
+			"source": "Superheroic5E",
+			"page": 91,
+			"prerequisite": [
+				{
+					"other": "the fire Elemental Manifestation"
+				}
+			],
+			"entries": [
+				"You gain finer control over your fire powers, allowing you to heat and melt things with precision. You can be subtle, by warming things without setting them on fire by touch, allowing you to cook food in your hand in a minute or less, for example, without burning it. Or you can be practical, allowing you to spot weld with a finger.",
+				"At 7th level, you gain the ability to melt and shape metal as you would soft clay, though it hardens moments after you retract your fiery power, taking on whatever shape you have bent it into. The effect is akin to the stone shape power, but working with metals only, and you may do so once per short or long rest."
+			]
+		},
+		{
+			"name": "Psychopomp",
+			"source": "Superheroic5E",
+			"page": 91,
+			"entries": [
+				"Associated class: the primordial Mystic path",
+				"You see dead people. You can see spirits, specters, and other ghostly beings. You can see into the ethereal plane, where such creatures usually reside or tend to linger for a time after dying, up to 30 feet. What's more, if you use the speak with dead power, you can speak with these spirits."
+			]
+		},
+		{
+			"name": "Remote Control",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"other": "13th level in the power armor favored tech"
+				}
+			],
+			"entries": [
+				"You have developed or acquired nanotech to communicate with your power armor across great distances, allowing you to summon it, give it simple commands, or even control it remotely, as if you were piloting it.",
+				"You can communicate with your power armor if you are on the same planet. When you are not in your power armor and choose to control it remotely like this, it acts as an independent creature under its own power and direction. When acting independently, the power armor has all the same statistics as you normally do when you are inside of the armor, except with Wisdom and Charisma scores of 8.",
+				"You can give it a general command, such as, \"attack that villain with the martial strike power,\" \"fly to my location,\" or \"go get that for me. If the power armor completes its latest order and doesn't receive another, it remains at its location and defends itself.",
+				"You can also use your action each turn to pilot it directly via this remote connection. You can control it as if you were inside it, with full access to its senses, as well as your powers and features, from its location."
+			]
+		},
+		{
+			"name": "Resilient",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"other": "Constitution 17"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"{@i Associated class: the toughness Kinetic talent}",
+				"You are tougher than the average human. You may add your proficiency bonus to your Constitution score. As you level up and your proficiency bonus increases, those increases apply to the bonus this feat applies to your Constitution score as well. So, if you take this feat at level 4 when your proficiency bonus is +2, you add +2 to your Constitution attribute. Later, at level 10, your proficiency bonus is +4, so you increase your Constitution again, so that the total bonus from the feat is +4. Thus, at level 20 this feat provides a +6 bonus to Constitution."
+			]
+		},
+		{
+			"name": "Resistant",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"other": "Constitution 13"
+				},
+				{
+					"other": "higher."
+				}
+			],
+			"entries": [
+				"You are tougher than most, particularly when it comes to a particular kind of pain. Increase your Constitution by 1, to a maximum of 26. You have resistance to one form of damage. You may take this feat multiple times."
+			]
+		},
+		{
+			"name": "Robust",
+			"source": "Superheroic5E",
+			"page": 93,
+			"entries": [
+				"You are tougher than most people and can stand up to pain and injury with a remarkable endurance. Your HP increase by 2 points per level. Each time you level up after taking this feat, you gain an additional 2 HP as well."
+			]
+		},
+		{
+			"name": "Sanctum Sanctorum",
+			"source": "Superheroic5E",
+			"page": 93,
+			"entries": [
+				"{@i Associated class: the Mystic class}",
+				"You have a sacred, mystical place in which you can meditate, recover, and commune with the source of your power. Work with your GM to describe this refuge. This location is under a permanent private sanctum effect. When you reach 11th level, your sanctum also benefits from a permanent guards and wards effect. Choose the protective features your sanctum has according to the powers."
+			]
+		},
+		{
+			"name": "Shield Savant",
+			"source": "Superheroic5E",
+			"page": 93,
+			"entries": [
+				"You wield a shield in combat to great effect, both to protect yourself and as a weapon against your foes. You are now proficient with shields. When wielding a shield, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may use the Shove action as a Bonus Action each round.",
+						"You may add +2 to any Dexterity save if you sense the effect triggering the save.",
+						"You may throw your shield as a boomerang (see Boomerang under Equipment), though the shield returns on a hit or a miss."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skillfull",
+			"source": "Superheroic5E",
+			"page": 93,
+			"entries": [
+				"You are adept at picking up new skills. You are now proficient in 4 new skills or tools."
+			]
+		},
+		{
+			"name": "Steadfast",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"other": "Constitution 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You exhibit incredible endurance and perseverance. Increase your Constitution by 1, to a maximum of 26. You now know the {@spell catch your breath|Superheroic5E} at will power from the General List. Whenever you spend a Hit Die, including when you use the catch your breath power, you gain the maximum number of HP possible on that roll."
+			]
+		},
+		{
+			"name": "Strong Back",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"other": "Strength 13"
+				},
+				{
+					"other": "higher"
+				}
+			],
+			"entries": [
+				"You can lift and carry far more than your peers. Increase your Strength by 1, to a maximum of 26. Your capacity to carry, lift, and push objects increases by a factor of ten.",
+				"{@b Carrying Capacity}. 150 times Strength score [normally 15 times Strength score].",
+				"{@b Push, Drag, or Lift}. 300 times Strength score [normally 30 times your Strength score].",
+				"{@b Size and Strength. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights."
+			]
+		},
+		{
+			"name": "Surveillance Network",
+			"source": "Superheroic5E",
+			"page": 93,
+			"prerequisite": [
+				{
+					"level": 5
+				},
+				{
+					"other": "higher in the Mastermind class"
+				}
+			],
+			"entries": [
+				"Like all Masterminds, you have Minions, but you keep a close eye on yours. You have a permanent audio-visual communication link with your Minions if you are on the same planet as they are. You can see what they see and hear what they hear and communicate freely with them. Perhaps this link is a simple satellite link with cameras and mics, but it might also be a telepathic connection, depending on the nature of your Minions.",
+				"You can use this link to issue commands to your Minions if you are conscious (no action required), which they do their best to obey. You can specify a simple and general course of action, such as \"{@action Attack} that creature,\"",
+				"\"Run over there,\" or \"Fetch that object. If the Minion completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You also can override the Minion's self-control and take total and precise control of the Minion. Until the end of your next turn, the Minion takes only the actions you choose and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
+				"Each time the Minion takes damage, it makes a {@status concentration} check against the amount of damage, as if you were {@status concentration||concentrating} on a power. On a failed check, your connection to that Minion ends."
+			]
+		},
+		{
+			"name": "Symbiotic Form",
+			"source": "Superheroic5E",
+			"page": 94,
+			"prerequisite": [
+				{
+					"other": "the symbiosis transformation"
+				}
+			],
+			"entries": [
+				"As a bonus action, you can merge completely with your symbiote, taking on a shadowy, liquid, humanoid form.",
+				"While in this form you have advantage on {@skill Intimidation} checks. You also now know the limited elasticity power, if you didn't before, and it does not count against your total number of powers known. When you make unarmed attacks while using this power, you deal an additional {@damage 1d8} bludgeoning damage on top of what limited elasticity normally deals. This damage bonus also applies to any symbiotic tentacle attacks you make. You can use another bonus action to transform back into your normal self."
+			]
+		},
+		{
+			"name": "Trick Shot",
+			"source": "Superheroic5E",
+			"page": 94,
+			"entries": [
+				"{@i Associated classes: weapons Martial Expert or weaponry Tech hero}",
+				"You are an especially impressive, ranged combatant. When making a ranged attack, you have the following additional options instead of making your normal attack:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Frighten}: You shoot threateningly near your foe, intentionally missing their head by a hair's breadth. The target must make a Wisdom save against your power save DC or focus save DC, or instinctively use their reaction to fall {@condition prone}.",
+						"{@b Disarm}: Roll a ranged weapon attack as though your target has ¾ cover. On a hit, they drop whatever they are holding and take 1 piercing damage to their hand.",
+						"{@b Pin}: You can shoot with such ferocity that you pin down a foe, preventing them from moving. You can use your action to declare a trigger so that, if your target attempts to move, you use your reaction to shoot at their feet, resulting in them having a walking speed of zero until the beginning of your next turn.",
+						"{@b Ricochet}: you can now ricochet your shots such that you can hit targets behind cover if there is an unobstructed line with one bounce between you and your target. When you make a ranged attack, you use your reaction to reduce their cover by one step, dropping total cover to ¾, or ¾ cover to partial, or partial to none. This reduction only counts for the first attack you make after using this reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "True Omnivore",
+			"source": "Superheroic5E",
+			"page": 94,
+			"entries": [
+				"{@i Associated class: the acid Elemental Manifestation}",
+				"Your ability to produce acid extends to your digestive system, allowing you to consume and digest virtually anything. You become immune to ingested poisons and diseases, allowing you to eat rotten food, for example, gaining the nutritional benefit of eating the food had it not been rotten. You can also eat any inanimate objects you can fit into your mouth, producing acid to break them down into their base elements for swallowing. With each mouthful successfully digested and swallowed, you gain 1 hit point. You are nevertheless limited by the size of your stomach, so you may only consume 20 mouthfuls an hour."
+			]
+		},
+		{
+			"name": "Two-Weapon Wielder",
+			"source": "Superheroic5E",
+			"page": 94,
+			"entries": [
+				"Associated classes: Martial Expert or Tech weaponry hero",
+				"When you fight with a separate ranged or melee weapon in each hand, you gain several benefits. They are:",
+				{
+					"type": "list",
+					"items": [
+						"When you draw weapons, you may draw two rather than one.",
+						"The off-hand weapon need not be light.",
+						"You gain a +2 bonus to AC."
+					]
+				},
+				"If you wield only a single weapon, you can also ignore the loading property, if it has it."
+			]
+		},
+		{
+			"name": "Unique Technology",
+			"source": "Superheroic5E",
+			"page": 94,
+			"entries": [
+				"You have created or discovered a piece of unique technology that can reproduce a superpowered effect. Select a single 1st or 2nd level superpower that you do not have. You may now use this power as if it were your own. This power does not count against your total number of powers known or prepared.",
+				"The first time you use this power, you do not need to expend a power slot; after that, you may use it again by expending a power slot as normal. If you have no power slots, you may use it once. You regain the ability when you complete a short or long rest.",
+				"Use your normal power attack modifier or save DC when you use this power. If you do not have any levels in a class with slots, then you calculate you save DC and attack modifier for this power as follows:",
+				"{@b Save DC =} 8 + your proficiency bonus + your Power ability modifier",
+				"{@b {@action Attack} modifier =} your proficiency bonus + your Power ability modifier",
+				"Using the above formulae, Masterminds use Intelligence or Charisma (their choice) as their Power ability modifier, Martial Experts use Wisdom, and Special Agents use Dexterity. If you have more than one method of calculating those numbers (perhaps due to multiclassing), you choose which method you use with this tech."
+			]
+		},
+		{
+			"name": "Versatile Combatant",
+			"source": "Superheroic5E",
+			"page": 95,
+			"prerequisite": [
+				{
+					"other": "Martial Expert"
+				}
+			],
+			"entries": [
+				"You can channel your combat focus in more versatile ways. You gain the following three Focus options:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Disarm}: When you hit a creature with an attack that deals damage, you can spend 1 point of focus and choose to have them drop something they are holding rather than deal damage.",
+						"{@b Distract}: When you hit a creature with a melee attack, you can spend 2 focus points and cause the creature to focus on you more than anyone else. The next person other than you who makes an attack against the creature does so with advantage.",
+						"{@b First Strike}: whenever a creature moves into reach of your unarmed attacks, you may spend 1 focus point to use your reaction to make an unarmed attack against the creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon & Armor Adept",
+			"source": "Superheroic5E",
+			"page": 95,
+			"entries": [
+				"Many superheroes use their powers in combat, rather than weapons. Some, however, manage to learn how to use a variety of weapons regardless, either in their lives before becoming a superhero or as a part of it. When you select this feat, you gain +1 in either Strength or Dexterity, as well as proficiency in simple and martial weapons, all armor, and shields. You also know how to maintain and even upgrade your weapons and armor. If you spend a short rest with a weapon, you can grant it a +1 bonus to hit and damage. If you spend a short rest with a piece of armor, you can grant it a +1 bonus to its AC. You can only maintain one weapon and one piece of armor at a time, however. If you grant this bonus to a new weapon or piece of armor, then the previous weapon or piece of armor to which you granted the bonus loses it."
 			]
 		}
 	],
