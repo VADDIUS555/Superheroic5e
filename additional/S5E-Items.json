@@ -19,72 +19,2010 @@
         "dateAdded": 20230806,
         "dateLastModified": 20230806
     },
-    "item": [
+    "itemProperty": [
         {
-            "name": "Example: Wreath of the Prism",
+            "abbreviation": "Ammo",
             "source": "Superheroic5E",
-            "page": 0,
-            "rarity": "legendary",
-            "value": 0,
-            "weight": 0,
-            "reqAttune": true,
-            "wondrous": true,
             "entries": [
-                "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat.",
                 {
                     "type": "entries",
-                    "name": "Dormant",
+                    "name": "Ammo",
+                    "page": 100,
                     "entries": [
-                        "While wearing the wreath in its dormant state, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the wreath increases the range of your {@sense darkvision} by 60 feet.",
-                        "When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast {@spell dominate monster} on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer {@condition charmed} by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was {@condition charmed} by you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Awakened",
-                    "entries": [
-                        "Once the {@item Wreath of the Prism|EGW} reaches an awakened state, it gains the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You can affect creatures of challenge rating 10 or lower with the wreath.",
-                                "The save DC of the wreath's spell increases to 15."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Exalted",
-                    "entries": [
-                        "Once the {@item Wreath of the Prism|EGW} reaches an exalted state, it gains the following benefits:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "You can affect creatures of challenge rating 15 or lower with the wreath.",
-                                "The save DC of the wreath's spell increases to 17."
-                            ]
-                        }
+                        "You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition.",
+                        "For bows, hand-drawn crossbows, and hand crossbows, drawing ammunition from a quiver or case and loading your weapon is part of the attack (you need a free hand to load a hand crossbow).",
+                        "Some weapons can fire multiple pieces of ammunition in a single action. These weapons have the {@b semi-auto} or {@b full auto} properties. For weapons with the semi-auto and full auto modes, switching between modes is also part of the attack.",
+                        "Bullets used in combat are spent, but arrows and bolts can be recovered afterwards. At the end of the battle, you can recover half your expended arrows or bolts by taking a minute to search the battlefield.",
+                        "If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" later in the section)"
                     ]
                 }
-            ],
-            "attachedSpells": [
-                "dominate monster"
             ]
         },
         {
-            "name": "Example: Weapon Rack",
+            "abbreviation": "Capacity",
             "source": "Superheroic5E",
-            "page": 34,
-            "type": "G",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Capacity",
+                    "page": 101,
+                    "entries": [
+                        "Weapons with the capacity property can hold a certain amount of ammunition before needing to be reloaded. In the chart below, the amount of ammunition each weapon can hold is listed in parentheses after the capacity property."
+                    ]
+                }
+            ],
+            "template": "{{prop_name}} {{item.capacity}}"
+        },
+        {
+            "abbreviation": "Auto",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Full Auto",
+                    "page": 101,
+                    "entries": [
+                        "Fully automatic weapons can fire a large amount of ammunition with a single attack, sometimes targeting more than person at once. When you use a such a weapon to make a full auto attack, choose one creature within normal range, or choose two creatures within normal range that are within 5 feet of each other, and make ranged attack rolls against them both. Treat your targets as though they have partial cover. On a hit, you double the damage dice rolled against each target, though not any damage modifiers. You may only use a Full Auto attack against targets within normal range; full auto attacks against targets at long range automatically miss. Full Auto attacks use five times the normal amount of ammunition, unless otherwise specified. You may only make one Full Auto attack per round. Weapons with the full auto property may also be fired in semi-auto mode."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "Futuristic",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Futuristic",
+                    "page": 101,
+                    "entries": [
+                        "Weapons with the futuristic tag are the stuff of science fiction. As such, players should assume such items are unavailable unless the GM explicitly allows it. They can also serve as equipment for invading aliens, super-advanced enemy soldiers, etc. The assumption is that futuristic equipment cannot be bought or repaired on 21st Century Earth unless your GM says so. Futuristic weapons fire laser blasts that do radiant damage. The ammunition is refilled with a laser capacitor, which resembles a magazine but contains condensed charges.",
+                        "{@i Note: this item is only intended for games with science fiction or advanced technology.}"
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "QLoad",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Quick Loading",
+                    "page": 101,
+                    "entries": [
+                        "Some weapons, like semiautomatic pistols and rifles, use quick loading magazines. When such a weapon runs out of ammunition, you may use either an action or a bonus action to reload it before firing again."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "Semi",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Semi-Auto",
+                    "page": 101,
+                    "entries": [
+                        "Semiautomatic weapons can fire several pieces of ammunition with a single attack. When you use a such a weapon to make a semiautomatic attack, choose one creature within normal or long range. On a hit, you add +2 to the damage rolled. Semiautomatic attacks use triple the normal amount of ammunition."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "SLoad",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Slow Loading",
+                    "page": 101,
+                    "entries": [
+                        "Some weapons, like revolvers, shotguns, and compound crossbows, require reloading one piece of ammunition at a time. This takes time. When such a weapon runs out of ammunition, you must spend an action reloading it before firing again."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "VM",
+            "source": "Superheroic5E",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Vehicle Mount",
+                    "page": 101,
+                    "entries": [
+                        "{@item Minigun|Superheroic5E}",
+                        "{@item Missile, ballistic|Superheroic5E}",
+                        "{@item Missile, guided, large|Superheroic5E}",
+                        "{@item Missile, guided, small|Superheroic5E}",
+                        "{@item Tank Gun|Superheroic5E}"
+                    ]
+                }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Tactical Streetwear",
+            "baseItem": "Leather Armor|PHB",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "LA",
             "rarity": "none",
-            "value": 40,
+            "value": 10000,
+            "weight": 4,
+            "ac": 11,
+            "stealth": false,
+            "entries": [
+                "Tactical streetwear is cutting edge, high fashion clothing that resembles everyday streetwear, but is made with high tech fabrics and designs, inspired by military and sports applications. These materials provide some modest protection, but do not look like armor at all. (4 lb., $100)."
+            ]
+        },
+        {
+            "name": "Leather",
+            "baseItem": "Leather Armor|PHB",
+            "source": "Superheroic5E",
+            "page": 98,
+            "type": "LA",
+            "rarity": "none",
+            "value": 5000,
             "weight": 8,
+            "ac": 11,
+            "stealth": false,
+            "entries": [
+                "Leather jackets and pants provide some protection from harm and are a necessity when riding motorcycles, for example. As such, they are a common sight on the street and draw no special attention. (8 lb., $50)"
+            ]
+        },
+        {
+            "name": "Leather, Reinforced",
+            "baseItem": "Studded Leather Armor|PHB",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "LA",
+            "rarity": "none",
+            "value": 15000,
+            "weight": 12,
+            "ac": 12,
+            "stealth": false,
+            "entries": [
+                "Worn by stuntmen and competitive motorcyclists, these leathers are reinforced in the torso, shoulders, hips, elbows, and knees. The rest of the armor is made of softer and more flexible materials. Such outfits are not uncommon on the street, as some casual motorcyclists wear them, and they are not much bulkier than plain leather. (12 lb., $150)"
+            ]
+        },
+        {
+            "name": "Leather, Studded",
+            "baseItem": "Studded Leather Armor|PHB",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "LA",
+            "rarity": "none",
+            "value": 7500,
+            "weight": 15,
+            "ac": 12,
+            "stealth": false,
+            "entries": [
+                "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes. Outside of leather bars or classic metal shows, however, such apparel is unusual."
+            ]
+        },
+        {
+            "name": "Futuristic Fabrics",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "futuristic",
+            "type": "LA",
+            "rarity": "none",
+            "value": 100000,
+            "weight": 5,
+            "ac": 11,
+            "stealth": false,
+            "entries": [
+                "Composed of advanced materials, this armor resembles a quasi-metallic fabric that is nevertheless pliable and form-fitting. It can be worn beneath normal clothing and is nearly undetectable when done so. It is light-weight and remarkably resistant to bullets and blades alike. It could also serve as an advanced material with which to make a superhero costume. (5 lb., $1,000)"
+            ]
+        },
+        {
+            "name": "Flak Jacket",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "MA",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 25,
+            "ac": 12,
+            "stealth": true,
+            "entries": [
+                "This cloth vest features hard ballistic plates of metal or ceramic sewn into its fabric. These bulky vests were developed during World War 2 and are no longer standard issue. Wearing one in public would draw concerned looks. (25 lb., $50)"
+            ]
+        },
+        {
+            "name": "Kevlar Vest",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "MA",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 15,
+            "ac": 13,
+            "stealth": false,
+            "entries": [
+                "Kevlar is a fabric of overlapping layers of a high tensile strength fiber. Thanks to this, these soft, laminated vests are lighter weight than earlier ballistic vests, thus allowing more freedom of movement, yet they do a better job stopping small caliber firearms. These are standard issue for most law enforcement officers, as well as some security guards. They can be worn under coats and jackets without drawing attention. (15 lb., $200)"
+            ]
+        },
+        {
+            "name": "Kevlar, Reinforced",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "MA",
+            "rarity": "none",
+            "value": 35000,
+            "weight": 25,
+            "ac": 14,
+            "stealth": true,
+            "entries": [
+                "Like their predecessors, these vests are made of a laminated nylon and Kevlar, but with the addition of small ceramic inserts in key locations on the torso, adding only a small amount of weight, yet being able to stop larger caliber weapons and some shrapnel. The inserted plates mean that this vest is hard and bulkier than plain Kevlar, however. Riot police might wear armor like this. As such, someone wearing it in public would cause concern. (25 lb., $350)"
+            ]
+        },
+        {
+            "name": "Modular Tactical Vest",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "MA",
+            "rarity": "none",
+            "value": 1000000,
+            "weight": 30,
+            "ac": 15,
+            "stealth": true,
+            "entries": [
+                "This modern development in personal armor weighs a more than a reinforced Kevlar vest, though it can stop even higher caliber rounds and shrapnel. It is a harder, bulkier armor. Some armed forces might wear armor like this in a combat zone. (30 lb., $1000)"
+            ]
+        },
+        {
+            "name": "Futuristic Tactical Armor",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "futuristic",
+            "type": "MA",
+            "rarity": "legendary",
+            "value": 1000000,
+            "weight": 35,
+            "ac": 14,
+            "stealth": false,
+            "entries": [
+                "This suit of battle armor uses lab manufactured ceramisteel plates inlaid in a suit of advanced polymer fabrics. It appears much like the modular tactical vest of the 21st century, but the material is much lighter and more flexible, and the plates are given a personalized molding to afford more complete coverage. It could also serve as an advanced material with which to make a superhero costume. (35 lb., $10,000).",
+                "{@i Note: unless used to make a durable superhero costume, this item is only intended for games with science fiction or superadvanced technology, unless the GM decides otherwise.}"
+            ]
+        },
+        {
+            "name": "Ceramic Composite Armor",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "HA",
+            "rarity": "none",
+            "value": 80000,
+            "weight": 45,
+            "ac": 16,
+            "stealth": true,
+            "entries": [
+                "This armor is made of Kevlar with thick ceramic composite plates sewn throughout and extra panels to provide fuller body coverage. This armor is bulky and restricts movement but can stop armor piercing rounds from a rifle. Wearing this in public would likely result in calls to the police. (45 lb., $800)"
+            ]
+        },
+        {
+            "name": "Emergency Ordnance Disposal (EOD) Suit",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "modern",
+            "type": "HA",
+            "rarity": "none",
+            "value": 400000,
+            "weight": 80,
+            "ac": 18,
+            "stealth": true,
+            "strength": "13",
+            "entries": [
+                "This specialty protective gear is only worn by explosive ordnance disposal experts. It is very heavy and bulky, though it can absorb a large amount of damage if caught in an explosion. (80 lb., $4,000)"
+            ]
+        },
+        {
+            "name": "Futuristic Exo-suit",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "futuristic",
+            "type": "HA",
+            "rarity": "legendary",
+            "value": 100000000,
+            "weight": 120,
+            "ac": 20,
+            "stealth": true,
+            "strength": "13",
+            "entries": [
+                "This lightweight frame composed of advanced alloys protects the wearer's skeleton and major muscle and organ groups, as well as serves as an excellent platform on which Tech heroes and futuristic soldiers can mount high tech weaponry and equipment. However, it is obvious when worn, incredibly heavy, and undeniably loud. (120 lb., $1 million)",
+                "{@i Note: unless used to make a durable superhero costume, this item is only intended for games with science fiction or superadvanced technology, unless the GM decides otherwise.}"
+            ]
+        },
+        {
+            "name": "Personal Mech",
+            "source": "Superheroic5E",
+            "page": 98,
+            "age": "futuristic",
+            "type": "HA",
+            "rarity": "legendary",
+            "value": 1000000000,
+            "weight": 2000,
+            "ac": 22,
+            "stealth": false,
+            "entries": [
+                "The personal mech is a high-tech battle armor not unlike the kind some higher-level Tech heroes might wear. It often features motorized arms and legs, as well as basic jump jets and gyros, all of which compensate for its heavy weight, requiring no body strength to operate. When in a personal mech, the wearer has a Strength of 20, as well as {@sense Darkvision} to 60 feet. (2000 lb., $10 million)",
+                "{@i Note: unless used to make a durable superhero costume, this item is only intended for games with science fiction or superadvanced technology, unless the GM decides otherwise.}"
+            ]
+        },
+        {
+            "name": "Riot Shield",
+            "baseItem": "Shield|PHB",
+            "source": "Superheroic5E",
+            "page": 99,
+            "age": "modern",
+            "type": "S",
+            "rarity": "none",
+            "value": 7500,
+            "weight": 10,
+            "ac": 2,
+            "stealth": true,
             "reqAttune": false,
             "wondrous": false,
             "entries": [
-                "This item lets a fingerless creature mount a polearm type weapon (spear, pike, lance, halberd, glaive, ect.) to its body and use it despite its two-handed status. It cannot be worn at the same time as a shield rack, and the haft cannot be used to strike while such a weapon is mounted."
+                "General use modern polycarbonate shield used for crowd control and deflection of thrown projectiles. It is lightweight, protects the user, and can be used to bash as well. (10 lb., $75)"
             ]
+        },
+        {
+            "name": "Tactical Ballistic Shield",
+            "baseItem": "Shield|PHB",
+            "source": "Superheroic5E",
+            "page": 99,
+            "age": "modern",
+            "type": "S",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 20,
+            "ac": 3,
+            "stealth": false,
+            "reqAttune": false,
+            "wondrous": true,
+            "entries": [
+                "A specialized militarygrade shield that can deflect bullets, often made of aramidlaced plastic, with a viewing port (20 lb., $200)"
+            ]
+        },
+        {
+            "name": "Futuristic Retractable Shield",
+            "baseItem": "Shield|PHB",
+            "source": "Superheroic5E",
+            "page": 99,
+            "age": "futuristic",
+            "type": "S",
+            "rarity": "legendary",
+            "value": 1000000,
+            "weight": 1,
+            "ac": 3,
+            "stealth": false,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "A futuristic energy field projection based on the forearm. With an action, the wielder can project a translucent forcefield form the forearm to provide protection (1 lb., $10,000)"
+            ]
+        },
+        {
+            "name": "Baton",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 2,
+            "property": [
+                "L",
+                "F"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "entries": []
+        },
+        {
+            "name": "Chainsaw",
+            "source": "Superheroic5E",
+            "page": 102,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 100,
+            "weight": 25,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "H",
+                "2H",
+                "S"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "entries": [
+                "Because chainsaws are not intended as weapons, their weight and size make them poor weapons, not to mention dangerous. Chainsaws also require gasoline to operate and are very loud, making noise that can be heard up to 150 feet away."
+            ]
+        },
+        {
+            "name": "Fire Axe",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 20,
+            "weight": 4,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "2H"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Kithen Knife",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 5,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "L"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Machete",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 5,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Sledgehammer",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 20,
+            "weight": 10,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "H",
+                "2H"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Survival knife",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 20,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F",
+                "L"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Switchblade",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 10,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F",
+                "L"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Throwing knife",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 10,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "20/60",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Crossbow, hand drawn",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 75,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "80/320",
+            "property": [
+                "A",
+                "2H"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Derringer",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "age": "modern",
+            "capacity": 2,
+            "value": 200,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "10/30",
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "L",
+                "SLoad"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "ammoType": "Revolver, small bullets|Superheroic5E",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "firearm": true,
+            "entries": []
+        },
+        {
+            "name": "Pepper Spray",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "age": "modern",
+            "value": 10,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "5/15",
+            "property": [
+                "A",
+                "Ammo",
+                "SLoad",
+                "S"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1",
+            "dmgType": "A",
+            "entries": [
+                "When you hit a target with pepper spray who has open eyes, they must make a Dexterity save, DC13, or be {@condition blinded} for one minute"
+            ]
+        },
+        {
+            "name": "Revolver, small",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "age": "modern",
+            "capacity": 5,
+            "value": 100,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "30/120",
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "L",
+                "SLoad"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "ammoType": "Revolver, small bullets|Superheroic5E",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "firearm": true,
+            "entries": []
+        },
+        {
+            "name": "Revolver, large",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "age": "modern",
+            "capacity": 5,
+            "value": 250,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "range": "80/320",
+            "property": [
+                "Ammo",
+                "Capacity",
+                "SLoad"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "ammoType": "Revolver, large bullet|Superheroic5E",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "firearm": true,
+            "entries": []
+        },
+        {
+            "name": "Bayonet",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "none",
+            "value": 10,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "S"
+            ],
+            "weaponCategory": "simple",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": [
+                "A bayonet can be affixed to the barrel of a rifle or shotgun, allowing the gun to be used as a melee weapon."
+            ]
+        },
+        {
+            "name": "Laser blade",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "age": "modern",
+            "rarity": "legendary",
+            "value": 1000000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F",
+                "Futuristic",
+                "V"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "2d6",
+            "dmg2": "2d8",
+            "dmgType": "R",
+            "entries": []
+        },
+        {
+            "name": "Long Sword",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "V"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Katana",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "V"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Rapier",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "rarity": "none",
+            "value": 25000,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Vibro-Knife",
+            "source": "Superheroic5E",
+            "page": 103,
+            "age": "futuristic",
+            "type": "M",
+            "rarity": "none",
+            "value": 100000,
+            "weight": 1,
+            "range": "20/60",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F",
+                "Futuristic",
+                "L",
+                "T"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d8",
+            "dmgType": "F",
+            "entries": []
+        },
+        {
+            "name": "Wipe",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "M",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "F",
+                "R"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d4",
+            "dmgType": "S",
+            "entries": []
+        },
+        {
+            "name": "Boomerang",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 1,
+            "range": "30/120",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "entries": [
+                "A boomerang will return to the thrower when thrown if it misses its target."
+            ]
+        },
+        {
+            "name": "Compound Bow",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 15000,
+            "weight": 5,
+            "range": "150/600",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "H",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "arrow|phb",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Crossbow, Compound",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 15000,
+            "weight": 12,
+            "range": "100/400",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "H",
+                "2H",
+                "SLoad"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "crossbow bolt|phb",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Crossbow, Hand",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 3,
+            "range": "30/120",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "L",
+                "LD"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "crossbow bolt|phb",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Flamethrower",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 50000,
+            "weight": 70,
+            "range": "60/0",
+            "capacity": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "H",
+                "SLoad",
+                "2H",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Flamethrower fuel|Superheroic5E",
+            "dmg1": "3d6",
+            "dmgType": "F",
+            "entries": [
+                "This heavy ranged weapon belches a line of flame 60 feet long and 5 feet wide. Each target in range must make a DC 12 Dexterity save or take {@dice 3d6} fire, half on a save. A flamethrower holds enough fuel for three rounds of attack before a new cannister must be loaded."
+            ]
+        },
+        {
+            "name": "Grenade, Stun",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 15000,
+            "weight": 2,
+            "range": "60/0",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "T",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "2",
+            "dmgType": "T",
+            "entries": [
+                "These weapons are thrown at a visible location in range. All creatures who can see or hear within ten feet of the target must make a DC 15 CON save or be {@condition blinded} and {@condition deafened} for 3 rounds. Once used, they are destroyed."
+            ]
+        },
+        {
+            "name": "Grenade, Fragmentation",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 1,
+            "range": "60/0",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "T",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "3d6",
+            "dmgType": "P",
+            "entries": [
+                "These weapons are thrown at a visible location in range. All creatures within fifteen feet of the target must succeed at a DC 15 Dexterity save or take {@damage 3d6} fire damage, or half on a successful save. Once used, they are destroyed"
+            ]
+        },
+        {
+            "name": "Grenade, Smoke",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 2,
+            "range": "60/0",
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "T",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "entries": [
+                "These weapons are thrown at a visible location in range. Once thrown, they fill a 20-foot-radius sphere around the target with opaque smoke. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Once used, they are destroyed."
+            ]
+        },
+        {
+            "name": "Machine gun, heavy (50 caliber)",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 1000000,
+            "weight": 85,
+            "range": "1000/3000",
+            "capacity": 110,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "Auto",
+                "H",
+                "SLoad",
+                "2H",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "50 Caliber|Superheroic5E",
+            "dmg1": "2d10",
+            "dmgType": "P",
+            "entries": [
+                "This heavy, 50 caliber, powerful weapon can be carried but not fired, unless the user has a Strength score of 20 or higher. It can be fired with a collapsible tripod attached to its underside, which takes an Action to set up."
+            ]
+        },
+        {
+            "name": "Machine gun",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 60000,
+            "weight": 85,
+            "range": "300/1200",
+            "capacity": 30,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "Auto",
+                "H",
+                "QLoad",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Machine gun bullet|Superheroic5E",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Pistol, large semi-auto",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 30000,
+            "weight": 3,
+            "range": "80/320",
+            "capacity": 7,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "QLoad",
+                "Semi"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Machine gun bullet|Superheroic5E",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Pistol, laser",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 2000000,
+            "weight": 1,
+            "range": "80/320",
+            "capacity": 50,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "Futuristic",
+                "QLoad",
+                "Semi"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Laser capacitor|Superheroic5E",
+            "dmg1": "2d8",
+            "dmgType": "R",
+            "entries": []
+        },
+        {
+            "name": "Pistol, small semi-auto",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 30000,
+            "weight": 1,
+            "range": "80/320",
+            "capacity": 17,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "L",
+                "QLoad",
+                "Semi"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Pistol, small bullet|Superheroic5E",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Rifle, bolt action",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 15000,
+            "weight": 10,
+            "range": "300/1200",
+            "capacity": 4,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "SLoad",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Rifle bullet|Superheroic5E",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Rifle, laser",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 5000000,
+            "weight": 7,
+            "range": "300/1200",
+            "capacity": 50,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "Futuristic",
+                "QLoad",
+                "Semi",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Laser capacitor|Superheroic5E",
+            "dmg1": "2d8",
+            "dmgType": "R",
+            "entries": []
+        },
+        {
+            "name": "Rifle, semi-auto",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 30000,
+            "weight": 8,
+            "range": "300/1200",
+            "capacity": 20,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "QLoad",
+                "Semi",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Rifle bullet|Superheroic5E",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Rifle, sniper",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 1000000,
+            "weight": 30,
+            "range": "1000/3000",
+            "capacity": 4,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "SLoad",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Rifle bullet|Superheroic5E",
+            "dmg1": "2d10",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Rocket propelled grenade launcher",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 50000,
+            "weight": 15,
+            "range": "600/0",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "SLoad",
+                "2H",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "RPG Rocket|Superheroic5E",
+            "dmg1": "4d10",
+            "dmgType": "P",
+            "entries": [
+                "These weapons are launched at a visible location in range. All creatures within twenty feet of the target must succeed at a DC 15 Dexterity save or take {@damage 4d10} fire damage, or half on a successful save. Once used, they are destroyed."
+            ]
+        },
+        {
+            "name": "Shotgun, pump action",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 40000,
+            "weight": 9,
+            "range": "30/120",
+            "capacity": 4,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "SLoad",
+                "2H"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Shotgun shell|Superheroic5E",
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Shotgun, sawed off",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 40000,
+            "weight": 6,
+            "range": "10/30",
+            "capacity": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "SLoad",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Shotgun shell|Superheroic5E",
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "entries": [
+                "Sawed off shotguns shoot in a wide spread. When firing, choose up to two creatures in range within 5 feet of each other, and make attack rolls against both."
+            ]
+        },
+        {
+            "name": "Submachine gun",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 60000,
+            "weight": 5,
+            "range": "60/240",
+            "capacity": 25,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "Auto",
+                "QLoad"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Submachine gun ammo|Superheroic5E",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "entries": []
+        },
+        {
+            "name": "Taser",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 5,
+            "range": "10/30",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "L",
+                "SLoad",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Taser charge|Superheroic5E",
+            "dmg1": "2",
+            "dmgType": "L",
+            "entries": [
+                "This weapon uses conducted electricity to stun targets. It shoots two small darts that conduct high voltage electricity. On a hit, the target takes 2 lightning damage and must make a CON save, DC 13, or be {@condition stunned} for 3 rounds."
+            ]
+        },
+        {
+            "name": "Minigun",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 2000000,
+            "weight": 80,
+            "range": "2000/4000",
+            "capacity": 4000,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "H",
+                "Auto",
+                "SLoad",
+                "VM",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "20mm bullet|Superheroic5E",
+            "dmg1": "3d10",
+            "dmgType": "P",
+            "entries": [
+                "This weapon uses conducted electricity to stun targets. It shoots two small darts that conduct high voltage electricity. On a hit, the target takes 2 lightning damage and must make a CON save, DC 13, or be {@condition stunned} for 3 rounds."
+            ]
+        },
+        {
+            "name": "Missile, ballistic",
+            "source": "Superheroic5E",
+            "page": 104,
+            "type": "R",
+            "rarity": "none",
+            "value": 17500000,
+            "weight": 80,
+            "range": "15840/0",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "H",
+                "SLoad",
+                "VM",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "2d8",
+            "dmgType": "T",
+            "entries": [
+                "These weapons are sometimes mounted on vehicles or installed in batteries on the ground, though they can also be mounted on jets and helicopters. They can even be carried and fired from the shoulder, as in the case of an anti-tank weapon like a Javelin, though it requires two people to load and fire it. Unlike guided missiles, these weapons must be aimed. When you fire a ballistic missile, make a ranged weapon attack. This may involve interacting with a computer screen or a heads-up display. The missile is destroyed when used.",
+                "{@dice 2d8} thunder, {@dice 2d8} fire, {@dice 2d8} piercing"
+            ]
+        },
+        {
+            "name": "Missile, guided, large",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 150000000,
+            "weight": 3500,
+            "range": "5,280,000/0",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "H",
+                "SLoad",
+                "VM",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "4d10",
+            "dmgType": "T",
+            "entries": [
+                "A large, guided missile, such as a Tomahawk, which is launched from a large sea vessel or submarine. To fire a guided missile, you must first input a location in space into the targeting computer. Once fired, the missile flies to its chosen location. When it hits, every creature in a 30-foot radius of its point of impact takes the listed damage, or half on a successful DC 20 Dexterity save."
+            ]
+        },
+        {
+            "name": "Missile, guided, small",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 60000000,
+            "weight": 150,
+            "range": "15840/0",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "H",
+                "SLoad",
+                "VM",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "dmg1": "2d10",
+            "dmgType": "T",
+            "entries": [
+                "A small, guided missile, such as a Hellfire, which is mounted to a vehicle, such as a drone or other aircraft, or shot from a platform, such as the deck of ship. To fire a guided missile, you must first input a location in space into the targeting computer. Once fired, the missile flies to its chosen location. When it hits, every creature in a 30-foot radius of its point of impact takes the listed damage, or half on a successful DC 18 Dexterity save.",
+                "{@dice 2d10} thunder, {@dice 2d10} fire, {@dice 2d10} piercing"
+            ]
+        },
+        {
+            "name": "Tank Gun",
+            "source": "Superheroic5E",
+            "page": 103,
+            "type": "R",
+            "rarity": "none",
+            "value": 800000000,
+            "weight": 10000,
+            "range": "5280/0",
+            "capacity": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "property": [
+                "A",
+                "Ammo",
+                "Capacity",
+                "H",
+                "SLoad",
+                "VM",
+                "S"
+            ],
+            "weaponCategory": "martial",
+            "weapon": true,
+            "ammoType": "Tank Shell|Superheroic5E",
+            "dmg1": "6d10",
+            "dmgType": "P",
+            "entries": [
+                "These 120mm smoothbore guns are mounted atop tanks such as the M1 Abrams. They fire a variety of shells, but the one listed below is an anti-tank variety, designed to pierce tank armor at distances up to a mile. There are other shells with shotgun like cones of effect for use against personnel."
+            ]
+        }
+    ],
+    "baseitem": [
+        {
+            "name": "Flamethrower fuel",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 10000,
+            "weight": 20,
+            "quantity": 3
+        },
+        {
+            "name": "Laser capacitor",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 10000,
+            "weight": 1,
+            "quantity": 50
+        },
+        {
+            "name": "Machine gun magazine (30)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 2000,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Machine gun bullet|Superheroic5E",
+                    "quantity": 30
+                }
+            ]
+        },
+        {
+            "name": "Machine gun ammo",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 7
+        },
+        {
+            "name": "Machine gun, heavy, drum (110)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 10000,
+            "weight": 25,
+            "packContents": [
+                {
+                    "item": "50 Caliber|Superheroic5E",
+                    "quantity": 110
+                }
+            ]
+        },
+        {
+            "name": "50 Caliber",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 9
+        },
+        {
+            "name": "Minigun cannister with ammo belt (4000)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 200000,
+            "weight": 1000,
+            "packContents": [
+                {
+                    "item": "20mm bullet|Superheroic5E",
+                    "quantity": 4000
+                }
+            ]
+        },
+        {
+            "name": "20mm bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 50
+        },
+        {
+            "name": "Pistol, large semi-auto magazine (7)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 3000,
+            "weight": 1,
+            "packContents": [
+                {
+                    "item": "Pistol, large bullet|Superheroic5E",
+                    "quantity": 7
+                }
+            ]
+        },
+        {
+            "name": "Pistol, large bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 43
+        },
+        {
+            "name": "Pistol, small semi-auto magazine (17)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 2000,
+            "weight": 1,
+            "packContents": [
+                {
+                    "item": "Pistol, small bullet|Superheroic5E",
+                    "quantity": 17
+                }
+            ]
+        },
+        {
+            "name": "Pistol, small bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 118
+        },
+        {
+            "name": "Revolver, large bullets (100)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 3500,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Revolver, large bullet|Superheroic5E",
+                    "quantity": 100
+                }
+            ]
+        },
+        {
+            "name": "Revolver, large bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 35
+        },
+        {
+            "name": "Revolver, small bullets (100)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 3000,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Revolver, small bullet|Superheroic5E",
+                    "quantity": 100
+                }
+            ]
+        },
+        {
+            "name": "Revolver, small bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 30
+        },
+        {
+            "name": "Rifle, bolt action, bullets (100)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 2000,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Rifle bullet|Superheroic5E",
+                    "quantity": 100
+                }
+            ]
+        },
+        {
+            "name": "Rifle bullet",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ]
+        },
+        {
+            "name": "Rifle, semi-auto, magazine (20)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 1500,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Rifle bullet|Superheroic5E",
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "name": "RPG Rocket",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 10000,
+            "weight": 6,
+            "quantity": 1
+        },
+        {
+            "name": "Shotgun shells Box (25)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 1500,
+            "weight": 2,
+            "packContents": [
+                {
+                    "item": "Shotgun shell|Superheroic5E",
+                    "quantity": 25
+                }
+            ]
+        },
+        {
+            "name": "Shotgun shell",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 60
+        },
+        {
+            "name": "Submachine gun magazine (25)",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 1500,
+            "weight": 1,
+            "packContents": [
+                {
+                    "item": "Submachine gun ammo|Superheroic5E",
+                    "quantity": 25
+                }
+            ]
+        },
+        {
+            "name": "Submachine gun ammo",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 60
+        },
+        {
+            "name": "Tank Shell",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 800000,
+            "weight": 50
+        },
+        {
+            "name": "Taser charge",
+            "source": "Superheroic5E",
+            "page": 105,
+            "rarity": "none",
+            "type": "AF",
+            "age": "modern",
+            "property": [
+                "A",
+                "Ammo"
+            ],
+            "value": 3000,
+            "weight": 1
         }
     ]
 }
