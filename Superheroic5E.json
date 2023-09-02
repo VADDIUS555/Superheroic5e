@@ -6906,22 +6906,358 @@
 									"entries": [
 										"The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: {@b light armor, medium armor, and heavy armor}. Some combatants also supplement their armor with a shield. The Armor table shows the cost, weight, and other properties of the common types of armor worn in modern fantasy gaming worlds.",
 										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Light Armor Table",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Armor"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost"
+													]
+												},
+												{
+													"colLabels": [
+														"Armor Class (AC)"
+													]
+												},
+												{
+													"colLabels": [
+														"Str",
+														"Req."
+													]
+												},
+												{
+													"colLabels": [
+														"Stealth"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												}
+											],
+											"colStyles": [
+												"col-4",
+												"col-2",
+												"col-3",
+												"col-2",
+												"col-2",
+												"col-2"
+											],
+											"rows": [
+												[
+													"{@item Tactical Streetwear|Superheroic5E}",
+													"100",
+													"11+Dex",
+													"-",
+													"-",
+													"4 lb."
+												],
+												[
+													"{@item Leather|Superheroic5E}",
+													"50",
+													"11+Dex",
+													"-",
+													"-",
+													"8 lb."
+												],
+												[
+													"{@item Leather, Reinforced|Superheroic5E|Reinforced Leather}",
+													"150",
+													"12+Dex",
+													"-",
+													"-",
+													"12 lb."
+												],
+												[
+													"{@item Leather, Studded|Superheroic5E|Studded Leather}",
+													"75",
+													"12+Dex",
+													"-",
+													"-",
+													"15 lb."
+												],
+												[
+													"{@item Futuristic Fabrics|Superheroic5E}",
+													"1000",
+													"11 +Prof.Bonus +Dex",
+													"-",
+													"-",
+													"5 lb."
+												]
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Medium Armor Table",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Armor"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost"
+													]
+												},
+												{
+													"colLabels": [
+														"Armor Class (AC)"
+													]
+												},
+												{
+													"colLabels": [
+														"Str",
+														"Req."
+													]
+												},
+												{
+													"colLabels": [
+														"Stealth"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												}
+											],
+											"colStyles": [
+												"col-4",
+												"col-2",
+												"col-3",
+												"col-2",
+												"col-2",
+												"col-2"
+											],
+											"rows": [
+												[
+													"{@item Flak Jacket|Superheroic5E}",
+													"50",
+													"12+Dex (Max 2)",
+													"-",
+													"Disadvantage",
+													"25 lb."
+												],
+												[
+													"{@item Kevlar Vest|Superheroic5E}",
+													"200",
+													"13+Dex (Max 2)",
+													"-",
+													"-",
+													"15 lb."
+												],
+												[
+													"{@item Kevlar, Reinforced|Superheroic5E|Reinforced Kevlar}",
+													"350",
+													"14+Dex (Max 2)",
+													"-",
+													"Disadvantage",
+													"25 lb."
+												],
+												[
+													"{@item Modular Tactical Vest|Superheroic5E}",
+													"1000",
+													"14+Dex (Max 2)",
+													"-",
+													"Disadvantage",
+													"30 lb."
+												],
+												[
+													"{@item Futuristic Tactical Armor|Superheroic5E}",
+													"10,000",
+													"14 +Prof. Bonus +Dex (max 2)",
+													"-",
+													"-",
+													"35 lb."
+												]
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Heavy Armor Table",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Armor"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost"
+													]
+												},
+												{
+													"colLabels": [
+														"Armor Class (AC)"
+													]
+												},
+												{
+													"colLabels": [
+														"Str",
+														"Req."
+													]
+												},
+												{
+													"colLabels": [
+														"Stealth"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												}
+											],
+											"colStyles": [
+												"col-4",
+												"col-2",
+												"col-3",
+												"col-2",
+												"col-2",
+												"col-2"
+											],
+											"rows": [
+												[
+													"{@item Ceramic Composite Armor|Superheroic5E}",
+													"800",
+													"16",
+													"-",
+													"Disadvantage",
+													"4 lb."
+												],
+												[
+													"{@item Emergency Ordnance Disposal (EOD) Suit|Superheroic5E}",
+													"4000",
+													"18",
+													"Str 13",
+													"Disadvantage",
+													"80 lb."
+												],
+												[
+													"{@item Futuristic Exo-suit|Superheroic5E}",
+													"1 million",
+													"20",
+													"Str 13",
+													"Disadvantage",
+													"120 lb."
+												],
+												[
+													"{@item Personal Mech|Superheroic5E}",
+													"10 million",
+													"22",
+													"-",
+													"Disadvantage",
+													"2000 lb."
+												]
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Shield Armor Table",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Armor"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost"
+													]
+												},
+												{
+													"colLabels": [
+														"Armor Class (AC)"
+													]
+												},
+												{
+													"colLabels": [
+														"Str",
+														"Req."
+													]
+												},
+												{
+													"colLabels": [
+														"Stealth"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												}
+											],
+											"colStyles": [
+												"col-4",
+												"col-2",
+												"col-3",
+												"col-2",
+												"col-2",
+												"col-2"
+											],
+											"rows": [
+												[
+													"{@item Riot Shield|Superheroic5E}",
+													"75",
+													"+2",
+													"-",
+													"-",
+													"10 lb."
+												],
+												[
+													"{@item Tactical Ballistic Shield|Superheroic5E}",
+													"200",
+													"+3",
+													"-",
+													"Disadvantage",
+													"20 lb."
+												],
+												[
+													"{@item Futuristic Retractable Shield|Superheroic5E}",
+													"10,000",
+													"+3",
+													"-",
+													"-",
+													"1 lb."
+												]
+											]
+										},
+										{
 											"type": "entries",
-											"name": "Armor Proficiency.",
+											"name": "Armor Proficiency",
 											"entries": [
 												"Anyone can put on a Kevlar vest or pick up a riot shield. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, save, or attack roll that involves Strength or Dexterity"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Armor Class (AC).",
+											"name": "Armor Class (AC)",
 											"entries": [
 												"Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Heavy Armor.",
+											"name": "Heavy Armor",
 											"entries": [
 												"Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. If the Armor table shows \"Str 13\" or \"Str 15\" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score."
 											]
@@ -6967,7 +7303,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "{@item Reinforced Leather|Superheroic5E}",
+											"name": "{@item Leather, Reinforced|Superheroic5E|Reinforced Leather}",
 											"page": 98,
 											"entries": [
 												"Worn by stuntmen and competitive motorcyclists, these leathers are reinforced in the torso, shoulders, hips, elbows, and knees. The rest of the armor is made of softer and more flexible materials. Such outfits are not uncommon on the street, as some casual motorcyclists wear them, and they are not much bulkier than plain leather. (12 lb., $150)"
@@ -6975,7 +7311,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "{@item Studded Leather|Superheroic5E}",
+											"name": "{@item Leather, Studded|Superheroic5E|Studded Leather}",
 											"page": 98,
 											"entries": [
 												"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes. Outside of leather bars or classic metal shows, however, such apparel is unusual. (15 lb., $75)"
@@ -6999,7 +7335,7 @@
 										"Medium armor offers more protection than light armor, but it also impairs movement more. If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.",
 										{
 											"type": "entries",
-											"name": "Flak Jacket",
+											"name": "{@item Flak Jacket|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This cloth vest features hard ballistic plates of metal or ceramic sewn into its fabric. These bulky vests were developed during World War 2 and are no longer standard issue. Wearing one in public would draw concerned looks. (25 lb., $50)"
@@ -7007,7 +7343,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Kevlar Vest.",
+											"name": "{@item Kevlar Vest|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"Kevlar is a fabric of overlapping layers of a high tensile strength fiber. Thanks to this, these soft, laminated vests are lighter weight than earlier ballistic vests, thus allowing more freedom of movement, yet they do a better job stopping small caliber firearms. These are standard issue for most law enforcement officers, as well as some security guards. They can be worn under coats and jackets without drawing attention. (15 lb., $200)"
@@ -7015,7 +7351,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Reinforced Kevlar.",
+											"name": "{@item Kevlar, Reinforced|Superheroic5E|Reinforced Kevlar}",
 											"page": 98,
 											"entries": [
 												"Like their predecessors, these vests are made of a laminated nylon and Kevlar, but with the addition of small ceramic inserts in key locations on the torso, adding only a small amount of weight, yet being able to stop larger caliber weapons and some shrapnel. The inserted plates mean that this vest is hard and bulkier than plain Kevlar, however. Riot police might wear armor like this. As such, someone wearing it in public would cause concern. (25 lb., $350)"
@@ -7023,7 +7359,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Modular Tactical Vest.",
+											"name": "{@item Modular Tactical Vest|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This modern development in personal armor weighs a more than a reinforced Kevlar vest, though it can stop even higher caliber rounds and shrapnel. It is a harder, bulkier armor. Some armed forces might wear armor like this in a combat zone. (30 lb., $1000)"
@@ -7031,7 +7367,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Futuristic Tactical Armor.",
+											"name": "{@item Futuristic Tactical Armor|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This suit of battle armor uses lab manufactured ceramisteel plates inlaid in a suit of advanced polymer fabrics. It appears much like the modular tactical vest of the 21st century, but the material is much lighter and more flexible, and the plates are given a personalized molding to afford more complete coverage. It could also serve as an advanced material with which to make a superhero costume. (35 lb., $10,000)",
@@ -7048,7 +7384,7 @@
 										"Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.",
 										{
 											"type": "entries",
-											"name": "Ceramic Composite Armor.",
+											"name": "{@item Ceramic Composite Armor|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This armor is madeof Kevlar with thick ceramic composite plates sewn throughout and extra panels to provide fuller body coverage. This armor is bulky and restricts movement but can stop armor piercing rounds from a rifle. Wearing this in public would likely result in calls to the police. (45 lb., $800)"
@@ -7056,7 +7392,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Emergency Ordnance Disposal (EOD) Suit.",
+											"name": "{@item Emergency Ordnance Disposal (EOD) Suit|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This specialty protective gear is only worn by explosive ordnance disposal experts. It is very heavy and bulky, though it can absorb a large amount of damage if caught in an explosion. (80 lb., $4,000)"
@@ -7064,7 +7400,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Futuristic Exo-suit.",
+											"name": "{@item Futuristic Exo-suit|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"This lightweight frame composed of advanced alloys protects the wearer's skeleton and major muscle and organ groups, as well as serves as an excellent platform on which Tech heroes and futuristic soldiers can mount high tech weaponry and equipment. However, it is obvious when worn, incredibly heavy, and undeniably loud. (120 lb., $1 million)",
@@ -7073,7 +7409,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Personal Mech.",
+											"name": "{@item Personal Mech|Superheroic5E}",
 											"page": 98,
 											"entries": [
 												"The personal mech is a high-tech battle armor not unlike the kind some higher-level Tech heroes might wear. It often features motorized arms and legs, as well as basic jump jets and gyros, all of which compensate for its heavy weight, requiring no body strength to operate. When in a personal mech, the wearer has a Strength of 20, as well as {@sense Darkvision} to 60 feet. (2000 lb., $10 million)",
@@ -7149,7 +7485,7 @@
 										"A shield is usually made from plastic, such as a riot shield or tactical ballistic shield, and is carried in one hand. Wielding a riot shield increases your Armor Class by 2 and a tactical ballistic shield, or futuristic shield, by 3. You can benefit from only one shield at a time.",
 										{
 											"type": "entries",
-											"name": "Riot Shield. ",
+											"name": "{@item Riot Shield|Superheroic5E}",
 											"page": 99,
 											"entries": [
 												"General use modern polycarbonate shield used for crowd control and deflection of thrown projectiles. It is lightweight, protects the user, and can be used to bash as well. (10 lb., $75)"
@@ -7157,7 +7493,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Tactical Ballistic Shield.",
+											"name": "{@item Tactical Ballistic Shield|Superheroic5E}",
 											"page": 99,
 											"entries": [
 												"A specialized militarygrade shield that can deflect bullets, often made of aramidlaced plastic, with a viewing port (20 lb., $200)"
@@ -7165,338 +7501,15 @@
 										},
 										{
 											"type": "entries",
-											"name": "Futuristic Retractable Shield.",
+											"name": "{@item Futuristic Retractable Shield|Superheroic5E}",
 											"page": 99,
 											"entries": [
 												"A futuristic energy field projection based on the forearm. With an action, the wielder can project a translucent forcefield form the forearm to provide protection (1 lb., $10,000)"
 											]
 										}
 									]
-								},
-								{
-									"type": "table",
-									"caption": "Light Armor Table",
-									"colLabelGroups": [
-										{
-											"colLabels": [
-												"Armor"
-											]
-										},
-										{
-											"colLabels": [
-												"Cost"
-											]
-										},
-										{
-											"colLabels": [
-												"Armor Class (AC)"
-											]
-										},
-										{
-											"colLabels": [
-												"Str",
-												"Req."
-											]
-										},
-										{
-											"colLabels": [
-												"Stealth"
-											]
-										},
-										{
-											"colLabels": [
-												"Weight"
-											]
-										}
-									],
-									"colStyles": [
-										"col-4",
-										"col-2",
-										"col-3",
-										"col-2",
-										"col-2",
-										"col-2"
-									],
-									"rows": [
-										[
-											"{@item Tactical Streetwear|Superheroic5E}",
-											"100",
-											"11+Dex",
-											"-",
-											"-",
-											"4 lb."
-										],
-										[
-											"{@item Leather|Superheroic5E}",
-											"50",
-											"11+Dex",
-											"-",
-											"-",
-											"8 lb."
-										],
-										[
-											"{@item Reinforced Leather|Superheroic5E}",
-											"150",
-											"12+Dex",
-											"-",
-											"-",
-											"12 lb."
-										],
-										[
-											"{@item Studded Leather|phb}",
-											"75",
-											"12+Dex",
-											"-",
-											"-",
-											"15 lb."
-										],
-										[
-											"{@item Futuristic Fabrics|Superheroic5E}",
-											"1000",
-											"11 +Prof.Bonus +Dex",
-											"-",
-											"-",
-											"5 lb."
-										]
-									]
-								},
-								{
-									"type": "table",
-									"caption": "Medium Armor Table",
-									"colLabelGroups": [
-										{
-											"colLabels": [
-												"Armor"
-											]
-										},
-										{
-											"colLabels": [
-												"Cost"
-											]
-										},
-										{
-											"colLabels": [
-												"Armor Class (AC)"
-											]
-										},
-										{
-											"colLabels": [
-												"Str",
-												"Req."
-											]
-										},
-										{
-											"colLabels": [
-												"Stealth"
-											]
-										},
-										{
-											"colLabels": [
-												"Weight"
-											]
-										}
-									],
-									"colStyles": [
-										"col-4",
-										"col-2",
-										"col-3",
-										"col-2",
-										"col-2",
-										"col-2"
-									],
-									"rows": [
-										[
-											"{@item Flak Jacket|Superheroic5E}",
-											"50",
-											"12+Dex (Max 2)",
-											"-",
-											"Disadvantage",
-											"25 lb."
-										],
-										[
-											"{@item Kevlar|Superheroic5E}",
-											"200",
-											"13+Dex (Max 2)",
-											"-",
-											"-",
-											"15 lb."
-										],
-										[
-											"{@item Reinforced Kevlar|Superheroic5E}",
-											"350",
-											"14+Dex (Max 2)",
-											"-",
-											"Disadvantage",
-											"25 lb."
-										],
-										[
-											"{@item Modular Tactical|Superheroic5E}",
-											"1000",
-											"14+Dex (Max 2)",
-											"-",
-											"Disadvantage",
-											"30 lb."
-										],
-										[
-											"{@item Futuristic Tactical|Superheroic5E}",
-											"10,000",
-											"14 +Prof. Bonus +Dex (max 2)",
-											"-",
-											"-",
-											"35 lb."
-										]
-									]
-								},
-								{
-									"type": "table",
-									"caption": "Heavy Armor Table",
-									"colLabelGroups": [
-										{
-											"colLabels": [
-												"Armor"
-											]
-										},
-										{
-											"colLabels": [
-												"Cost"
-											]
-										},
-										{
-											"colLabels": [
-												"Armor Class (AC)"
-											]
-										},
-										{
-											"colLabels": [
-												"Str",
-												"Req."
-											]
-										},
-										{
-											"colLabels": [
-												"Stealth"
-											]
-										},
-										{
-											"colLabels": [
-												"Weight"
-											]
-										}
-									],
-									"colStyles": [
-										"col-4",
-										"col-2",
-										"col-3",
-										"col-2",
-										"col-2",
-										"col-2"
-									],
-									"rows": [
-										[
-											"{@item Ceramic Composite|Superheroic5E}",
-											"800",
-											"16",
-											"-",
-											"Disadvantage",
-											"4 lb."
-										],
-										[
-											"{@item Emergency Ordnance Disposal (EOD) Suit|Superheroic5E}",
-											"4000",
-											"18",
-											"Str 13",
-											"Disadvantage",
-											"80 lb."
-										],
-										[
-											"{@item Futuristic Exo-suit|Superheroic5E}",
-											"1 million",
-											"20",
-											"Str 13",
-											"Disadvantage",
-											"120 lb."
-										],
-										[
-											"{@item Personal Mech|Superheroic5E}",
-											"10 million",
-											"22",
-											"-",
-											"Disadvantage",
-											"2000 lb."
-										]
-									]
-								},
-								{
-									"type": "table",
-									"caption": "Shield Armor Table",
-									"colLabelGroups": [
-										{
-											"colLabels": [
-												"Armor"
-											]
-										},
-										{
-											"colLabels": [
-												"Cost"
-											]
-										},
-										{
-											"colLabels": [
-												"Armor Class (AC)"
-											]
-										},
-										{
-											"colLabels": [
-												"Str",
-												"Req."
-											]
-										},
-										{
-											"colLabels": [
-												"Stealth"
-											]
-										},
-										{
-											"colLabels": [
-												"Weight"
-											]
-										}
-									],
-									"colStyles": [
-										"col-4",
-										"col-2",
-										"col-3",
-										"col-2",
-										"col-2",
-										"col-2"
-									],
-									"rows": [
-										[
-											"{@item Riot Shield|Superheroic5E}",
-											"75",
-											"+2",
-											"-",
-											"-",
-											"10 lb."
-										],
-										[
-											"{@item Tactical Ballistic Shield|Superheroic5E}",
-											"200",
-											"+3",
-											"-",
-											"Disadvantage",
-											"20 lb."
-										],
-										[
-											"{@item Futuristic Retractable Shield|Superheroic5E}",
-											"10,000",
-											"+3",
-											"-",
-											"-",
-											"1 lb."
-										]
-									]
 								}
+								
 							]
 						},
 						{
@@ -7514,6 +7527,629 @@
 							"entries": [
 								"Your background grants proficiency in certain weapons, reflecting both the class' focus and the tools you are most likely to use. Whether you favor a firearm or a hand-tohand weapon, your weapon, and your ability to wield it effectively, can mean the difference between life and death while adventuring.",
 								"The Weapons table shows the most common weapons used in modern fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A {@b melee weapon} is used to attack a target within 5 feet of you, whereas a {@b ranged weapon} is used to attack a target at a distance.",
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Simple Melee Weapons",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Baton|Superheroic5E}",
+											"10",
+											"1d4 Bludgeon",
+											"2 lb.",
+											"Finesse, Light"
+										],
+										[
+											"{@item Chainsaw|Superheroic5E}",
+											"100",
+											"1d8 Slashing",
+											"25 lb.",
+											"Heavy, Special. Two-Handed"
+										],
+										[
+											"{@item Fire Axe|Superheroic5E}",
+											"20",
+											"1d8 Slashing",
+											"4 lb.",
+											"Two-Handed"
+										],
+										[
+											"{@item Handaxe|phb|Hand Axe}",
+											"10",
+											"1d6 Slashing",
+											"2 lb.",
+											"Light, Thrown(20/60)"
+										],
+										[
+											"{@item Kitchen Knife|Superheroic5E}",
+											"5",
+											"1d4 Piercing",
+											"1 lb.",
+											"Light"
+										],
+										[
+											"{@item Machete|Superheroic5E}",
+											"5",
+											"1d6 Slashing",
+											"3 lb.",
+											"-"
+										],
+										[
+											"{@item Quarterstaff|phb}",
+											"5",
+											"1d6 Bludgeon",
+											"4 lb.",
+											"Versatile(1d8)"
+										],
+										[
+											"{@item Sledgehammer|Superheroic5E}",
+											"20",
+											"1d8 Bludgeon",
+											"10 lb.",
+											"Heavy, Two-Handed"
+										],
+										[
+											"{@item Survival knife|Superheroic5E}",
+											"20",
+											"1d6 Piercing",
+											"2 lb.",
+											"Finesse, Light"
+										],
+										[
+											"{@item Switchblade|Superheroic5E}",
+											"10",
+											"1d4 Piercing",
+											"1 lb.",
+											"Finesse, Light"
+										],
+										[
+											"{@item Throwing knife|Superheroic5E}",
+											"10",
+											"1d4 Piercing",
+											"1 lb.",
+											"Finesse, Light, Thrown(20/60)"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Simple Ranged Weapons",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Crossbow, hand drawn|Superheroic5E}",
+											"75",
+											"1d8 Piercing",
+											"5 lb.",
+											"Ammunition (range 80/320), two-handed"
+										],
+										[
+											"{@item Derringer|Superheroic5E|Derringer(uses small revolver bullets)}",
+											"200",
+											"1d4 Piercing",
+											"1 lb.",
+											"Ammunition (range 10/30), Capacity (2), Light, Slow loading"
+										],
+										[
+											"{@item Pepper Spray|Superheroic5E",
+											"10",
+											"1 Acid",
+											"1 lb.",
+											"Ammunition (range 5/15), Light, Slow loading, Special"
+										],
+										[
+											"{@item Shortbow|phb}",
+											"50",
+											"1d6 Piercing",
+											"2 lb.",
+											"Ammunition (range 80/320), two-handed"
+										],
+										[
+											"{@item Revolver, small|Superheroic5E}",
+											"200",
+											"1d6 Piercing",
+											"1 lb.",
+											"Ammunition (range 30/120), Capacity (5), Light, Slow loading"
+										],
+										[
+											"{@item Revolver, large|Superheroic5E}",
+											"200",
+											"1d8 Piercing",
+											"3 lb.",
+											"Ammunition (range 80/320), Capacity (5), Slow loading"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Martial Melee Weapons",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Bayonet|Superheroic5E}",
+											"10",
+											"1d6 Piercing",
+											"2 lb.",
+											"Special"
+										],
+										[
+											"{@item Laser blade|Superheroic5E}",
+											"1 million",
+											"2d6 Radiant",
+											"5 lb.",
+											"Finesse, futuristic, versatile (2d8)"
+										],
+										[
+											"{@item Longsword|phb|Longsword or katana}",
+											"100",
+											"1d8 Slashing",
+											"3 lb.",
+											"Versatile (1d10)"
+										],
+										[
+											"{@item Rapier|phb}",
+											"250",
+											"1d8 Piercing",
+											"2 lb.",
+											"Finesse"
+										],
+										[
+											"{@item Vibro-knife|Superheroic5E}",
+											"75",
+											"1d8 Piercing",
+											"5 lb.",
+											""
+										],
+										[
+											"{@item Whip|phb}",
+											"20",
+											"1d4 Slashing",
+											"3 lb.",
+											"Finesse, Reach"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Martial Ranged Weapons",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Boomerang|Superheroic5E}",
+											"10",
+											"1d6 Bludgeoning",
+											"1 lb.",
+											"Range 30/120, special"
+										],
+										[
+											"{@item Compound bow|Superheroic5E}",
+											"150",
+											"1d8 Piercing",
+											"5 lb.",
+											"Ammunition (range 150/600), Heavy, Two-handed"
+										],
+										[
+											"{@item Crossbow, compound|Superheroic5E}",
+											"150",
+											"1d10 Piercing",
+											"12 lb.",
+											"Ammunition (range 100/400), Heavy, Slow Loading, Two-handed"
+										],
+										[
+											"{@item Crossbow, hand|Superheroic5E}",
+											"50",
+											"1d6 Piercing",
+											"3 lb.",
+											"Ammunition (range 30/120), Light, Loading"
+										],
+										[
+											"{@item Flamethrower|Superheroic5E}",
+											"500",
+											"3d6 Fire",
+											"70 lb.",
+											"Ammunition (range 60-foot line), heavy, Slow Loading, Special, Two-handed"
+										],
+										[
+											"{@item Grenade, Stun|Superheroic5E}",
+											"150",
+											"2 Thunder",
+											"2 lb.",
+											"Range (60/0), Special, Thrown"
+										],
+										[
+											"{@item Grenade, Fragmentation|Superheroic5E}",
+											"100",
+											"3d6 Piercing",
+											"1 lb.",
+											"Range (60/0), Special, Thrown"
+										],
+										[
+											"{@item Grenade, Smoke|Superheroic5E}",
+											"100",
+											"-",
+											"2 lb.",
+											"Range (60/0), Special, Thrown"
+										],
+										[
+											"{@item Machine gun, heavy (50 caliber)|Superheroic5E}",
+											"10,000",
+											"2d10 Piercing",
+											"85 lb.",
+											"Ammunition (range 1000/3000), Capacity (110), Full Auto, Heavy, Slow Loading, Special, Two-handed"
+										],
+										[
+											"{@item Machine gun|Superheroic5E}",
+											"600",
+											"1d10 Piercing",
+											"10 lb.",
+											"Ammunition (range 300/1200), Capacity (30), Full Auto, Quick Loading, Two-handed"
+										]
+									]
+								},
+
+								
+								{
+									"type": "table",
+									"caption": "Martial Ranged Weapons (continued)",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Net|phb}",
+											"1",
+											"-",
+											"3 lb.",
+											"Special, thrown (range 5/15)"
+										],
+										[
+											"{@item Pistol, large semi-auto|Superheroic5E}",
+											"300",
+											"1d10 Piercing",
+											"3 lb.",
+											"Ammunition (range 80/320), Capacity (7), Quick Reload, Semi-auto"
+										],
+										[
+											"{@item Pistol, laser|Superheroic5E}",
+											"20,000",
+											"2d6 Radiant",
+											"1 lb.",
+											"Ammunition (range 80/320), Capacity (50), Light, Quick Reload, Semi-auto"
+										],
+										[
+											"{@item Pistol, small semi-auto|Superheroic5E}",
+											"300",
+											"1d10 Piercing",
+											"1 lb.",
+											"Ammunition (range 80/320), Capacity (17), Light, Quick Reload, Semi-auto"
+										],
+										[
+											"{@item Rifle, bolt action|Superheroic5E}",
+											"150",
+											"1d10 Piercing",
+											"10 lb.",
+											"Ammunition (range 80/320), Capacity (4), Slow Reload, Two-handed"
+										],
+										[
+											"{@item Rifle, laser|Superheroic5E}",
+											"50,000",
+											"2d8 Radiant",
+											"7 lb.",
+											"Ammunition (range 300/1200), Capacity (50), Futuristic, Quick Loading, Semi-auto, Two-handed"
+										],
+										[
+											"{@item Rifle, semi-auto|Superheroic5E}",
+											"300",
+											"1d10 Piercing",
+											"8 lb.",
+											"Ammunition (range 80/320), Capacity (20), Quick Reload,  Semi-auto, Two-handed"
+										],
+										[
+											"{@item Rifle, sniper|Superheroic5E}",
+											"10,000",
+											"2d10 Piercing",
+											"30 lb.",
+											"Ammunition (range 1000/3000), Capacity (4), Slow Reload, Two-handed"
+										],
+										[
+											"{@item Rocket propelled grenade launcher|Superheroic5E}",
+											"500",
+											"4d10 Piercing",
+											"15 lb.",
+											"Ammunition (range 600/-), Heavy, Slow Reload, Special, Two-handed"
+										],
+										[
+											"{@item Shotgun, pump action|Superheroic5E}",
+											"400",
+											"1d12 Piercing",
+											"9 lb.",
+											"Ammunition (range 30/120), Capacity (4), Slow Reload, Two-handed"
+										],
+										[
+											"{@item Shotgun, sawed off|Superheroic5E}",
+											"400",
+											"1d12 Piercing",
+											"6 lb.",
+											"Ammunition (range 10/30), Capacity (2), Slow Reload, special"
+										],
+										[
+											"{@item Submachine gun|Superheroic5E}",
+											"600",
+											"1d8 Piercing",
+											"5 lb.",
+											"Ammunition (range 60/240), Capacity (25), full auto, quick loading"
+										],
+										[
+											"{@item Taser|Superheroic5E}",
+											"200",
+											"2 Lightning",
+											"1 lb.",
+											"Ammunition (range 10/30), Capacity (1), light, slow loading, special"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Vehicle Mounted Weapons",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Damage"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												"Properties"
+											]
+										}
+									
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-2",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Minigun|Superheroic5E}",
+											"20,000",
+											"3d10 Piercing",
+											"80 lb.",
+											"Ammunition (range 2000/4000), Capacity (4000), Full auto, Heavy, Slow loading, Special, Vehicle Mounted"
+										],
+										[
+											"{@item Missile, ballistic|Superheroic5E}",
+											"175,000",
+											"2d8 Thunder, 2d8 Fire, 2d8 Piercing",
+											"80 lb.",
+											"Ammunition (range 3 miles), Capacity (1), heavy, slow loading, special, vehicle mounted"
+										],
+										[
+											"{@item Missile, guided, large|Superheroic5E}",
+											"1.5 million",
+											"4d10 Thunder, 4d10 Fire, 4d10 Piercing",
+											"3500 lb.",
+											"Ammunition (range 1000 miles), Capacity (1), heavy, slow loading, special, vehicle mounted"
+										],
+										[
+											"{@item Missile, guided, small|Superheroic5E}",
+											"60,000",
+											"2d10 Thunder, 2d10 Fire, 2d10 Piercing",
+											"150 lb.",
+											"Ammunition (range 3 miles), Capacity (1), heavy, slow loading, special, vehicle mounted"
+										],
+										[
+											"{@item Tank Gun|Superheroic5E}",
+											"8 million",
+											"6d10 Piercing",
+											"10,000 lb.",
+											"Ammunition (range 1 mile), Capacity (1), heavy, slow loading, special, vehicle mounted"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
 								{
 									"type": "entries",
 									"name": "Weapon Proficiency",
