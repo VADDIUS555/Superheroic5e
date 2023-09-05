@@ -1063,7 +1063,7 @@
 										"{@b {@i Age}}. Robots generally are fully formed adults when created and do not age, though they can break down over time from damage or wear.",
 										"{@b {@i Size}}. Robotic superheroes tend to be humanoid in size and shape, though they can in principle have any number of configurations. Describe what your character looks like. You choose whether your size is Small or Medium.",
 										"{@b {@i Speed}}. Your base walking speed is 30 feet.",
-										"{@b {@i Inorganic}}. Your constructed nature grants you certain advantages over organic beings. You do not need to eat, drink, or breathe. You neither need sleep nor can be put to sleep by any means. You must spend four hours a night in low activity mode, however, which requires that you remain immobile but alert to gain the benefits of a long rest. You may still speak in this mode. You are immune to disease as well, though computer viruses could in principle affect you, based on your GM's discretion. Finally, you have resistance to poison damage, and advantage on saves against being {@condition poisoned}. Despite your inorganic nature, superpowered and mystical healing still mends you and first aid kits can patch holes and stop leaks, effectively working on you as well.",
+										"{@b {@i Inorganic}}. Your constructed nature grants you certain advantages over organic beings. You do not need to eat, drink, or breathe. You neither need sleep nor can be put to sleep by any means. You must spend four hours a night in low activity mode, however, which requires that you remain immobile but alert to gain the benefits of a long rest. You may still speak in this mode. You are immune to disease as well, though computer viruses could in principle affect you, based on your GM's discretion. Finally, you have resistance to poison damage, and advantage on saves against being {@condition poisoned}. Despite your inorganic nature, superpowered and mystical healing still mends you and {@item first aid kit|Superheroic5E|first aid kits} can patch holes and stop leaks, effectively working on you as well.",
 										"{@b {@i Robotic Resilience}}. You are made of sterner stuff than flesh. As such, you have a +1 bonus to your Armor Class, which supplements any armor you might wear."
 									]
 								}
@@ -7509,7 +7509,6 @@
 										}
 									]
 								}
-								
 							]
 						},
 						{
@@ -7559,7 +7558,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -7680,7 +7678,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -7766,7 +7763,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -7852,7 +7848,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -7934,8 +7929,6 @@
 										]
 									]
 								},
-
-								
 								{
 									"type": "table",
 									"caption": "Martial Ranged Weapons (continued)",
@@ -7965,7 +7958,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -8100,7 +8092,6 @@
 												"Properties"
 											]
 										}
-									
 									],
 									"colStyles": [
 										"col-2",
@@ -8144,6 +8135,145 @@
 											"6d10 Piercing",
 											"10,000 lb.",
 											"Ammunition (range 1 mile), Capacity (1), heavy, slow loading, special, vehicle mounted"
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Ammunition",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Name"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												""
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@item Arrow|phb|Arrows (12)}",
+											"20",
+											"1 lb.",
+											""
+										],
+										[
+											"{@item Crossbow Bolt|phb|Crossbow Bolts (12)}",
+											"20",
+											"1 lb.",
+											""
+										],
+										[
+											"{@item Flamethrower fuel|Superheroic5E}",
+											"100",
+											"20 lb.",
+											""
+										],
+										[
+											"{@item Laser capacitor|Superheroic5E|Laser capacitor (50)}",
+											"100",
+											"20 lb.",
+											""
+										],
+										[
+											"{@item Machine gun, heavy, drum (110)|Superheroic5E}",
+											"100",
+											"25 lb.",
+											""
+										],
+										[
+											"{@item Minigun cannister with ammo belt (4000)|Superheroic5E}",
+											"2000",
+											"1000 lb.",
+											""
+										],
+										[
+											"{@item Pistol, large semi-auto magazine (7)|Superheroic5E}",
+											"30",
+											"1 lb.",
+											""
+										],
+										[
+											"{@item Pistol, small semi-auto magazine (17)|Superheroic5E}",
+											"20",
+											"1 lb.",
+											""
+										],
+										[
+											"{@item Revolver, large bullets (100)|Superheroic5E}",
+											"35",
+											"2 lb.",
+											""
+										],
+										[
+											"{@item Revolver, small bullets (100)|Superheroic5E}",
+											"30",
+											"2 lb.",
+											""
+										],
+										[
+											"{@item Rifle, bolt action, bullets (100)|Superheroic5E}",
+											"20",
+											"2 lb.",
+											""
+										],
+										[
+											"{@item Rifle, semi-auto, magazine (20)|Superheroic5E}",
+											"15",
+											"2 lb.",
+											""
+										],
+										[
+											"{@item RPG Rocket|Superheroic5E}",
+											"100",
+											"6 lb.",
+											""
+										],
+										[
+											"{@item Shotgun shells (25)|Superheroic5E}",
+											"15",
+											"2 lb.",
+											""
+										],
+										[
+											"{@item Submachine gun magazine (25)|Superheroic5E}",
+											"15",
+											"1 lb.",
+											""
+										],
+										[
+											"{@item Tank Shell|Superheroic5E}",
+											"8000",
+											"50 lb.",
+											""
+										],
+										[
+											"{@item Taser charge|Superheroic5E|Taser charge (2)}",
+											"30",
+											"1 lb.",
+											""
 										]
 									]
 								},
@@ -8487,68 +8617,573 @@
 										"The starting equipment you get from your background includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here with their cost in dollars. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.",
 										{
 											"type": "entries",
-											"name": "{@item Criminal's Pack} (175)",
+											"name": "{@item Criminal's Pack|Superheroic5E} (175)",
 											"entries": [
 												"backpack, casual clothes, flashlight, flask, lighter, 2 packed meals, nylon rope, smart phone, water bottle."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Journalist's Pack} (300)",
+											"name": "{@item Journalist's Pack|Superheroic5E} (300)",
 											"entries": [
 												"Backpack, batteries, DSLR camera, casual clothes, coffee mug, notebook, 2 packed meals, smart phone, water bottle."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Laborer's Pack} (180)",
+											"name": "{@item Laborer's Pack|Superheroic5E} (180)",
 											"entries": [
-												"backpack, batteries, chalk, casual clothes, crowbar, gasoline can (filled), hammer, ladder, 2 packed meals, smart phone, water bottle."
+												"{@item backpack|phb}, {@item batteries|Superheroic5E}, {@item chalk|phb}, {@item clothes, casual|Superheroic5E|casual clothes}, {@item crowbar|phb}, {@item gasoline can (filled)|Superheroic5E}, {@item hammer|phb}, {@item Ladder (10-foot)|phb|ladder}, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item smart phone|Superheroic5E}, {@item water bottle|Superheroic5E}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Medic's Pack} (200)",
+											"name": "{@item Medic's Pack|Superheroic5E} (200)",
 											"entries": [
-												"backpack, antitoxin (vial), casual clothes, first aid kit, 2 packed meals, smart phone, water bottle."
+												"{@item backpack|phb}, {@item Antitoxin (vial)|phb}, {@item Clothes, casual|Superheroic5E|casual clothes}, {@item first aid kit|Superheroic5E}, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item smart phone|Superheroic5E}, {@item water bottle|Superheroic5E}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Office Worker's Pack} (350)",
+											"name": "{@item Office Worker's Pack|Superheroic5E} (350)",
 											"entries": [
-												"briefcase, coffee mug, dress clothes, laptop, notebook, 2 packed meals, perfume, smart phone, soap."
+												"{@item briefcase|Superheroic5E}, {@item coffee mug|Superheroic5E}, {@item Clothes, dress|Superheroic5E|dress clothes}, {@item laptop|Superheroic5E}, {@item notebook|Superheroic5E}, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item perfume|phb}, {@item smart phone|Superheroic5E}, {@item soap|phb}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Police Officer's Pack} (200)",
+											"name": "{@item Police Officer's Pack|Superheroic5E} (200)",
 											"entries": [
-												"backpack, official uniform, flashlight, handcuffs, 2 packed meals, baton, smart phone, water bottle."
+												"{@item backpack|phb}, {@item Clothes, official uniform|Superheroic5E|official uniform}, {@item flashlight|Superheroic5E}, {@item handcuffs, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item baton|Superheroic5E}, {@item smart phone|Superheroic5E}, {@item water bottle|Superheroic5E}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Scientist's Pack} (375):",
+											"name": "{@item Scientist's Pack|Superheroic5E} (375):",
 											"entries": [
-												"briefcase, acid (vial), book, dress clothes, laptop, notebook, 2 packed meals, smart phone, water bottle."
+												"{@item briefcase|Superheroic5E}, {@item acid (vial)|phb}, {@item book|phb}, {@item Clothes, dress|Superheroic5E|dress clothes}, {@item laptop|Superheroic5E}, {@item notebook|Superheroic5E}, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item smart phone|Superheroic5E}, {@item water bottle|Superheroic5E}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Student's Pack} (300)",
+											"name": "{@item Student's Pack|Superheroic5E} (300)",
 											"entries": [
-												"backpack, batteries, blanket, book, casual clothes, coffee mug, laptop, lighter, notebook, 2 packed meals, smart phone, water bottle."
+												"{@item backpack|phb}, {@item batteries|Superheroic5E}, {@item blanket|phb}, {@item book|phb}, {@item Clothes, casual|Superheroic5E|casual clothes}, {@item coffee mug|Superheroic5E}, {@item laptop|Superheroic5E}, {@item Lighter, steel|Superheroic5E|lighter}, {@item notebook|Superheroic5E}, {@item Packed meals (1 day)|Superheroic5E|2x packed meals}, {@item smart phone|Superheroic5E}, {@item water bottle|Superheroic5E}."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@item Survivalist's Pack} (250)",
+											"name": "{@item Survivalist's Pack|Superheroic5E} (250)",
 											"entries": [
-												"backpack, bedroll, binoculars, blanket, climber's kit, casual clothes, fishing tackle, flashlight, hunting trap, lighter, mess kit, 5 packed meals, nylon rope, shovel, tent, water bottle."
+												"{@item backpack|phb}, {@item bedroll|phb}, {@item binoculars|Superheroic5E}, {@item blanket|phb}, {@item climber's kit|phb}, {@item Clothes, casual|Superheroic5E|casual clothes}, {@item fishing tackle|phb}, {@item flashlight|Superheroic5E}, {@item hunting trap|phb}, {@item Lighter, steel|Superheroic5E|lighter, {@item mess kit|phb}, {@item Packed meals (1 day)|Superheroic5E|5x packed meals}, {@item Silk Rope (50 feet)|phb|nylon rope, {@item shovel|phb}, {@item tent|phb}, {@item water bottle|Superheroic5E}."
 											]
 										}
 									]
+								},
+								{
+									"type": "table",
+									"caption": "Gear 1",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												""
+											]
+										}
+									],
+									"colStyles": [
+										"col-2",
+										"col-1",
+										"col-1",
+										"col-8"
+									],
+									"rows": [
+										[
+											"{@item Acid (vial)|phb}",
+											"25",
+											"1 lb."
+										],
+										[
+											"{@item Antitoxin (vial)|phb}",
+											"50",
+											"-"
+										],
+										[
+											"{@item Backpack|phb}",
+											"10",
+											"5 lb."
+										],
+										[
+											"{@item Ball Bearings (bag of 1,000)|phb}",
+											"1",
+											"2 lb."
+										],
+										[
+											"{@item Barrel|phb}",
+											"10",
+											"70 lb."
+										],
+										[
+											"{@item Basket|phb}",
+											"2",
+											"2 lb."
+										],
+										[
+											"{@item Batteries|Superheroic5E}",
+											"5",
+											"1 lb."
+										],
+										[
+											"{@item Bedroll|phb}",
+											"10",
+											"7 lb."
+										],
+										[
+											"{@item Bell|phb}",
+											"1",
+											"-"
+										],
+										[
+											"{@item Binoculars|Superheroic5E}",
+											"50",
+											"2 lb."
+										],
+										[
+											"{@item Blanket|phb}",
+											"2",
+											"3 lb."
+										],
+										[
+											"{@item Block and Tackle|phb}",
+											"10",
+											"5 lb."
+										],
+										[
+											"{@item Book|phb}",
+											"5",
+											"5 lb."
+										],
+										[
+											"{@item Glass Bottle|phb|Bottle, Glass}",
+											"2",
+											"2 lb."
+										],
+										[
+											"{@item Briefcase|Superheroic5E}",
+											"20",
+											"3 lb."
+										],
+										[
+											"{@item Bucket|phb}",
+											"1",
+											"2 lb"
+										],
+										[
+											"{@item C4 Plastic Explosive|Superheroic5E}",
+											"50",
+											"1 lb."
+										],
+										[
+											"{@item Caltrops (bag of 20)|phb}",
+											"1",
+											"2 lb."
+										],
+										[
+											"{@item Camera, DSLR|Superheroic5E}",
+											"200",
+											"5 lb."
+										],
+										[
+											"{@item Candle|phb}",
+											"1",
+											"-"
+										],
+										[
+											"{@item Crossbow Bolt Case|phb|Case, crossbow bolt",
+											"10",
+											"1 lb."
+										],
+										[
+											"{@item Chain (10 feet)|phb}",
+											"5",
+											"10 lb."
+										],
+										[
+											"{@item Chalk (1 piece)|phb|Chalk (6 pieces)",
+											"1",
+											"1 lb."
+										],
+										[
+											"{@item Climber's Kit|phb}",
+											"50",
+											"12 lb."
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Gear 2",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												""
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1",
+										"col -8"
+									],
+									"rows": [
+										[
+											"{@item Clothes, casual|Superheroic5E}",
+											"20",
+											"3 lb."
+										],
+										[
+											"{@item Clothes, official uniform|Superheroic5E}",
+											"50",
+											"4 lb."
+										],
+										[
+											"{@item Clothes, dress|Superheroic5E}",
+											"50",
+											"6 lb."
+										],
+										[
+											"{@item Crowbar|phb}",
+											"5",
+											"5 lb."
+										],
+										[
+											"{@item First aid kit|Superheroic5E}",
+											"50",
+											"3 lb."
+										],
+										[
+											"{@item Fishing Tackle|phb}",
+											"20",
+											"4 lb."
+										],
+										[
+											"{@item Flashlight|Superheroic5E}",
+											"10",
+											"1 lb."
+										],
+										[
+											"{@item Flask|phb} or reusable {@item Coffee mug|Superheroic5E}",
+											"2",
+											"1 lb."
+										],
+										[
+											"{@item Gasoline can, filled|Superheroic5E}",
+											"15",
+											"40 lb."
+										],
+										[
+											"{@item Grappling gun|Superheroic5E}",
+											"1,000",
+											"8 lb."
+										],
+										[
+											"{@item Hammer|phb}",
+											"5",
+											"3 lb."
+										],
+										[
+											"{@item Handcuffs|Superheroic5E}",
+											"15",
+											"1 lb."
+										],
+										[
+											"{@item Holo device|Superheroic5E}",
+											"10,000",
+											"1 lb."
+										],
+										[
+											"{@item Hunting Trap|phb}",
+											"15",
+											"25 lb."
+										],
+										[
+											"{@item Ladder (10-foot)|phb}",
+											"20",
+											"25 lb."
+										],
+										[
+											"{@item Land Mine|Superheroic5E}",
+											"50",
+											"2 lb."
+										],
+										[
+											"{@item Laptop|Superheroic5E}",
+											"200",
+											"5 lb."
+										],
+										[
+											"{@item Lighter, steel|Superheroic5E}",
+											"10",
+											"1 lb."
+										],
+										[
+											"{@item Mess Kit|phb}",
+											"2",
+											"1 lb."
+										],
+										[
+											"{@item Steel Mirror|phb}",
+											"5",
+											"0.5 lb."
+										],
+										[
+											"{@item Night vision goggles|Superheroic5E}",
+											"200",
+											"2 lb."
+										],
+										[
+											"{@item Notebook|Superheroic5E}",
+											"1",
+											"0.5 lb."
+										],
+										[
+											"{@item Packed meals (1 day)|Superheroic5E}",
+											"5",
+											"2 lb."
+										],
+										[
+											"{@item Perfume (vial)|phb}",
+											"20",
+											"-"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Gear 3",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										},
+										{
+											"colLabels": [
+												""
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1",
+										"col-8"
+									],
+									"rows": [
+										[
+											"{@item Piton|phb}",
+											"1",
+											"0.25 lb."
+										],
+										[
+											"{@item Basic Poison (vial)|phb}",
+											"100",
+											"-"
+										],
+										[
+											"{@item Pole (10-foot)|phb}",
+											"5",
+											"7 lb."
+										],
+										[
+											"{@item Purse|Superheroic5E}",
+											"20",
+											"1 lb."
+										],
+										[
+											"{@item Quiver|phb}",
+											"10",
+											"1 lb."
+										],
+										[
+											"{@item Portable Ram|phb}",
+											"40",
+											"35 lb."
+										],
+										[
+											"{@item Hempen Rope (50 feet)|phb}",
+											"5",
+											"10 lb."
+										],
+										[
+											"{@item Silk Rope (50 feet)|phb|Rope, nylon (50 feet)}",
+											"20",
+											"5 lb."
+										],
+										[
+											"{@item Sack|phb}",
+											"1",
+											"0.5 lb."
+										],
+										[
+											"{@item Merchant's Scale|phb}",
+											"5",
+											"3 lb."
+										],
+										[
+											"{@item Shovel|phb}",
+											"2",
+											"5 lb."
+										],
+										[
+											"{@item Smart phone|Superheroic5E}",
+											"100",
+											"1 lb."
+										],
+										[
+											"{@item Soap|phb}",
+											"1",
+											"-"
+										],
+										[
+											"{@item Iron Spikes (10)|phb}",
+											"1",
+											"5 lb."
+										],
+										[
+											"{@item Two-Person Tent|PHB}",
+											"25",
+											"20 LB."
+										],
+										[
+											"{@item Tracking Device|Superheroic5E}",
+											"1,000",
+											"-"
+										],
+										[
+											"{@item Vial|phb}",
+											"1",
+											"-"
+										],
+										[
+											"{@item Water bottle|Superheroic5E}",
+											"2",
+											"5 lb. (full)"
+										],
+										[
+											"{@item Whetstone|phb}",
+											"1",
+											"1 lb."
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Container Capacity",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Container"
+											]
+										},
+										{
+											"colLabels": [
+												"Copacity"
+											]
+										}
+									],
+									"colStyles": [
+										"col-2",
+										"col-4"
+									],
+									"rows": [
+										[
+											"{@item Backpack|phb}",
+											"1 cubic foot/30 pounds of gear"
+										],
+										[
+											"{@item Barrel|phb}",
+											"40 gallons liquid, 4 cubic feet solid"
+										],
+										[
+											"{@item Basket|phb}",
+											"2 cubic feet/40 pounds of gear"
+										],
+										[
+											"{@item Glass Bottle|phb|Bottle}",
+											"1 ½ pints liquid"
+										],
+										[
+											"{@item Bucket|phb}",
+											"3 gallons liquid, ½ cubic foot solid"
+										],
+										[
+											"{@item Flask|phb}",
+											"1-pint liquid"
+										],
+										[
+											"{@item Purse|Superheroic5E}",
+											"1/5 cubic foot/6 pounds of gear"
+										],
+										[
+											"{@item Sack|phb}",
+											"1 cubic foot/30 pounds of gear"
+										],
+										[
+											"{@item Vial|phb}",
+											"4 ounces liquid"
+										],
+										[
+											"{@item Water bottle|Superheroic5E}",
+											"4 pints liquid"
+										]
+									]
+								},
+								{
+									"type": "hr"
 								}
 							]
 						},
@@ -8557,7 +9192,327 @@
 							"name": "Tools",
 							"page": 108,
 							"entries": [
-								"A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, maneuver a vehicle, or pick a lock. Your culture, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to maneuver a car down a road littered with dangerous debris, or a Wisdom check to change the car's oil. Having proficiency in Vehicles (land) allows you to add your proficiency bonus to checks such as these."
+								"A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, maneuver a vehicle, or pick a lock. Your culture, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability since proficiency with a tool represents broader knowledge of its use. For example, the GM might ask you to make a Dexterity check to maneuver a car down a road littered with dangerous debris, or a Wisdom check to change the car's oil. Having proficiency in Vehicles (land) allows you to add your proficiency bonus to checks such as these.",
+								{
+									"type": "entries",
+									"name": "Tools, Gaming Sets & Instruments",
+									"page": 108,
+									"entries": []
+								},
+								{
+									"type": "table",
+									"caption": "Artisan's Tools",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1"
+									],
+									"rows": [
+										[
+											"{@item Brewer's Supplies|phb}",
+											"100",
+											"9 lb."
+										],
+										[
+											"{@item Calligrapher's Supplies|phb}",
+											"20",
+											"5 lb."
+										],
+										[
+											"{@item Carpenter's Tools|phb}",
+											"50",
+											"6 lb."
+										],
+										[
+											"{@item Cartographer's Tools|phb}",
+											"50",
+											"6 lb."
+										],
+										[
+											"{@item Alchemist's Supplies|phb|Chemistry supplies}",
+											"100",
+											"8 lb."
+										],
+										[
+											"{@item Computer repair kit|Superheroic5E}",
+											"100",
+											"8 lb."
+										],
+										[
+											"{@item Cook's Utensils|phb}",
+											"50",
+											"8 lb."
+										],
+										[
+											"{@item Electronics repair kit|Superheroic5E}",
+											"50",
+											"5 lb."
+										],
+										[
+											"{@item Jeweler's Tools|phb}",
+											"100",
+											"2 lb."
+										],
+										[
+											"{@item Mason's Tools|phb}",
+											"20",
+											"8 lb."
+										],
+										[
+											"{@item Mechanic’s tools|Superheroic5E}",
+											"50",
+											"5 lb."
+										],
+										[
+											"{@item Painter's Supplies|phb}",
+											"20",
+											"5 lb."
+										],
+										[
+											"{@item Photographer’s Kit|Superheroic5E",
+											"200",
+											"5 lb."
+										],
+										[
+											"{@item Potter's Tools|phb}",
+											"20",
+											"3 lb."
+										],
+										[
+											"{@item Weaver's Tools|phb|Sewing kit}",
+											"20",
+											"5 lb."
+										],
+										[
+											"{@item Smith's Tools|phb}",
+											"20",
+											"8 lb."
+										],
+										[
+											"{@item Telecommunications kit|Superheroic5E}",
+											"50",
+											"5 lb."
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Gaming Sets",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1"
+									],
+									"rows": [
+										[
+											"{@item Dice Set|phb}",
+											"1",
+											"-"
+										],
+										[
+											"{@item Playing Card Set|phb}",
+											"5",
+											"-"
+										],
+										[
+											"{@item Roleplaying game set|Superheroic5E}",
+											"5",
+											"3 lb."
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Musical Instruments",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1"
+									],
+									"rows": [
+										[
+											"{@item Bagpipes|phb}",
+											"100",
+											"6 lb."
+										],
+										[
+											"{@item Dulcimer|phb|Cello}",
+											"200",
+											"20 lb."
+										],
+										[
+											"{@item Flute|phb|Clarinet",
+											"200",
+											"2 lb."
+										],
+										[
+											"{@item Drum|phb|Drum set, five pieces}",
+											"250",
+											"50 lb."
+										],
+										[
+											"{@item Flute|phb}",
+											"200",
+											"1 lb."
+										],
+										[
+											"{@item Lute|phb|Guitar, acoustic}",
+											"100",
+											"6 lb."
+										],
+										[
+											"{@item Lute|phb|Guitar, electric, with amp}",
+											"200",
+											"20 lb."
+										],
+										[
+											"{@item Lyre|phb|Harp}",
+											"500",
+											"20 lb."
+										],
+										[
+											"{@item Dulcimer|phb|Keyboard, electronic}",
+											"100",
+											"7 lb."
+										],
+										[
+											"{@item Dulcimer|phb|Piano, baby grand}",
+											"5,000",
+											"500 lb."
+										],
+										[
+											"{@item Shawm|phb|Saxophone}",
+											"300",
+											"6 lb."
+										],
+										[
+											"{@item Horn|phb|Trumpet}",
+											"250",
+											"3 lb."
+										],
+										[
+											"{@item Viol|phb|Violin}",
+											"300",
+											"1 lb."
+										]
+									]
+								},
+								{
+									"type": "hr"
+								},
+								{
+									"type": "table",
+									"caption": "Other Tools",
+									"colLabelGroups": [
+										{
+											"colLabels": [
+												"Item"
+											]
+										},
+										{
+											"colLabels": [
+												"Cost in $"
+											]
+										},
+										{
+											"colLabels": [
+												"Weight"
+											]
+										}
+									],
+									"colStyles": [
+										"col-4",
+										"col-1",
+										"col-1"
+									],
+									"rows": [
+										[
+											"{@item Disguise Kit|phb}",
+											"100",
+											"3 lb."
+										],
+										[
+											"{@item First aid kit|Superheroic5E}",
+											"50",
+											"3 lb."
+										],
+										[
+											"{@item Forgery Kit|phb}",
+											"150",
+											"5 lb."
+										],
+										[
+											"{@item Poisoner's Kit|phb}",
+											"500",
+											"2 lb."
+										],
+										[
+											"{@item Thieves' Tools|phb}",
+											"25",
+											"1 lb."
+										]
+									]
+								},
+								{
+									"type": "hr"
+								}
 							]
 						},
 						{
@@ -8693,6 +9648,83 @@
 												"{@i Damage Resistance}. Most vehicles, especially military and combat models, can withstand a lot of damage. Vehicles that are larger, heavier, or militarized have resistance to bludgeoning, piercing, and slashing damage. The vehicles table indicates which vehicles have this damage resistance.",
 												"{@i Hit points}. Vehicles also have HP. Once a vehicle loses half of its HP, it loses some functionality. Any roll someone makes to pilot such a vehicle is rolled with disadvantage. The vehicle is disabled entirely when the HP drop to zero. The HP are also listed in the table below.",
 												"{@i Fueled}. Except for the bicycle and horses, listed below, all vehicles need fuel\u2014though horses need stabling and food, of course. Fuel for cars and trucks is easy enough to obtain, but fuel for planes, helicopters, and military craft is extremely difficult outside of an airport or military installation. GMs can decide whether or how to allow characters access to such fuel."
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Ground Craft",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Vehicle"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost in $"
+													]
+												},
+												{
+													"colLabels": [
+														"Top Speed *"
+													]
+												},
+												{
+													"colLabels": [
+														"Size"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												},
+												{
+													"colLabels": [
+														"Carrying",
+														"Capacity"
+													]
+												},
+												{
+													"colLabels": [
+														"Damage",
+														"Resistance"
+													]
+												},
+												{
+													"colLabels": [
+														"Hit",
+														"Points"
+													]
+												}
+											],
+											"colStyles": [
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-1",
+												"col-1"
+											],
+											"rows": [
+												["Bicycle, road", "200", "20mph*", "Medium", "15 lb.", "400 lb.", "No", "10"],
+												["Bus", "150,000/3**", "60mph*", "Huge", "30,000 lb.", "10,000 lb.", "Yes", "150"],
+												["Car, compact", "15,000", "80mph*", "Large", "2000 lb.", "800 lb.", "Yes", "40"],
+												["Car, midsize", "30,000", "100mph*", "Large", "3500 lb.", "1000 lb.", "Yes", "60"],
+												["Car, SUV", "45,000", "100mph*", "Large", "4000 lb.", "1000 lb.", "Yes", "75"],
+												["Horse, draft", "2000", "40 ft/ round", "Large", "1500 lb.", "540 lb.", "No", "19"],
+												["Horse, riding", "1000", "60 ft/ round", "Large", "1000 lb.", "480 lb.", "No", "13"],
+												["Motorcycle", "5000", "100mph*", "Medium", "500 lb.", "400 lb.", "No", "20"],
+												["Tank", "6 million", "45 mph", "Huge", "65 tons", "10,000 lb.", "Yes", "300"],
+												["Train", "1 million/20**", "60mph*", "Gargantuan", "300,000 lb.", "10,000 tons", "Yes", "200"],
+												["Truck, 18-wheeler", "100,000", "80mph*", "Huge", "30,000 lb.", "40 tons", "Yes", "90"],
+												["Truck, pick-up", "30,000", "80mph*", "Large", "7000 lb.", "3000 lb.", "Yes", "75"]
+											],
+											"footnotes": [
+												"Note: miles per hour can be converted to feet/round. Roughly, 20 mph = 175 feet/round; 30 mph = 262 feet/round; 40 mph = 350 feet/round; 60 mph = 525 feet/round; 80 mph = 700 feet/round; and 100 mph = 875 feet/round.",
+												"**Note: Prices for mass transit include the cost of a ticket in addition to purchase of the vehicle."
 											]
 										}
 									]
@@ -9706,7 +10738,7 @@
 												"Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
 												"Draw or holster one pistol",
 												"Open or close a door",
-												"Withdraw a first aid kit from your pack",
+												"Withdraw a {@item first aid kit|Superheroic5E} from your pack",
 												"Pick up a dropped weapon",
 												"Take a bauble from a table",
 												"Remove a ring from your finger",
@@ -14239,7 +15271,7 @@
 													"source": "Superheroic5E",
 													"page": 269,
 													"entries": [
-														"If you chose a {@b high-tech healing station}, then you have a bay in your base than can perform the equivalent of the cure wounds and lesser restoration powers once per hour. These powers take one minute to take effect as the system analyzes the injuries and implements a treatment. The system can also perform the heal and greater restoration powers once per day, though this process takes 4 hours to take effect, during which time the patient must remain in the healing station throughout. If you do not choose this strength, then the headquarters has ample first aid kits and antitoxins, as well as beds and a clean, modern, stocked mini-clinic, should a medical professional be available to use it. If your headquarters has {@b no medical supplies}, however, then it lacks all the above."
+														"If you chose a {@b high-tech healing station}, then you have a bay in your base than can perform the equivalent of the cure wounds and lesser restoration powers once per hour. These powers take one minute to take effect as the system analyzes the injuries and implements a treatment. The system can also perform the heal and greater restoration powers once per day, though this process takes 4 hours to take effect, during which time the patient must remain in the healing station throughout. If you do not choose this strength, then the headquarters has ample {@item first aid kit|Superheroic5E|first aid kits} and antitoxins, as well as beds and a clean, modern, stocked mini-clinic, should a medical professional be available to use it. If your headquarters has {@b no medical supplies}, however, then it lacks all the above."
 													]
 												},
 												{

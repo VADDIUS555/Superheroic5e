@@ -1599,6 +1599,420 @@
             "entries": [
                 "These 120mm smoothbore guns are mounted atop tanks such as the M1 Abrams. They fire a variety of shells, but the one listed below is an anti-tank variety, designed to pierce tank armor at distances up to a mile. There are other shells with shotgun like cones of effect for use against personnel."
             ]
+        },
+        {
+            "name": "Batteries",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 500,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "These standard binoculars magnify ×5 and have a 400-foot field of view at 3000 feet distance."
+            ]
+        },
+        {
+            "name": "Binoculars",
+            "source": "Superheroic5E",
+            "page": 105,
+            "type": "G",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "These standard binoculars magnify ×5 and have a 400-foot field of view at 3000 feet distance."
+            ]
+        },
+        {
+            "name": "C4 Plastic Explosive",
+            "source": "Superheroic5E",
+            "page": 105,
+            "type": "G",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "C4 is a plastic explosive that resembles gray clay and comes in bricks about 1 ft. long and 4 inches wide and accompanied by a blasting cap that can be triggered remotely. C4 can only be detonated by its blasting cap or by thunder damage. Once detonated, a 1 lb. brick of C4 explodes in a 20-foot radius, automatically damaging objects and structures for {@damage 6d8} fire damage. People within its blast radius take this damage as well, unless they make a successful DC 15 Dexterity save, in which case they take half damage. $50/lb"
+            ]
+        },
+        {
+            "name": "Camera, DSLR",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Clothes, casual",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 2000,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Clothes, official uniform",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 4,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Clothes, dress",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 6,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "First aid kit",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "T",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "This kit contains bandages, antibiotics, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 HP, without needing to make a {@skill Medicine} check. If you have proficiency with first aid kits, you may expend a use of the kit to try to treat an injury. Roll a DC10 {@skill Medicine} check. With a success, you may heal {@dice 1d4} HP of damage. You may only do this once per injured individual per day."
+            ]
+        },
+        {
+            "name": "Flashlight",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "A flashlight casts {@quickref Vision and Light||2||bright light} in a 60-foot cone and {@quickref Vision and Light||2||dim light} for an additional 60 feet. Each set of batteries normally lasts 6 hours."
+            ]
+        },
+        {
+            "name": "Coffee mug",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 200,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Gasoline can, filled",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 1500,
+            "weight": 40,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Grappling gun",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 100000,
+            "weight": 8,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "This device, about the size of a sawed-off shotgun, can shoot a small steel grappling hook on a 50' long, carbon fiber filament rope. After firing, the wielder can retract the hook, thus lifting or pulling the user if they hold on, up to a weight capacity of 250 lb., at a rate of 25 feet per round."
+            ]
+        },
+        {
+            "name": "Handcuffs",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 1500,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of handcuffs comes with one key. Without the key, a creature proficient with {@item thieves' tools|PHB} can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 HP"
+            ]
+        },
+        {
+            "name": "Holo device",
+            "source": "Superheroic5E",
+            "page": 106,
+            "type": "G",
+            "rarity": "none",
+            "value": 1000000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "This wrist mounted advanced technology can record stereo audio and 360° video that it can replay as a 3D hologram in the air in front of the wearer. It recharges by the wearer's normal body motion in walking. {@i Note: this item is only intended for games with science fiction or superadvanced technology.}"
+            ]
+        },
+        {
+            "name": "Land Mine",
+            "source": "Superheroic5E",
+            "page": 106,
+            "type": "G",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "A land mine is an explosive device buried in the ground that explodes when a person steps on it or a vehicle drives over it. They can also be connected to a tripwire. When activated, the mine explodes like a fragmentation grenade, doing {@damage 3d6} piercing damage in a 25-ft radius sphere. The detonation automatically deals {@damage 3d6} piercing damage to objects and creatures within its blast radius as well, unless they succeed on a DC 15 Dexterity save, in which case they take half damage. $50."
+            ]
+        },
+        {
+            "name": "Laptop",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Lighter, steel",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Night vision goggles",
+            "source": "Superheroic5E",
+            "page": 106,
+            "type": "G",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "Wearing these goggles in {@quickref Vision and Light||2||dim light} or darkness grants its wearer Night vision at 60 feet, but wearers are at disadvantage against any effects that cause Blindness. Wearing these in {@quickref Vision and Light||2||bright light} renders the wearer Blind."
+            ]
+        },
+        {
+            "name": "Notebook",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 1,
+            "weight": 0.5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Packed meals (1 day)",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 5,
+            "weight": 2,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
+        },
+        {
+            "name": "Purse",
+            "source": "Superheroic5E",
+            "page": 106,
+            "type": "G",
+            "rarity": "none",
+            "value": 2000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "A cloth or leather purse can hold up to 20 shotgun shells or 50 bullets, among other more mundane things. holds 1/5 cubic foot/6 pounds of gear."
+            ]
+        },
+        {
+            "name": "Smart phone",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 1,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "When you have a signal or access to Wi-Fi, you can use the internet, as well as GPS. Even without a signal, your phone still has a camera, and a small flashlight that casts {@quickref Vision and Light||2||bright light} in a 10-foot cone and {@quickref Vision and Light||2||dim light} for an additional 10 feet. A phone's batteries normally lasts 8 hours, or 1 day if unused."
+            ]
+        },
+        {
+            "name": "Tracking Device",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 100000,
+            "weight": 0,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "This tiny device, no larger than a bottlecap, has a strong adhesive on one side. Once attached, you can track it with a previously installed app on a smart phone via GPS."
+            ]
+        },
+        {
+            "name": "Water bottle",
+            "source": "Superheroic5E",
+            "page": 107,
+            "type": "G",
+            "rarity": "none",
+            "value": 200,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+                "5 lb. (full), holds 4 pints of liquid"
+            ]
+        },
+        {
+			"name": "Gaming Set",
+			"source": "Superheroic5E",
+			"_copy": {
+				"name": "Gaming Set",
+				"source": "PHB",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Gaming Set: add-on",
+							"entries": [
+                                "This item encompasses a wide range of game pieces, including dice for games like craps, decks of cards for games like poker, as well as polyhedral dice, minis, and pencils for roleplaying games. A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a {@item gaming set|PHB}, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of {@item gaming set|PHB} requires a separate proficiency"
+							]
+						}
+					}
+				}
+			}
+		},
+        {
+            "name": "Computer repair kit",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "T",
+            "rarity": "none",
+            "value": 10000,
+            "weight": 8,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
+        },
+        {
+            "name": "Electronics repair kit",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "T",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
+        },
+        {
+            "name": "Mechanic’s tools",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "T",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
+        },
+        {
+            "name": "Photographer’s Kit",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "T",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
+        },
+        {
+            "name": "Telecommunications kit",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "T",
+            "rarity": "none",
+            "value": 5000,
+            "weight": 5,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
+        },
+        {
+            "name": "Roleplaying game set",
+            "source": "Superheroic5E",
+            "page": 108,
+            "type": "GS",
+            "rarity": "none",
+            "value": 500,
+            "weight": 3,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": [
+            ]
         }
     ],
     "baseitem": [
@@ -1931,7 +2345,7 @@
             "quantity": 1
         },
         {
-            "name": "Shotgun shells Box (25)",
+            "name": "Shotgun shells (25)",
             "source": "Superheroic5E",
             "page": 105,
             "rarity": "none",
