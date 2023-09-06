@@ -9644,10 +9644,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@i Travel time}. It is assumed that players are familiar with travel times for the most common forms of transportation.",
-												"{@i Damage Resistance}. Most vehicles, especially military and combat models, can withstand a lot of damage. Vehicles that are larger, heavier, or militarized have resistance to bludgeoning, piercing, and slashing damage. The vehicles table indicates which vehicles have this damage resistance.",
-												"{@i Hit points}. Vehicles also have HP. Once a vehicle loses half of its HP, it loses some functionality. Any roll someone makes to pilot such a vehicle is rolled with disadvantage. The vehicle is disabled entirely when the HP drop to zero. The HP are also listed in the table below.",
-												"{@i Fueled}. Except for the bicycle and horses, listed below, all vehicles need fuel\u2014though horses need stabling and food, of course. Fuel for cars and trucks is easy enough to obtain, but fuel for planes, helicopters, and military craft is extremely difficult outside of an airport or military installation. GMs can decide whether or how to allow characters access to such fuel."
+												"{@b Travel time}. It is assumed that players are familiar with travel times for the most common forms of transportation.",
+												"{@b Damage Resistance}. Most vehicles, especially military and combat models, can withstand a lot of damage. Vehicles that are larger, heavier, or militarized have resistance to bludgeoning, piercing, and slashing damage. The vehicles table indicates which vehicles have this damage resistance.",
+												"{@b Hit points}. Vehicles also have HP. Once a vehicle loses half of its HP, it loses some functionality. Any roll someone makes to pilot such a vehicle is rolled with disadvantage. The vehicle is disabled entirely when the HP drop to zero. The HP are also listed in the table below.",
+												"{@b Fueled}. Except for the bicycle and horses, listed below, all vehicles need fuel\u2014though horses need stabling and food, of course. Fuel for cars and trucks is easy enough to obtain, but fuel for planes, helicopters, and military craft is extremely difficult outside of an airport or military installation. GMs can decide whether or how to allow characters access to such fuel."
 											]
 										},
 										{
@@ -9656,7 +9656,7 @@
 											"colLabelGroups": [
 												{
 													"colLabels": [
-														"Vehicle"
+														"Ground Vehicle"
 													]
 												},
 												{
@@ -9709,21 +9709,158 @@
 												"col-1"
 											],
 											"rows": [
-												["Bicycle, road", "200", "20mph*", "Medium", "15 lb.", "400 lb.", "No", "10"],
-												["Bus", "150,000/3**", "60mph*", "Huge", "30,000 lb.", "10,000 lb.", "Yes", "150"],
-												["Car, compact", "15,000", "80mph*", "Large", "2000 lb.", "800 lb.", "Yes", "40"],
-												["Car, midsize", "30,000", "100mph*", "Large", "3500 lb.", "1000 lb.", "Yes", "60"],
-												["Car, SUV", "45,000", "100mph*", "Large", "4000 lb.", "1000 lb.", "Yes", "75"],
-												["Horse, draft", "2000", "40 ft/ round", "Large", "1500 lb.", "540 lb.", "No", "19"],
-												["Horse, riding", "1000", "60 ft/ round", "Large", "1000 lb.", "480 lb.", "No", "13"],
-												["Motorcycle", "5000", "100mph*", "Medium", "500 lb.", "400 lb.", "No", "20"],
-												["Tank", "6 million", "45 mph", "Huge", "65 tons", "10,000 lb.", "Yes", "300"],
-												["Train", "1 million/20**", "60mph*", "Gargantuan", "300,000 lb.", "10,000 tons", "Yes", "200"],
-												["Truck, 18-wheeler", "100,000", "80mph*", "Huge", "30,000 lb.", "40 tons", "Yes", "90"],
-												["Truck, pick-up", "30,000", "80mph*", "Large", "7000 lb.", "3000 lb.", "Yes", "75"]
+												["{@item Bicycle, road|Superheroic5E}", "200", "20mph*", "Medium", "15 lb.", "400 lb.", "No", "10"],
+												["{@item Bus|Superheroic5E}", "150,000/3**", "60mph*", "Huge", "30,000 lb.", "10,000 lb.", "Yes", "150"],
+												["{@item Car, compact|Superheroic5E}", "15,000", "80mph*", "Large", "2000 lb.", "800 lb.", "Yes", "40"],
+												["{@item Car, midsize|Superheroic5E}", "30,000", "100mph*", "Large", "3500 lb.", "1000 lb.", "Yes", "60"],
+												["{@item Car, SUV|Superheroic5E}", "45,000", "100mph*", "Large", "4000 lb.", "1000 lb.", "Yes", "75"],
+												["{@item Draft Horse|phb|Horse, draft", "2000", "40 ft/ round", "Large", "1500 lb.", "540 lb.", "No", "19"],
+												["{@item Riding Horse|phb|Horse, riding", "1000", "60 ft/ round", "Large", "1000 lb.", "480 lb.", "No", "13"],
+												["{@item Motorcycle|Superheroic5E}", "5000", "100mph*", "Medium", "500 lb.", "400 lb.", "No", "20"],
+												["{@item Tank|Superheroic5E}", "6 million", "45 mph", "Huge", "65 tons", "10,000 lb.", "Yes", "300"],
+												["{@item Train|Superheroic5E}", "1 million/20**", "60mph*", "Gargantuan", "300,000 lb.", "10,000 tons", "Yes", "200"],
+												["{@item Truck, 18-wheeler|Superheroic5E}", "100,000", "80mph*", "Huge", "30,000 lb.", "40 tons", "Yes", "90"],
+												["{@item Truck, pick-up|Superheroic5E}", "30,000", "80mph*", "Large", "7000 lb.", "3000 lb.", "Yes", "75"]
+											]
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Aircraft",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Air Vehicle"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost in $"
+													]
+												},
+												{
+													"colLabels": [
+														"Top Speed *"
+													]
+												},
+												{
+													"colLabels": [
+														"Size"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												},
+												{
+													"colLabels": [
+														"Carrying",
+														"Capacity"
+													]
+												},
+												{
+													"colLabels": [
+														"Damage",
+														"Resistance"
+													]
+												},
+												{
+													"colLabels": [
+														"Hit",
+														"Points"
+													]
+												}
+											],
+											"colStyles": [
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-1",
+												"col-1"
+											],
+											"rows": [
+												["{@item Airplane, passenger|Superheroic5E}", "300 mil/300**", "500mph", "Gargantuan", "150,000 lb.", "800,000 lb.", "Yes", "200"],
+												["{@item Airplane, military|Superheroic5E}", "100 million", "1875mph", "Huge", "45,000 lb.", "60,000 lb.", "Yes", "200"],
+												["{@item Helicopter|Superheroic5E}", "250,000", "200mph", "Huge", "15,000 lb.", "15,000 lb.", "Yes", "90"]
+											]
+											
+										},
+										{
+											"type": "hr"
+										},
+										{
+											"type": "table",
+											"caption": "Watercraft",
+											"colLabelGroups": [
+												{
+													"colLabels": [
+														"Water Vehicle"
+													]
+												},
+												{
+													"colLabels": [
+														"Cost in $"
+													]
+												},
+												{
+													"colLabels": [
+														"Top Speed *"
+													]
+												},
+												{
+													"colLabels": [
+														"Size"
+													]
+												},
+												{
+													"colLabels": [
+														"Weight"
+													]
+												},
+												{
+													"colLabels": [
+														"Carrying",
+														"Capacity"
+													]
+												},
+												{
+													"colLabels": [
+														"Damage",
+														"Resistance"
+													]
+												},
+												{
+													"colLabels": [
+														"Hit",
+														"Points"
+													]
+												}
+											],
+											"colStyles": [
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-2",
+												"col-2",
+												"col-1",
+												"col-1",
+												"col-1"
+											],
+											"rows": [
+												["{@item Aircraft carrier|Superheroic5E}", "10 billion", "30 mph", "Gargantuan", "100,000 tons", "100,000 tons", "Yes", "1000"],
+												["{@item Nuclear submarine|Superheroic5E}", "3 billion", "30 mph", "Gargantuan", "50,000 tons", "8000 tons", "Yes", "200"],
+												["{@item Container ship|Superheroic5E}", "10 million", "20 mph", "Gargantuan", "55,000 tons", "500,000 tons", "Yes", "300"],
+												["{@item Speed boat|Superheroic5E}", "50,000", "80 mph", "Large", "8000 lb.", "1000 lb.", "No", "60"],
+												["{@item Yacht, private|Superheroic5E}", "2 million", "40 mph", "Huge", "100,000 lb.", "15,000 lb.", "Yes", "100"]
 											],
 											"footnotes": [
-												"Note: miles per hour can be converted to feet/round. Roughly, 20 mph = 175 feet/round; 30 mph = 262 feet/round; 40 mph = 350 feet/round; 60 mph = 525 feet/round; 80 mph = 700 feet/round; and 100 mph = 875 feet/round.",
+												"*Note: miles per hour can be converted to feet/round. Roughly, 20 mph = 175 feet/round; 30 mph = 262 feet/round; 40 mph = 350 feet/round; 60 mph = 525 feet/round; 80 mph = 700 feet/round; and 100 mph = 875 feet/round.",
 												"**Note: Prices for mass transit include the cost of a ticket in addition to purchase of the vehicle."
 											]
 										}
@@ -9805,7 +9942,7 @@
 									],
 									"rows": [
 										[
-											"Elementalist",
+											"{@class Elementalist|Superheroic5E}",
 											"Charisma 13"
 										],
 										[

@@ -1946,7 +1946,10 @@
             "weight": 8,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": [ "{@b Components:}",
+            "{@b History:}",
+            "{@b Insight:}",
+            "{@b Investigation & Perception:}"
             ]
         },
         {
@@ -1959,7 +1962,8 @@
             "weight": 5,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": ["{@b Components:}",
+            "{@b History:}"
             ]
         },
         {
@@ -1972,7 +1976,8 @@
             "weight": 5,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": ["{@b Components:}",
+            "{@b History:}"
             ]
         },
         {
@@ -1985,7 +1990,8 @@
             "weight": 5,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": ["{@b Components:} ",
+            "{@b History:}"
             ]
         },
         {
@@ -1998,7 +2004,8 @@
             "weight": 5,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": ["{@b Components:}",
+            "{@b History:}"
             ]
         },
         {
@@ -2011,8 +2018,20 @@
             "weight": 3,
             "reqAttune": false,
             "wondrous": false,
-            "entries": [
+            "entries": ["Polyhedral dice, minis, and pencils for roleplaying games."
             ]
+        },
+        {
+            "name": "Bicycle, road",
+            "source": "Superheroic5E",
+            "page": 111,
+            "type": "VEH",
+            "rarity": "none",
+            "value": 20000,
+            "weight": 15,
+            "reqAttune": false,
+            "wondrous": false,
+            "entries": []
         }
     ],
     "baseitem": [
