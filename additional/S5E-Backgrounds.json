@@ -424,7 +424,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "Choose three: {@skill athletics|, {@skill deception}, {@skill intimidation}, {@skill sleight of hand}, {@skill stealth}."
+							"entry": "Choose three: {@skill athletics}, {@skill deception}, {@skill intimidation}, {@skill sleight of hand}, {@skill stealth}."
 						},
 						{
 							"type": "item",
@@ -538,7 +538,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "Choose three: {@skill acrobatics|, {@skill deception}, {@skill insight}, {@skill performance}, {@skill sleight of hand}."
+							"entry": "Choose three: {@skill acrobatics}, {@skill deception}, {@skill insight}, {@skill performance}, {@skill sleight of hand}."
 						},
 						{
 							"type": "item",
@@ -562,6 +562,115 @@
 					"type": "entries",
 					"entries": [
 						"You are practiced at entertaining crowds in public places. If you spend time performing in a public space like a plaza, you can expect to make $20 hour in tips. If you offer to perform at a venue, the proprietor might take you up on your offer and will provide free food, in addition to your tips. Finally, people who watch you perform well will be positively predisposed toward you in any further interactions, though they might also recognize you more easily even when you are trying to lay low"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Explorer",
+			"source": "Superheroic5E",
+			"page": 78,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation",
+							"perception",
+							"science|Superheroic5e",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cartographer's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item cartographer's tools|phb}"
+						},
+						{
+							"special": "a {@item servivalist's pack|Superheroic5E}"
+						},
+						
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 30000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Whether you come from another world or simply wish to find the secret places of your own, you spend your time going where others have not. Some explorers plumb the depths of the ocean or sail the most remote seas; still other travel the stars, or even the stream of time, looking for discovery.",
+					"Work with your GM to determine what you like to explore and why you do so; are you looking for something in particular, or is it simply novel experiences you seek?"
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill insight}, {@skill investigation}, {@skill perception}, {@skill science|Superheroic5e}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item cartographer's tools}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "{@item cartographer's tools}, a {@item servivalist's pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $300."
+						}
+					]
+				},
+				{
+					"name": "Feature: That Reminds Me...",
+					"type": "entries",
+					"entries": [
+						"You have seen things others wouldn't believe and have trod in places no one else has. Indeed, your stories make for gripping tales. Scientists, scholars, and storytellers in particular relish listening and learning from you, granting you access to people and places that otherwise might not be open to you."
 					],
 					"data": {
 						"isFeature": true
