@@ -590,7 +590,7 @@
 							"insight",
 							"investigation",
 							"perception",
-							"science|Superheroic5e",
+							"science",
 							"survival"
 						],
 						"count": 3
@@ -616,7 +616,6 @@
 						{
 							"special": "a {@item servivalist's pack|Superheroic5E}"
 						},
-						
 						{
 							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
 						},
@@ -671,6 +670,795 @@
 					"type": "entries",
 					"entries": [
 						"You have seen things others wouldn't believe and have trod in places no one else has. Indeed, your stories make for gripping tales. Scientists, scholars, and storytellers in particular relish listening and learning from you, granting you access to people and places that otherwise might not be open to you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Indigent",
+			"source": "Superheroic5E",
+			"page": 78,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"medicine",
+							"performance",
+							"science",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"gaming set": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item bedroll|phb}"
+						},
+						{
+							"item": "{@item blanket|phb}"
+						},
+						{
+							"item": "{@item common clothes|phb}"
+						},
+						{
+							"special": "a {@item flashlight|Superheroic5E}"
+						},
+						{
+							"item": "{@item sack|phb}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 10000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The city may be a bustling metropolis filled with workers and wealth, but it also has a massive number of poor and itinerant people. You were one such person, having lived for at least a few years on the streets and in the alleys of the lower-origin areas among the homeless. You may have panhandled here and there, or perhaps you sung or did a simple dance on a street corner until the police would run you off. Maybe you scavenged in others' dumpsters for food and odd trinkets to pawn. Some of your associates would resort to petty theft",
+					"If you like, you may also choose an area of the city you frequented when you were down on your luck. Work with your GM to decide how you ended up indigent and whether you've pulled yourself out of it or not. If so, how? Did someone help you?"
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill medicine}, {@skill performance}, {@skill science|Superheroic5e}, {@skill sleight of hand}, {@skill stealth}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item gaming set}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "{@item bedroll}, {@item blanket}, {@item common clothes}, a {@item flashlight|Superheroic5E}, {@item sack} {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $100."
+						}
+					]
+				},
+				{
+					"name": "Feature: Beggars Can Be Choosers",
+					"type": "entries",
+					"entries": [
+						"As a beggar or otherwise impoverished individual, you often had to scrounge for the barest essentials just to stay alive. That's a skill you haven't lost, and it can come in handy. If you spend 8 hours scrounging in an urban environment, you can find one item on the list of Adventuring Gear worth $10 or under. As you move through an area where you once panhandled or scrounged, you can also take shortcuts through back alleys and courtyards, cutting down your travel time significantly. This can be critically useful when trying to escape the police as well, because you can always find a place to hide in such areas."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Journalist",
+			"source": "Superheroic5E",
+			"page": 79,
+			"armorProficiencies": [
+				{
+					"light": true
+				},
+				{
+					"medium": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation",
+							"perception",
+							"persuasion",
+							"sleight of hand"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"Photographer’s Kit|Superheroic5E": true
+				},
+				{
+					"any": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item journalist’s pack|Superheroic5E}"
+						},
+						{
+							"item": "{@item tool set|phb}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 30000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You work issue to issue, selling your photos or stories as you can, submitting it to news agencies or tabloids. Perhaps you had some formal training in journalism school, but it is just as likely that you are mostly self-taught. Maybe you have some articles or photos in a local rag or college student paper. Nevertheless, you have a real and useful skill which you can use to support yourself, as well as a loose network of fellow members of your craft Work with your GM to determine your specific relationship to various news or photography outlets and perhaps even describe a few of your works."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter medium armor|items|source=|type=light armor|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill insight}, {@skill investigation}, {@skill perception}, {@skill persuasion}, {@skill sleight of hand}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Photographer’s Kit|Superheroic5E}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item tool set|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item journalist’s pack|Superheroic5E}, {@item tool set|phb}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $300."
+						}
+					]
+				},
+				{
+					"name": "Feature: Track Down a Lead",
+					"type": "entries",
+					"entries": [
+						"Your work as journalist or freelance problem solver requires you to be resourceful in finding information you need. You know your way around archives, libraries, and records offices in town, but, perhaps more importantly, also you know who to ask as well. If you spend 8 hours of downtime trying to track down the answer to a question, you'll find at least one plausible answer if it is a question that isn't top secret or entirely beyond the grasp of the people you ask. Whether or not the answer you get is the whole story is sometimes hard to determine, though!"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Laborer",
+			"source": "Superheroic5E",
+			"page": 79,
+			"armorProficiencies": [
+				{
+					"light": true
+				},
+				{
+					"medium": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"perception",
+							"survival",
+							"technology"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				},
+				{
+					"artisan's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item laborer’s pack|Superheroic5E}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 30000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You make your living by the sweat of your brow and through your exertions, the city works. Indeed, years of manual labor have toughened you up and made you strong. You may be a stevedore, hired to unload container ships, or a factory worker on an assembly line. Or perhaps, rather than working the line at the factory, you work in an auto body shop, or as a mechanic in a garage. There's no job too dirty; if it needs doing, you can do it.",
+					"One advantage of this line of work is that it brings you in contact with other laborers who have similar experiences. These like-minded groups of laborers are often in unions or, at least, share a sense of mutual aid to support one another. Work with your GM to determine whether you belong to a union or one of these informal communities. Where is it? Is it politically active?"
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter medium armor|items|source=|type=light armor|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics}, {@skill intimidation}, {@skill perception}, {@skill surival}, {@skill technology|Superheroic5E}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item vehicles (land)|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item laborer’s pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $300."
+						}
+					]
+				},
+				{
+					"name": "Feature: Solidarity",
+					"type": "entries",
+					"entries": [
+						"You have fellow travelers who will help you however they can. Though they can offer little by way of financial support, you can always find someone to hide you out, to offer a hand if you need some muscle to help with some labor, or to provide you a hot meal. This is especially the case if your cause is one of equality and anti-corporate justice. Of course, these laborer friends of yours might not take as kindly to your allies if they are corporate shills."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Medical Worker",
+			"source": "Superheroic5E",
+			"page": 79,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"medicine",
+							"persuasion",
+							"science",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"first aid kit|Superheroic5E": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item medic’s pack|Superheroic5E}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 50000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You work in the medical field, as a nurse, doctor, or assistant. Perhaps you went to nursing school and received your LPN or RN. There you learned how to bandage wounds, set bones, and administer medication, among other things. You also know your way around a pharmacy or hospital. Though you lack the scientific expertise and advanced training of the medical doctor, your skills can be very useful in the field. Work with your GM to determine the details of your training and former employment."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill insight}, {@skill medicine}, {@skill persuasion}, {@skill science|Superheroic5E}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item first aid kit|Superheroic5E}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item medic’s pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
+						}
+					]
+				},
+				{
+					"name": "Feature: Triage",
+					"type": "entries",
+					"entries": [
+						"Through your training, you have learned how to treat serious injuries quickly in the field, preventing them from worsening and sometimes saving lives in the process. When you and an injured person take a short rest together, you can expend one use of a First Aid Kit to allow them to spend Hit Dice. When they do, they get the maximum amount of HP that they could, as if they had rolled the highest number on each Hit Die. This still expends the Hit Dice, though you can use this ability on yourself as well."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Military Trained",
+			"source": "Superheroic5E",
+			"page": 80,
+			"armorProficiencies": [
+				{
+					"light": true
+				},
+				{
+					"medium": true
+				},
+				{
+					"heavy": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				},
+				{
+					"martial": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"perception",
+							"intimidation",
+							"investigation",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item police officer’s pack|Superheroic5E}"
+						},
+						{
+							"item": "{@filter a simple ranged weapon of your choice|items|source=|type=ranged weapon;simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 30000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You served in the army, or perhaps on a police force, and have likely seen combat as well. Your experience has marked you and those you served alongside will forever be family.",
+					"Work with your GM to determine where you served and in what capacity. Where you in the American armed forces? Local police force? Foreign military? CIA strike team? Next, determine what relationship, if any, you still have to your old organization and your former soldiersin-arms. Perhaps you still maintain relations with a few of them."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter  Simple and martial weapons|items|source=|type=martial weapon;simple weapon|category=}, {@filter all armor|items|source=|type=heavy armor;light armor;medium armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics}, {@skill perception}, {@skill intimidation}, {@skill investigation}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item vehicles (land)|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item police officer’s pack|Superheroic5E}, {@filter a simple ranged weapon of your choice|items|source=|type=ranged weapon;simple weapon|category=}, and $500."
+						}
+					]
+				},
+				{
+					"name": "Feature: Venterans Honor",
+					"type": "entries",
+					"entries": [
+						"Should you choose to let others know about it, your service garners you respect. Current and former members of the military, as well as the civilian police forces, will show you the respect you are due. This can assist in getting you and your allies out of trouble, to be sure. Also, you may be able to gain access to military areas and resources, or perhaps hitch a ride with a police or military group. Beware, though\u2014word of your service might not impress those who served on the other side from you in battle, not to mention the criminal underworld!"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Monastic",
+			"source": "Superheroic5E",
+			"page": 80,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"history",
+							"insight",
+							"mysticism",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item survivalist’s pack|phb}"
+						},
+						{
+							"item": "{@filter a simple melee weapon of your choice|items|source=|type=simple weapon|category=}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 10000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You were raised or have spent a considerable amount of time in a monastery, enclave, commune, or other isolated and insular community. Perhaps the people there were united by a common ideology; regardless, you grew to know their ways very well.",
+					"Work with your GM to determine the nature of your former community. Was it a religious community, like a monastery? Or a political one instead? Was it intentionally low tech? Or was it a scholarly enclave? Next, determine what relationship, if any, you still have to your old community and its members. Perhaps you still maintain relations with a few of them."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter light armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics}, {@skill history}, {@skill insight}, {@skill mysticism|Superheroic5E}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item survivalist’s pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
+						}
+					]
+				},
+				{
+					"name": "Feature: Practiced Arts",
+					"type": "entries",
+					"entries": [
+						"You had to learn a broad range of skills to contribute to the proper functioning of your small enclave, given that there were so few of you compared to the wider world outside. On the other hand, there are likely some technological or cultural phenomena that passed you by when you were isolated. When you spend ten minutes with a set of artisans' tools, you can roll as though you have proficiency with it for the next hour, though you may do this with only one set of tools at a time. On the other hand, you are almost certain not to understand references to pop culture or current events."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Pilot",
+			"source": "Superheroic5E",
+			"page": 81,
+			"armorProficiencies": [
+				{
+					"light": true
+				},
+				{
+					"medium": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"perception",
+							"science",
+							"sleight of hand",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				},
+				{
+					"vehicles (air)": true
+				},
+				{
+					"vehicles (space)": true
+				},
+				{
+					"vehicles (water)": true
+				},
+				{
+					"cartographer's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item police officer’s pack|Superheroic5E}"
+						},
+						
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 50000
+						}
+					]
+				}
+			],
+			"fluff": {
+				
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=heavy armor;light armor;medium armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics}, {@skill perception}, {@skill science|Superheroic5E}, {@skill sleight of hand}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item cartographer's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item survivalist’s pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
+						}
+					]
+				},
+				{
+					"name": "Feature: Practiced Arts",
+					"type": "entries",
+					"entries": [
+						"You had to learn a broad range of skills to contribute to the proper functioning of your small enclave, given that there were so few of you compared to the wider world outside. On the other hand, there are likely some technological or cultural phenomena that passed you by when you were isolated. When you spend ten minutes with a set of artisans' tools, you can roll as though you have proficiency with it for the next hour, though you may do this with only one set of tools at a time. On the other hand, you are almost certain not to understand references to pop culture or current events."
 					],
 					"data": {
 						"isFeature": true

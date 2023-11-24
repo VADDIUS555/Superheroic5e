@@ -1127,7 +1127,7 @@
 									"name": "{@background Aquatic (Culture)|Superheroic5E}",
 									"entries": [
 										"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
-										"{@b {@i Aquatic Affinity}}. You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures.",
+										"{@b {@i Aquatic Affinity}}. You have interacted with and studied sea creatures for much of your life. You have proficiency in {@skill Science(Intelligence)|science|Superheroic5E} and advantage on skill checks to interact with or to know about the ocean and its creatures.",
 										"{@b {@i Expert Swimmer}}. Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet.",
 										"{@b {@i Language}}. You speak one Earth surface language and one aquatic language."
 									]
@@ -1140,7 +1140,7 @@
 										"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
 										"{@b {@i Enhanced Immune System}}. Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease.",
-										"{@b {@i Tech Adept}}. You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology.",
+										"{@b {@i Tech Adept}}. You have proficiency in either the {@skill Science (Intelligence)|science|Superheroic5E} or {@skill Technology(Intelligence)|Technology|Superheroic5E}, and you roll the skill with advantage when dealing with high-tech or futuristic technology.",
 										"{@b {@i Language}}. You speak one modern Earth language and one futuristic language of your choice."
 									]
 								},
@@ -1177,7 +1177,7 @@
 										"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
 										"{@b {@i Ability Score Increase}}. Choose one ability score to increase by 2 and choose another to increase by 1.",
 										"{@b {@i Magical Exposure}}. Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions.",
-										"{@b {@i Mystical Acquaintance}}. Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism skill, and you roll with advantage when dealing with a being or phenomenon related to your realm.",
+										"{@b {@i Mystical Acquaintance}}. Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the {@skill Mysticism|Superheroic5E} skill, and you roll with advantage when dealing with a being or phenomenon related to your realm.",
 										"{@b {@i Language}}. You speak one modern Earth language and one mystical language of your choice."
 									]
 								}
@@ -3039,7 +3039,7 @@
 									"name": "Super Science",
 									"page": 38,
 									"entries": [
-										"Starting at 11th level, you gain heightened understanding of, or access to, high tech devices surpassing anything available to even the greatest earthly minds. You gain proficiency in Science and Technology if you did not have them before. If you already have such proficiency, you now roll these skills with Expertise, adding your proficiency bonus twice to your rolls.",
+										"Starting at 11th level, you gain heightened understanding of, or access to, high tech devices surpassing anything available to even the greatest earthly minds. You gain proficiency in {@skill Science(Intelligence)|science|Superheroic5E) and {@skill Technology(Intelligence)|Technology|Superheroic5E} if you did not have them before. If you already have such proficiency, you now roll these skills with Expertise, adding your proficiency bonus twice to your rolls.",
 										"With your newly invented or acquired scientific advancements, you now have two devices that can replicate the superhuman abilities of the superheroes and villains of the world. Describe two hand-held mundane devices and choose one 1st level power from any superpower list for each. Each device can use its associated power once, refreshing the ability to do so when you complete a short or long rest.",
 										"When you gain a Mastermind level, you can elect to change the superpower one or both of your devices can use, selecting other 1st level powers.",
 										"Furthermore, when you reach 18th level in this class, your ability to use these 1st level powers becomes reflexive, so you can use them at will."
@@ -4316,7 +4316,7 @@
 											"page": 51,
 											"entries": [
 												"When you choose the symbiosis transformation at 1st level, host and symbiote become inextricably linked. You both can communicate telepathically at will.",
-												"The symbiote brings a set of unusual experiences and perspectives as well, which benefit you. Choose one of the following skills: {@skill Mystic}, {@skill Science}, {@skill Survival}, or {@skill Technology}. You now have proficiency in this skill if you did not already, thanks to your symbiote."
+												"The symbiote brings a set of unusual experiences and perspectives as well, which benefit you. Choose one of the following skills: {@skill Mysticism|Superheroic5E}, {@skill Science|Superheroic5E}, {@skill Survival}, or {@skill Technology|Superheroic5E}. You now have proficiency in this skill if you did not already, thanks to your symbiote."
 											]
 										},
 										{
@@ -5664,7 +5664,7 @@
 									"name": "Power Ability",
 									"page": 67,
 									"entries": [
-										"By 2nd level, your time spent working with devices of all kinds pays off. You now have proficiency in both Science and Technology if you did not have it before. If you already have proficiency in one or both, you now have expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency."
+										"By 2nd level, your time spent working with devices of all kinds pays off. You now have proficiency in both {@skill Science(Intelligence)|science|Superheroic5E} and {@skill Technology(Intelligence)|Technology|Superheroic5E} if you did not have it before. If you already have proficiency in one or both, you now have expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency."
 									]
 								},
 								{
@@ -5672,7 +5672,7 @@
 									"name": "Reflexive Powers",
 									"page": 67,
 									"entries": [
-										"Your skill with technology has allowed you to develop a virtually endless supply of energy for your lower-level superpowers.",
+										"Your skill with {@skill Technology|Superheroic5E} has allowed you to develop a virtually endless supply of energy for your lower-level superpowers.",
 										"Starting at 3rd level, 1st-level power use is now reflexive for you.",
 										"As your heroes level up, the levels at which they can use their powers reflexively also increases. [See \"Reflexive Powers Use Example\" sidebar on p. 25.]",
 										"Consult the chart above to see when heroes gain the ability to use higher-level powers reflexively."
@@ -5739,7 +5739,7 @@
 											"name": "Engineer",
 											"page": 68,
 											"entries": [
-												"You are a master at putting things together and taking them apart. You have advantage on Technology rolls"
+												"You are a master at putting things together and taking them apart. You have advantage on {@skill Technology(Intelligence)|Technology|Superheroic5E} rolls"
 											]
 										},
 										{
@@ -6460,7 +6460,7 @@
 											"name": "Plant Domain Powers",
 											"page": 74,
 											"entries": [
-												"When you choose the plant natural domain at 1st level, you gain proficiency in Science, if you do not already have it. If you do have it, you instead gain expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency. You roll with advantage on any Science check concerning plants."
+												"When you choose the plant natural domain at 1st level, you gain proficiency in {@skill Science(Intelligence)|science|Superheroic5E}, if you do not already have it. If you do have it, you instead gain expertise. Your proficiency bonus is doubled for any ability check you make that uses this proficiency. You roll with advantage on any {@skill Science|Superheroic5E} check concerning plants."
 											]
 										},
 										{
@@ -9709,18 +9709,126 @@
 												"col-1"
 											],
 											"rows": [
-												["{@item Bicycle, road|Superheroic5E}", "200", "20mph*", "Medium", "15 lb.", "400 lb.", "No", "10"],
-												["{@item Bus|Superheroic5E}", "150,000/3**", "60mph*", "Huge", "30,000 lb.", "10,000 lb.", "Yes", "150"],
-												["{@item Car, compact|Superheroic5E}", "15,000", "80mph*", "Large", "2000 lb.", "800 lb.", "Yes", "40"],
-												["{@item Car, midsize|Superheroic5E}", "30,000", "100mph*", "Large", "3500 lb.", "1000 lb.", "Yes", "60"],
-												["{@item Car, SUV|Superheroic5E}", "45,000", "100mph*", "Large", "4000 lb.", "1000 lb.", "Yes", "75"],
-												["{@item Draft Horse|phb|Horse, draft", "2000", "40 ft/ round", "Large", "1500 lb.", "540 lb.", "No", "19"],
-												["{@item Riding Horse|phb|Horse, riding", "1000", "60 ft/ round", "Large", "1000 lb.", "480 lb.", "No", "13"],
-												["{@item Motorcycle|Superheroic5E}", "5000", "100mph*", "Medium", "500 lb.", "400 lb.", "No", "20"],
-												["{@item Tank|Superheroic5E}", "6 million", "45 mph", "Huge", "65 tons", "10,000 lb.", "Yes", "300"],
-												["{@item Train|Superheroic5E}", "1 million/20**", "60mph*", "Gargantuan", "300,000 lb.", "10,000 tons", "Yes", "200"],
-												["{@item Truck, 18-wheeler|Superheroic5E}", "100,000", "80mph*", "Huge", "30,000 lb.", "40 tons", "Yes", "90"],
-												["{@item Truck, pick-up|Superheroic5E}", "30,000", "80mph*", "Large", "7000 lb.", "3000 lb.", "Yes", "75"]
+												[
+													"{@item Bicycle, road|Superheroic5E}",
+													"200",
+													"20mph*",
+													"Medium",
+													"15 lb.",
+													"400 lb.",
+													"No",
+													"10"
+												],
+												[
+													"{@item Bus|Superheroic5E}",
+													"150,000/3**",
+													"60mph*",
+													"Huge",
+													"30,000 lb.",
+													"10,000 lb.",
+													"Yes",
+													"150"
+												],
+												[
+													"{@item Car, compact|Superheroic5E}",
+													"15,000",
+													"80mph*",
+													"Large",
+													"2000 lb.",
+													"800 lb.",
+													"Yes",
+													"40"
+												],
+												[
+													"{@item Car, midsize|Superheroic5E}",
+													"30,000",
+													"100mph*",
+													"Large",
+													"3500 lb.",
+													"1000 lb.",
+													"Yes",
+													"60"
+												],
+												[
+													"{@item Car, SUV|Superheroic5E}",
+													"45,000",
+													"100mph*",
+													"Large",
+													"4000 lb.",
+													"1000 lb.",
+													"Yes",
+													"75"
+												],
+												[
+													"{@item Draft Horse|phb|Horse, draft",
+													"2000",
+													"40 ft/ round",
+													"Large",
+													"1500 lb.",
+													"540 lb.",
+													"No",
+													"19"
+												],
+												[
+													"{@item Riding Horse|phb|Horse, riding",
+													"1000",
+													"60 ft/ round",
+													"Large",
+													"1000 lb.",
+													"480 lb.",
+													"No",
+													"13"
+												],
+												[
+													"{@item Motorcycle|Superheroic5E}",
+													"5000",
+													"100mph*",
+													"Medium",
+													"500 lb.",
+													"400 lb.",
+													"No",
+													"20"
+												],
+												[
+													"{@item Tank|Superheroic5E}",
+													"6 million",
+													"45 mph",
+													"Huge",
+													"65 tons",
+													"10,000 lb.",
+													"Yes",
+													"300"
+												],
+												[
+													"{@item Train|Superheroic5E}",
+													"1 million/20**",
+													"60mph*",
+													"Gargantuan",
+													"300,000 lb.",
+													"10,000 tons",
+													"Yes",
+													"200"
+												],
+												[
+													"{@item Truck, 18-wheeler|Superheroic5E}",
+													"100,000",
+													"80mph*",
+													"Huge",
+													"30,000 lb.",
+													"40 tons",
+													"Yes",
+													"90"
+												],
+												[
+													"{@item Truck, pick-up|Superheroic5E}",
+													"30,000",
+													"80mph*",
+													"Large",
+													"7000 lb.",
+													"3000 lb.",
+													"Yes",
+													"75"
+												]
 											]
 										},
 										{
@@ -9785,11 +9893,37 @@
 												"col-1"
 											],
 											"rows": [
-												["{@item Airplane, passenger|Superheroic5E}", "300 mil/300**", "500mph", "Gargantuan", "150,000 lb.", "800,000 lb.", "Yes", "200"],
-												["{@item Airplane, military|Superheroic5E}", "100 million", "1875mph", "Huge", "45,000 lb.", "60,000 lb.", "Yes", "200"],
-												["{@item Helicopter|Superheroic5E}", "250,000", "200mph", "Huge", "15,000 lb.", "15,000 lb.", "Yes", "90"]
+												[
+													"{@item Airplane, passenger|Superheroic5E}",
+													"300 mil/300**",
+													"500mph",
+													"Gargantuan",
+													"150,000 lb.",
+													"800,000 lb.",
+													"Yes",
+													"200"
+												],
+												[
+													"{@item Airplane, military|Superheroic5E}",
+													"100 million",
+													"1875mph",
+													"Huge",
+													"45,000 lb.",
+													"60,000 lb.",
+													"Yes",
+													"200"
+												],
+												[
+													"{@item Helicopter|Superheroic5E}",
+													"250,000",
+													"200mph",
+													"Huge",
+													"15,000 lb.",
+													"15,000 lb.",
+													"Yes",
+													"90"
+												]
 											]
-											
 										},
 										{
 											"type": "hr"
@@ -9853,11 +9987,56 @@
 												"col-1"
 											],
 											"rows": [
-												["{@item Aircraft carrier|Superheroic5E}", "10 billion", "30 mph", "Gargantuan", "100,000 tons", "100,000 tons", "Yes", "1000"],
-												["{@item Nuclear submarine|Superheroic5E}", "3 billion", "30 mph", "Gargantuan", "50,000 tons", "8000 tons", "Yes", "200"],
-												["{@item Container ship|Superheroic5E}", "10 million", "20 mph", "Gargantuan", "55,000 tons", "500,000 tons", "Yes", "300"],
-												["{@item Speed boat|Superheroic5E}", "50,000", "80 mph", "Large", "8000 lb.", "1000 lb.", "No", "60"],
-												["{@item Yacht, private|Superheroic5E}", "2 million", "40 mph", "Huge", "100,000 lb.", "15,000 lb.", "Yes", "100"]
+												[
+													"{@item Aircraft carrier|Superheroic5E}",
+													"10 billion",
+													"30 mph",
+													"Gargantuan",
+													"100,000 tons",
+													"100,000 tons",
+													"Yes",
+													"1000"
+												],
+												[
+													"{@item Nuclear submarine|Superheroic5E}",
+													"3 billion",
+													"30 mph",
+													"Gargantuan",
+													"50,000 tons",
+													"8000 tons",
+													"Yes",
+													"200"
+												],
+												[
+													"{@item Container ship|Superheroic5E}",
+													"10 million",
+													"20 mph",
+													"Gargantuan",
+													"55,000 tons",
+													"500,000 tons",
+													"Yes",
+													"300"
+												],
+												[
+													"{@item Speed boat|Superheroic5E}",
+													"50,000",
+													"80 mph",
+													"Large",
+													"8000 lb.",
+													"1000 lb.",
+													"No",
+													"60"
+												],
+												[
+													"{@item Yacht, private|Superheroic5E}",
+													"2 million",
+													"40 mph",
+													"Huge",
+													"100,000 lb.",
+													"15,000 lb.",
+													"Yes",
+													"100"
+												]
 											],
 											"footnotes": [
 												"*Note: miles per hour can be converted to feet/round. Roughly, 20 mph = 175 feet/round; 30 mph = 262 feet/round; 40 mph = 350 feet/round; 60 mph = 525 feet/round; 80 mph = 700 feet/round; and 100 mph = 875 feet/round.",
@@ -10220,7 +10399,7 @@
 													"type": "entries",
 													"name": "Intelligence",
 													"entries": [
-														"{@skill History}, {@skill Investigation}, {@skill arcana|phb|Mysticism}, {@skill Science}, {@skill Technology}"
+														"{@skill History}, {@skill Investigation}, {@skill Mysticism|Superheroic5E}, {@skill Science|Superheroic5E}, {@skill Technology|Superheroic5E}"
 													]
 												},
 												{
@@ -10464,21 +10643,21 @@
 															"type": "entries",
 															"name": "Mysticism",
 															"entries": [
-																"Your Mysticism check measures your ability to recall lore about the occult, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+																"Your {@skill Mysticism(Intelligence)|Mysticism|Superheroic5E} check measures your ability to recall lore about the occult, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
 															]
 														},
 														{
 															"type": "entries",
 															"name": "Science",
 															"entries": [
-																"Your Science check determines how much you know about the natural world and its laws, your scientific understanding and expertise. It also measures your ability to recall information about terrain, plants and animals, the weather, and natural cycles."
+																"Your {@skill Science(Intelligence)|science|Superheroic5E} check determines how much you know about the natural world and its laws, your scientific understanding and expertise. It also measures your ability to recall information about terrain, plants and animals, the weather, and natural cycles."
 															]
 														},
 														{
 															"type": "entries",
 															"name": "Technology",
 															"entries": [
-																"Your Technology check measures how much you know about computers, electronics, programming, robotics, telephony, and other technological matters. Whereas Science concerns the general, abstract physical laws that govern technology, Technology concerns the particular facts about operating systems, exploits, models, protocols, and so on, as well as the ability to repair or modify devices."
+																"Your {@skill Technology(Intelligence)|Technology|Superheroic5E} check measures how much you know about computers, electronics, programming, robotics, telephony, and other technological matters. Whereas {@skill Science|Superheroic5E} concerns the general, abstract physical laws that govern technology, Technology concerns the particular facts about operating systems, exploits, models, protocols, and so on, as well as the ability to repair or modify devices."
 															]
 														},
 														{
@@ -15426,7 +15605,7 @@
 													"source": "Superheroic5E",
 													"page": 269,
 													"entries": [
-														"Your headquarters may have a {@b cutting edge science lab}. If you perform experiments, conduct scientific investigations, or attempt to construct something using a science or technology related tool, you receive a +5 bonus to your roll. If you have {@b primitive tech}, however, you receive a -5. If you have neither, any such roll is unaffected."
+														"Your headquarters may have a {@b cutting edge science lab}. If you perform experiments, conduct scientific investigations, or attempt to construct something using a {@skill Science|Superheroic5E} or {@skill Technology|Superheroic5E} related tool, you receive a +5 bonus to your roll. If you have {@b primitive tech}, however, you receive a -5. If you have neither, any such roll is unaffected."
 													]
 												},
 												{
