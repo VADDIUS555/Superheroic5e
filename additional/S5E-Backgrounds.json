@@ -1410,7 +1410,6 @@
 						{
 							"item": "{@item police officer’s pack|Superheroic5E}"
 						},
-						
 						{
 							"item": "pouch|phb",
 							"displayName": "wallet",
@@ -1420,7 +1419,10 @@
 				}
 			],
 			"fluff": {
-				
+				"entries": [
+					"You spent several years as a pilot, of a commercial airline or, perhaps, a cruise ship. Your years in the sky or at sea have given you ample experience with the travel industry, as well as skill piloting a variety of commercial vessels and vehicles. You may even have served in the Air Force or Navy in the past, but you've been working in the commercial industry for a while now. Indeed, unlikely as it might be, you may even have hoped to train as an astronaut.",
+					"Choose what vehicles you pilot and how you gained this experience."
+				]
 			},
 			"entries": [
 				{
@@ -1430,7 +1432,7 @@
 						{
 							"type": "item",
 							"name": "Armor and Weapons Proficiencies",
-							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=heavy armor;light armor;medium armor|category=}"
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor;medium armor|category=}"
 						},
 						{
 							"type": "item",
@@ -1450,19 +1452,590 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "a {@item survivalist’s pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
+							"entry": "a {@item police officer's pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
 						}
 					]
 				},
 				{
-					"name": "Feature: Practiced Arts",
+					"name": "Feature: Travel Industry Insider",
 					"type": "entries",
 					"entries": [
-						"You had to learn a broad range of skills to contribute to the proper functioning of your small enclave, given that there were so few of you compared to the wider world outside. On the other hand, there are likely some technological or cultural phenomena that passed you by when you were isolated. When you spend ten minutes with a set of artisans' tools, you can roll as though you have proficiency with it for the next hour, though you may do this with only one set of tools at a time. On the other hand, you are almost certain not to understand references to pop culture or current events."
+						"Your years spent as a pilot have made you a lot of contacts. When you need to travel, you can usually call in a favor and get on standby or at least cut a deal.",
+						"If you spend 8 hours of downtime reaching out to your contacts, you can arrange for cheap passage for you and your friends. You may have to wait on standby for hours upon end to get on a flight or ship, however."
 					],
 					"data": {
 						"isFeature": true
 					}
+				}
+			]
+		},
+		{
+			"name": "Service Industry Worker",
+			"source": "Superheroic5E",
+			"page": 81,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"deception",
+							"insight",
+							"persuasion",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"cook's utensils": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item student's pack|Superheroic5E}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 20000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entry": [
+					"The most common form of employment, by far, is in the service industry, and you are among them. Whether you work in food service\u2014front or back of the house\u2014or in retail or similar, your work ultimately brings you into contact with customers, for better or worse. The good news is you have skills that make it easy for you to find work. The bad news is most of the jobs you can find don't pay very well.",
+					"Choose what area of service you worked in. Some examples are kitchen staff, wait staff, housekeeping, lawn care, IT, tourism, entertainment, sales, consulting, etc. Then work with your GM to determine where you worked. Did you leave under good circumstances or bad? The relationship with your former employer(s) may end up being important as the story unfolds!"
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill athletics}, {@skill deception}, {@skill insight}, {@skill persuasion}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Cook's Utensils|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item student's pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $200."
+						}
+					]
+				},
+				{
+					"name": "Feature: Pick up a Few Hours",
+					"type": "entries",
+					"entries": [
+						"When necessary, you can find work on short notice and cover a few shifts for an employee in your former line of work. If you spend 8 hours, you can make enough money to cover cheap lodging and expenses for one person for a few days. The drawback, of course, is that you might end up sore, tired, and cranky."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Scientist",
+			"source": "Superheroic5E",
+			"page": 81,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"perception",
+							"science|Superheroic5e",
+							"technology|Superheroic5e",
+							"sleight of hand"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"chemistry supplies|Superheroic5e": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item scientist's pack|Superheroic5E}"
+						},
+						{
+							"special": "simple melee weapon of your choice"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 50000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entry": [
+					"Isaac Newton. Marie Curie. Neil deGrasse Tyson. These figures inspire you in your relentless search for the truth about the natural world. You employ experimental methods, collecting observations, and sharing your findings with your scientific community, be it at a local university, online group, or publishing in scientific journals.",
+					"Choose your preferred area of scientific pursuit.Perhaps you study genetics, trying to discover the source of the superpowers a lucky few heroes develop. Or you study materials science, producing substances that can serve as lightweight, impenetrable armor for tomorrow's Technological heroes. Whatever your area, you conduct your experiments in a lab. Work with your GM to determine where it is and what it might contain. Is it functional? Exploded? Dangerous? Your GM may give you opportunities to visit it and conduct an experiment."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill investigation}, {@skill perception}, {@skill science|Superheroic5e}, {@skill technology|Superheroic5e}, {@skill slieght of hand}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item chemistry supplies|superheroic5e}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item student's pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $500."
+						}
+					]
+				},
+				{
+					"name": "Feature: The Experimental Method",
+					"type": "entries",
+					"entries": [
+						"The answers to certain questions can be obtained through careful observation and experiment. Fueled with the current theories, you can plumb the depths of nature's secrets in your lab. If you spend 8 hours of downtime in a lab, you may roll any one nature or investigation check in the lab with advantage, if you can bring some evidence or sample of the object, phenomenon, or material you are studying to the lab with you. You can also contact your scientific colleagues to discuss questions of science. These contacts may prove to be valuable sources of information, but beware\u2014some may view you as a rival and try to steal your secrets!"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Student of Scholar",
+			"source": "Superheroic5E",
+			"page": 81,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"investigation",
+							"arcana",
+							"science|Superheroic5e",
+							"technology|Superheroic5e"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{}
+			],
+			"languageProficiencies": [
+				{
+					"any": 3
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item student's pack|Superheroic5E}"
+						},
+						{
+							"special": "simple melee weapon of your choice"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 20000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entry": [
+					"You live the life of the mind. Probably, you have an advanced degree, but you might be an autodidact, however, in which case your erudition is especially impressive.Whatever its source, your knowledge is expansive and impressive, though, you focus on a particular area of study. Work with your GM to determine what your focus is and where you conduct your studies. Perhaps you delve into dusty tomes and archives to uncover the truth about history, in which case you might spend time in government buildings examining old documents. Or maybe you study ancient languages and translate Homer or Horace, while holing up at your old university. Or maybe you study the works of the great philosophers, in which case you might frequent symposiums and discuss your ideas with other scholars. You might even engage in your scholarly exchanges entirely in writing, submitting essays to prestigious journals. Wherever you work, you have built special relationships with other like-minded folks with which you share your passions. Normal folks might call you an egghead, however."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill history}, {@skill investigation}, {@skill arcana}, {@skill science|Superheroic5e}, {@skill technology|Superheroic5e}."
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Three of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item student's pack|Superheroic5E}, {@filter a simple melee weapon of your choice|items|source=|type=simple weapon;melee weapon=|category=|miscellaneous=mundane}, and $200."
+						}
+					]
+				},
+				{
+					"name": "Feature: Encyclopedist",
+					"type": "entries",
+					"entries": [
+						"You have access to a transnational community of scholars studying a particular subject. Whenever you would like to know some fact that some expert has recorded somewhere on Earth, there's a good chance you know someone who can tell you about it. If you contact your correspondents, it may take a week or more to get a reply, but you absolutely will get the answer you seek. If you contact your local network, you will surely get some information, but it is up to the GM to determine how complete that information is."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Survivalist",
+			"source": "Superheroic5E",
+			"page": 82,
+			"armorProficiencies": [
+				{
+					"light": true
+				},
+				{
+					"medium": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				},
+				{
+					"martial": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"athletics",
+							"medicine",
+							"science|Superheroic5e",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"vehicles (land)": true
+				},
+				{
+					"artisan's tools": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "{@item survivalist’s pack|Superheroic5E}"
+						},
+						{
+							"item": "pouch|phb",
+							"displayName": "wallet",
+							"containsValue": 10000
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You grew up well outside of the city. Your people work the land and have for generations. Indeed, the way the elders in your community tell it, you are the land. You likely worked a particular crop or bred a domesticated animal or two and know them best, but your agrarian life taught you how to grow a variety of crops, as well as raise other forms of livestock.",
+					"Something led you to leave your quiet rural life behind, however, and come to the city. Was it when you got your powers? What happened? Work with your GM to imagine a story that brings you from there to where you are now. Be sure to include conflict in the tale, so that the GM might invoke it at a later moment in the story!"
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor;medium armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill animal handling}, {@skill athletics}, {@skill medicine}, {@skill science|Superheroic5E}, {@skill survival}."
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item vehicles (land)|phb}, {@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "a {@item survivalist's pack|Superheroic5E}, {@filter a bolt-action rifle|items|type=!treasure|search=rif}, and $100."
+						}
+					]
+				},
+				{
+					"name": "Feature: Live Off the Land",
+					"type": "entries",
+					"entries": [
+						"Unlike your urban brothers and sisters, you have learned how to live off the land beyond the city walls. Your experience growing up has taught you how to identify edible plants, to catch predators who might stalk your livestock, and to find clean drinking water. You can provide food and water for one person for every two hours you spend dedicated to the task of hunting, foraging, fishing, or trapping. Some urbanites may allow their origin prejudices to affect how they view you, however, so expect the occasional haughty reaction from certain members of high society."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Wealthy Aristocrat",
+			"source": "Superheroic5E",
+			"page": 82,
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"history",
+							"intimidation",
+							"arcana",
+							"performance",
+							"persuasion"
+						],
+						"count": 3
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 2
+				},
+				{
+					"musical instrument": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 3
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "A line of credit with the local rideshare company."
+						},
+						{
+							"special": "a cutting edge cell phone"
+						},
+						{
+							"special": "an artisan wallet"
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entry": [
+					"Some say you had an easy upbringing. In one sense, of course you did\u2014the most privileged imaginable, really. Even so, satisfying your distant and perfectionist parents wasn't easy, to say the least. You learned, though, how to maneuver among the rich and powerful elite, which turns out to be a useful life skill after all. Work with your GM to determine if your parents are still around, whether you are the young new CEO of a major corporation, or just a celebrity socialite."
+				]
+			},
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Armor and Weapons Proficiencies",
+							"entry": "{@filter Simple weapons|items|source=|type=simple weapon|category=}, {@filter all armor|items|source=|type=light armor|category=}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose three: {@skill history}, {@skill intimidation}, {@skill arcana}, {@skill performance}, {@skill persuasion}."
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Musical Instrument",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A line of credit with the local rideshare company, a cutting edge cell phone, and an artisan wallet."
+						}
+					]
+				},
+				{
+					"name": "Feature: The Privilege of Wealth",
+					"type": "entries",
+					"entries": [
+						"Because of your wealth and family name, you can go places and do things others cannot. By dropping your name (or your parents' names), you can bypass security, get into clubs, and get short notice meetings with virtually anyone in power. Of course, there are some folks who might not react so deferentially!"
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Custom Background",
+			"source": "Superheroic5E",
+			"page": 82,
+			"fluff": {
+				"entry": [
+					"Maybe the list of provided backgrounds doesn't quite capture what your character's been up to, you can create one tailor-made instead. What might your hero have been doing before becoming a superhero? Where were they living? What was their job, if any? If you choose this background, describe your life before superheroics. Work with your GM to make it interesting and fun."
+				]
+			},
+			"entries": [
+				{
+					"name": "Feature: Special",
+					"type": "entries",
+					"entries": [
+						"You can choose a feature from one of the other backgrounds or you can make your own. If you wish to make a custom background feature, then identify an important institution, organization, or community from your custom background. When you interact with them, you receive special treatment that either saves you time and money or can provide you something mildly valuable, such as food and lodging or some useful information."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Armor and Weapons Proficiencies:",
+					"entries": [
+						"Select two types of each as appropriate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Proficiencies:",
+					"entries": [
+						"Pick three of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages or Tools:",
+					"entries": [
+						"One tool proficiency and two languages of your choice. If proficient in martial weapons, only choose two total languages or tools."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equipment:",
+					"entries": [
+						"One pack and $300 to purchase equipment, weapons, or tools."
+					]
 				}
 			]
 		}
